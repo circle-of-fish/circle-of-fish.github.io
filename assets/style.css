@@ -241,6 +241,21 @@ section.band { background: var(--band); }
   font-size: 0.81rem; color: var(--muted); line-height: 1.65;
   margin-top: 0.75rem; padding-top: 0.75rem; border-top: 1px solid var(--line-soft);
 }
+/* 이메일은 링크를 걸지 않고 주소만 노출한다 (수집 봇 회피 + 편집 편의) */
+.member-email {
+  margin-top: 0.7rem; font-size: 0.81rem; color: var(--body);
+  display: flex; gap: 0.45rem; align-items: baseline; flex-wrap: wrap;
+}
+.member-email .k {
+  font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: var(--faint); font-weight: 600;
+}
+.member-email .v { font-family: 'Inter', monospace; word-break: break-all; }
+.email-plain {
+  font-family: 'Inter', monospace; color: var(--teal-dark);
+  background: var(--teal-light); padding: 0.12rem 0.5rem; border-radius: 3px;
+}
+
 .member-links { margin-top: 0.9rem; display: flex; flex-wrap: wrap; gap: 0.35rem; }
 .member-links a {
   font-size: 0.7rem; letter-spacing: 0.03em; text-decoration: none;

@@ -21,6 +21,9 @@
         {% if m.get('name_alt') %}<div class="member-name-alt">{{ m.get('name_alt') }}</div>{% endif %}
         <div class="member-affiliation">{{ m.affiliation }}</div>
         {% if m.get('interests') %}<div class="member-interests">{{ m.get('interests') }}</div>{% endif %}
+        {% if m.get('email') %}
+        <div class="member-email"><span class="k">{{ site.ui.email_label }}</span> <span class="v">{{ m.get('email') }}</span></div>
+        {% endif %}
         {% if m.get('links') %}
         <div class="member-links">
           {% for l in m.get('links') %}

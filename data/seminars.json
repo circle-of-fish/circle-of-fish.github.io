@@ -72,8 +72,14 @@
         "ja": "2026.07.25"
       },
       "kind": "reading",
-      "title": "최정운. 2012. 『오월의 사회과학』. 오월의봄.",
-      "meta": "First edition 1999. English translation: Jung-Woon Choi. 2005. <em>The Gwangju Uprising: The Pivotal Democratic Movement that Changed the History of Modern Korea</em>. Homa &amp; Sekey Books, tr. Young-nan Yu."
+      "title": {
+        "en": "최정운. 2012. 『오월의 사회과학』. 오월의봄.",
+        "ko": "최정운. 2012. 『오월의 사회과학』. 오월의봄."
+      },
+      "meta": {
+        "en": "First edition 1999. English translation: Jung-Woon Choi. 2005. <em>The Gwangju Uprising: The Pivotal Democratic Movement that Changed the History of Modern Korea</em>. Homa &amp; Sekey Books, tr. Young-nan Yu.",
+        "ko": "초판 1999년. 영역본: Jung-Woon Choi. 2005. <em>The Gwangju Uprising: The Pivotal Democratic Movement that Changed the History of Modern Korea</em>. Homa &amp; Sekey Books, 유영난 옮김."
+      }
     },
     {
       "iso": "2026-06-24",
@@ -85,7 +91,10 @@
         "ja": "2026.06.24"
       },
       "kind": "reading",
-      "title": "Summer Seminar"
+      "title": {
+        "en": "Summer Seminar",
+        "ko": "여름 세미나"
+      }
     },
     {
       "iso": "2026-06-15",
@@ -97,7 +106,10 @@
         "ja": "2026.06.15–19"
       },
       "kind": "workshop",
-      "title": "Summer Seminar"
+      "title": {
+        "en": "Summer Seminar",
+        "ko": "여름 세미나"
+      }
     },
     {
       "iso": "2026-04-18",
@@ -109,8 +121,14 @@
         "ja": "2026.04.18"
       },
       "kind": "draft",
-      "title": "Sujin Heo, &ldquo;Iberian Early-Modern Languages of Inter-Polity Ordering in Japan&rdquo;",
-      "meta": "Draft"
+      "title": {
+        "en": "Sujin Heo, &ldquo;Iberian Early-Modern Languages of Inter-Polity Ordering in Japan&rdquo;",
+        "ko": "허수진, 「Iberian Early-Modern Languages of Inter-Polity Ordering in Japan」"
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2026-01-03",
@@ -122,7 +140,10 @@
         "ja": "2026.01.03"
       },
       "kind": "guest",
-      "title": "Speaking with Young-sun Ha (하영선)"
+      "title": {
+        "en": "Speaking with Young-sun Ha (하영선)",
+        "ko": "하영선 선생님과의 대담"
+      }
     },
     {
       "iso": "2025-07-21",
@@ -134,8 +155,14 @@
         "ja": "2025.07.21–23"
       },
       "kind": "workshop",
-      "title": "International Relations / Asian Studies Pedagogy Workshop",
-      "meta": "East Asia Institute, Seoul"
+      "title": {
+        "en": "International Relations / Asian Studies Pedagogy Workshop",
+        "ko": "국제정치학·아시아 연구 교수법 워크숍"
+      },
+      "meta": {
+        "en": "East Asia Institute, Seoul",
+        "ko": "동아시아연구원(EAI), 서울"
+      }
     },
     {
       "iso": "2025-04-17",
@@ -147,8 +174,14 @@
         "ja": "2025.04.17"
       },
       "kind": "draft",
-      "title": "Chaeyoung Yong, &ldquo;Trauma Time and Memory in Understanding Gender-Based Violence&rdquo;",
-      "meta": "Draft"
+      "title": {
+        "en": "Chaeyoung Yong, &ldquo;Trauma Time and Memory in Understanding Gender-Based Violence&rdquo;",
+        "ko": "용채영, 「Trauma Time and Memory in Understanding Gender-Based Violence」"
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2024-12-20",
@@ -160,8 +193,14 @@
         "ja": "2024.12.20"
       },
       "kind": "draft",
-      "title": "Inhwan Oh, &ldquo;Explaining the Absence of a War during China&rsquo;s Quantitative Naval Overtake, 2008–2023&rdquo;",
-      "meta": "Draft"
+      "title": {
+        "en": "Inhwan Oh, &ldquo;Explaining the Absence of a War during China&rsquo;s Quantitative Naval Overtake, 2008–2023&rdquo;",
+        "ko": "오인환, 「Explaining the Absence of a War during China&rsquo;s Quantitative Naval Overtake, 2008–2023」"
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2024-10-02",
@@ -173,8 +212,14 @@
         "ja": "2024.10.02"
       },
       "kind": "draft",
-      "title": "Inho Choi, &ldquo;Literary Reconstruction of the 1636 Qing Invasion of Korea&rdquo;",
-      "meta": "Project proposal"
+      "title": {
+        "en": "Inho Choi, &ldquo;Literary Reconstruction of the 1636 Qing Invasion of Korea&rdquo;",
+        "ko": "최인호, 「Literary Reconstruction of the 1636 Qing Invasion of Korea」"
+      },
+      "meta": {
+        "en": "Project proposal",
+        "ko": "연구계획서"
+      }
     },
     {
       "iso": "2024-09-20",
@@ -186,7 +231,10 @@
         "ja": "2024.09.20"
       },
       "kind": "planning",
-      "title": "Planning meeting"
+      "title": {
+        "en": "Planning meeting",
+        "ko": "기획 모임"
+      }
     },
     {
       "iso": "2024-03-08",
@@ -198,8 +246,14 @@
         "ja": "2024.03.08"
       },
       "kind": "draft",
-      "title": "Minju Kwon and Chaeyoung Yong, &ldquo;Global Human Rights Institutions&rdquo;",
-      "meta": "Draft"
+      "title": {
+        "en": "Minju Kwon and Chaeyoung Yong, &ldquo;Global Human Rights Institutions&rdquo;",
+        "ko": "권민주 &middot; 용채영, 「Global Human Rights Institutions」"
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2023-07-24",
@@ -211,7 +265,10 @@
         "ja": "2023.07.24–28"
       },
       "kind": "workshop",
-      "title": "IR Methodology Workshop: East Asian Diplomatic History through <em>Iuiyeokji</em> (以意逆志)"
+      "title": {
+        "en": "IR Methodology Workshop: East Asian Diplomatic History through <em>Iuiyeokji</em> (以意逆志)",
+        "ko": "국제정치학 방법론 워크숍: 以意逆志로 읽는 동아시아 외교사"
+      }
     },
     {
       "iso": "2023-04-28",
@@ -223,8 +280,14 @@
         "ja": "2023.04.28"
       },
       "kind": "draft",
-      "title": "Inhwan Oh, &ldquo;Racial Hierarchy, Restraint, and the Resolution of the Commitment Problem: Japan&rsquo;s Pursuit of Status and the Washington Naval System, 1921–1936&rdquo;",
-      "meta": "Draft"
+      "title": {
+        "en": "Inhwan Oh, &ldquo;Racial Hierarchy, Restraint, and the Resolution of the Commitment Problem: Japan&rsquo;s Pursuit of Status and the Washington Naval System, 1921–1936&rdquo;",
+        "ko": "오인환, 「Racial Hierarchy, Restraint, and the Resolution of the Commitment Problem: Japan&rsquo;s Pursuit of Status and the Washington Naval System, 1921–1936」"
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2023-04-01",
@@ -236,8 +299,14 @@
         "ja": "2023.04.01"
       },
       "kind": "draft",
-      "title": "Chaeyoung Yong, &ldquo;The Politics of Emotional Deference to Self-Esteem: The Case of Japan–US Diplomatic Negotiations in 1951&rdquo;",
-      "meta": "Draft"
+      "title": {
+        "en": "Chaeyoung Yong, &ldquo;The Politics of Emotional Deference to Self-Esteem: The Case of Japan–US Diplomatic Negotiations in 1951&rdquo;",
+        "ko": "용채영, 「The Politics of Emotional Deference to Self-Esteem: The Case of Japan–US Diplomatic Negotiations in 1951」"
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2023-02-24",
@@ -249,8 +318,14 @@
         "ja": "2023.02.24"
       },
       "kind": "draft",
-      "title": "Inho Choi, &ldquo;On Being Chinese and Being Complexified: Chinese IR as a Transcultural Project&rdquo; (<em>Review of International Studies</em>, 2022) and &ldquo;사대의 국제정치이론&rdquo; / &ldquo;International Theory of Serving the Great: 1636 Qing Invasion of Chosŏn as a Future-Passed&rdquo; (<em>국제정치논총</em> 63-1, 2023)",
-      "meta": "Two of the group&rsquo;s own articles, read together"
+      "title": {
+        "en": "Inho Choi, &ldquo;On Being Chinese and Being Complexified: Chinese IR as a Transcultural Project&rdquo; (<em>Review of International Studies</em>, 2022) and &ldquo;사대의 국제정치이론&rdquo; / &ldquo;International Theory of Serving the Great: 1636 Qing Invasion of Chosŏn as a Future-Passed&rdquo; (<em>국제정치논총</em> 63-1, 2023)",
+        "ko": "최인호, 「On Being Chinese and Being Complexified: Chinese IR as a Transcultural Project」(<em>Review of International Studies</em>, 2022) 및 「사대의 국제정치이론」(<em>국제정치논총</em> 63-1, 2023)"
+      },
+      "meta": {
+        "en": "Two of the group&rsquo;s own articles, read together",
+        "ko": "복어회 구성원의 논문 두 편을 함께 읽음"
+      }
     },
     {
       "iso": "2023-01-19",
@@ -262,7 +337,10 @@
         "ja": "2023.01.19"
       },
       "kind": "reading",
-      "title": "Patrick Thaddeus Jackson and Sujin Heo. 2022. &ldquo;Working on Relationalism.&rdquo; <em>New Perspectives</em> 30(2): 157–169."
+      "title": {
+        "en": "Patrick Thaddeus Jackson and Sujin Heo. 2022. &ldquo;Working on Relationalism.&rdquo; <em>New Perspectives</em> 30(2): 157–169.",
+        "ko": "패트릭 새디어스 잭슨(Patrick Thaddeus Jackson) &middot; 허수진. 2022. 「Working on Relationalism」. <em>New Perspectives</em> 30(2): 157–169."
+      }
     },
     {
       "iso": "2022-12-09",
@@ -274,8 +352,14 @@
         "ja": "2022.12.09"
       },
       "kind": "reading",
-      "title": "Nicolas Guilhot, ed. 2011. <em>The Invention of International Relations Theory: Realism, the Rockefeller Foundation, and the 1954 Conference on Theory</em>. Columbia University Press.",
-      "meta": "Appendix 1: Conference on International Politics, 7–8 May 1954"
+      "title": {
+        "en": "Nicolas Guilhot, ed. 2011. <em>The Invention of International Relations Theory: Realism, the Rockefeller Foundation, and the 1954 Conference on Theory</em>. Columbia University Press.",
+        "ko": "니콜라 기요(Nicolas Guilhot) 엮음. 2011. <em>The Invention of International Relations Theory: Realism, the Rockefeller Foundation, and the 1954 Conference on Theory</em>. Columbia University Press."
+      },
+      "meta": {
+        "en": "Appendix 1: Conference on International Politics, 7–8 May 1954",
+        "ko": "부록 1: 국제정치 학술회의, 1954년 5월 7–8일"
+      }
     },
     {
       "iso": "2022-10-21",
@@ -287,7 +371,10 @@
         "ja": "2022.10.21"
       },
       "kind": "reading",
-      "title": "Eduardo Viveiros de Castro. 2015. &ldquo;Who Is Afraid of the Ontological Wolf?&rdquo; <em>Cambridge Journal of Anthropology</em> 33(1): 2–17; and Annabel Brett. 2021. <em>Between History, Politics, Law</em>. Cambridge University Press, ch. 1."
+      "title": {
+        "en": "Eduardo Viveiros de Castro. 2015. &ldquo;Who Is Afraid of the Ontological Wolf?&rdquo; <em>Cambridge Journal of Anthropology</em> 33(1): 2–17; and Annabel Brett. 2021. <em>Between History, Politics, Law</em>. Cambridge University Press, ch. 1.",
+        "ko": "에두아르두 비베이루스 지 카스트루(Eduardo Viveiros de Castro). 2015. 「Who Is Afraid of the Ontological Wolf?」. <em>Cambridge Journal of Anthropology</em> 33(1): 2–17. / 애너벨 브렛(Annabel Brett). 2021. <em>Between History, Politics, Law</em>. Cambridge University Press, 1장."
+      }
     },
     {
       "iso": "2022-08-16",
@@ -299,7 +386,10 @@
         "ja": "2022.08.16"
       },
       "kind": "reading",
-      "title": "Ayşe Zarakol. 2022. <em>Before the West: The Rise and Fall of Eastern World Orders</em>. Cambridge University Press."
+      "title": {
+        "en": "Ayşe Zarakol. 2022. <em>Before the West: The Rise and Fall of Eastern World Orders</em>. Cambridge University Press.",
+        "ko": "아이셰 자라콜(Ayşe Zarakol). 2022. <em>Before the West: The Rise and Fall of Eastern World Orders</em>. Cambridge University Press."
+      }
     },
     {
       "iso": "2022-07-21",
@@ -311,7 +401,10 @@
         "ja": "2022.07.21"
       },
       "kind": "reading",
-      "title": "Valerie de Koeijer and Robbie Shilliam. 2021. &ldquo;Forum: International Relations as a Geoculturally Pluralistic Field.&rdquo; <em>International Politics Reviews</em> 9: 272–275."
+      "title": {
+        "en": "Valerie de Koeijer and Robbie Shilliam. 2021. &ldquo;Forum: International Relations as a Geoculturally Pluralistic Field.&rdquo; <em>International Politics Reviews</em> 9: 272–275.",
+        "ko": "발레리 더 쿠이여르(Valerie de Koeijer) &middot; 로비 실리엄(Robbie Shilliam). 2021. 「Forum: International Relations as a Geoculturally Pluralistic Field」. <em>International Politics Reviews</em> 9: 272–275."
+      }
     },
     {
       "iso": "2022-06-03",
@@ -323,8 +416,14 @@
         "ja": "2022.06.03"
       },
       "kind": "draft",
-      "title": "Chang Joon Ok, &ldquo;The Construction of IR Knowledge in the Early Cold-War South Korea&rdquo; — PhD dissertation, Seoul National University, 2022 [in Korean]",
-      "meta": "Draft"
+      "title": {
+        "en": "Chang Joon Ok, &ldquo;The Construction of IR Knowledge in the Early Cold-War South Korea&rdquo; — PhD dissertation, Seoul National University, 2022 [in Korean]",
+        "ko": "옥창준, 「냉전 초기 한국 국제정치 지식의 재구성」 — 서울대학교 박사학위논문, 2022."
+      },
+      "meta": {
+        "en": "Draft",
+        "ko": "초고"
+      }
     },
     {
       "iso": "2022-02-24",
@@ -336,7 +435,10 @@
         "ja": "2022.02.24"
       },
       "kind": "reading",
-      "title": "Tamara A. Trownsell et al. 2021. &ldquo;Differing about Difference: Relational IR from around the World.&rdquo; <em>International Studies Perspectives</em> 22(1): 25–64."
+      "title": {
+        "en": "Tamara A. Trownsell et al. 2021. &ldquo;Differing about Difference: Relational IR from around the World.&rdquo; <em>International Studies Perspectives</em> 22(1): 25–64.",
+        "ko": "타마라 트라운셀(Tamara A. Trownsell) 외. 2021. 「Differing about Difference: Relational IR from around the World」. <em>International Studies Perspectives</em> 22(1): 25–64."
+      }
     },
     {
       "iso": "2022-01-19",
@@ -348,7 +450,10 @@
         "ja": "2022.01.19"
       },
       "kind": "reading",
-      "title": "Discussion: <em>Review of International Studies</em> special issue, &ldquo;The Multiple Origins of IR&rdquo; (2021)"
+      "title": {
+        "en": "Discussion: <em>Review of International Studies</em> special issue, &ldquo;The Multiple Origins of IR&rdquo; (2021)",
+        "ko": "토론: <em>Review of International Studies</em> 특집호 「The Multiple Origins of IR」(2021)"
+      }
     },
     {
       "iso": "2021-12-29",
@@ -360,7 +465,10 @@
         "ja": "2021.12.29"
       },
       "kind": "guest",
-      "title": "Seminar with Chaesung Chun (전재성, Seoul National University): Incomplete Sovereignty"
+      "title": {
+        "en": "Seminar with Chaesung Chun (전재성, Seoul National University): Incomplete Sovereignty",
+        "ko": "전재성(서울대학교) 초청 세미나: 불완전 주권"
+      }
     },
     {
       "iso": "2021-12-17",
@@ -372,7 +480,10 @@
         "ja": "2021.12.17"
       },
       "kind": "reading",
-      "title": "David L. Blaney and Arlene B. Tickner. 2017. &ldquo;Worlding, Ontological Politics and the Possibility of a Decolonial IR.&rdquo; <em>Millennium</em> 45(3): 293–311."
+      "title": {
+        "en": "David L. Blaney and Arlene B. Tickner. 2017. &ldquo;Worlding, Ontological Politics and the Possibility of a Decolonial IR.&rdquo; <em>Millennium</em> 45(3): 293–311.",
+        "ko": "데이비드 블레이니(David L. Blaney) &middot; 알린 티크너(Arlene B. Tickner). 2017. 「Worlding, Ontological Politics and the Possibility of a Decolonial IR」. <em>Millennium</em> 45(3): 293–311."
+      }
     },
     {
       "iso": "2021-11-24",
@@ -384,7 +495,10 @@
         "ja": "2021.11.24"
       },
       "kind": "reading",
-      "title": "Jungmin Seo and Young Chul Cho. 2021. &ldquo;The Emergence and Evolution of International Relations Studies in Postcolonial South Korea.&rdquo; <em>Review of International Studies</em> 47(5): 619–636."
+      "title": {
+        "en": "Jungmin Seo and Young Chul Cho. 2021. &ldquo;The Emergence and Evolution of International Relations Studies in Postcolonial South Korea.&rdquo; <em>Review of International Studies</em> 47(5): 619–636.",
+        "ko": "Jungmin Seo &middot; Young Chul Cho. 2021. 「The Emergence and Evolution of International Relations Studies in Postcolonial South Korea」. <em>Review of International Studies</em> 47(5): 619–636."
+      }
     },
     {
       "iso": "2021-10-24",
@@ -396,7 +510,10 @@
         "ja": "2021.10.24"
       },
       "kind": "reading",
-      "title": "Reinhart Koselleck. 2018. <em>Sediments of Time: On Possible Histories</em>. Stanford University Press."
+      "title": {
+        "en": "Reinhart Koselleck. 2018. <em>Sediments of Time: On Possible Histories</em>. Stanford University Press.",
+        "ko": "라인하르트 코젤렉(Reinhart Koselleck). 2018. <em>Sediments of Time: On Possible Histories</em>. Stanford University Press."
+      }
     },
     {
       "iso": "2021-09-24",
@@ -408,7 +525,10 @@
         "ja": "2021.09.24"
       },
       "kind": "reading",
-      "title": "Seo-Hyun Park. 2017. <em>Sovereignty and Status in East Asian International Relations</em>. Cambridge University Press."
+      "title": {
+        "en": "Seo-Hyun Park. 2017. <em>Sovereignty and Status in East Asian International Relations</em>. Cambridge University Press.",
+        "ko": "Seo-Hyun Park. 2017. <em>Sovereignty and Status in East Asian International Relations</em>. Cambridge University Press."
+      }
     },
     {
       "iso": "2021-08-20",
@@ -420,7 +540,10 @@
         "ja": "2021.08.20"
       },
       "kind": "planning",
-      "title": "Discussion"
+      "title": {
+        "en": "Discussion",
+        "ko": "토론"
+      }
     },
     {
       "iso": "2021-07-24",
@@ -432,7 +555,10 @@
         "ja": "2021.07.24"
       },
       "kind": "reading",
-      "title": "Annabel S. Brett. 2011. <em>Changes of State: Nature and the Limits of the City in Early Modern Natural Law</em>. Princeton University Press."
+      "title": {
+        "en": "Annabel S. Brett. 2011. <em>Changes of State: Nature and the Limits of the City in Early Modern Natural Law</em>. Princeton University Press.",
+        "ko": "애너벨 브렛(Annabel S. Brett). 2011. <em>Changes of State: Nature and the Limits of the City in Early Modern Natural Law</em>. Princeton University Press."
+      }
     },
     {
       "iso": "2021-05-22",
@@ -444,8 +570,14 @@
         "ja": "2021.05.22"
       },
       "kind": "reading",
-      "title": "C. H. Alexandrowicz, ed. David Armitage and Jennifer Pitts. 2017. <em>The Law of Nations in Global History</em>. Oxford University Press.",
-      "meta": "Parts 1–2"
+      "title": {
+        "en": "C. H. Alexandrowicz, ed. David Armitage and Jennifer Pitts. 2017. <em>The Law of Nations in Global History</em>. Oxford University Press.",
+        "ko": "C. H. 알렉산드로비치(C. H. Alexandrowicz), 데이비드 아미티지(David Armitage) &middot; 제니퍼 피츠(Jennifer Pitts) 엮음. 2017. <em>The Law of Nations in Global History</em>. Oxford University Press."
+      },
+      "meta": {
+        "en": "Parts 1–2",
+        "ko": "1–2부"
+      }
     },
     {
       "iso": "2021-04-24",
@@ -457,7 +589,10 @@
         "ja": "2021.04.24"
       },
       "kind": "reading",
-      "title": "Lydia H. Liu. 2006. <em>The Clash of Empires: The Invention of China in Modern World Making</em>. Harvard University Press."
+      "title": {
+        "en": "Lydia H. Liu. 2006. <em>The Clash of Empires: The Invention of China in Modern World Making</em>. Harvard University Press.",
+        "ko": "리디아 류(Lydia H. Liu, 劉禾). 2006. <em>The Clash of Empires: The Invention of China in Modern World Making</em>. Harvard University Press."
+      }
     },
     {
       "iso": "2021-03-27",
@@ -469,7 +604,10 @@
         "ja": "2021.03.27"
       },
       "kind": "reading",
-      "title": "Lauren Benton, Adam Clulow, and Bain Attwood, eds. 2017. <em>Protection and Empire: A Global History</em>. Cambridge University Press."
+      "title": {
+        "en": "Lauren Benton, Adam Clulow, and Bain Attwood, eds. 2017. <em>Protection and Empire: A Global History</em>. Cambridge University Press.",
+        "ko": "로런 벤턴(Lauren Benton), 애덤 클룰로(Adam Clulow), 베인 애트우드(Bain Attwood) 엮음. 2017. <em>Protection and Empire: A Global History</em>. Cambridge University Press."
+      }
     },
     {
       "iso": "2021-02-20",
@@ -481,7 +619,10 @@
         "ja": "2021.02.20"
       },
       "kind": "reading",
-      "title": "Saliha Belmessous, ed. 2014. <em>Empire by Treaty: Negotiating European Expansion, 1600–1900</em>. Oxford University Press."
+      "title": {
+        "en": "Saliha Belmessous, ed. 2014. <em>Empire by Treaty: Negotiating European Expansion, 1600–1900</em>. Oxford University Press.",
+        "ko": "살리하 벨메수스(Saliha Belmessous) 엮음. 2014. <em>Empire by Treaty: Negotiating European Expansion, 1600–1900</em>. Oxford University Press."
+      }
     },
     {
       "iso": "2020-12-18",
@@ -493,7 +634,10 @@
         "ja": "2020.12.18"
       },
       "kind": "reading",
-      "title": "Maria Adele Carrai. 2019. <em>Sovereignty in China: A Genealogy of a Concept since 1840</em>. Cambridge University Press."
+      "title": {
+        "en": "Maria Adele Carrai. 2019. <em>Sovereignty in China: A Genealogy of a Concept since 1840</em>. Cambridge University Press.",
+        "ko": "마리아 아델레 카라이(Maria Adele Carrai). 2019. <em>Sovereignty in China: A Genealogy of a Concept since 1840</em>. Cambridge University Press."
+      }
     },
     {
       "iso": "2020-11-20",
@@ -505,7 +649,10 @@
         "ja": "2020.11.20"
       },
       "kind": "reading",
-      "title": "Amitav Acharya and Barry Buzan. 2019. <em>The Making of Global International Relations: Origins and Evolution of IR at its Centenary</em>. Cambridge University Press."
+      "title": {
+        "en": "Amitav Acharya and Barry Buzan. 2019. <em>The Making of Global International Relations: Origins and Evolution of IR at its Centenary</em>. Cambridge University Press.",
+        "ko": "아미타브 아차리아(Amitav Acharya) &middot; 배리 부잔(Barry Buzan). 2019. <em>The Making of Global International Relations: Origins and Evolution of IR at its Centenary</em>. Cambridge University Press."
+      }
     },
     {
       "iso": "2020-10-23",
@@ -517,7 +664,10 @@
         "ja": "2020.10.23"
       },
       "kind": "reading",
-      "title": "Rotem Kowner and Walter Demel, eds. 2015. <em>Race and Racism in Modern East Asia</em>, vol. 1. Brill."
+      "title": {
+        "en": "Rotem Kowner and Walter Demel, eds. 2015. <em>Race and Racism in Modern East Asia</em>, vol. 1. Brill.",
+        "ko": "로템 코브너(Rotem Kowner) &middot; 발터 데멜(Walter Demel) 엮음. 2015. <em>Race and Racism in Modern East Asia</em>, 1권. Brill."
+      }
     },
     {
       "iso": "2020-09-26",
@@ -529,7 +679,10 @@
         "ja": "2020.09.26"
       },
       "kind": "reading",
-      "title": "Jeremy A. Yellen. 2019. <em>The Greater East Asia Co-Prosperity Sphere: When Total Empire Met Total War</em>. Cornell University Press."
+      "title": {
+        "en": "Jeremy A. Yellen. 2019. <em>The Greater East Asia Co-Prosperity Sphere: When Total Empire Met Total War</em>. Cornell University Press.",
+        "ko": "제러미 옐런(Jeremy A. Yellen). 2019. <em>The Greater East Asia Co-Prosperity Sphere: When Total Empire Met Total War</em>. Cornell University Press."
+      }
     },
     {
       "iso": "2020-08-22",
@@ -541,7 +694,10 @@
         "ja": "2020.08.22"
       },
       "kind": "reading",
-      "title": "Adom Getachew. 2019. <em>Worldmaking after Empire: The Rise and Fall of Self-Determination</em>. Princeton University Press."
+      "title": {
+        "en": "Adom Getachew. 2019. <em>Worldmaking after Empire: The Rise and Fall of Self-Determination</em>. Princeton University Press.",
+        "ko": "아돔 게타츄(Adom Getachew). 2019. <em>Worldmaking after Empire: The Rise and Fall of Self-Determination</em>. Princeton University Press."
+      }
     },
     {
       "iso": "2020-07-25",
@@ -553,7 +709,10 @@
         "ja": "2020.07.25"
       },
       "kind": "reading",
-      "title": "Urs Matthias Zachmann, ed. 2017. <em>Asia after Versailles: Asian Perspectives on the Paris Peace Conference and the Interwar Order, 1919–33</em>. Edinburgh University Press."
+      "title": {
+        "en": "Urs Matthias Zachmann, ed. 2017. <em>Asia after Versailles: Asian Perspectives on the Paris Peace Conference and the Interwar Order, 1919–33</em>. Edinburgh University Press.",
+        "ko": "우르스 마티아스 차흐만(Urs Matthias Zachmann) 엮음. 2017. <em>Asia after Versailles: Asian Perspectives on the Paris Peace Conference and the Interwar Order, 1919–33</em>. Edinburgh University Press."
+      }
     },
     {
       "iso": "2020-06-27",
@@ -565,7 +724,10 @@
         "ja": "2020.06.27"
       },
       "kind": "planning",
-      "title": "First meeting"
+      "title": {
+        "en": "First meeting",
+        "ko": "첫 모임"
+      }
     }
   ]
 }

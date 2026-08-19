@@ -12,10 +12,10 @@
     "ja": "九人の研究者、一つの存在論的関心"
   },
   "lede": {
-    "en": "We study disparate subjects — empire and international law, naval power and status, emotion and memory, human rights and gender, the Cold War making of Korean IR. What we share is the suspicion that the discipline's standard furniture does not describe the worlds we work on.",
-    "ko": "우리가 다루는 주제는 제각각이다. 제국과 국제법, 해군력과 지위, 감정과 기억, 인권과 젠더, 냉전기 한국 국제정치학의 형성. 우리가 공유하는 것은 학문의 표준 집기들이 우리가 다루는 세계를 설명해 주지 못한다는 의심이다.",
-    "zh": "我们研究的题目各不相同：帝国与国际法、海军力量与地位、情感与记忆、人权与性别、冷战时期韩国国际关系学的形成。我们共有的，是这样一种怀疑——学科既有的那套家具，描述不了我们所处理的那些世界。",
-    "ja": "扱う主題はばらばらである。帝国と国際法、海軍力と地位、感情と記憶、人権とジェンダー、冷戦期における韓国国際関係論の形成。共有しているのは、この学問の標準的な備品では自分たちが扱う世界を捉えきれないのではないか、という疑いである。"
+    "en": "We study disparate subjects — empire and international law, naval power and status, emotion and memory, human rights and gender, the Cold War making of Korean IR. What we share is the suspicion that the discipline's standard inventory of what exists does not describe the worlds we work on.",
+    "ko": "우리가 다루는 주제는 제각각이다. 제국과 국제법, 해군력과 지위, 감정과 기억, 인권과 젠더, 냉전기 한국 국제정치학의 형성. 우리가 공유하는 것은, 학문이 기본으로 갖춰 둔 존재자 목록이 우리가 다루는 세계를 설명해 주지 못한다는 의심이다.",
+    "zh": "我们研究的题目各不相同：帝国与国际法、海军力量与地位、情感与记忆、人权与性别、冷战时期韩国国际关系学的形成。我们共有的，是这样一种怀疑——学科预设的那份「存在者清单」，描述不了我们所处理的那些世界。",
+    "ja": "扱う主題はばらばらである。帝国と国際法、海軍力と地位、感情と記憶、人権とジェンダー、冷戦期における韓国国際関係論の形成。共有しているのは、この学問があらかじめ備えている存在者の目録では、自分たちが扱う世界を描けないのではないか、という疑いである。"
   },
   "meta_description": {
     "en": "The members of the Circle of the Fish and their fields of research.",
@@ -32,12 +32,17 @@
   "people": [
     {
       "key": "inho-choi",
-      "name": "Inho Choi",
+      "name": {
+        "en": "Inho Choi",
+        "ko": "최인호",
+        "zh": "Inho Choi",
+        "ja": "Inho Choi"
+      },
       "name_alt": {
         "en": "최인호",
-        "ko": "崔仁鎬",
-        "zh": "崔仁镐",
-        "ja": "崔仁鎬"
+        "ko": "Inho Choi",
+        "zh": "최인호",
+        "ja": "최인호"
       },
       "affiliation": {
         "en": "Professor, Department of Political Science and International Relations, Kyonggi University, South Korea",
@@ -51,16 +56,16 @@
         "zh": "历史上的东亚国际秩序 · 全球国际关系学与跨文化理论 · 韩国与中国政治思想 · 人类世与行星秩序",
         "ja": "歴史的東アジア国際秩序 · グローバルIRと超文化的理論 · 韓国・中国政治思想 · 人新世と惑星秩序"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:inho.choi86@gmail.com"
-        }
-      ]
+      "email": "inho.choi86@gmail.com"
     },
     {
       "key": "sujin-heo",
-      "name": "Sujin Heo",
+      "name": {
+        "en": "Sujin Heo",
+        "ko": "허수진",
+        "zh": "Sujin Heo",
+        "ja": "Sujin Heo"
+      },
       "affiliation": {
         "en": "PhD Candidate, School of International Service, American University",
         "ko": "아메리칸대학교 국제관계대학원(SIS) 박사수료",
@@ -72,11 +77,22 @@
         "ko": "국제정치이론 · 지성사 · 국제법의 역사 · 제국 · 주권",
         "zh": "国际关系理论 · 思想史 · 国际法史 · 帝国 · 主权",
         "ja": "国際関係理論 · 知性史 · 国際法史 · 帝国 · 主権"
+      },
+      "name_alt": {
+        "en": "허수진",
+        "ko": "Sujin Heo",
+        "zh": "허수진",
+        "ja": "허수진"
       }
     },
     {
       "key": "jaeyoung-kim",
-      "name": "Jaeyoung Kim",
+      "name": {
+        "en": "Jaeyoung Kim",
+        "ko": "김재영",
+        "zh": "Jaeyoung Kim",
+        "ja": "Jaeyoung Kim"
+      },
       "affiliation": {
         "en": "Assistant Professor, Department of Political Science, San Diego State University",
         "ko": "샌디에이고주립대학교 정치학과 조교수",
@@ -89,16 +105,22 @@
         "zh": "国际安全 · 全球国际关系学 · 历史国际关系 · 东亚与韩国",
         "ja": "国際安全保障 · グローバルIR · 歴史的IR · 東アジアと韓国"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:jkim33@sdsu.edu"
-        }
-      ]
+      "name_alt": {
+        "en": "김재영",
+        "ko": "Jaeyoung Kim",
+        "zh": "김재영",
+        "ja": "김재영"
+      },
+      "email": "jkim33@sdsu.edu"
     },
     {
       "key": "minju-kwon",
-      "name": "Minju Kwon",
+      "name": {
+        "en": "Minju Kwon",
+        "ko": "권민주",
+        "zh": "Minju Kwon",
+        "ja": "Minju Kwon"
+      },
       "affiliation": {
         "en": "Assistant Professor, Department of Political Science, Chapman University",
         "ko": "채프먼대학교 정치학과 조교수",
@@ -110,16 +132,27 @@
         "ko": "국제기구 · 국제법 · 인권 · 젠더 · 동아시아",
         "zh": "国际组织 · 国际法 · 人权 · 性别 · 东亚",
         "ja": "国際機構 · 国際法 · 人権 · ジェンダー · 東アジア"
+      },
+      "name_alt": {
+        "en": "권민주",
+        "ko": "Minju Kwon",
+        "zh": "권민주",
+        "ja": "권민주"
       }
     },
     {
       "key": "inhwan-oh",
-      "name": "Inhwan Oh",
+      "name": {
+        "en": "Inhwan Oh",
+        "ko": "오인환",
+        "zh": "Inhwan Oh",
+        "ja": "Inhwan Oh"
+      },
       "name_alt": {
         "en": "오인환",
-        "ko": "吳寅煥",
-        "zh": "吴寅焕",
-        "ja": "呉寅煥"
+        "ko": "Inhwan Oh",
+        "zh": "오인환",
+        "ja": "오인환"
       },
       "affiliation": {
         "en": "Senior Research Fellow and Executive Director, East Asia Institute; Lecturer, Seoul National University",
@@ -133,21 +166,21 @@
         "zh": "国际安全 · 美国外交政策 · 危机管理 · 中美关系 · 地位与种族等级",
         "ja": "国際安全保障 · アメリカ外交政策 · 危機管理 · 米中関係 · 地位と人種的階層"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:ihoh@eai.or.kr"
-        }
-      ]
+      "email": "ihoh@eai.or.kr"
     },
     {
       "key": "chang-joon-ok",
-      "name": "Chang Joon Ok",
+      "name": {
+        "en": "Chang Joon Ok",
+        "ko": "옥창준",
+        "zh": "Chang Joon Ok",
+        "ja": "Chang Joon Ok"
+      },
       "name_alt": {
         "en": "옥창준",
-        "ko": "玉昌俊",
-        "zh": "玉昌俊",
-        "ja": "玉昌俊"
+        "ko": "Chang Joon Ok",
+        "zh": "옥창준",
+        "ja": "옥창준"
       },
       "affiliation": {
         "en": "Assistant Professor, Political Science, Academy of Korean Studies",
@@ -161,12 +194,7 @@
         "zh": "冷战史 · 全球国际关系学 · 韩国国际关系史与国际政治知识史",
         "ja": "冷戦史 · グローバルIR · 韓国国際関係史と国際政治知識の歴史"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:okchangjoon@gmail.com"
-        }
-      ]
+      "email": "okchangjoon@gmail.com"
     },
     {
       "key": "kayeon-roh",
@@ -183,16 +211,16 @@
         "zh": "历史上东亚的国际秩序 · 十九世纪国际关系 · 帝国 · 韩国 · 概念与翻译 · 社会科学史",
         "ja": "歴史的東アジアの国際秩序 · 十九世紀の国際関係 · 帝国 · 韓国 · 概念と翻訳 · 社会科学史"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:kayeon.roh@usc.edu"
-        }
-      ]
+      "email": "kayeon.roh@usc.edu"
     },
     {
       "key": "jeeye-song",
-      "name": "Jeeye Song",
+      "name": {
+        "en": "Jeeye Song",
+        "ko": "송지예",
+        "zh": "Jeeye Song",
+        "ja": "Jeeye Song"
+      },
       "affiliation": {
         "en": "Invited Professor of Global Korean Studies, College of International Studies, Korea University",
         "ko": "고려대학교 국제대학 글로벌한국학 초빙교수",
@@ -205,16 +233,22 @@
         "zh": "非西方国际关系理论 · 东亚区域秩序 · 主权 · 韩国 · 越南",
         "ja": "非西洋国際関係理論 · 東アジア地域秩序 · 主権 · 韓国 · ベトナム"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:jeeyesong@korea.ac.kr"
-        }
-      ]
+      "name_alt": {
+        "en": "송지예",
+        "ko": "Jeeye Song",
+        "zh": "송지예",
+        "ja": "송지예"
+      },
+      "email": "jeeyesong@korea.ac.kr"
     },
     {
       "key": "chaeyoung-yong",
-      "name": "Chaeyoung Yong",
+      "name": {
+        "en": "Chaeyoung Yong",
+        "ko": "용채영",
+        "zh": "Chaeyoung Yong",
+        "ja": "Chaeyoung Yong"
+      },
       "affiliation": {
         "en": "PhD, School of International Relations, University of St Andrews",
         "ko": "세인트앤드루스대학교 국제관계학과 박사",
@@ -227,12 +261,13 @@
         "zh": "国际关系理论 · 情感 · 创伤与记忆 · 东亚与日本的国际关系",
         "ja": "国際関係理論 · 感情 · トラウマと記憶 · 東アジア・日本の国際関係"
       },
-      "links": [
-        {
-          "label": "Email",
-          "url": "mailto:cy30@st-andrews.ac.uk"
-        }
-      ]
+      "name_alt": {
+        "en": "용채영",
+        "ko": "Chaeyoung Yong",
+        "zh": "용채영",
+        "ja": "용채영"
+      },
+      "email": "cy30@st-andrews.ac.uk"
     }
   ]
 }
