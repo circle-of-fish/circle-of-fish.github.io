@@ -30,7 +30,11 @@ ROOT = Path(__file__).parent
 DATA = ROOT / "data"
 TEMPLATES = ROOT / "templates"
 ASSETS = ROOT / "assets"
-OUT = ROOT / "docs"
+# The site is published straight from the repository root, the way a
+# <name>.github.io repo is served with no Pages configuration at all. Source
+# directories live alongside the output, so cleaning has to be explicit about
+# what it may delete — see generated_paths().
+OUT = ROOT
 
 LANGS = ["en", "ko", "zh", "ja"]
 LANG_NAMES = {"en": "EN", "ko": "한국어", "zh": "中文", "ja": "日本語"}
@@ -119,6 +123,18 @@ def doi_url(doi: str) -> str:
     return "https://doi.org/" + doi.removeprefix("doi:").strip()
 
 
+def generated_paths() -> list[Path]:
+    """Every path a build writes — and the only paths a build may delete."""
+    out = [OUT / "sitemap.xml", OUT / "robots.txt", OUT / ".nojekyll"]
+    out += [OUT / a.name for a in ASSETS.iterdir() if a.is_file()]
+    for _, filename, _ in PAGES:
+        out.append(OUT / filename)
+        for lang in LANGS[1:]:
+            out.append(OUT / lang / filename)
+    out += [OUT / lang for lang in LANGS[1:]]
+    return out
+
+
 # --------------------------------------------------------------------------- #
 # build                                                                        #
 # --------------------------------------------------------------------------- #
@@ -141,12 +157,15 @@ def build() -> None:
     env.filters["domain"] = domain
     env.filters["doi_url"] = doi_url
 
-    # Windows keeps a handle on any directory a running preview server has open,
-    # so deleting the tree is best-effort: unlink what we can, overwrite the rest.
-    OUT.mkdir(parents=True, exist_ok=True)
-    for path in sorted(OUT.rglob("*"), key=lambda q: -len(q.parts)):
+    # Only ever remove what a previous build wrote. Windows also keeps a handle
+    # on any directory a running preview server has open, so removal is
+    # best-effort and the write below overwrites whatever survives.
+    for path in sorted(generated_paths(), key=lambda q: -len(q.parts)):
         try:
-            path.unlink() if path.is_file() else path.rmdir()
+            if path.is_file():
+                path.unlink()
+            elif path.is_dir():
+                path.rmdir()
         except OSError:
             pass
 
@@ -229,7 +248,9 @@ if __name__ == "__main__":
     ap = argparse.ArgumentParser()
     ap.add_argument("--serve", action="store_true", help="serve after building")
     ap.add_argument("--port", type=int, default=8000)
+    ap.add_argument("--no-build", action="store_true", help="serve without rebuilding")
     args = ap.parse_args()
-    build()
+    if not args.no_build:
+        build()
     if args.serve:
         serve(args.port)

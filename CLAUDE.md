@@ -9,23 +9,30 @@ GitHub Pages로 확장 이전하는 작업 폴더. 디자인 참조는
 ```
 data/          ← 콘텐츠 원본(JSON). 여기만 고치면 4개 언어가 함께 바뀐다.
 templates/     ← Jinja2 템플릿 (base + 페이지 7종)
-assets/        ← style.css, fish-circle.svg, favicon.svg → 빌드 시 docs/ 루트로 복사
-_build/        ← 일회성 임포트·생성 스크립트(모래원 SVG, 세미나 목록 등)
-docs/          ← **빌드 산출물. 직접 고치지 말 것.** GitHub Pages 배포 대상
+assets/        ← style.css, fish-circle.svg, favicon.svg → 빌드 시 루트로 복사
+_build/        ← 일회성 임포트·생성 스크립트(모래원 SVG, 세미나 목록, 연구 병합 등)
+research/      ← 연구 원자료(dossier.json)·정리 보고서·번역 배치
 build.py       ← 정적 사이트 생성기
+*.html · ko/ · zh/ · ja/ · style.css …
+               ← **빌드 산출물. 직접 고치지 말 것.** 저장소 루트에서 그대로 발행된다
 ```
 
 빌드·미리보기:
 
 ```bash
-python build.py                      # docs/ 재생성
+python build.py                      # 산출물 재생성
 python build.py --serve --port 8000  # 빌드 후 http://localhost:8000
+python build.py --serve --no-build   # 다시 빌드하지 않고 미리보기만
 ```
+
+산출물이 소스와 같은 폴더에 놓이므로, 빌드는 **자기가 만든 파일만** 지운다
+(`generated_paths()`). 새 페이지·에셋을 추가하면 이 목록에 자동으로 잡히지만,
+빌드가 만들지 않는 파일을 산출물 폴더에 두지 말 것.
 
 ## 다국어 규약
 
-- 언어 4종: `en`(루트) · `ko` · `zh`(간체) · `ja`. 출력은 `docs/index.html`,
-  `docs/ko/index.html`, `docs/zh/...`, `docs/ja/...`.
+- 언어 4종: `en`(루트) · `ko` · `zh`(간체) · `ja`. 출력은 `index.html`,
+  `ko/index.html`, `zh/...`, `ja/...`.
 - JSON 안에서 번역 대상은 `{"en": ..., "ko": ..., "zh": ..., "ja": ...}` 묶음으로 쓴다.
   **번역이 없으면 자동으로 `en`으로 대체**되므로 일부만 채워도 빌드는 된다.
 - 문자열이 그냥 `"..."`이면 모든 언어에서 같은 값으로 쓰인다.

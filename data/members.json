@@ -294,7 +294,12 @@
     },
     {
       "key": "kayeon-roh",
-      "name": "Kayeon Roh",
+      "name": {
+        "en": "Kayeon Roh",
+        "ko": "노가연",
+        "zh": "Kayeon Roh",
+        "ja": "Kayeon Roh"
+      },
       "affiliation": {
         "en": "PhD Candidate, Department of Political Science and International Relations, University of Southern California",
         "ko": "서던캘리포니아대학교(USC) 정치학·국제관계학과 박사수료",
@@ -317,7 +322,13 @@
           "label": "Faculty page",
           "url": "https://dornsife.usc.edu/poir/profile/kayeon-roh/"
         }
-      ]
+      ],
+      "name_alt": {
+        "en": "노가연",
+        "ko": "Kayeon Roh",
+        "zh": "노가연",
+        "ja": "노가연"
+      }
     },
     {
       "key": "jeeye-song",

@@ -12,13 +12,17 @@ The site is published in **English, Korean (한국어), Chinese (中文), and Ja
 
 The site is a small static generator: content lives in `data/*.json`, layout in
 `templates/*.html.j2`, and `build.py` renders every page in every language into
-`docs/`, which is what GitHub Pages serves.
+the repository root, which is what GitHub Pages serves.
 
 ```bash
 pip install jinja2
-python build.py                      # write docs/
+python build.py                      # write the site
 python build.py --serve --port 8000  # build, then preview at localhost:8000
+python build.py --serve --no-build   # preview what is already built
 ```
+
+Output sits beside the source, so a build only ever deletes files a previous
+build wrote (`generated_paths()` in `build.py` is the authoritative list).
 
 ## Editing content
 
@@ -56,12 +60,13 @@ Two conventions worth knowing before editing the JSON by hand:
 ## Layout
 
 ```
-build.py        static site generator
-data/           content (JSON, four languages)
-templates/      Jinja2 templates
-assets/         style.css, fish-circle.svg, favicon.svg — copied to the site root
-_build/         one-off importers and the generator for the sand-circle motif
-docs/           build output — published by GitHub Pages, do not edit by hand
+build.py                     static site generator
+data/                        content (JSON, four languages)
+templates/                   Jinja2 templates
+assets/                      style.css, fish-circle.svg, favicon.svg — copied to the root
+_build/                      one-off importers and the sand-circle generator
+research/                    the research dossier the publication list was built from
+*.html, ko/, zh/, ja/, …     build output — do not edit by hand
 ```
 
 ## The motif
