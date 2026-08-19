@@ -178,6 +178,11 @@ def main() -> None:
     for th in theme_defs:
         for title in th.get("publication_titles", []) or []:
             assign[norm(title)] = th["id"]
+    # hand-checked assignments for what the synthesis did not place
+    overrides = ROOT / "research" / "theme_overrides.json"
+    if overrides.exists():
+        for title, tid in load_json(overrides).items():
+            assign[norm(title)] = tid
 
     themed = [p for p in pubs if p.get("type") in THEMED]
     other = [p for p in pubs if p.get("type") not in THEMED]

@@ -21,7 +21,7 @@
     </div>
     <div class="orient-grid">
       {% for c in research.theoretical %}
-      <div class="orient-card">
+      <div class="orient-card" id="{{ c.id }}">
         <div class="kicker">{{ "%02d"|format(loop.index) }}</div>
         <h3>{{ c.heading }}</h3>
         <p>{{ c.body }}</p>
@@ -40,7 +40,7 @@
     </div>
     <div class="orient-grid">
       {% for c in research.methodological %}
-      <div class="orient-card">
+      <div class="orient-card" id="{{ c.id }}">
         <div class="kicker">{{ "%02d"|format(loop.index) }}</div>
         <h3>{{ c.heading }}</h3>
         <p>{{ c.body }}</p>

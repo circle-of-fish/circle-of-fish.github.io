@@ -201,6 +201,31 @@ section.band { background: var(--band); }
 }
 .orient-card p { font-size: 0.89rem; line-height: 1.8; color: var(--body); }
 
+/* home page: the stance as a scannable index into the research page */
+.stance-cols {
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 1.6rem 2.4rem; margin-top: 1.8rem;
+}
+.stance-kicker {
+  font-size: 0.68rem; letter-spacing: 0.11em; text-transform: uppercase;
+  color: var(--teal); font-weight: 600; margin-bottom: 0.7rem;
+  padding-bottom: 0.5rem; border-bottom: 1px solid var(--line);
+}
+.stance-list { list-style: none; counter-reset: stance; }
+.stance-list li {
+  counter-increment: stance; position: relative;
+  padding: 0.55rem 0 0.55rem 2.1rem; border-bottom: 1px solid var(--line-soft);
+  font-size: 0.92rem; line-height: 1.6;
+}
+.stance-list li:last-child { border-bottom: none; }
+.stance-list li::before {
+  content: counter(stance, decimal-leading-zero);
+  position: absolute; left: 0; top: 0.62rem;
+  font-family: var(--font-serif); font-size: 0.78rem; font-weight: 600; color: var(--faint);
+}
+.stance-list a { color: var(--ink); text-decoration: none; }
+.stance-list a:hover { color: var(--teal); }
+
 /* research modules */
 .module {
   background: var(--white); border: 1px solid var(--line);

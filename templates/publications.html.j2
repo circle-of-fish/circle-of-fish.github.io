@@ -16,7 +16,7 @@
     {% if pub.get('doi') %}<a class="badge badge-doi" href="{{ pub.get('doi')|doi_url }}" target="_blank" rel="noopener">DOI</a>{% endif %}
     {% if pub.get('url_publisher') and not pub.get('doi') %}<a class="badge badge-doi" href="{{ pub.get('url_publisher') }}" target="_blank" rel="noopener">{{ site.ui.publisher }}</a>{% endif %}
     {% if pub.get('type_label') %}<span class="badge badge-type">{{ pub.get('type_label') }}</span>{% endif %}
-    {% if pub.get('language') and pub.get('language') != 'en' %}<span class="badge badge-lang">{{ site.ui.lang_names[pub.get('language')] }}</span>{% endif %}
+    {% if pub.get('language') and pub.get('language') != 'en' %}<span class="badge badge-lang">{{ site.ui['lang_' + pub.get('language')] }}</span>{% endif %}
   </div>
 </li>
 {% endmacro %}
@@ -44,7 +44,7 @@
       <div class="theme-head">
         <h3>{{ th.title }}</h3>
         <p class="blurb">{{ th.blurb }}</p>
-        <span class="count">{{ th.entries|length }} {{ site.ui.items }}</span>
+        <span class="count">{{ th.entries|length }} {{ site.ui.count_unit }}</span>
       </div>
       <ul class="pub-list">
         {% for pub in th.entries %}

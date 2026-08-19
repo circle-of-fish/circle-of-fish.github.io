@@ -22,7 +22,7 @@
       {% if g.get('note') %}<p class="group-note">{{ g.note }}</p>{% endif %}
       <ul class="reading-list">
         {% for b in g.entries %}
-        <li>{{ b.authors }} {{ b.year }}. {% if b.get('url') %}<a href="{{ b.get('url') }}" target="_blank" rel="noopener"><span class="title">{{ b.title|safe }}</span></a>{% else %}<span class="title">{{ b.title|safe }}</span>{% endif %}. {{ b.publisher }}</li>
+        <li>{{ b.authors }} {{ b.year }} {% if b.get('url') %}<a href="{{ b.get('url') }}" target="_blank" rel="noopener"><span class="title">{{ b.title|safe }}</span></a>{% else %}<span class="title">{{ b.title|safe }}</span>{% endif %}. {{ b.publisher }}</li>
         {% endfor %}
       </ul>
     </div>

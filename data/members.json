@@ -56,7 +56,25 @@
         "zh": "历史上的东亚国际秩序 · 全球国际关系学与跨文化理论 · 韩国与中国政治思想 · 人类世与行星秩序",
         "ja": "歴史的東アジア国際秩序 · グローバルIRと超文化的理論 · 韓国・中国政治思想 · 人新世と惑星秩序"
       },
-      "email": "inho.choi86@gmail.com"
+      "email": "inho.choi86@gmail.com",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://distanthead.com/"
+        },
+        {
+          "label": "Faculty page",
+          "url": "https://www.kyonggi.ac.kr/psd/contents.do?key=7303"
+        },
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-2826-5775"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/puffers_inho"
+        }
+      ]
     },
     {
       "key": "sujin-heo",
@@ -83,7 +101,21 @@
         "ko": "Sujin Heo",
         "zh": "허수진",
         "ja": "허수진"
-      }
+      },
+      "links": [
+        {
+          "label": "Faculty page",
+          "url": "https://www.american.edu/profiles/students/sh5309a.cfm"
+        },
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0002-5019-9658"
+        },
+        {
+          "label": "ResearchGate",
+          "url": "https://american.academia.edu/SujinHeo"
+        }
+      ]
     },
     {
       "key": "jaeyoung-kim",
@@ -111,7 +143,29 @@
         "zh": "김재영",
         "ja": "김재영"
       },
-      "email": "jkim33@sdsu.edu"
+      "email": "jkim33@sdsu.edu",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://jaeyoungkim.weebly.com/"
+        },
+        {
+          "label": "Faculty page",
+          "url": "https://politicalscience.sdsu.edu/people/kim"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.com/citations?user=nxh5NGEAAAAJ&hl=en"
+        },
+        {
+          "label": "ResearchGate",
+          "url": "https://www.researchgate.net/profile/Jaeyoung-Kim-2"
+        },
+        {
+          "label": "X",
+          "url": "https://twitter.com/jaeykim89"
+        }
+      ]
     },
     {
       "key": "minju-kwon",
@@ -138,7 +192,17 @@
         "ko": "Minju Kwon",
         "zh": "권민주",
         "ja": "권민주"
-      }
+      },
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://sites.google.com/chapman.edu/kwonminju/"
+        },
+        {
+          "label": "Faculty page",
+          "url": "https://www.chapman.edu/our-faculty/minju-kwon.aspx"
+        }
+      ]
     },
     {
       "key": "inhwan-oh",
@@ -166,7 +230,25 @@
         "zh": "国际安全 · 美国外交政策 · 危机管理 · 中美关系 · 地位与种族等级",
         "ja": "国際安全保障 · アメリカ外交政策 · 危機管理 · 米中関係 · 地位と人種的階層"
       },
-      "email": "ihoh@eai.or.kr"
+      "email": "ihoh@eai.or.kr",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://inhwan-oh.github.io/"
+        },
+        {
+          "label": "Faculty page",
+          "url": "https://www.eai.or.kr/introduce/introduce_03.php"
+        },
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0001-5746-0532"
+        },
+        {
+          "label": "X",
+          "url": "https://x.com/oh_inhwan"
+        }
+      ]
     },
     {
       "key": "chang-joon-ok",
@@ -194,7 +276,21 @@
         "zh": "冷战史 · 全球国际关系学 · 韩国国际关系史与国际政治知识史",
         "ja": "冷戦史 · グローバルIR · 韓国国際関係史と国際政治知識の歴史"
       },
-      "email": "okchangjoon@gmail.com"
+      "email": "okchangjoon@gmail.com",
+      "links": [
+        {
+          "label": "Faculty page",
+          "url": "https://grad.aks.ac.kr/cms/usr/wap/selectAplctnDataList.do?siteAplctnId=professorUks&menuNo=1010140000"
+        },
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0009-0001-5838-4946"
+        },
+        {
+          "label": "KCI",
+          "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003106603"
+        }
+      ]
     },
     {
       "key": "kayeon-roh",
@@ -211,7 +307,17 @@
         "zh": "历史上东亚的国际秩序 · 十九世纪国际关系 · 帝国 · 韩国 · 概念与翻译 · 社会科学史",
         "ja": "歴史的東アジアの国際秩序 · 十九世紀の国際関係 · 帝国 · 韓国 · 概念と翻訳 · 社会科学史"
       },
-      "email": "kayeon.roh@usc.edu"
+      "email": "kayeon.roh@usc.edu",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://dornsife.usc.edu/ksi/kayeon-roh/"
+        },
+        {
+          "label": "Faculty page",
+          "url": "https://dornsife.usc.edu/poir/profile/kayeon-roh/"
+        }
+      ]
     },
     {
       "key": "jeeye-song",
@@ -239,7 +345,17 @@
         "zh": "송지예",
         "ja": "송지예"
       },
-      "email": "jeeyesong@korea.ac.kr"
+      "email": "jeeyesong@korea.ac.kr",
+      "links": [
+        {
+          "label": "Faculty page",
+          "url": "https://int.korea.ac.kr/kuis_ko/about/faculty_research.do"
+        },
+        {
+          "label": "ResearchGate",
+          "url": "https://www.researchgate.net/profile/Jeeye-Song"
+        }
+      ]
     },
     {
       "key": "chaeyoung-yong",
@@ -267,7 +383,21 @@
         "zh": "용채영",
         "ja": "용채영"
       },
-      "email": "cy30@st-andrews.ac.uk"
+      "email": "cy30@st-andrews.ac.uk",
+      "links": [
+        {
+          "label": "Website",
+          "url": "https://sites.google.com/view/cy-yong"
+        },
+        {
+          "label": "ORCID",
+          "url": "https://orcid.org/0000-0003-4011-9762"
+        },
+        {
+          "label": "ResearchGate",
+          "url": "https://st-andrews.academia.edu/ChaeYoungYong"
+        }
+      ]
     }
   ]
 }

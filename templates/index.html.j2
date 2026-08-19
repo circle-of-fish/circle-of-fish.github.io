@@ -36,23 +36,23 @@
     <div class="prose" style="max-width:780px;">
       <p>{{ research.orientation_lede }}</p>
     </div>
-    <div class="orient-grid">
-      {% for c in research.theoretical %}
-      <div class="orient-card">
-        <div class="kicker">{{ site.ui.theoretical }}</div>
-        <h3>{{ c.heading }}</h3>
-        <p>{{ c.body }}</p>
+    <div class="stance-cols">
+      <div class="stance-col">
+        <div class="stance-kicker">{{ site.ui.theoretical }}</div>
+        <ol class="stance-list">
+          {% for c in research.theoretical %}
+          <li><a href="research.html#{{ c.id }}">{{ c.heading }}</a></li>
+          {% endfor %}
+        </ol>
       </div>
-      {% endfor %}
-    </div>
-    <div class="orient-grid">
-      {% for c in research.methodological %}
-      <div class="orient-card">
-        <div class="kicker">{{ site.ui.methodological }}</div>
-        <h3>{{ c.heading }}</h3>
-        <p>{{ c.body }}</p>
+      <div class="stance-col">
+        <div class="stance-kicker">{{ site.ui.methodological }}</div>
+        <ol class="stance-list">
+          {% for c in research.methodological %}
+          <li><a href="research.html#{{ c.id }}">{{ c.heading }}</a></li>
+          {% endfor %}
+        </ol>
       </div>
-      {% endfor %}
     </div>
     <a class="more-link" href="research.html">{{ site.ui.read_more_research }}</a>
   </div>

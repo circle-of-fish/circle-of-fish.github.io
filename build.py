@@ -83,7 +83,10 @@ def t(value, lang: str):
     once.
     """
     if isinstance(value, dict):
-        if any(k in value for k in LANGS):
+        # every bundle carries "en" as the fallback; a dict merely keyed by
+        # language codes (e.g. a lookup table) is not a bundle
+        if "en" in value and all(not isinstance(v, (dict, list)) or k in LANGS
+                                 for k, v in value.items()):
             picked = value.get(lang)
             if picked in (None, ""):
                 picked = value.get("en", "")
