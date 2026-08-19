@@ -114,6 +114,11 @@ def domain(url: str) -> str:
     return m.group(1).replace("www.", "") if m else ""
 
 
+def memberkey(key: str) -> str:
+    """The research dossier keys members with underscores; the site uses hyphens."""
+    return str(key).replace("_", "-")
+
+
 def doi_url(doi: str) -> str:
     doi = (doi or "").strip()
     if not doi:
@@ -156,6 +161,7 @@ def build() -> None:
     env.filters["slugify"] = slugify
     env.filters["domain"] = domain
     env.filters["doi_url"] = doi_url
+    env.filters["memberkey"] = memberkey
 
     # Only ever remove what a previous build wrote. Windows also keeps a handle
     # on any directory a running preview server has open, so removal is

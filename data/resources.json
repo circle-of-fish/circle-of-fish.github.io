@@ -154,67 +154,122 @@
               "name": "European International Studies Association (EISA)",
               "url": "https://www.eisa-net.org/",
               "affiliation": "Offices in Prague",
-              "desc": "Runs the Pan-European Conference (Lisbon, 1-4 September 2026), the European Workshops in International Studies, and the Rapallo Exploratory Symposia, alongside dissertation fieldwork grants, postdoctoral bridge grants, and a mobility fund."
+              "desc": {
+                "en": "Runs the Pan-European Conference (Lisbon, 1-4 September 2026), the European Workshops in International Studies, and the Rapallo Exploratory Symposia, alongside dissertation fieldwork grants, postdoctoral bridge grants, and a mobility fund.",
+                "ko": "Pan-European Conference(리스본, 2026년 9월 1–4일)와 European Workshops in International Studies, Rapallo Exploratory Symposia를 운영하며, 박사논문 현지조사 지원금과 박사후 브리지 지원금, 이동 지원 기금도 함께 둔다.",
+                "zh": "主办 Pan-European Conference（里斯本，2026年9月1—4日）、European Workshops in International Studies 与 Rapallo Exploratory Symposia，同时设有博士论文田野调查资助、博士后过渡资助与流动基金。",
+                "ja": "Pan-European Conference（リスボン、2026年9月1〜4日）、European Workshops in International Studies、Rapallo Exploratory Symposia を運営し、あわせて博士論文の現地調査助成、ポスドク向けブリッジ助成、モビリティ基金を設けている。"
+              }
             },
             {
               "name": "Toynbee Prize Foundation",
               "url": "https://toynbeeprize.org/",
               "affiliation": "Chartered 1987",
-              "desc": "Global history foundation awarding the biennial Toynbee Prize (2025-26 winner: Sunil Amrith) and running a First Book Workshop Competition for early-career scholars, alongside a steady stream of scholarly interviews and blog posts."
+              "desc": {
+                "en": "Global history foundation awarding the biennial Toynbee Prize (2025-26 winner: Sunil Amrith) and running a First Book Workshop Competition for early-career scholars, alongside a steady stream of scholarly interviews and blog posts.",
+                "ko": "격년으로 Toynbee Prize를 수여하는 지구사 재단으로(2025–26년 수상자는 Sunil Amrith), 신진 연구자를 위한 First Book Workshop Competition을 운영하고 학술 인터뷰와 블로그 글도 꾸준히 낸다.",
+                "zh": "全球史基金会，每两年颁发一次 Toynbee Prize（2025—26年度得主为 Sunil Amrith），并为青年学者举办 First Book Workshop Competition，同时持续刊发学术访谈与博客文章。",
+                "ja": "隔年で Toynbee Prize を授与し（2025〜26年の受賞者は Sunil Amrith）、若手研究者向けに First Book Workshop Competition を実施するグローバル・ヒストリーの財団である。学術インタビューやブログ記事も継続的に発信している。"
+              }
             },
             {
               "name": "BISA Colonial, Postcolonial and Decolonial Working Group (CPD)",
               "url": "https://www.bisa.ac.uk/members/working-groups/cpd",
               "affiliation": "British International Studies Association",
-              "desc": "Working group asking what the colonial constitutions and inflections of global order are, past and present, running an annual workshop (now in its twelfth iteration) and an early-career prize awarded in 2025 and 2026."
+              "desc": {
+                "en": "Working group asking what the colonial constitutions and inflections of global order are, past and present, running an annual workshop (now in its twelfth iteration) and an early-career prize awarded in 2025 and 2026.",
+                "ko": "지구질서가 과거와 현재에 걸쳐 어떤 식민적 구성과 굴절을 안고 있는지를 묻는 연구모임으로, 연례 워크숍(올해로 열두 번째)과 2025년·2026년에 시상한 신진 연구자상을 운영한다.",
+                "zh": "该工作组追问全球秩序在过去与当下的殖民构成与殖民烙印，举办年度工作坊（已办至第十二届），并于2025年与2026年颁发青年学者奖。",
+                "ja": "グローバル秩序が過去にも現在にもいかなる植民地的構成と屈折を抱えているのかを問う研究グループである。年次ワークショップ（今回で第12回）と、2025年・2026年に授与された若手研究者賞を運営している。"
+              }
             },
             {
               "name": "BISA Critical Alternatives for World Politics Working Group (CAWP)",
               "url": "https://www.bisa.ac.uk/members/working-groups/cawp",
               "affiliation": "British International Studies Association",
-              "desc": "Successor to BISA's Post-Structuralist Politics group, fostering experimental, creative, and non-mainstream research on everyday life, aesthetics, literature, and material culture, with a new early-career prize launched in 2026."
+              "desc": {
+                "en": "Successor to BISA's Post-Structuralist Politics group, fostering experimental, creative, and non-mainstream research on everyday life, aesthetics, literature, and material culture, with a new early-career prize launched in 2026.",
+                "ko": "BISA의 Post-Structuralist Politics 그룹을 이어받아 일상과 미학, 문학, 물질문화를 다루는 실험적이고 창의적인 비주류 연구를 북돋우며, 2026년에 신진 연구자상을 새로 만들었다.",
+                "zh": "承接 BISA 的 Post-Structuralist Politics 小组，鼓励围绕日常生活、美学、文学与物质文化的实验性、创造性与非主流研究，并于2026年新设青年学者奖。",
+                "ja": "BISA の Post-Structuralist Politics グループを引き継ぎ、日常生活・美学・文学・物質文化をめぐる実験的で創造的な非主流の研究を後押しする。2026年には若手研究者賞を新設した。"
+              }
             },
             {
               "name": "English School of International Relations Network",
               "url": "https://englishschoolir.net/",
               "affiliation": "Maintained by the ISA English School Section",
-              "desc": "Standalone hub for the English School community carrying the running ES bibliography, standing committee information, and listings of conferences and workshops."
+              "desc": {
+                "en": "Standalone hub for the English School community carrying the running ES bibliography, standing committee information, and listings of conferences and workshops.",
+                "ko": "영국학파(English School) 연구 공동체의 독립 거점으로, 계속 갱신되는 학파 문헌목록과 상임위원회 정보, 학술회의·워크숍 공지를 싣는다.",
+                "zh": "英国学派（English School）学术共同体的独立平台，持续更新学派文献目录，并提供常设委员会信息与会议、工作坊的通告。",
+                "ja": "英国学派（English School）の研究共同体のための独立した拠点であり、更新され続ける文献目録、常任委員会の情報、学会・ワークショップの告知を掲載している。"
+              }
             },
             {
               "name": "Japan Association of International Relations (日本国際政治学会)",
               "url": "https://jair.or.jp/",
               "affiliation": "Japan",
-              "desc": "Japan's principal IR learned society, publishing Kokusai Seiji and co-publishing International Relations of the Asia-Pacific, with a 70th anniversary conference planned for 2026 and travel grants for graduate students and early-career researchers."
+              "desc": {
+                "en": "Japan's principal IR learned society, publishing Kokusai Seiji and co-publishing International Relations of the Asia-Pacific, with a 70th anniversary conference planned for 2026 and travel grants for graduate students and early-career researchers.",
+                "ko": "일본을 대표하는 국제정치학 학회로 Kokusai Seiji를 발간하고 International Relations of the Asia-Pacific를 공동 발간하며, 2026년 창립 70주년 학술대회를 앞두고 대학원생과 신진 연구자에게 여비를 지원한다.",
+                "zh": "日本最主要的国际关系学学会，出版 Kokusai Seiji 并合作出版 International Relations of the Asia-Pacific；2026年将举办创立70周年大会，并为研究生与青年研究者提供差旅资助。",
+                "ja": "日本を代表する国際関係論の学会であり、『国際政治』を刊行し、International Relations of the Asia-Pacific を共同刊行している。2026年には創立70周年大会を予定し、大学院生・若手研究者向けの旅費助成も行っている。"
+              }
             },
             {
               "name": "ISA English School Section (ENGSS)",
               "url": "https://www.isanet.org/ISA/Sections/ENGSS",
               "affiliation": "International Studies Association",
-              "desc": "Section devoted to the historical, sociological, and normative resources of English School scholarship, co-chaired by Jack Robert Mellish (LSE) and Yannis Stivachtis (Virginia Tech)."
+              "desc": {
+                "en": "Section devoted to the historical, sociological, and normative resources of English School scholarship, co-chaired by Jack Robert Mellish (LSE) and Yannis Stivachtis (Virginia Tech).",
+                "ko": "영국학파 연구의 역사적·사회학적·규범적 자원을 다루는 분과로, Jack Robert Mellish(LSE)와 Yannis Stivachtis(Virginia Tech)가 공동 위원장을 맡고 있다.",
+                "zh": "专注于英国学派研究之历史、社会学与规范性资源的分部，由 Jack Robert Mellish（LSE）与 Yannis Stivachtis（Virginia Tech）共同担任主席。",
+                "ja": "英国学派研究がもつ歴史的・社会学的・規範的な資源を扱う部会であり、Jack Robert Mellish（LSE）と Yannis Stivachtis（Virginia Tech）が共同議長を務める。"
+              }
             },
             {
               "name": "ISA Global International Relations Section (GIRS)",
               "url": "https://www.isanet.org/ISA/Sections/GIRS",
               "affiliation": "International Studies Association",
-              "desc": "The ISA's newest section, approved in March 2022, with roughly 536 members from 54 countries, chaired for 2026-2028 by Marcin Grabowski with program co-chairs Melisa Deciancio (FLACSO Argentina) and Roberto Dominguez."
+              "desc": {
+                "en": "The ISA's newest section, approved in March 2022, with roughly 536 members from 54 countries, chaired for 2026-2028 by Marcin Grabowski with program co-chairs Melisa Deciancio (FLACSO Argentina) and Roberto Dominguez.",
+                "ko": "2022년 3월에 승인된 ISA의 최신 분과로 54개국에서 536명가량이 참여하며, 2026–2028년 위원장은 Marcin Grabowski, 프로그램 공동 위원장은 Melisa Deciancio(FLACSO Argentina)와 Roberto Dominguez가 맡는다.",
+                "zh": "ISA 最新设立的分部，2022年3月获批，现有来自54个国家的约536名成员；2026—2028年由 Marcin Grabowski 任主席，Melisa Deciancio（FLACSO Argentina）与 Roberto Dominguez 任项目共同主席。",
+                "ja": "2022年3月に承認された ISA で最も新しい部会で、54か国から約536名が参加する。2026〜2028年の議長は Marcin Grabowski、プログラム共同議長は Melisa Deciancio（FLACSO Argentina）と Roberto Dominguez が務める。"
+              }
             },
             {
               "name": "ISA Historical International Relations Section (HIST)",
               "url": "https://www.isanet.org/ISA/Sections/HIST",
               "affiliation": "International Studies Association",
-              "desc": "ISA section promoting exchange among scholars of historical international relations across disciplinary and national boundaries, chaired by Lucian M. Ashworth (2025-2027) with Kerry Goettlich as program chair."
+              "desc": {
+                "en": "ISA section promoting exchange among scholars of historical international relations across disciplinary and national boundaries, chaired by Lucian M. Ashworth (2025-2027) with Kerry Goettlich as program chair.",
+                "ko": "분과 학문과 국경을 넘어 역사적 국제관계 연구자들의 교류를 넓히는 ISA 분과로, 2025–2027년 위원장은 Lucian M. Ashworth, 프로그램 위원장은 Kerry Goettlich이다.",
+                "zh": "ISA 分部，推动历史国际关系研究者跨学科、跨国界的交流；2025—2027年由 Lucian M. Ashworth 任主席，Kerry Goettlich 任项目主席。",
+                "ja": "学問分野と国境を越えて歴史的国際関係の研究者の交流を促す ISA の部会であり、2025〜2027年の議長は Lucian M. Ashworth、プログラム議長は Kerry Goettlich である。"
+              }
             },
             {
               "name": "ISA Theory Section",
               "url": "https://www.isanet.org/ISA/Sections/THEORY",
               "affiliation": "International Studies Association",
-              "desc": "The ISA's dedicated theory section, chaired for 2026-2027 by Jack L. Amoureux (Wake Forest) with Pooja Arora (O.P. Jindal Global University) as program chair."
+              "desc": {
+                "en": "The ISA's dedicated theory section, chaired for 2026-2027 by Jack L. Amoureux (Wake Forest) with Pooja Arora (O.P. Jindal Global University) as program chair.",
+                "ko": "이론을 전담하는 ISA 분과로, 2026–2027년 위원장은 Jack L. Amoureux(Wake Forest), 프로그램 위원장은 Pooja Arora(O.P. Jindal Global University)이다.",
+                "zh": "ISA 专司理论的分部，2026—2027年由 Jack L. Amoureux（Wake Forest）任主席，Pooja Arora（O.P. Jindal Global University）任项目主席。",
+                "ja": "理論を専門に扱う ISA の部会であり、2026〜2027年の議長は Jack L. Amoureux（Wake Forest）、プログラム議長は Pooja Arora（O.P. Jindal Global University）である。"
+              }
             },
             {
               "name": "Korean Association of International Studies (한국국제정치학회)",
               "url": "https://www.kaisnet.or.kr/",
               "affiliation": "South Korea, established 1956",
-              "desc": "Korea's flagship IR association, publishing 국제정치논총 (KCI Excellent Accredited) and the English-language Korean Journal of International Studies, with an active 2026 calendar of conferences and member notices."
+              "desc": {
+                "en": "Korea's flagship IR association, publishing 국제정치논총 (KCI Excellent Accredited) and the English-language Korean Journal of International Studies, with an active 2026 calendar of conferences and member notices.",
+                "ko": "한국을 대표하는 국제정치학 학회로 『국제정치논총』(KCI 우수등재)과 영문지 Korean Journal of International Studies를 발간하며, 2026년에도 학술회의와 회원 공지 일정이 활발하다.",
+                "zh": "韩国最主要的国际关系学学会，出版 국제정치논총（KCI 优秀登载）与英文期刊 Korean Journal of International Studies，2026年的会议与会员通告安排密集。",
+                "ja": "韓国を代表する国際関係論の学会であり、국제정치논총（KCI 優秀登載）と英文誌 Korean Journal of International Studies を刊行している。2026年も学会や会員向け告知の日程が活発である。"
+              }
             }
           ],
           "note": {
@@ -236,73 +291,133 @@
               "name": "Korean Studies Institute (KSI), University of Southern California",
               "url": "https://dornsife.usc.edu/ksi/",
               "affiliation": "USC Dornsife",
-              "desc": "Interdisciplinary hub for Korean studies celebrating its 30th anniversary, supporting fellowships, visiting scholars, and research conferences across Korean history, politics, media, and environmental humanities."
+              "desc": {
+                "en": "Interdisciplinary hub for Korean studies celebrating its 30th anniversary, supporting fellowships, visiting scholars, and research conferences across Korean history, politics, media, and environmental humanities.",
+                "ko": "창립 30주년을 맞은 한국학 학제 연구 거점으로, 한국사와 정치, 미디어, 환경인문학을 아우르는 펠로십과 방문학자, 연구 학술회의를 지원한다.",
+                "zh": "迎来成立30周年的韩国学跨学科研究平台，在韩国史、政治、媒体与环境人文等领域资助研究员项目、访问学者与学术会议。",
+                "ja": "創立30周年を迎えた韓国学の学際的拠点であり、韓国史・政治・メディア・環境人文学にわたるフェローシップ、招聘研究者、研究会議を支援している。"
+              }
             },
             {
               "name": "Seoul National University Asia Center (SNUAC)",
               "url": "https://snuac.snu.ac.kr/",
               "affiliation": "Seoul National University",
-              "desc": "Large Asia-focused research center with regional divisions for Northeast, Southeast, Central, South, and West Asia plus thematic programs, publishing Asia Review and running events scheduled through September 2026."
+              "desc": {
+                "en": "Large Asia-focused research center with regional divisions for Northeast, Southeast, Central, South, and West Asia plus thematic programs, publishing Asia Review and running events scheduled through September 2026.",
+                "ko": "동북아시아·동남아시아·중앙아시아·남아시아·서아시아 지역 부문과 주제별 프로그램을 갖춘 대형 아시아 연구센터로, Asia Review를 발간하고 2026년 9월까지 행사 일정이 잡혀 있다.",
+                "zh": "规模庞大的亚洲研究中心，下设东北亚、东南亚、中亚、南亚与西亚等区域部门及主题项目，出版 Asia Review，活动日程已排至2026年9月。",
+                "ja": "東北アジア・東南アジア・中央アジア・南アジア・西アジアの地域部門と主題別プログラムを備えた大規模なアジア研究センターであり、Asia Review を刊行し、2026年9月まで行事の日程が組まれている。"
+              }
             },
             {
               "name": "Northeast Asian History Foundation (동북아역사재단)",
               "url": "https://www.nahf.or.kr/",
               "affiliation": "Seoul, South Korea",
-              "desc": "Government-affiliated history research body publishing the Northeast Asian History Review and Territory and Maritime Research, running international conferences and public history programs, with news current to August 2026."
+              "desc": {
+                "en": "Government-affiliated history research body publishing the Northeast Asian History Review and Territory and Maritime Research, running international conferences and public history programs, with news current to August 2026.",
+                "ko": "정부 출연 역사 연구기관으로 Northeast Asian History Review와 Territory and Maritime Research를 발간하고, 국제 학술회의와 대중 역사 프로그램을 운영한다. 소식은 2026년 8월까지 갱신돼 있다.",
+                "zh": "政府所属的历史研究机构，出版 Northeast Asian History Review 与 Territory and Maritime Research，举办国际学术会议与面向公众的历史项目，最新动态更新至2026年8月。",
+                "ja": "政府系の歴史研究機関で、Northeast Asian History Review と Territory and Maritime Research を刊行し、国際学術会議や公共歴史のプログラムを運営している。ニュースは2026年8月まで更新されている。"
+              }
             },
             {
               "name": "East Asia Institute (동아시아연구원, EAI)",
               "url": "https://www.eai.or.kr/",
               "affiliation": "Seoul, South Korea",
-              "desc": "Independent Seoul think tank publishing issue briefs, special reports, and survey research on peace, prosperity, and democracy in East Asia, with content current to August 2026."
+              "desc": {
+                "en": "Independent Seoul think tank publishing issue briefs, special reports, and survey research on peace, prosperity, and democracy in East Asia, with content current to August 2026.",
+                "ko": "동아시아의 평화와 번영, 민주주의를 주제로 이슈브리핑과 스페셜리포트, 여론조사 연구를 내는 서울의 독립 싱크탱크로, 자료는 2026년 8월까지 갱신돼 있다.",
+                "zh": "位于首尔的独立智库，围绕东亚的和平、繁荣与民主发布议题简报、专题报告与民意调查研究，内容更新至2026年8月。",
+                "ja": "東アジアの平和・繁栄・民主主義をめぐるイシューブリーフ、スペシャルレポート、世論調査研究を発表するソウルの独立系シンクタンクであり、コンテンツは2026年8月まで更新されている。"
+              }
             },
             {
               "name": "Institute for Global Law and Policy (IGLP)",
               "url": "https://iglp.law.harvard.edu/",
               "affiliation": "Harvard Law School",
-              "desc": "Founded in 2009 to nurture innovative approaches to global affairs, running the Global Scholars Academy residential program for junior faculty and doctoral scholars, with 1,100+ young scholars trained and 200+ affiliated faculty."
+              "desc": {
+                "en": "Founded in 2009 to nurture innovative approaches to global affairs, running the Global Scholars Academy residential program for junior faculty and doctoral scholars, with 1,100+ young scholars trained and 200+ affiliated faculty.",
+                "ko": "국제 문제에 대한 새로운 접근을 키우려고 2009년에 세워졌으며, 신진 교수와 박사급 연구자를 위한 합숙 프로그램 Global Scholars Academy를 운영한다. 지금까지 1,100명이 넘는 젊은 연구자를 길러냈고 참여 교수진은 200명이 넘는다.",
+                "zh": "创设于2009年，旨在培育应对全球事务的创新路径，为青年教师与博士研究者举办住宿式项目 Global Scholars Academy，已培养1,100余名青年学者，参与教师逾200人。",
+                "ja": "グローバルな諸問題への革新的なアプローチを育てるべく2009年に設立され、若手教員と博士研究者を対象とする合宿型プログラム Global Scholars Academy を運営している。これまでに1,100名を超える若手研究者を育成し、参加教員は200名を上回る。"
+              }
             },
             {
               "name": "Fairbank Center for Chinese Studies",
               "url": "https://fairbank.fas.harvard.edu/",
               "affiliation": "Harvard University",
-              "desc": "Harvard's China studies hub, running lecture series scheduled through November 2026, administering student and faculty grants, and maintaining a library, publications database, and public blog."
+              "desc": {
+                "en": "Harvard's China studies hub, running lecture series scheduled through November 2026, administering student and faculty grants, and maintaining a library, publications database, and public blog.",
+                "ko": "하버드의 중국 연구 거점으로 2026년 11월까지 강연 시리즈 일정이 잡혀 있고, 학생·교원 연구비를 운용하며 도서관과 간행물 데이터베이스, 공개 블로그를 유지한다.",
+                "zh": "哈佛大学的中国研究重镇，讲座系列已排至2026年11月，管理面向学生与教师的资助，并维护图书馆、出版物数据库与公开博客。",
+                "ja": "ハーヴァード大学における中国研究の拠点であり、2026年11月まで講演シリーズの日程が組まれている。学生・教員向けの助成を運用し、図書室、出版物データベース、公開ブログを維持している。"
+              }
             },
             {
               "name": "Max Planck Institute for Legal History and Legal Theory",
               "url": "https://www.lhlt.mpg.de/",
               "affiliation": "Frankfurt am Main, Germany",
-              "desc": "Research institute studying law's theory and history in comparative and global perspective, recently establishing a Centre for Legal History of India arguing that Indian law is not a footnote to European legal history, with an active fellowship program."
+              "desc": {
+                "en": "Research institute studying law's theory and history in comparative and global perspective, recently establishing a Centre for Legal History of India arguing that Indian law is not a footnote to European legal history, with an active fellowship program.",
+                "ko": "법의 이론과 역사를 비교사·지구사의 시각에서 연구하는 기관이다. 인도법이 유럽 법사의 각주가 아니라는 문제의식 아래 최근 Centre for Legal History of India를 세웠고, 펠로십 프로그램도 활발히 운영한다.",
+                "zh": "从比较与全球视角研究法之理论与历史的研究所，近期设立 Centre for Legal History of India，主张印度法并非欧洲法律史的脚注，同时设有活跃的研究员项目。",
+                "ja": "法の理論と歴史を比較的・グローバルな視角から研究する研究所である。インド法はヨーロッパ法史の脚注ではないという問題意識のもと、近年 Centre for Legal History of India を設置し、フェローシップ・プログラムも活発に運営している。"
+              }
             },
             {
               "name": "China Foreign Affairs University (外交学院)",
               "url": "https://www.cfau.edu.cn/",
               "affiliation": "Beijing, China",
-              "desc": "Diplomacy-focused university with institutes for international relations and Asian studies, active in 2026 with China-ASEAN think tank reports and high-level policy engagement; long the academic home of Qin Yaqing."
+              "desc": {
+                "en": "Diplomacy-focused university with institutes for international relations and Asian studies, active in 2026 with China-ASEAN think tank reports and high-level policy engagement; long the academic home of Qin Yaqing.",
+                "ko": "외교에 특화된 대학으로 국제관계와 아시아 연구를 맡는 연구소를 두고 있으며, 2026년에도 중국–아세안 싱크탱크 보고서와 고위급 정책 활동을 이어가고 있다. 오랫동안 Qin Yaqing이 몸담아 온 곳이다.",
+                "zh": "以外交为特色的高校，设有国际关系与亚洲研究方面的研究所，2026年在中国—东盟智库报告与高层政策活动上均有动作；长期以来是 Qin Yaqing 的学术所在。",
+                "ja": "外交に特化した大学であり、国際関係とアジア研究の研究所を擁する。2026年も中国・ASEAN のシンクタンク報告や高位級の政策活動を展開しており、長らく Qin Yaqing の学問的な拠点であった。"
+              }
             },
             {
               "name": "Department of International Politics, Aberystwyth University",
               "url": "https://www.aber.ac.uk/en/interpol/",
               "affiliation": "Aberystwyth University, Wales",
-              "desc": "The department founded around the 1919 Woodrow Wilson Chair, still running undergraduate, postgraduate, and research programmes and ranked top five in the UK for student satisfaction in politics."
+              "desc": {
+                "en": "The department founded around the 1919 Woodrow Wilson Chair, still running undergraduate, postgraduate, and research programmes and ranked top five in the UK for student satisfaction in politics.",
+                "ko": "1919년 Woodrow Wilson 석좌를 중심으로 출발한 학과로, 지금도 학부와 대학원, 연구 과정을 운영하며 정치학 분야 학생 만족도에서 영국 상위 5위 안에 든다.",
+                "zh": "以1919年设立的 Woodrow Wilson 讲席为起点创建的系所，至今开设本科、研究生与研究课程，在英国政治学学生满意度中位列前五。",
+                "ja": "1919年の Woodrow Wilson 講座を核として創設された学科であり、現在も学部・大学院・研究のプログラムを運営し、政治学分野の学生満足度で英国上位5位に入っている。"
+              }
             },
             {
               "name": "Institute of International Affairs, Seoul National University (서울대학교 국제학연구소)",
               "url": "https://iia.snu.ac.kr/",
               "affiliation": "Seoul National University",
-              "desc": "SNU research institute housing multiple centers, publishing academic journals and the Pacific Report, and running the Global Prominence Seminar series (61st edition, June 2026)."
+              "desc": {
+                "en": "SNU research institute housing multiple centers, publishing academic journals and the Pacific Report, and running the Global Prominence Seminar series (61st edition, June 2026).",
+                "ko": "여러 센터를 거느린 서울대 연구소로, 학술지와 Pacific Report를 발간하고 Global Prominence Seminar 시리즈(2026년 6월 제61회)를 운영한다.",
+                "zh": "首尔大学的研究机构，下辖多个研究中心，出版学术期刊与 Pacific Report，并举办 Global Prominence Seminar 系列（2026年6月第61期）。",
+                "ja": "複数のセンターを擁するソウル大学校の研究所であり、学術誌と Pacific Report を刊行し、Global Prominence Seminar シリーズ（2026年6月で第61回）を開催している。"
+              }
             },
             {
               "name": "Institute of International Relations, National Chengchi University (國際關係研究中心)",
               "url": "https://iir.nccu.edu.tw/",
               "affiliation": "National Chengchi University, Taipei",
-              "desc": "Taiwan's leading IR research center, publishing Issues & Studies and running the International Relations Talk lecture series, a War Gaming Academy, and international conferences through 2026."
+              "desc": {
+                "en": "Taiwan's leading IR research center, publishing Issues & Studies and running the International Relations Talk lecture series, a War Gaming Academy, and international conferences through 2026.",
+                "ko": "타이완을 대표하는 국제정치학 연구센터로 Issues & Studies를 발간하고, International Relations Talk 강연 시리즈와 War Gaming Academy, 2026년까지 이어지는 국제 학술회의를 운영한다.",
+                "zh": "台湾最主要的国际关系研究中心，出版 Issues & Studies，并举办 International Relations Talk 讲座系列、War Gaming Academy 以及延续至2026年的国际学术会议。",
+                "ja": "台湾を代表する国際関係論の研究センターであり、Issues & Studies を刊行し、International Relations Talk 講演シリーズ、War Gaming Academy、2026年まで続く国際会議を運営している。"
+              }
             },
             {
               "name": "Institute of International Studies, Fudan University (复旦大学国际问题研究院)",
               "url": "https://iis.fudan.edu.cn/",
               "affiliation": "Fudan University, Shanghai",
-              "desc": "Umbrella institute with country and region centers spanning the US, Japan, Korea, Russia, South Asia, the Middle East, and Latin America, publishing four academic journals plus annual strategic reports and book series."
+              "desc": {
+                "en": "Umbrella institute with country and region centers spanning the US, Japan, Korea, Russia, South Asia, the Middle East, and Latin America, publishing four academic journals plus annual strategic reports and book series.",
+                "ko": "미국·일본·한국·러시아·남아시아·중동·라틴아메리카를 아우르는 국가별·지역별 연구센터를 거느린 종합 연구기관으로, 학술지 네 종과 연례 전략보고서, 총서를 펴낸다.",
+                "zh": "统辖美国、日本、韩国、俄罗斯、南亚、中东与拉美等国别与地区研究中心的综合性研究机构，出版四种学术期刊以及年度战略报告与丛书。",
+                "ja": "アメリカ・日本・韓国・ロシア・南アジア・中東・ラテンアメリカにわたる国別・地域別の研究センターを擁する総合研究機関であり、学術誌4誌のほか年次戦略報告書と叢書を刊行している。"
+              }
             }
           ]
         },
@@ -318,241 +433,441 @@
               "name": "Amitav Acharya",
               "url": "https://www.american.edu/sis/faculty/aacharya.cfm",
               "affiliation": "American University, School of International Service",
-              "desc": "Distinguished Professor of International Relations and UNESCO Chair in Transnational Challenges and Governance, and the leading architect of the 'Global IR' research agenda."
+              "desc": {
+                "en": "Distinguished Professor of International Relations and UNESCO Chair in Transnational Challenges and Governance, and the leading architect of the 'Global IR' research agenda.",
+                "ko": "국제정치학 석좌교수이자 UNESCO Chair in Transnational Challenges and Governance이며, '지구적 국제정치학(Global IR)' 연구 의제를 설계한 대표적 인물이다.",
+                "zh": "国际关系学卓越教授、UNESCO Chair in Transnational Challenges and Governance，也是「全球国际关系学」（Global IR）研究议程的主要设计者。",
+                "ja": "国際関係論の卓越教授であり、UNESCO Chair in Transnational Challenges and Governance を務める。「グローバルIR」（Global IR）という研究アジェンダを主導的に設計した人物である。"
+              }
             },
             {
               "name": "Cemil Aydin",
               "url": "https://history.unc.edu/faculty-member/cemil-aydin/",
               "affiliation": "University of North Carolina at Chapel Hill, Department of History",
-              "desc": "Professor of History working on global and international intellectual history across Asia, the Middle East, and Muslim societies."
+              "desc": {
+                "en": "Professor of History working on global and international intellectual history across Asia, the Middle East, and Muslim societies.",
+                "ko": "역사학 교수로 아시아와 중동, 무슬림 사회를 가로지르는 지구적·국제적 지성사를 연구한다.",
+                "zh": "历史学教授，研究横跨亚洲、中东与穆斯林社会的全球与国际思想史。",
+                "ja": "歴史学教授であり、アジア・中東・ムスリム社会を横断するグローバルかつ国際的な知性史を研究している。"
+              }
             },
             {
               "name": "Duncan Bell",
               "url": "https://www.cghr.polis.cam.ac.uk/people/professor-duncan-bell/",
               "affiliation": "University of Cambridge, POLIS; Christ's College",
-              "desc": "Professor of Political Thought and International Relations working on empire, settler colonialism, and modern British political thought."
+              "desc": {
+                "en": "Professor of Political Thought and International Relations working on empire, settler colonialism, and modern British political thought.",
+                "ko": "정치사상·국제정치학 교수로 제국과 정착민 식민주의, 근대 영국 정치사상을 연구한다.",
+                "zh": "政治思想与国际关系学教授，研究帝国、定居者殖民主义与近代英国政治思想。",
+                "ja": "政治思想・国際関係論の教授であり、帝国、入植者植民地主義、近代イギリス政治思想を研究している。"
+              }
             },
             {
               "name": "Saliha Belmessous",
               "url": "https://www.history.ox.ac.uk/people/professor-saliha-belmessous",
               "affiliation": "University of Oxford, Faculty of History; Corpus Christi College",
-              "desc": "British Academy Global Professor working on the global history of empires, colonization, and legal negotiation between European and non-European actors."
+              "desc": {
+                "en": "British Academy Global Professor working on the global history of empires, colonization, and legal negotiation between European and non-European actors.",
+                "ko": "British Academy Global Professor로, 제국과 식민화의 지구사 그리고 유럽 행위자와 비유럽 행위자 사이의 법적 교섭을 연구한다.",
+                "zh": "British Academy Global Professor，研究帝国与殖民的全球史，以及欧洲与非欧洲行为体之间的法律交涉。",
+                "ja": "British Academy Global Professor であり、帝国と植民地化のグローバル・ヒストリー、およびヨーロッパと非ヨーロッパの主体のあいだの法的交渉を研究している。"
+              }
             },
             {
               "name": "Lauren Benton",
               "url": "https://history.yale.edu/people/lauren-benton",
               "affiliation": "Yale University, Department of History and Yale Law School",
-              "desc": "Barton M. Biggs Professor of History and Professor of Law, working on global legal history, imperial sovereignty, and legal pluralism in European empires."
+              "desc": {
+                "en": "Barton M. Biggs Professor of History and Professor of Law, working on global legal history, imperial sovereignty, and legal pluralism in European empires.",
+                "ko": "Barton M. Biggs Professor of History이자 법학 교수로, 지구적 법사(法史)와 제국의 주권, 유럽 제국의 법다원주의를 연구한다.",
+                "zh": "Barton M. Biggs Professor of History 兼法学教授，研究全球法律史、帝国主权与欧洲各帝国的法律多元主义。",
+                "ja": "Barton M. Biggs Professor of History であり、法学教授でもある。グローバルな法史、帝国の主権、ヨーロッパ諸帝国における法多元主義を研究している。"
+              }
             },
             {
               "name": "David L. Blaney",
               "url": "https://www.macalester.edu/political-science/facultystaff/davidblaney/",
               "affiliation": "Macalester College, Department of Political Science",
-              "desc": "G. Theodore Mitau Professor of Political Science (Emeritus), working on global political economy and international political theory."
+              "desc": {
+                "en": "G. Theodore Mitau Professor of Political Science (Emeritus), working on global political economy and international political theory.",
+                "ko": "G. Theodore Mitau 정치학 석좌교수(명예)이다. 지구정치경제와 국제정치이론을 연구한다.",
+                "zh": "G. Theodore Mitau 政治学讲座教授（荣休），研究全球政治经济与国际政治理论。",
+                "ja": "G. Theodore Mitau 政治学講座教授（名誉）。グローバル政治経済と国際政治理論を研究する。"
+              }
             },
             {
               "name": "Timothy Brook",
               "url": "https://history.ubc.ca/profile/tim-brook/",
               "affiliation": "University of British Columbia, Department of History",
-              "desc": "Professor Emeritus of Chinese history, specializing in the Ming dynasty and its global connections from Mongol to Japanese occupation."
+              "desc": {
+                "en": "Professor Emeritus of Chinese history, specializing in the Ming dynasty and its global connections from Mongol to Japanese occupation.",
+                "ko": "중국사 명예교수이다. 명(明)대와, 몽골 점령기에서 일본 점령기에 이르는 시기의 지구적 연결을 전공한다.",
+                "zh": "中国史荣休教授，专研明代及其自蒙古占领至日本占领时期的全球联系。",
+                "ja": "中国史名誉教授。明代、およびモンゴル占領期から日本占領期に至るその世界的な結びつきを専門とする。"
+              }
             },
             {
               "name": "Barry Buzan",
               "url": "https://www.lse.ac.uk/international-relations/people/buzan",
               "affiliation": "London School of Economics and Political Science",
-              "desc": "Emeritus Professor of International Relations (formerly Montague Burton Professor) working on IR theory, international security, the English School and world history."
+              "desc": {
+                "en": "Emeritus Professor of International Relations (formerly Montague Burton Professor) working on IR theory, international security, the English School and world history.",
+                "ko": "국제정치학 명예교수이며 전 Montague Burton 석좌교수이다. 국제정치이론, 국제안보, 영국학파, 세계사를 연구한다.",
+                "zh": "国际关系学荣休教授（曾任 Montague Burton 讲座教授），研究国际关系理论、国际安全、英国学派与世界史。",
+                "ja": "国際関係論名誉教授（元 Montague Burton 講座教授）。国際関係理論、国際安全保障、英国学派、世界史を研究する。"
+              }
             },
             {
               "name": "William A. Callahan",
               "url": "https://www.lse.ac.uk/international-relations/people/callahan",
               "affiliation": "London School of Economics and Political Science",
-              "desc": "Emeritus Professor of International Relations working on Chinese global orders, visual international politics, and documentary filmmaking."
+              "desc": {
+                "en": "Emeritus Professor of International Relations working on Chinese global orders, visual international politics, and documentary filmmaking.",
+                "ko": "국제정치학 명예교수이다. 중국의 세계질서 구상, 시각적 국제정치, 다큐멘터리 영화 제작을 연구한다.",
+                "zh": "国际关系学荣休教授，研究中国的世界秩序构想、视觉国际政治与纪录片创作。",
+                "ja": "国際関係論名誉教授。中国の世界秩序構想、視覚的国際政治、ドキュメンタリー制作を研究する。"
+              }
             },
             {
               "name": "Maria Adele Carrai",
               "url": "https://cld.web.ox.ac.uk/people/maria-adele-carrai",
               "affiliation": "University of Oxford, China, Law and Development programme (previously NYU Shanghai)",
-              "desc": "Research cluster leader working on the conceptual history of sovereignty and international law in East Asia and on China as a normative actor in world order."
+              "desc": {
+                "en": "Research cluster leader working on the conceptual history of sovereignty and international law in East Asia and on China as a normative actor in world order.",
+                "ko": "연구단 책임자이다. 동아시아의 주권과 국제법 개념사, 그리고 세계질서의 규범 행위자로서 중국을 연구한다.",
+                "zh": "研究群组负责人，研究东亚主权与国际法的概念史，以及作为世界秩序中规范行为体的中国。",
+                "ja": "研究クラスター代表。東アジアにおける主権と国際法の概念史、および世界秩序における規範的アクターとしての中国を研究する。"
+              }
             },
             {
               "name": "Eduardo Viveiros de Castro",
               "url": "https://ppgas.museunacional.ufrj.br/viveiros-de-castro.html",
               "affiliation": "Museu Nacional, Universidade Federal do Rio de Janeiro (PPGAS)",
-              "desc": "Full Professor of Social Anthropology working on Amazonian ethnology, perspectivism, and 'extramodern cosmologies'."
+              "desc": {
+                "en": "Full Professor of Social Anthropology working on Amazonian ethnology, perspectivism, and 'extramodern cosmologies'.",
+                "ko": "사회인류학 정교수이다. 아마존 민족학, 관점주의, ‘근대 외부의 우주론(extramodern cosmologies)’을 연구한다.",
+                "zh": "社会人类学正教授，研究亚马逊民族学、视角主义与「现代之外的宇宙论」（extramodern cosmologies）。",
+                "ja": "社会人類学正教授。アマゾン民族学、パースペクティヴィズム、「近代の外の宇宙論（extramodern cosmologies）」を研究する。"
+              }
             },
             {
               "name": "Chaesung Chun (전재성)",
               "url": "https://psir.snu.ac.kr/people/c/P250731113817",
               "affiliation": "Seoul National University, Department of Political Science and International Relations; East Asia Institute",
-              "desc": "Professor of International Relations and President of the East Asia Institute, working on Northeast Asian IR theory, security, and the politics of incomplete sovereignty."
+              "desc": {
+                "en": "Professor of International Relations and President of the East Asia Institute, working on Northeast Asian IR theory, security, and the politics of incomplete sovereignty.",
+                "ko": "국제정치학 교수이자 East Asia Institute 원장이다. 동북아 국제정치이론, 안보, 불완전 주권의 정치를 연구한다.",
+                "zh": "国际关系学教授、East Asia Institute 院长，研究东北亚国际关系理论、安全与不完全主权的政治。",
+                "ja": "国際関係論教授、East Asia Institute 院長。北東アジアの国際関係理論、安全保障、不完全な主権の政治を研究する。"
+              }
             },
             {
               "name": "Prasenjit Duara",
               "url": "https://scholars.duke.edu/person/prasenjit.duara",
               "affiliation": "Duke University, Department of History",
-              "desc": "Oscar L. Tang Family Distinguished Professor Emeritus of East Asian Studies working on nationalism, decolonization, sovereignty, and the crisis of global modernity."
+              "desc": {
+                "en": "Oscar L. Tang Family Distinguished Professor Emeritus of East Asian Studies working on nationalism, decolonization, sovereignty, and the crisis of global modernity.",
+                "ko": "Oscar L. Tang Family 동아시아학 석좌 명예교수이다. 민족주의, 탈식민화, 주권, 지구적 근대성의 위기를 연구한다.",
+                "zh": "Oscar L. Tang Family 东亚研究荣休讲座教授，研究民族主义、去殖民化、主权与全球现代性的危机。",
+                "ja": "Oscar L. Tang Family 東アジア研究名誉特別教授。ナショナリズム、脱植民地化、主権、グローバルな近代性の危機を研究する。"
+              }
             },
             {
               "name": "Adom Getachew",
               "url": "https://political-science.uchicago.edu/directory/adom-getachew",
               "affiliation": "University of Chicago, Department of Political Science",
-              "desc": "Professor of Political Science working on the history of political thought, empire, race, and Black and postcolonial political theory."
+              "desc": {
+                "en": "Professor of Political Science working on the history of political thought, empire, race, and Black and postcolonial political theory.",
+                "ko": "정치학 교수이다. 정치사상사, 제국, 인종, 흑인 정치이론과 탈식민 정치이론을 연구한다.",
+                "zh": "政治学教授，研究政治思想史、帝国、种族，以及黑人政治理论与后殖民政治理论。",
+                "ja": "政治学教授。政治思想史、帝国、人種、そしてブラック政治理論およびポストコロニアル政治理論を研究する。"
+              }
             },
             {
               "name": "Nicolas Guilhot",
               "url": "https://www.eui.eu/people?id=nicolas-guilhot",
               "affiliation": "European University Institute, Department of History",
-              "desc": "Full-time Professor and Director of Research in History, working on intellectual history, Cold War thought, and the making of IR as a discipline."
+              "desc": {
+                "en": "Full-time Professor and Director of Research in History, working on intellectual history, Cold War thought, and the making of IR as a discipline.",
+                "ko": "역사학 정교수이자 연구책임자이다. 지성사, 냉전기 사상, 분과학문으로서 국제정치학이 형성된 과정을 연구한다.",
+                "zh": "历史学专任教授兼研究主任，研究思想史、冷战思想，以及国际关系学作为学科的形成。",
+                "ja": "歴史学専任教授・研究主任。思想史、冷戦期の思想、学問分野としての国際関係論の形成を研究する。"
+              }
             },
             {
               "name": "Kimberly Hutchings",
               "url": "https://www.qmul.ac.uk/politics/staff/profiles/hutchingskimberly.html",
               "affiliation": "Queen Mary University of London, School of Politics and International Relations",
-              "desc": "Professor of Politics and International Relations working on international ethics, violence, and feminist and postcolonial political theory."
+              "desc": {
+                "en": "Professor of Politics and International Relations working on international ethics, violence, and feminist and postcolonial political theory.",
+                "ko": "정치학·국제정치학 교수이다. 국제윤리, 폭력, 페미니즘 정치이론과 탈식민 정치이론을 연구한다.",
+                "zh": "政治学与国际关系学教授，研究国际伦理、暴力，以及女性主义与后殖民政治理论。",
+                "ja": "政治学・国際関係論教授。国際倫理、暴力、フェミニズムおよびポストコロニアル政治理論を研究する。"
+              }
             },
             {
               "name": "Patrick Thaddeus Jackson",
               "url": "https://www.american.edu/sis/faculty/ptjack.cfm",
               "affiliation": "American University, School of International Service",
-              "desc": "Professor of International Studies and Chair of the Department of Global Inquiry, working on IR methodology, philosophy of science, and civilizations in world politics."
+              "desc": {
+                "en": "Professor of International Studies and Chair of the Department of Global Inquiry, working on IR methodology, philosophy of science, and civilizations in world politics.",
+                "ko": "국제학 교수이자 Department of Global Inquiry 학과장이다. 국제정치학 방법론, 과학철학, 세계정치 속 문명을 연구한다.",
+                "zh": "国际研究教授、Department of Global Inquiry 系主任，研究国际关系学方法论、科学哲学与世界政治中的文明。",
+                "ja": "国際学教授、Department of Global Inquiry 学科長。国際関係論の方法論、科学哲学、世界政治における文明を研究する。"
+              }
             },
             {
               "name": "Peter J. Katzenstein",
               "url": "https://government.cornell.edu/peter-j-katzenstein",
               "affiliation": "Cornell University, Department of Government",
-              "desc": "Walter S. Carpenter, Jr. Professor of International Studies working on power in world politics, regions and civilizations, and security and culture."
+              "desc": {
+                "en": "Walter S. Carpenter, Jr. Professor of International Studies working on power in world politics, regions and civilizations, and security and culture.",
+                "ko": "Walter S. Carpenter, Jr. 국제학 석좌교수이다. 세계정치의 권력, 지역과 문명, 안보와 문화를 연구한다.",
+                "zh": "Walter S. Carpenter, Jr. 国际研究讲座教授，研究世界政治中的权力、区域与文明，以及安全与文化。",
+                "ja": "Walter S. Carpenter, Jr. 国際学講座教授。世界政治における権力、地域と文明、安全保障と文化を研究する。"
+              }
             },
             {
               "name": "Martti Koskenniemi",
               "url": "https://researchportal.helsinki.fi/en/persons/martti-koskenniemi",
               "affiliation": "University of Helsinki, Faculty of Law",
-              "desc": "Professor Emeritus of International Law working on international legal history, the politics of international law, and its fragmentation."
+              "desc": {
+                "en": "Professor Emeritus of International Law working on international legal history, the politics of international law, and its fragmentation.",
+                "ko": "국제법 명예교수이다. 국제법의 역사, 국제법의 정치, 그 파편화를 연구한다.",
+                "zh": "国际法荣休教授，研究国际法史、国际法的政治及其碎片化。",
+                "ja": "国際法名誉教授。国際法史、国際法の政治、およびその断片化を研究する。"
+              }
             },
             {
               "name": "Rotem Kowner",
               "url": "https://cris.haifa.ac.il/en/persons/rotem-kowner/",
               "affiliation": "University of Haifa, Department of Asian Studies",
-              "desc": "Full Professor of Japanese Studies working on Japanese history and international relations, the Russo-Japanese War, and race in modern Asia."
+              "desc": {
+                "en": "Full Professor of Japanese Studies working on Japanese history and international relations, the Russo-Japanese War, and race in modern Asia.",
+                "ko": "일본학 정교수이다. 일본사와 국제관계, 러일전쟁, 근대 아시아의 인종 문제를 연구한다.",
+                "zh": "日本研究正教授，研究日本史与国际关系、日俄战争，以及近代亚洲的种族问题。",
+                "ja": "日本研究正教授。日本史と国際関係、日露戦争、近代アジアにおける人種を研究する。"
+              }
             },
             {
               "name": "Kirk W. Larsen",
               "url": "https://history.byu.edu/directory/kirk-larsen",
               "affiliation": "Brigham Young University, Department of History",
-              "desc": "Associate Professor of History working on Korean and East Asian history, imperialism, and foreign relations."
+              "desc": {
+                "en": "Associate Professor of History working on Korean and East Asian history, imperialism, and foreign relations.",
+                "ko": "역사학 부교수이다. 한국사와 동아시아사, 제국주의, 대외관계를 연구한다.",
+                "zh": "历史学副教授，研究韩国与东亚历史、帝国主义与对外关系。",
+                "ja": "歴史学准教授。朝鮮史・東アジア史、帝国主義、対外関係を研究する。"
+              }
             },
             {
               "name": "Ji-Young Lee",
               "url": "https://www.american.edu/sis/faculty/jiyoungl.cfm",
               "affiliation": "American University, School of International Service",
-              "desc": "Associate Professor and C.W. Lim and Korea Foundation Professor of Korean Studies, working on Asian historical international relations, regional order, and Korean foreign policy."
+              "desc": {
+                "en": "Associate Professor and C.W. Lim and Korea Foundation Professor of Korean Studies, working on Asian historical international relations, regional order, and Korean foreign policy.",
+                "ko": "부교수이자 C.W. Lim and Korea Foundation 한국학 석좌교수이다. 아시아 역사국제정치, 지역질서, 한국 외교정책을 연구한다.",
+                "zh": "副教授、C.W. Lim and Korea Foundation 韩国学讲座教授，研究亚洲历史国际关系、区域秩序与韩国外交政策。",
+                "ja": "准教授、C.W. Lim and Korea Foundation 韓国学講座教授。アジアの歴史的国際関係、地域秩序、韓国外交政策を研究する。"
+              }
             },
             {
               "name": "Lydia H. Liu",
               "url": "https://ealac.columbia.edu/faculty/lydia-h-liu/",
               "affiliation": "Columbia University, East Asian Languages and Cultures",
-              "desc": "Wun Tsun Tam Professor in the Humanities, working on translingual practice and the movement of words, concepts and artifacts across national boundaries."
+              "desc": {
+                "en": "Wun Tsun Tam Professor in the Humanities, working on translingual practice and the movement of words, concepts and artifacts across national boundaries.",
+                "ko": "Wun Tsun Tam 인문학 석좌교수이다. 언어횡단적 실천(translingual practice)과 국경을 넘나드는 말·개념·사물의 이동을 연구한다.",
+                "zh": "Wun Tsun Tam 人文学讲座教授，研究跨语际实践以及词语、概念与器物跨越国界的流动。",
+                "ja": "Wun Tsun Tam 人文学講座教授。言語横断的実践（translingual practice）と、語・概念・事物が国境を越えて移動する過程を研究する。"
+              }
             },
             {
               "name": "Astrid H. M. Nordin",
               "url": "https://www.kcl.ac.uk/people/astrid-nordin",
               "affiliation": "King's College London, Lau China Institute",
-              "desc": "Lau Chair of Chinese International Relations working on Chinese ideas of world order, relational approaches, and critical social theory in IR."
+              "desc": {
+                "en": "Lau Chair of Chinese International Relations working on Chinese ideas of world order, relational approaches, and critical social theory in IR.",
+                "ko": "Lau 중국 국제관계 석좌교수이다. 중국의 세계질서 관념, 관계주의적 접근, 국제정치학의 비판사회이론을 연구한다.",
+                "zh": "Lau 中国国际关系讲座教授，研究中国的世界秩序观念、关系主义路径与国际关系学中的批判社会理论。",
+                "ja": "Lau 中国国際関係講座教授。中国の世界秩序観、関係主義的アプローチ、国際関係論における批判的社会理論を研究する。"
+              }
             },
             {
               "name": "Seo-Hyun Park",
               "url": "https://sites.lafayette.edu/parksh/",
               "affiliation": "Lafayette College, Department of Government and Law",
-              "desc": "Professor and Department Head working on East Asian international relations, national identity, sovereignty, and alliances, with current projects on race and empire in interwar Asia."
+              "desc": {
+                "en": "Professor and Department Head working on East Asian international relations, national identity, sovereignty, and alliances, with current projects on race and empire in interwar Asia.",
+                "ko": "교수이자 학과장이다. 동아시아 국제관계, 국민 정체성, 주권, 동맹을 연구하며 최근에는 전간기 아시아의 인종과 제국을 다룬다.",
+                "zh": "教授兼系主任，研究东亚国际关系、民族认同、主权与同盟，近期项目关注两次大战之间亚洲的种族与帝国。",
+                "ja": "教授・学科長。東アジア国際関係、国民的アイデンティティ、主権、同盟を研究し、現在は戦間期アジアにおける人種と帝国を扱う。"
+              }
             },
             {
               "name": "Jennifer Pitts",
               "url": "https://political-science.uchicago.edu/directory/jennifer-pitts",
               "affiliation": "University of Chicago, Department of Political Science",
-              "desc": "David and Mary Winton Green Professor of Political Science and Chair of the department, working on empire, international justice, and the history of international law."
+              "desc": {
+                "en": "David and Mary Winton Green Professor of Political Science and Chair of the department, working on empire, international justice, and the history of international law.",
+                "ko": "David and Mary Winton Green 정치학 석좌교수이자 학과장이다. 제국, 국제적 정의, 국제법의 역사를 연구한다.",
+                "zh": "David and Mary Winton Green 政治学讲座教授兼系主任，研究帝国、国际正义与国际法史。",
+                "ja": "David and Mary Winton Green 政治学講座教授・学科長。帝国、国際的正義、国際法史を研究する。"
+              }
             },
             {
               "name": "Xiaoyu Pu",
               "url": "https://www.unr.edu/political-science/people/xiaoyu-pu",
               "affiliation": "University of Nevada, Reno, Department of Political Science",
-              "desc": "Associate Professor working on Chinese foreign policy, East Asian politics, rising powers, and status in international relations."
+              "desc": {
+                "en": "Associate Professor working on Chinese foreign policy, East Asian politics, rising powers, and status in international relations.",
+                "ko": "부교수이다. 중국 외교정책, 동아시아 정치, 부상국, 국제관계에서의 지위를 연구한다.",
+                "zh": "副教授，研究中国外交政策、东亚政治、崛起国以及国际关系中的地位。",
+                "ja": "准教授。中国外交政策、東アジア政治、台頭国、そして国際関係における地位を研究する。"
+              }
             },
             {
               "name": "Giorgio Shani",
               "url": "https://researchers.icu.ac.jp/icuhp/KgApp?resId=S002264&Language=2",
               "affiliation": "International Christian University, Tokyo",
-              "desc": "Professor and Chair of Politics and International Studies and Director of the Social Science Research Institute, working on religion and IR, critical human security, and post-Western international political theory."
+              "desc": {
+                "en": "Professor and Chair of Politics and International Studies and Director of the Social Science Research Institute, working on religion and IR, critical human security, and post-Western international political theory.",
+                "ko": "정치·국제학 교수이자 학과장이며 Social Science Research Institute 소장이다. 종교와 국제정치학, 비판적 인간안보, 탈서구 국제정치이론을 연구한다.",
+                "zh": "政治与国际研究教授兼系主任、Social Science Research Institute 所长，研究宗教与国际关系学、批判性人的安全，以及后西方国际政治理论。",
+                "ja": "政治・国際学教授・学科長、Social Science Research Institute 所長。宗教と国際関係論、批判的な人間の安全保障、ポスト西洋の国際政治理論を研究する。"
+              }
             },
             {
               "name": "J. C. Sharman",
               "url": "https://www.polis.cam.ac.uk/staff/professor-jason-sharman",
               "affiliation": "University of Cambridge, POLIS",
-              "desc": "Sir Patrick Sheehy Professor of International Relations working on the international relations of the early modern world and the historical evolution of the international system."
+              "desc": {
+                "en": "Sir Patrick Sheehy Professor of International Relations working on the international relations of the early modern world and the historical evolution of the international system.",
+                "ko": "Sir Patrick Sheehy 국제정치학 석좌교수이다. 초기 근대 세계의 국제관계와 국제체계의 역사적 전개를 연구한다.",
+                "zh": "Sir Patrick Sheehy 国际关系学讲座教授，研究近代早期世界的国际关系与国际体系的历史演变。",
+                "ja": "Sir Patrick Sheehy 国際関係論講座教授。近世世界の国際関係と国際システムの歴史的展開を研究する。"
+              }
             },
             {
               "name": "Kosuke Shimizu",
               "url": "https://researchmap.jp/Ks651310?lang=en",
               "affiliation": "Ryukoku University, Faculty of International Studies",
-              "desc": "Professor of Global Studies working on post-structuralist IR, the Kyoto School, and Buddhist philosophy as a resource for international theory."
+              "desc": {
+                "en": "Professor of Global Studies working on post-structuralist IR, the Kyoto School, and Buddhist philosophy as a resource for international theory.",
+                "ko": "글로벌학 교수이다. 후기구조주의 국제정치학, 교토학파, 국제이론의 자원으로서 불교철학을 연구한다.",
+                "zh": "全球研究教授，研究后结构主义国际关系学、京都学派，以及作为国际理论资源的佛教哲学。",
+                "ja": "グローバル研究教授。ポスト構造主義の国際関係論、京都学派、そして国際理論の資源としての仏教哲学を研究する。"
+              }
             },
             {
               "name": "Karen Smith",
               "url": "https://www.universiteitleiden.nl/en/staffmembers/karen-smith",
               "affiliation": "Leiden University, Institute for History",
-              "desc": "University Lecturer working on Global South understandings of international relations, emerging powers, and non-Western sources of IR knowledge."
+              "desc": {
+                "en": "University Lecturer working on Global South understandings of international relations, emerging powers, and non-Western sources of IR knowledge.",
+                "ko": "전임강사이다. 글로벌 사우스가 국제관계를 이해하는 방식, 신흥국, 국제정치학 지식의 비서구적 원천을 연구한다.",
+                "zh": "大学讲师，研究全球南方对国际关系的理解、新兴大国，以及国际关系学知识的非西方来源。",
+                "ja": "大学講師。グローバル・サウスにおける国際関係の理解、新興国、国際関係論の知の非西洋的な源泉を研究する。"
+              }
             },
             {
               "name": "Hendrik Spruyt",
               "url": "https://polisci.northwestern.edu/people/emeritus-a-x-faculty/hendrik-spruyt.html",
               "affiliation": "Northwestern University, Department of Political Science",
-              "desc": "Norman Dwight Harris Professor Emeritus of International Relations working on historical sociology, state formation, and international systems and regional orders."
+              "desc": {
+                "en": "Norman Dwight Harris Professor Emeritus of International Relations working on historical sociology, state formation, and international systems and regional orders.",
+                "ko": "Norman Dwight Harris 국제정치학 석좌 명예교수이다. 역사사회학, 국가 형성, 국제체계와 지역질서를 연구한다.",
+                "zh": "Norman Dwight Harris 国际关系学荣休讲座教授，研究历史社会学、国家形成，以及国际体系与区域秩序。",
+                "ja": "Norman Dwight Harris 国際関係論名誉講座教授。歴史社会学、国家形成、国際システムと地域秩序を研究する。"
+              }
             },
             {
               "name": "Shogo Suzuki",
               "url": "https://research.manchester.ac.uk/en/persons/shogo.suzuki",
               "affiliation": "University of Manchester, Department of Politics",
-              "desc": "Senior Lecturer in Chinese Politics working on IR theory in East Asia, Sino-Japanese relations, and the region's encounter with international society."
+              "desc": {
+                "en": "Senior Lecturer in Chinese Politics working on IR theory in East Asia, Sino-Japanese relations, and the region's encounter with international society.",
+                "ko": "중국정치 선임강사이다. 동아시아의 국제정치이론, 중일관계, 이 지역이 국제사회와 마주친 경험을 연구한다.",
+                "zh": "中国政治高级讲师，研究东亚的国际关系理论、中日关系，以及该地区与国际社会的相遇。",
+                "ja": "中国政治上級講師。東アジアにおける国際関係理論、日中関係、そしてこの地域が国際社会と出会った経験を研究する。"
+              }
             },
             {
               "name": "Sixiang Wang",
               "url": "https://www.alc.ucla.edu/person/sixiang-wang/",
               "affiliation": "University of California, Los Angeles, Asian Languages and Cultures",
-              "desc": "Historian of Chosŏn Korea and early modern East Asia working on how Korean ritual and literary practice produced diplomatic norms and ideals of sovereignty."
+              "desc": {
+                "en": "Historian of Chosŏn Korea and early modern East Asia working on how Korean ritual and literary practice produced diplomatic norms and ideals of sovereignty.",
+                "ko": "조선과 초기 근대 동아시아를 연구하는 역사학자이다. 조선의 의례와 문학 실천이 어떻게 외교 규범과 주권 이념을 만들어 냈는지를 다룬다.",
+                "zh": "研究朝鲜（李朝）与近代早期东亚的历史学者，探讨朝鲜的礼仪与文学实践如何生成外交规范与主权理念。",
+                "ja": "朝鮮および近世東アジアの歴史家。朝鮮の儀礼と文学的実践がいかにして外交規範と主権の理念を生み出したかを研究する。"
+              }
             },
             {
               "name": "Yuanchong Wang",
               "url": "https://www.udel.edu/academics/colleges/cas/units/departments/history/our-people/yuanchong-wang/",
               "affiliation": "University of Delaware, Department of History",
-              "desc": "Associate Professor of late imperial and modern Chinese and East Asian history, specializing in Manchu–Korean relations."
+              "desc": {
+                "en": "Associate Professor of late imperial and modern Chinese and East Asian history, specializing in Manchu–Korean relations.",
+                "ko": "제국 후기 및 근대 중국·동아시아사 부교수이다. 만주–조선 관계를 전공한다.",
+                "zh": "帝制晚期与近代中国及东亚史副教授，专研满洲–朝鲜关系。",
+                "ja": "帝政後期および近代の中国・東アジア史准教授。満洲–朝鮮関係を専門とする。"
+              }
             },
             {
               "name": "Odd Arne Westad",
               "url": "https://history.yale.edu/people/odd-arne-westad",
               "affiliation": "Yale University, Department of History",
-              "desc": "Elihu Professor of History working on modern international and global history with a specialization in East Asia since the eighteenth century."
+              "desc": {
+                "en": "Elihu Professor of History working on modern international and global history with a specialization in East Asia since the eighteenth century.",
+                "ko": "Elihu 역사학 석좌교수이다. 근대 국제사와 지구사를 연구하며 18세기 이후 동아시아를 전공한다.",
+                "zh": "Elihu 历史学讲座教授，研究近现代国际史与全球史，专长为十八世纪以来的东亚。",
+                "ja": "Elihu 歴史学講座教授。近現代の国際史・グローバルヒストリーを研究し、十八世紀以降の東アジアを専門とする。"
+              }
             },
             {
               "name": "Jeremy A. Yellen",
               "url": "https://www.jas.cuhk.edu.hk/profile/prof-yellen-jeremy-avrum/",
               "affiliation": "Chinese University of Hong Kong, Department of Japanese Studies",
-              "desc": "Professor and Deputy Chair working on modern Japan, the Asia-Pacific war, and questions of empire, diplomacy, and international order."
+              "desc": {
+                "en": "Professor and Deputy Chair working on modern Japan, the Asia-Pacific war, and questions of empire, diplomacy, and international order.",
+                "ko": "교수이자 부학과장으로, 근대 일본과 아시아·태평양 전쟁, 제국·외교·국제질서의 문제를 연구한다.",
+                "zh": "教授兼系副主任，研究近代日本、亚洲太平洋战争，以及帝国、外交与国际秩序诸问题。",
+                "ja": "教授・副学科長。近代日本、アジア太平洋戦争、および帝国・外交・国際秩序の問題を研究する。"
+              }
             },
             {
               "name": "Urs Matthias Zachmann",
               "url": "https://www.geschkult.fu-berlin.de/e/oas/japanologie/institut/mitarbeiter/professoren/zachmann/index.html",
               "affiliation": "Freie Universität Berlin, Institute of Japanese Studies",
-              "desc": "Professor of History and Culture of Modern Japan, working on Japanese intellectual history, East Asian international relations, and legal history."
+              "desc": {
+                "en": "Professor of History and Culture of Modern Japan, working on Japanese intellectual history, East Asian international relations, and legal history.",
+                "ko": "근대 일본의 역사와 문화를 담당하는 교수로, 일본 사상사와 동아시아 국제관계, 법제사를 연구한다.",
+                "zh": "近代日本历史与文化教授，研究日本思想史、东亚国际关系与法制史。",
+                "ja": "近代日本の歴史と文化を担当する教授。日本思想史、東アジア国際関係、法制史を研究する。"
+              }
             },
             {
               "name": "Ayşe Zarakol",
               "url": "https://www.polis.cam.ac.uk/staff/professor-ayse-zarakol",
               "affiliation": "University of Cambridge, POLIS / Emmanuel College",
-              "desc": "Professor of International Relations working at the intersection of historical sociology and IR on East-West relations, sovereignty, and non-Western world orders."
+              "desc": {
+                "en": "Professor of International Relations working at the intersection of historical sociology and IR on East-West relations, sovereignty, and non-Western world orders.",
+                "ko": "국제정치학 교수로, 역사사회학과 국제정치학이 만나는 자리에서 동서 관계와 주권, 비서구 세계질서를 연구한다.",
+                "zh": "国际关系学教授，在历史社会学与国际关系学的交叉处研究东西方关系、主权与非西方世界秩序。",
+                "ja": "国際関係論の教授。歴史社会学と国際関係論の交差点で、東西関係・主権・非西洋の世界秩序を研究する。"
+              }
             },
             {
               "name": "Yongjin Zhang",
               "url": "https://research-information.bris.ac.uk/en/persons/yongjin-zhang",
               "affiliation": "University of Bristol, School of Sociology, Politics and International Studies",
-              "desc": "Professor of International Politics working on English School theory, Chinese foreign policy, and international relations in ancient China."
+              "desc": {
+                "en": "Professor of International Politics working on English School theory, Chinese foreign policy, and international relations in ancient China.",
+                "ko": "국제정치학 교수로, 영국학파 이론과 중국 외교정책, 고대 중국의 국제관계를 연구한다.",
+                "zh": "国际政治学教授，研究英国学派理论、中国外交政策与古代中国的国际关系。",
+                "ja": "国際政治学の教授。英国学派理論、中国外交政策、古代中国の国際関係を研究する。"
+              }
             }
           ],
           "note": {
@@ -574,90 +889,165 @@
               "name": "Global Asia",
               "url": "https://www.globalasia.org/",
               "affiliation": "East Asia Foundation, Seoul",
-              "desc": "Quarterly policy-and-analysis journal from Seoul combining academics, former diplomats, and military leaders, with its June 2026 issue built around regional security cooperation."
+              "desc": {
+                "en": "Quarterly policy-and-analysis journal from Seoul combining academics, former diplomats, and military leaders, with its June 2026 issue built around regional security cooperation.",
+                "ko": "서울에서 발간하는 계간 정책·분석지로, 학자와 전직 외교관, 군 지휘부의 글을 함께 싣는다. 2026년 6월호는 역내 안보협력을 중심으로 꾸렸다.",
+                "zh": "首尔出版的季刊政策与分析杂志，汇集学者、前外交官与军方领导人的观点；2026年6月号以地区安全合作为主题。",
+                "ja": "ソウルで刊行される季刊の政策・分析誌。研究者、元外交官、軍の指導層の論考を併せて掲載し、2026年6月号は地域安全保障協力を軸に編まれている。"
+              }
             },
             {
               "name": "International Relations of the Asia-Pacific",
               "url": "https://academic.oup.com/irap",
               "affiliation": "Japan Association of International Relations / Oxford University Press",
-              "desc": "JAIR's English-language journal on major issues and developments in the Asia-Pacific, with a 2025 impact factor of 1.9 and a current special issue on regional institutional evolution."
+              "desc": {
+                "en": "JAIR's English-language journal on major issues and developments in the Asia-Pacific, with a 2025 impact factor of 1.9 and a current special issue on regional institutional evolution.",
+                "ko": "아시아·태평양의 주요 쟁점과 동향을 다루는 JAIR의 영문 학술지이다. 2025년 임팩트 팩터는 1.9이고, 최근 호는 역내 제도의 진화를 특집으로 다룬다.",
+                "zh": "JAIR的英文学术期刊，关注亚太地区的重要议题与动向；2025年影响因子为1.9，当期特刊主题为地区制度演进。",
+                "ja": "アジア太平洋の主要な争点と動向を扱うJAIRの英文学術誌。2025年のインパクトファクターは1.9であり、現在の特集は地域制度の進化を主題とする。"
+              }
             },
             {
               "name": "Modern Intellectual History",
               "url": "https://www.cambridge.org/core/journals/modern-intellectual-history",
               "affiliation": "Cambridge University Press",
-              "desc": "Journal of intellectual and cultural history since 1650, recovering the contextual origins and receptions of texts, with recent articles on Haitian black statecraft, Ba'thist political thought, Brazilian evangelical thought, and Arab Indology."
+              "desc": {
+                "en": "Journal of intellectual and cultural history since 1650, recovering the contextual origins and receptions of texts, with recent articles on Haitian black statecraft, Ba'thist political thought, Brazilian evangelical thought, and Arab Indology.",
+                "ko": "1650년 이후의 지성사와 문화사를 다루며, 텍스트가 태어난 맥락과 그 수용 과정을 복원하는 학술지이다. 최근에는 아이티 흑인 국가운영술, 바트주의 정치사상, 브라질 복음주의 사상, 아랍 인도학을 다룬 논문을 실었다.",
+                "zh": "研究1650年以来思想史与文化史的期刊，致力于还原文本的语境起源及其接受过程；近期刊有关于海地黑人治国术、复兴党政治思想、巴西福音派思想与阿拉伯印度学的论文。",
+                "ja": "1650年以降の知性史・文化史を扱う学術誌であり、テクストの文脈的な起源と受容を復元する。近年はハイチの黒人統治術、バアス主義政治思想、ブラジル福音派思想、アラブのインド学を論じた論文を掲載している。"
+              }
             },
             {
               "name": "All Azimuth: A Journal of Foreign Policy and Peace",
               "url": "https://www.allazimuth.com/",
               "affiliation": "Center for Foreign Policy and Peace Research, İhsan Doğramacı Peace Foundation, Bilkent University",
-              "desc": "Diamond open-access journal in its 15th volume (2026), indexed in Web of Science and Scopus, with standing collections including 'Global IR in India' and a Turkish foreign policy collection."
+              "desc": {
+                "en": "Diamond open-access journal in its 15th volume (2026), indexed in Web of Science and Scopus, with standing collections including 'Global IR in India' and a Turkish foreign policy collection.",
+                "ko": "2026년 제15권을 내는 다이아몬드 오픈액세스 학술지로, Web of Science와 Scopus에 등재되어 있다. 'Global IR in India'를 비롯한 상설 컬렉션과 튀르키예 외교정책 컬렉션을 함께 운영한다.",
+                "zh": "钻石开放获取期刊，2026年出至第15卷，为Web of Science与Scopus收录，设有「Global IR in India」等常设专辑及土耳其外交政策专辑。",
+                "ja": "ダイヤモンドオープンアクセス誌であり、2026年に第15巻を迎え、Web of ScienceとScopusに収録されている。「Global IR in India」をはじめとする常設コレクションとトルコ外交政策のコレクションを擁する。"
+              }
             },
             {
               "name": "The Chinese Journal of International Politics",
               "url": "https://academic.oup.com/cjip",
               "affiliation": "Institute of International Relations, Tsinghua University / Oxford University Press",
-              "desc": "Tsinghua-affiliated IR journal in its 19th volume as of Autumn 2026, with a 2025 impact factor of 4.1, publishing systematic and rigorous study of international relations."
+              "desc": {
+                "en": "Tsinghua-affiliated IR journal in its 19th volume as of Autumn 2026, with a 2025 impact factor of 4.1, publishing systematic and rigorous study of international relations.",
+                "ko": "2026년 가을 기준 제19권에 이른 칭화대 계열의 국제정치학 학술지이다. 2025년 임팩트 팩터는 4.1이며, 국제관계를 체계적이고 엄밀하게 다룬 연구를 싣는다.",
+                "zh": "清华大学主办的国际关系学期刊，至2026年秋出至第19卷，2025年影响因子为4.1，刊载系统而严谨的国际关系研究。",
+                "ja": "清華大学系の国際関係論誌で、2026年秋の時点で第19巻に至る。2025年のインパクトファクターは4.1であり、国際関係を体系的かつ厳密に論じる研究を掲載する。"
+              }
             },
             {
               "name": "Global Studies Quarterly",
               "url": "https://academic.oup.com/isagsq",
               "affiliation": "International Studies Association / Oxford University Press",
-              "desc": "The ISA's fully open-access journal, edited by Brent J. Steele and Jelena Subotic, currently at Volume 6, Issue 3 (July 2026) with a 2025 CiteScore of 4.1."
+              "desc": {
+                "en": "The ISA's fully open-access journal, edited by Brent J. Steele and Jelena Subotic, currently at Volume 6, Issue 3 (July 2026) with a 2025 CiteScore of 4.1.",
+                "ko": "Brent J. Steele와 Jelena Subotic이 편집하는 ISA의 완전 오픈액세스 학술지이다. 현재 제6권 3호(2026년 7월)까지 나왔고, 2025년 CiteScore는 4.1이다.",
+                "zh": "ISA的完全开放获取期刊，由Brent J. Steele与Jelena Subotic主编，现出至第6卷第3期（2026年7月），2025年CiteScore为4.1。",
+                "ja": "Brent J. SteeleとJelena Suboticが編集するISAの完全オープンアクセス誌。現在は第6巻第3号（2026年7月）まで刊行され、2025年のCiteScoreは4.1である。"
+              }
             },
             {
               "name": "Cambridge Elements in International Relations",
               "url": "https://www.cambridge.org/core/publications/elements/international-relations",
               "affiliation": "Cambridge University Press",
-              "desc": "Peer-reviewed series of 20,000-30,000 word monographs covering international security, IPE, international organizations, Global IR, and IR theory, open to any theoretical or methodological approach, published on Cambridge Core with print-on-demand."
+              "desc": {
+                "en": "Peer-reviewed series of 20,000-30,000 word monographs covering international security, IPE, international organizations, Global IR, and IR theory, open to any theoretical or methodological approach.",
+                "ko": "국제안보와 국제정치경제, 국제기구, 지구적 국제정치학, 국제정치이론을 다루는 2만~3만 단어 분량의 동료심사 총서로, 이론적·방법론적 접근을 가리지 않는다.",
+                "zh": "同行评审的专著系列，篇幅两万至三万词，涵盖国际安全、国际政治经济学、国际组织、全球国际关系学与国际关系理论，不限任何理论或方法取向。",
+                "ja": "国際安全保障、国際政治経済、国際組織、グローバルIR、国際関係理論を扱う二万〜三万語の査読付きモノグラフ・シリーズであり、理論的・方法論的な立場を問わない。"
+              }
             },
             {
               "name": "E-International Relations",
               "url": "https://www.e-ir.org/",
-              "desc": "Non-paywalled IR platform publishing open-access textbooks such as International Relations Theory and Foundations of International Relations, scholarly articles, interviews, and the Thinking Global podcast, posting new content daily."
+              "desc": {
+                "en": "Non-paywalled IR platform publishing open-access textbooks such as International Relations Theory and Foundations of International Relations, scholarly articles, interviews, and the Thinking Global podcast, posting new content daily.",
+                "ko": "유료 장벽이 없는 국제정치학 플랫폼으로, International Relations Theory와 Foundations of International Relations 같은 오픈액세스 교재를 비롯해 학술 논문과 인터뷰, Thinking Global 팟캐스트를 내며 매일 새 글을 올린다.",
+                "zh": "无付费墙的国际关系学平台，出版International Relations Theory、Foundations of International Relations等开放获取教材，并刊发学术文章、访谈与Thinking Global播客，每日更新。",
+                "ja": "有料の壁を設けない国際関係論のプラットフォームであり、International Relations TheoryやFoundations of International Relationsといったオープンアクセス教科書のほか、学術論文、インタビュー、Thinking Globalポッドキャストを公開し、毎日新しい記事を掲載する。"
+              }
             },
             {
               "name": "International Studies Review",
               "url": "https://academic.oup.com/isr",
               "affiliation": "International Studies Association / Oxford University Press",
-              "desc": "The ISA's flagship review journal, co-edited by Sumit Ganguly and Hussein Banai, at Volume 28, Issue 4 (December 2026), with a 2025 impact factor of 4.0 and an associated podcast."
+              "desc": {
+                "en": "The ISA's flagship review journal, co-edited by Sumit Ganguly and Hussein Banai, at Volume 28, Issue 4 (December 2026), with a 2025 impact factor of 4.0 and an associated podcast.",
+                "ko": "Sumit Ganguly와 Hussein Banai가 공동 편집하는 ISA의 대표 리뷰 학술지이다. 제28권 4호(2026년 12월)까지 나왔고, 2025년 임팩트 팩터는 4.0이며 연계 팟캐스트도 함께 운영한다.",
+                "zh": "ISA的旗舰评论期刊，由Sumit Ganguly与Hussein Banai合编，现出至第28卷第4期（2026年12月），2025年影响因子为4.0，并设有配套播客。",
+                "ja": "Sumit GangulyとHussein Banaiが共同編集するISAの中心的な書評誌。第28巻第4号（2026年12月）まで刊行され、2025年のインパクトファクターは4.0で、関連ポッドキャストも配信している。"
+              }
             },
             {
               "name": "International Political Sociology",
               "url": "https://academic.oup.com/ips",
               "affiliation": "International Studies Association / Oxford University Press",
-              "desc": "Transdisciplinary journal at the intersection of sociology, IR, and socio-political theory, at Volume 20 in 2026, running a Global South Pre-Submission Initiative."
+              "desc": {
+                "en": "Transdisciplinary journal at the intersection of sociology, IR, and socio-political theory, at Volume 20 in 2026, running a Global South Pre-Submission Initiative.",
+                "ko": "사회학과 국제정치학, 사회정치이론이 교차하는 자리에 선 학제 횡단 학술지이다. 2026년 제20권을 내며, 글로벌 사우스 연구자를 위한 투고 전 지원 사업(Global South Pre-Submission Initiative)을 운영한다.",
+                "zh": "跨学科期刊，处于社会学、国际关系学与社会政治理论的交叉地带，2026年出至第20卷，并设有面向全球南方学者的投稿前支持计划（Global South Pre-Submission Initiative）。",
+                "ja": "社会学、国際関係論、社会政治理論の交差点に立つ学際横断的な学術誌。2026年に第20巻を数え、グローバル・サウスの研究者に向けた投稿前支援制度（Global South Pre-Submission Initiative）を設けている。"
+              }
             },
             {
               "name": "Journal of East Asian Studies",
               "url": "https://www.cambridge.org/core/journals/journal-of-east-asian-studies",
               "affiliation": "East Asia Institute (Seoul) / Cambridge University Press",
-              "desc": "SSCI-indexed social science journal on East and Southeast Asia edited by Thomas Pepinsky (Cornell), publishing comparative politics, IR, political economy, and security work plus book roundtables and review essays."
+              "desc": {
+                "en": "SSCI-indexed social science journal on East and Southeast Asia edited by Thomas Pepinsky (Cornell), publishing comparative politics, IR, political economy, and security work plus book roundtables and review essays.",
+                "ko": "Thomas Pepinsky(Cornell)가 편집하는 동아시아·동남아시아 사회과학 학술지로 SSCI에 등재되어 있다. 비교정치와 국제정치학, 정치경제, 안보 연구에 더해 서평 좌담과 리뷰 에세이를 싣는다.",
+                "zh": "由Thomas Pepinsky（Cornell）主编、SSCI收录的东亚与东南亚社会科学期刊，刊载比较政治、国际关系学、政治经济与安全研究，兼及书评圆桌与评论文章。",
+                "ja": "Thomas Pepinsky（Cornell）が編集するSSCI収録の東アジア・東南アジア社会科学誌。比較政治、国際関係論、政治経済、安全保障の研究に加え、書評ラウンドテーブルやレビュー・エッセイを掲載する。"
+              }
             },
             {
               "name": "Journal of Global Security Studies",
               "url": "https://academic.oup.com/jogss",
               "affiliation": "International Studies Association / Oxford University Press",
-              "desc": "ISA security journal edited by James Pattison and Ulrich Petersohn, publishing research articles, review essays, forums, and research innovations, at Volume 11, Issue 3 (September 2026), with a pre-submission exchange for scholars at underrepresented institutions."
+              "desc": {
+                "en": "ISA security journal edited by James Pattison and Ulrich Petersohn, at Volume 11, Issue 3 (September 2026), with a pre-submission exchange for scholars at underrepresented institutions.",
+                "ko": "James Pattison과 Ulrich Petersohn이 편집하는 ISA의 안보 학술지이다. 제11권 3호(2026년 9월)까지 나왔고, 학계에서 충분히 대표되지 못한 기관의 연구자를 위해 투고 전 상담 제도를 운영한다.",
+                "zh": "由James Pattison与Ulrich Petersohn主编的ISA安全研究期刊，现出至第11卷第3期（2026年9月），并为代表性不足机构的学者设有投稿前交流机制。",
+                "ja": "James PattisonとUlrich Petersohnが編集するISAの安全保障誌。第11巻第3号（2026年9月）まで刊行され、十分に代表されていない機関に所属する研究者に向けて投稿前の相談制度を設けている。"
+              }
             },
             {
               "name": "Korean Journal of International Studies (KJIS)",
               "url": "https://www.kjis.org/",
               "affiliation": "Korean Association of International Studies",
-              "desc": "KAIS's English-language journal, publishing three issues a year (April, August, December) and indexed in ESCI, SCOPUS, DOAJ, and KCI; the most recent issue is Vol. 24, No. 1 (April 2026)."
+              "desc": {
+                "en": "KAIS's English-language journal, publishing three issues a year (April, August, December) and indexed in ESCI, SCOPUS, DOAJ, and KCI; the most recent issue is Vol. 24, No. 1 (April 2026).",
+                "ko": "KAIS의 영문 학술지로 해마다 세 차례(4월·8월·12월) 발간하며 ESCI와 SCOPUS, DOAJ, KCI에 등재되어 있다. 가장 최근 호는 제24권 1호(2026년 4월)이다.",
+                "zh": "KAIS的英文学术期刊，每年出版三期（4月、8月、12月），为ESCI、SCOPUS、DOAJ与KCI收录；最新一期为第24卷第1期（2026年4月）。",
+                "ja": "KAISの英文学術誌。年三回（4月・8月・12月）刊行され、ESCI、SCOPUS、DOAJ、KCIに収録されている。最新号は第24巻第1号（2026年4月）である。"
+              }
             },
             {
               "name": "Review of International Studies",
               "url": "https://www.cambridge.org/core/journals/review-of-international-studies",
               "affiliation": "British International Studies Association / Cambridge University Press",
-              "desc": "BISA's flagship journal, edited by Soumita Basu, Andrew Hom, and Cian O'Driscoll, encouraging interdisciplinary work on both historical and contemporary international dynamics and inviting special issue and forum proposals."
+              "desc": {
+                "en": "BISA's flagship journal, edited by Soumita Basu, Andrew Hom, and Cian O'Driscoll, encouraging interdisciplinary work on both historical and contemporary international dynamics and inviting special issue and forum proposals.",
+                "ko": "Soumita Basu와 Andrew Hom, Cian O'Driscoll이 편집하는 BISA의 대표 학술지이다. 역사적 국제 동학과 현대의 국제 동학을 함께 다루는 학제적 연구를 장려하며, 특집호와 포럼 기획안을 상시 받는다.",
+                "zh": "BISA的旗舰期刊，由Soumita Basu、Andrew Hom与Cian O'Driscoll主编，鼓励兼顾历史与当代国际动态的跨学科研究，并常年征集特刊与论坛选题。",
+                "ja": "Soumita Basu、Andrew Hom、Cian O'Driscollが編集するBISAの中心的な学術誌。歴史的および現代的な国際動態を横断する学際的研究を奨励し、特集号やフォーラムの企画提案を随時受け付けている。"
+              }
             },
             {
               "name": "International Theory",
               "url": "https://www.cambridge.org/core/journals/international-theory",
               "affiliation": "Cambridge University Press",
-              "desc": "Journal of explanatory, interpretive, critical, normative, and international legal theory that explicitly welcomes work on the history of the development of ideas in the study of international politics."
+              "desc": {
+                "en": "Journal of explanatory, interpretive, critical, normative, and international legal theory that explicitly welcomes work on the history of the development of ideas in the study of international politics.",
+                "ko": "설명적·해석적·비판적·규범적 이론과 국제법 이론을 다루는 학술지로, 국제정치 연구에서 관념이 발전해 온 역사를 밝히는 연구를 명시적으로 환영한다.",
+                "zh": "刊载解释性、诠释性、批判性、规范性理论与国际法理论的期刊，并明确欢迎探讨国际政治研究中观念发展史的论文。",
+                "ja": "説明的・解釈的・批判的・規範的理論および国際法理論を扱う学術誌であり、国際政治研究における思想の発展史を論じる論考を明示的に歓迎している。"
+              }
             }
           ]
         }
@@ -690,205 +1080,375 @@
               "name": "National Security Archive",
               "url": "https://nsarchive.gwu.edu/",
               "affiliation": "George Washington University",
-              "desc": "Independent archive founded in 1985 that obtains declassified U.S. records through FOIA and publishes them as free briefing books, sourcebooks and a virtual reading room."
+              "desc": {
+                "en": "Independent archive founded in 1985 that obtains declassified U.S. records through FOIA and publishes them as free briefing books, sourcebooks and a virtual reading room.",
+                "ko": "1985년에 세워진 독립 아카이브이다. 정보공개법(FOIA)으로 미국의 비밀해제 문서를 확보해 무료 브리핑북과 자료집, 온라인 열람실 형태로 공개한다.",
+                "zh": "1985年创立的独立档案机构，通过《信息自由法》（FOIA）获取美国解密文件，并以免费的简报集、资料集与虚拟阅览室形式公开。",
+                "ja": "1985年に設立された独立系アーカイブ。情報自由法（FOIA）によって米国の機密解除文書を入手し、無料のブリーフィングブック、資料集、オンライン閲覧室として公開している。"
+              }
             },
             {
               "name": "The National Archives (UK)",
               "url": "https://www.nationalarchives.gov.uk/",
               "affiliation": "The National Archives, Kew",
-              "desc": "The UK's official record repository, with the Discovery catalogue and a growing body of digitized records covering a thousand years of British government."
+              "desc": {
+                "en": "The UK's official record repository, with the Discovery catalogue and a growing body of digitized records covering a thousand years of British government.",
+                "ko": "영국의 공식 기록보존소이다. Discovery 목록을 갖추고, 천 년에 걸친 영국 정부의 기록을 디지털화해 꾸준히 늘려 간다.",
+                "zh": "英国官方档案馆，设有Discovery目录，并持续扩充涵盖英国政府千年历史的数字化档案。",
+                "ja": "英国の公式記録保存機関。Discoveryカタログを備え、英国政府の千年にわたる記録のデジタル化を進めている。"
+              }
             },
             {
               "name": "CrossAsia",
               "url": "https://crossasia.org/",
               "affiliation": "Staatsbibliothek zu Berlin (FID Asien, DFG)",
-              "desc": "German national gateway for Asian studies offering full-text search, digitized manuscripts and prints, licensed databases, a newspaper research companion, and an e-publishing repository."
+              "desc": {
+                "en": "German national gateway for Asian studies offering full-text search, digitized manuscripts and prints, licensed databases, a newspaper research companion, and an e-publishing repository.",
+                "ko": "독일의 아시아학 국가 포털이다. 전문 검색과 디지털화한 필사본·간행본, 라이선스 데이터베이스, 신문 연구 안내, 전자출판 리포지터리를 제공한다.",
+                "zh": "德国的亚洲研究国家门户，提供全文检索、数字化写本与刻本、授权数据库、报刊研究指南以及电子出版仓储。",
+                "ja": "ドイツのアジア研究のナショナル・ポータル。全文検索、デジタル化された写本・刊本、ライセンス契約データベース、新聞研究ガイド、電子出版リポジトリを提供する。"
+              }
             },
             {
               "name": "China Biographical Database (中國歷代人物傳記資料庫)",
               "url": "https://input.cbdb.fas.harvard.edu/",
               "affiliation": "Harvard University, Academia Sinica, Peking University",
-              "desc": "Freely accessible relational database of biographical and social-network data on several hundred thousand figures in Chinese history, also distributed as SQLite and via API."
+              "desc": {
+                "en": "Freely accessible relational database of biographical and social-network data on several hundred thousand figures in Chinese history, also distributed as SQLite and via API.",
+                "ko": "중국사 인물 수십만 명의 전기 정보와 사회 관계망 자료를 담은 무료 관계형 데이터베이스이다. SQLite 파일과 API로도 받아 쓸 수 있다.",
+                "zh": "免费开放的关系型数据库，收录中国历史上数十万人物的传记与社会网络数据，亦以SQLite文件及API形式发布。",
+                "ja": "中国史上の数十万人に及ぶ人物の伝記情報と社会的ネットワーク・データを収める無料の関係データベース。SQLiteファイルやAPIとしても配布されている。"
+              }
             },
             {
               "name": "Modern History Databases (近代史數位資料庫)",
               "url": "https://mhdb.mh.sinica.edu.tw/",
               "affiliation": "中央研究院 近代史研究所 (Academia Sinica, IMH)",
-              "desc": "Integrated portal for the Institute of Modern History's collections, including Qing memorial archives, the Chinese Maritime Customs database, grain prices, modern firms, and women's journals."
+              "desc": {
+                "en": "Integrated portal for the Institute of Modern History's collections, including Qing memorial archives, the Chinese Maritime Customs database, grain prices, modern firms, and women's journals.",
+                "ko": "Institute of Modern History가 소장한 자료를 한데 모은 통합 포털이다. 청대 상주문(奏摺) 문서와 중국 해관(海關) 데이터베이스, 곡물 가격, 근대 기업, 여성 잡지 자료를 함께 검색한다.",
+                "zh": "Institute of Modern History馆藏资料的整合门户，涵盖清代奏摺档案、中国海关数据库、粮价、近代企业与妇女期刊等数据库。",
+                "ja": "Institute of Modern Historyの所蔵資料を統合した検索ポータル。清代の奏摺档案、中国海関データベース、穀物価格、近代企業、女性雑誌などの資料を収める。"
+              }
             },
             {
               "name": "JACAR (アジア歴史資料センター)",
               "url": "https://www.jacar.go.jp/",
               "affiliation": "Japan Center for Asian Historical Records / National Archives of Japan",
-              "desc": "Digitized images and finding aids for modern Japanese records on relations with neighboring Asian countries, drawn from the National Archives, the MOFA Diplomatic Archives, and the NIDS military archives."
+              "desc": {
+                "en": "Digitized images and finding aids for modern Japanese records on relations with neighboring Asian countries, drawn from the National Archives, the MOFA Diplomatic Archives, and the NIDS military archives.",
+                "ko": "근대 일본이 아시아 이웃 나라들과 맺은 관계를 담은 기록의 디지털 이미지와 검색 도구를 제공한다. 자료는 National Archives와 MOFA Diplomatic Archives, NIDS 군사 사료에서 가져왔다.",
+                "zh": "提供近代日本与亚洲邻国关系相关档案的数字影像与检索工具，资料取自National Archives、MOFA Diplomatic Archives与NIDS军事档案馆。",
+                "ja": "近代日本とアジア近隣諸国との関係に関する記録のデジタル画像と検索目録を提供する。資料はNational Archives、MOFA Diplomatic Archives、NIDSの軍事史料に由来する。"
+              }
             },
             {
               "name": "Directory of Open Access Journals (DOAJ)",
               "url": "https://doaj.org/",
               "affiliation": "DOAJ (community-supported nonprofit)",
-              "desc": "Community-curated index of vetted open-access journals worldwide, with freely downloadable metadata and no charge to readers."
+              "desc": {
+                "en": "Community-curated index of vetted open-access journals worldwide, with freely downloadable metadata and no charge to readers.",
+                "ko": "전 세계 오픈액세스 학술지를 검증해 공동체가 함께 관리하는 색인이다. 메타데이터를 자유롭게 내려받을 수 있고, 독자에게는 이용료를 받지 않는다.",
+                "zh": "由学术共同体共同维护的全球开放获取期刊索引，收录经审核的刊物，元数据可自由下载，读者免费使用。",
+                "ja": "審査を経た世界のオープンアクセス誌を、コミュニティが共同で管理するインデックス。メタデータは自由にダウンロードでき、読者に課金しない。"
+              }
             },
             {
               "name": "Taiwan History Digital Library (臺灣歷史數位圖書館)",
               "url": "https://thdl.ntu.edu.tw/",
               "affiliation": "National Taiwan University, Center for Digital Humanities",
-              "desc": "Full-text and metadata search across more than 100,000 documents in three collections: the Danshui-Xinzhu (淡新) archives, Ming-Qing Taiwan administrative records, and old contract documents."
+              "desc": {
+                "en": "Full-text and metadata search across more than 100,000 documents in three collections: the Danshui-Xinzhu (淡新) archives, Ming-Qing Taiwan administrative records, and old contract documents.",
+                "ko": "세 컬렉션에 걸친 10만 건 이상의 문서를 전문과 메타데이터로 검색한다. 담수신죽(淡新) 문서, 명·청대 타이완 행정 기록, 옛 계약문서(古契書)가 대상이다.",
+                "zh": "可对三个数据库逾十万件文书进行全文与元数据检索：淡新档案、明清台湾行政文书与古契书。",
+                "ja": "三つのコレクションにまたがる十万件以上の文書を全文・メタデータで検索できる。淡新（たんしん）档案、明清期台湾の行政文書、古契書が対象である。"
+              }
             },
             {
               "name": "Kanseki Repository (漢籍リポジトリ)",
               "url": "https://www.kanripo.org/",
               "affiliation": "Christian Wittern / Kyoto University",
-              "desc": "About nine thousand classical Chinese texts in TEI-flavored plain text, catalogued by KR numbers across 經史子集 and distributed through GitHub for local use."
+              "desc": {
+                "en": "About nine thousand classical Chinese texts in TEI-flavored plain text, catalogued by KR numbers across 經史子集 and distributed through GitHub for local use.",
+                "ko": "한문 고전 약 9천 종을 TEI에 가까운 평문 텍스트로 담았다. 經史子集 네 부에 걸쳐 KR 번호로 정리했고, GitHub으로 배포해 로컬에서 쓸 수 있다.",
+                "zh": "约九千种汉文古籍，以近似TEI的纯文本形式收录，按經史子集以KR编号编目，并通过GitHub发布供本地使用。",
+                "ja": "漢文古典およそ九千種をTEIに準じたプレーンテキストで収める。經史子集にわたりKR番号で目録化され、GitHubを通じて配布されローカルで利用できる。"
+              }
             },
             {
               "name": "CiNii Research",
               "url": "https://cir.nii.ac.jp/",
               "affiliation": "National Institute of Informatics (NII), Japan",
-              "desc": "NII's aggregated search across Japanese scholarly articles, books, dissertations, datasets, research projects and roughly 300,000 researcher profiles."
+              "desc": {
+                "en": "NII's aggregated search across Japanese scholarly articles, books, dissertations, datasets, research projects and roughly 300,000 researcher profiles.",
+                "ko": "일본의 학술 논문과 도서, 학위논문, 데이터셋, 연구 과제, 그리고 약 30만 건의 연구자 정보를 한꺼번에 검색하는 NII의 통합 검색 서비스이다.",
+                "zh": "NII的整合检索服务，可一并检索日本的学术论文、图书、学位论文、数据集、研究项目以及约三十万条研究者信息。",
+                "ja": "日本の学術論文、図書、学位論文、データセット、研究プロジェクト、および約三十万件の研究者情報を横断して検索できるNIIの統合検索。"
+              }
             },
             {
               "name": "Internet Archive Scholar",
               "url": "https://scholar.archive.org/",
               "affiliation": "Internet Archive",
-              "desc": "Full-text search across roughly 86 million academic papers preserved by the Internet Archive, including material from defunct and small-press journals."
+              "desc": {
+                "en": "Full-text search across roughly 86 million academic papers preserved by the Internet Archive, including material from defunct and small-press journals.",
+                "ko": "Internet Archive가 보존한 학술 논문 약 8,600만 편을 전문 검색한다. 폐간된 학술지나 소규모 출판사가 낸 자료까지 찾을 수 있다.",
+                "zh": "对Internet Archive保存的约八千六百万篇学术论文进行全文检索，其中包括已停刊期刊与小型出版社的文献。",
+                "ja": "Internet Archiveが保存する約八千六百万点の学術論文を全文検索できる。廃刊となった雑誌や小規模出版社の刊行物も含む。"
+              }
             },
             {
               "name": "Scripta Sinica (漢籍全文資料庫)",
               "url": "https://hanchi.ihp.sinica.edu.tw/ihp/hanji.htm",
               "affiliation": "中央研究院 歷史語言研究所 (Academia Sinica, IHP)",
-              "desc": "Full-text database of over 1,582 classical Chinese titles and 879 million characters, weighted toward historical works, with free and licensed access tiers."
+              "desc": {
+                "en": "Full-text database of over 1,582 classical Chinese titles and 879 million characters, weighted toward historical works, with free and licensed access tiers.",
+                "ko": "한문 고전 1,582종 이상, 8억 7,900만 자를 담은 전문 데이터베이스이다. 역사서 비중이 크고, 무료 이용과 라이선스 이용 두 단계로 접근할 수 있다.",
+                "zh": "全文数据库，收录汉文古籍逾1,582种、8.79亿字，以史部文献为重，并分免费与授权两级访问。",
+                "ja": "漢文古典1,582種以上、8億7,900万字を収める全文データベース。史書系の比重が大きく、無料と契約の二段階でアクセスできる。"
+              }
             },
             {
               "name": "Foreign Relations of the United States (FRUS)",
               "url": "https://history.state.gov/historicaldocuments",
               "affiliation": "Office of the Historian, U.S. Department of State",
-              "desc": "The official documentary record of U.S. foreign policy from the Lincoln administration (1861) through Clinton (1993–2000), browsable and searchable in full text online."
+              "desc": {
+                "en": "The official documentary record of U.S. foreign policy from the Lincoln administration (1861) through Clinton (1993–2000), browsable and searchable in full text online.",
+                "ko": "링컨 행정부(1861)부터 클린턴 행정부(1993–2000)까지 미국 외교정책을 담은 공식 문서 기록이다. 온라인에서 전문을 열람하고 검색할 수 있다.",
+                "zh": "美国外交政策的官方文献记录，涵盖林肯政府（1861）至克林顿政府（1993–2000），可在线全文浏览与检索。",
+                "ja": "リンカーン政権（1861）からクリントン政権（1993–2000）に至る米国外交政策の公式記録であり、オンラインで全文の閲覧・検索ができる。"
+              }
             },
             {
               "name": "Ming Qing Women's Writings (明清婦女著作)",
               "url": "https://mhdb.mh.sinica.edu.tw/mingqing/mqww/",
               "affiliation": "中央研究院 近代史研究所 (originally McGill University Library)",
-              "desc": "Bilingual database of poetry and prose by Ming and Qing women, migrated from McGill to Academia Sinica and updated through 2025."
+              "desc": {
+                "en": "Bilingual database of poetry and prose by Ming and Qing women, migrated from McGill to Academia Sinica and updated through 2025.",
+                "ko": "명·청 시대 여성이 쓴 시와 산문을 모은 이중언어 데이터베이스다. McGill에서 Academia Sinica로 이관되었고 2025년까지 갱신되었다.",
+                "zh": "明清女性诗文的双语数据库，由 McGill 迁至 Academia Sinica，更新至 2025 年。",
+                "ja": "明清の女性による詩文を収めた二言語データベースであり、McGill から Academia Sinica へ移管され、2025 年まで更新されている。"
+              }
             },
             {
               "name": "內閣大庫檔案 (Grand Secretariat Archives)",
               "url": "https://newarchive.ihp.sinica.edu.tw/",
               "affiliation": "中央研究院 歷史語言研究所",
-              "desc": "Academia Sinica's Ming-Qing archives workshop and searchable database of roughly 310,000 Grand Secretariat documents spanning the Ming through the early Republic."
+              "desc": {
+                "en": "Academia Sinica's Ming-Qing archives workshop and searchable database of roughly 310,000 Grand Secretariat documents spanning the Ming through the early Republic.",
+                "ko": "Academia Sinica의 명청 문서 연구실이자, 명대부터 민국 초까지 내각대고(內閣大庫) 문서 약 31만 건을 검색할 수 있는 데이터베이스다.",
+                "zh": "Academia Sinica 的明清档案工作室与可检索数据库，收录自明代至民国初年的内阁大库档案约 31 万件。",
+                "ja": "Academia Sinica の明清檔案ワークショップであり、明代から民国初期に至る内閣大庫檔案およそ 31 万件を検索できるデータベースである。"
+              }
             },
             {
               "name": "SHIPS 史料編纂所データベース",
               "url": "https://wwwap.hi.u-tokyo.ac.jp/ships/",
               "affiliation": "東京大学史料編纂所 (Historiographical Institute, University of Tokyo)",
-              "desc": "Portal cross-searching the Institute's databases: Dai Nihon shiryō, full-text ancient and medieval documents, rubbings and prints, name indexes, and the MOJIZO cursive-script reader."
+              "desc": {
+                "en": "Portal cross-searching the Institute's databases: Dai Nihon shiryō, full-text ancient and medieval documents, rubbings and prints, name indexes, and the MOJIZO cursive-script reader.",
+                "ko": "연구소의 여러 데이터베이스를 한꺼번에 검색하는 포털이다. Dai Nihon shiryō, 고대·중세 문서 전문, 탁본과 인쇄물, 인명 색인, 초서 판독기 MOJIZO를 아우른다.",
+                "zh": "跨库检索该研究所各数据库的门户，涵盖 Dai Nihon shiryō、古代与中世文书全文、拓本与刷本、人名索引以及草书识读工具 MOJIZO。",
+                "ja": "同研究所の各データベースを横断検索するポータルであり、Dai Nihon shiryō、古代・中世文書の全文、拓本・摺本、人名索引、崩し字解読ツール MOJIZO を含む。"
+              }
             },
             {
               "name": "国書データベース (Kokusho Database)",
               "url": "https://kokusho.nijl.ac.jp/",
               "affiliation": "国文学研究資料館 (National Institute of Japanese Literature)",
-              "desc": "Free union catalogue of pre-Meiji Japanese books integrating the Kokusho sōmokuroku and the New Comprehensive Database of Japanese Classics, with high-resolution images targeting 300,000 titles."
+              "desc": {
+                "en": "Free union catalogue of pre-Meiji Japanese books integrating the Kokusho sōmokuroku and the New Comprehensive Database of Japanese Classics, with high-resolution images targeting 300,000 titles.",
+                "ko": "메이지 이전 일본 서적을 아우르는 무료 종합목록이다. Kokusho sōmokuroku와 New Comprehensive Database of Japanese Classics를 통합했고 30만 종을 목표로 고해상도 이미지를 제공한다.",
+                "zh": "明治以前日本典籍的免费联合目录，整合 Kokusho sōmokuroku 与 New Comprehensive Database of Japanese Classics，并以 30 万种为目标提供高清图像。",
+                "ja": "明治以前の日本の書物を対象とする無料の総合目録であり、Kokusho sōmokuroku と New Comprehensive Database of Japanese Classics を統合し、30 万点を目標に高精細画像を提供する。"
+              }
             },
             {
               "name": "国立公文書館デジタルアーカイブ (National Archives of Japan Digital Archive)",
               "url": "https://www.digital.archives.go.jp/",
               "affiliation": "国立公文書館",
-              "desc": "Free, registration-free access to digitized Japanese public documents, maps, and classical Japanese and Chinese texts, with cross-search into partner prefectural archives."
+              "desc": {
+                "en": "Free, registration-free access to digitized Japanese public documents, maps, and classical Japanese and Chinese texts, with cross-search into partner prefectural archives.",
+                "ko": "디지털화한 일본 공문서와 지도, 일본·중국 고전적을 등록 절차 없이 무료로 이용할 수 있다. 제휴한 도도부현 문서관까지 함께 검색한다.",
+                "zh": "免注册、免费使用数字化的日本公文书、地图及和汉古籍，并可跨库检索合作的都道府县档案馆。",
+                "ja": "デジタル化された日本の公文書・地図・和漢の古典籍を登録なしで無料で利用でき、連携する都道府県の文書館まで横断検索できる。"
+              }
             },
             {
               "name": "国立国会図書館デジタルコレクション (NDL Digital Collections)",
               "url": "https://dl.ndl.go.jp/",
               "affiliation": "国立国会図書館 (National Diet Library)",
-              "desc": "The National Diet Library's mass-digitized books, periodicals, and rare materials, a large share of them out of copyright and readable worldwide."
+              "desc": {
+                "en": "The National Diet Library's mass-digitized books, periodicals, and rare materials, a large share of them out of copyright and readable worldwide.",
+                "ko": "National Diet Library가 대규모로 디지털화한 도서·잡지·귀중자료다. 상당수는 저작권이 만료되어 전 세계 어디서나 읽을 수 있다.",
+                "zh": "National Diet Library 大规模数字化的图书、期刊与善本，其中相当一部分已无版权限制，可在全球范围内阅览。",
+                "ja": "National Diet Library が大規模にデジタル化した図書・雑誌・貴重資料であり、その多くは著作権が切れ、世界中から閲覧できる。"
+              }
             },
             {
               "name": "教育部異體字字典 (Dictionary of Chinese Character Variants)",
               "url": "https://dict.variants.moe.edu.tw/",
               "affiliation": "國家教育研究院 / 教育部, Taiwan",
-              "desc": "Official seventh-edition reference for variant Chinese character forms, searchable by radical, stroke count, structure, Zhuyin, Pinyin, or character code."
+              "desc": {
+                "en": "Official seventh-edition reference for variant Chinese character forms, searchable by radical, stroke count, structure, Zhuyin, Pinyin, or character code.",
+                "ko": "이체자를 정리한 공식 제7판 자전이다. 부수·획수·자형 구조·주음부호·병음·문자 코드로 검색한다.",
+                "zh": "异体字的官方第七版工具书，可按部首、笔画、结构、注音、拼音或字码检索。",
+                "ja": "異体字を収める公式第七版の字典であり、部首・画数・字形構造・注音・拼音・文字コードから検索できる。"
+              }
             },
             {
               "name": "早稲田大学古典籍総合データベース (Waseda Kotenseki Database)",
               "url": "https://www.wul.waseda.ac.jp/kotenseki/",
               "affiliation": "Waseda University Library",
-              "desc": "Openly published color images and bibliographic data for Waseda's classical Japanese and Chinese book collection, including two National Treasures."
+              "desc": {
+                "en": "Openly published color images and bibliographic data for Waseda's classical Japanese and Chinese book collection, including two National Treasures.",
+                "ko": "Waseda가 소장한 일본·중국 고전적의 컬러 이미지와 서지 데이터를 공개한다. 국보 두 점이 포함되어 있다.",
+                "zh": "公开 Waseda 所藏和汉古籍的彩色图像与书志数据，其中包括两件国宝。",
+                "ja": "Waseda 所蔵の和漢古典籍について、カラー画像と書誌データを公開しており、国宝二点を含む。"
+              }
             },
             {
               "name": "清代宮中檔奏摺及軍機處檔摺件",
               "url": "https://qingarchives.npm.edu.tw/",
               "affiliation": "國立故宮博物院 (National Palace Museum, Taipei)",
-              "desc": "Free metadata and document images for 158,614 palace memorials and 190,889 Grand Council documents, part of a system of over 400,000 Qing archival items."
+              "desc": {
+                "en": "Free metadata and document images for 158,614 palace memorials and 190,889 Grand Council documents, part of a system of over 400,000 Qing archival items.",
+                "ko": "궁중당 주접 158,614건과 군기처당 문서 190,889건의 메타데이터와 문서 이미지를 무료로 제공한다. 40만 건이 넘는 청 기록 체계의 일부다.",
+                "zh": "免费提供宫中档奏折 158,614 件与军机处档摺件 190,889 件的元数据与档案图像，属于逾 40 万件清代档案体系的一部分。",
+                "ja": "宮中檔奏摺 158,614 件と軍機處檔摺件 190,889 件のメタデータと文書画像を無償で提供しており、40 万件を超える清の檔案体系の一部をなす。"
+              }
             },
             {
               "name": "국가기록원 (National Archives of Korea)",
               "url": "https://www.archives.go.kr/",
               "affiliation": "행정안전부",
-              "desc": "Korea's central government archive, with over six million records online plus 850,000+ colonial-period documents, gazettes, cabinet minutes, and independence-movement trial records."
+              "desc": {
+                "en": "Korea's central government archive, with over six million records online plus 850,000+ colonial-period documents, gazettes, cabinet minutes, and independence-movement trial records.",
+                "ko": "한국의 중앙 기록관리기관이다. 온라인 기록 600만 건에 더해 식민지기 문서·관보·국무회의록·독립운동 재판기록 85만여 건을 공개한다.",
+                "zh": "韩国的中央档案机构，线上公开逾六百万件记录，另有八十五万件以上的殖民地时期文书、官报、国务会议录与独立运动审判记录。",
+                "ja": "韓国の中央記録管理機関であり、六百万件を超える記録をオンラインで公開するほか、植民地期の文書・官報・閣議録・独立運動裁判記録を 85 万件以上収める。"
+              }
             },
             {
               "name": "승정원일기 (Diaries of the Royal Secretariat)",
               "url": "https://sjw.history.go.kr/",
               "affiliation": "국사편찬위원회",
-              "desc": "The Royal Secretariat diaries covering twelve reigns from Injo (1623) to Sunjong (1907), with indexes of persons, places, books, and medical terms."
+              "desc": {
+                "en": "The Royal Secretariat diaries covering twelve reigns from Injo (1623) to Sunjong (1907), with indexes of persons, places, books, and medical terms.",
+                "ko": "인조(1623)부터 순종(1907)까지 열두 임금의 치세를 담은 승정원일기다. 인명·지명·서명·의약 용어 색인을 갖추었다.",
+                "zh": "承政院日记，涵盖自仁祖（1623）至纯宗（1907）十二朝，并附人名、地名、书名与医药术语索引。",
+                "ja": "仁祖（1623）から純宗（1907）まで十二代の治世にわたる承政院日記であり、人名・地名・書名・医薬用語の索引を備える。"
+              }
             },
             {
               "name": "외교사료관 (Diplomatic Archives of Korea)",
               "url": "https://diplomaticarchives.mofa.go.kr/",
               "affiliation": "외교부 (Ministry of Foreign Affairs, ROK)",
-              "desc": "The ROK foreign ministry's archive of declassified diplomatic documents, searchable by theme, country, and year of release, with a reading room and an open-documents portal."
+              "desc": {
+                "en": "The ROK foreign ministry's archive of declassified diplomatic documents, searchable by theme, country, and year of release, with a reading room and an open-documents portal.",
+                "ko": "한국 외교부가 비밀 해제한 외교문서를 소장한 기록관이다. 주제·국가·공개 연도로 검색할 수 있고 열람실과 공개문서 포털을 운영한다.",
+                "zh": "韩国外交部解密外交文书的档案馆，可按主题、国家与公开年度检索，并设有阅览室与公开文书门户。",
+                "ja": "韓国外交部が解禁した外交文書を収める文書館であり、主題・国別・公開年で検索でき、閲覧室と公開文書ポータルを備える。"
+              }
             },
             {
               "name": "규장각 원문검색서비스 (Kyujanggak Original Text Search)",
               "url": "https://kyudb.snu.ac.kr/",
               "affiliation": "규장각한국학연구원, 서울대학교",
-              "desc": "Catalogue, bibliographic descriptions,解題, and full original-text images for the Kyujanggak collection, including uigwe, old maps, cadastral records, and diplomatic documents."
+              "desc": {
+                "en": "Catalogue, bibliographic descriptions,解題, and full original-text images for the Kyujanggak collection, including uigwe, old maps, cadastral records, and diplomatic documents.",
+                "ko": "Kyujanggak 소장 자료의 목록과 서지 기술, 해제(解題), 원문 이미지 전체를 제공한다. 의궤·고지도·양안·외교문서가 들어 있다.",
+                "zh": "提供 Kyujanggak 藏品的目录、书志著录、解题及原文全图，涵盖仪轨、古地图、量案与外交文书。",
+                "ja": "Kyujanggak 所蔵資料の目録・書誌記述・解題および原本画像の全体を提供し、儀軌・古地図・量案・外交文書を含む。"
+              }
             },
             {
               "name": "장서각 (Jangseogak Digital Archive)",
               "url": "https://jsg.aks.ac.kr/",
               "affiliation": "한국학중앙연구원 (Academy of Korean Studies)",
-              "desc": "Online access to the Jangseogak royal archive's manuscripts, rare books, edicts and correspondence, with high-resolution images and scholarly descriptions."
+              "desc": {
+                "en": "Online access to the Jangseogak royal archive's manuscripts, rare books, edicts and correspondence, with high-resolution images and scholarly descriptions.",
+                "ko": "왕실 기록을 소장한 Jangseogak의 필사본·귀중본·교지·서간을 온라인으로 제공한다. 고해상도 이미지와 학술 해제를 함께 싣는다.",
+                "zh": "在线提供 Jangseogak 王室档案所藏写本、善本、教旨与书简，并附高清图像与学术解题。",
+                "ja": "王室記録を収める Jangseogak の写本・貴重本・教旨・書簡をオンラインで提供し、高精細画像と学術的解題を併せて掲載する。"
+              }
             },
             {
               "name": "전자사료관 (NIKH Electronic Archive)",
               "url": "https://archive.history.go.kr/",
               "affiliation": "국사편찬위원회",
-              "desc": "Digitized Korea-related records collected from foreign repositories and private holders in the U.S., Japan, China, Taiwan, Russia, the UK, France, Germany and a dozen more countries."
+              "desc": {
+                "en": "Digitized Korea-related records collected from foreign repositories and private holders in the U.S., Japan, China, Taiwan, Russia, the UK, France, Germany and a dozen more countries.",
+                "ko": "미국·일본·중국·대만·러시아·영국·프랑스·독일 등 십여 개국의 해외 기관과 개인 소장처에서 수집한 한국 관련 기록을 디지털화해 제공한다.",
+                "zh": "自美国、日本、中国、台湾、俄罗斯、英国、法国、德国等十余国的海外机构与私人藏家收集并数字化的韩国相关记录。",
+                "ja": "米国・日本・中国・台湾・ロシア・英国・フランス・ドイツなど十数か国の海外機関や個人所蔵者から収集し、デジタル化した韓国関係記録である。"
+              }
             },
             {
               "name": "조선왕조실록 (Veritable Records of the Joseon Dynasty)",
               "url": "https://sillok.history.go.kr/",
               "affiliation": "국사편찬위원회",
-              "desc": "Searchable full text of the Sillok from Taejo (1392) to Sunjong (1910), with the classical Chinese original and modern Korean translation side by side."
+              "desc": {
+                "en": "Searchable full text of the Sillok from Taejo (1392) to Sunjong (1910), with the classical Chinese original and modern Korean translation side by side.",
+                "ko": "태조(1392)부터 순종(1910)까지 실록 전문을 검색할 수 있다. 한문 원문과 현대 한국어 번역을 나란히 보여준다.",
+                "zh": "可全文检索自太祖（1392）至纯宗（1910）的实录，汉文原文与现代韩语译文对照排列。",
+                "ja": "太祖（1392）から純宗（1910）に至る実録の全文を検索でき、漢文原文と現代韓国語訳を並べて示す。"
+              }
             },
             {
               "name": "한국역대인물 종합정보시스템 (Korean Historical Figures Information System)",
               "url": "http://people.aks.ac.kr/",
               "affiliation": "한국학중앙연구원",
-              "desc": "Prosopographical database of historical Korean figures built on civil-service examination rosters, genealogies, and biographical sources."
+              "desc": {
+                "en": "Prosopographical database of historical Korean figures built on civil-service examination rosters, genealogies, and biographical sources.",
+                "ko": "과거 방목과 족보, 인물 전기 자료를 바탕으로 구축한 한국 역대 인물 집단전기 데이터베이스다.",
+                "zh": "以科举榜目、族谱与传记资料为基础建成的韩国历代人物群体传记数据库。",
+                "ja": "科挙の榜目・族譜・伝記資料に基づいて構築された、韓国歴代人物の集団伝記データベースである。"
+              }
             },
             {
               "name": "한국고전종합DB (Korean Classics Database)",
               "url": "https://db.itkc.or.kr/",
               "affiliation": "Institute for the Translation of Korean Classics (한국고전번역원)",
-              "desc": "Comprehensive database of classical Korean and Sinitic texts with over 260 translated works and 1,259 authors' collected writings, offering original images, collated and punctuated versions, annotation, and machine translation of classical Chinese."
+              "desc": {
+                "en": "Comprehensive database of classical Korean and Sinitic texts with over 260 translated works and 1,259 authors' collected writings, offering original images, collated and punctuated versions, annotation, and machine translation of classical Chinese.",
+                "ko": "한국 고전과 한문 문헌을 아우르는 종합 데이터베이스다. 번역서 260종 이상과 1,259인의 문집을 담고 원문 이미지와 표점·교감본, 주석, 한문 기계번역을 제공한다.",
+                "zh": "韩国古典与汉文文献的综合数据库，收录 260 余种译著与 1,259 位作者的文集，提供原文图像、校勘标点本、注释以及汉文机器翻译。",
+                "ja": "韓国古典および漢文文献を網羅する総合データベースであり、翻訳 260 種以上と 1,259 名の文集を収め、原本画像・校勘標点本・注釈・漢文の機械翻訳を提供する。"
+              }
             },
             {
               "name": "한국민족문화대백과사전 (Encyclopedia of Korean Culture)",
               "url": "https://encykorea.aks.ac.kr/",
               "affiliation": "한국학중앙연구원",
-              "desc": "Open scholarly encyclopedia of Korean history, thought, religion and culture with over 100,000 signed entries and an OpenAPI."
+              "desc": {
+                "en": "Open scholarly encyclopedia of Korean history, thought, religion and culture with over 100,000 signed entries and an OpenAPI.",
+                "ko": "한국의 역사·사상·종교·문화를 다루는 개방형 학술 백과사전이다. 집필자를 밝힌 항목 10만여 개와 OpenAPI를 제공한다.",
+                "zh": "涵盖韩国历史、思想、宗教与文化的开放学术百科全书，收有十万余条署名词条并提供 OpenAPI。",
+                "ja": "韓国の歴史・思想・宗教・文化を扱う開かれた学術百科事典であり、執筆者名を付した項目を十万件以上収め、OpenAPI を備える。"
+              }
             },
             {
               "name": "한국사데이터베이스 (Korean History Database)",
               "url": "https://db.history.go.kr/",
               "affiliation": "National Institute of Korean History (국사편찬위원회)",
-              "desc": "Six-part database spanning ancient, Goryeo, Joseon, modern, and contemporary Korean history, including the Joseon royal annals, administrative records, newspapers, photographs, and GIS materials, with thesaurus and multilingual search."
+              "desc": {
+                "en": "Six-part database spanning ancient, Goryeo, Joseon, modern, and contemporary Korean history, including the Joseon royal annals, administrative records, newspapers, photographs, and GIS materials, with thesaurus and multilingual search.",
+                "ko": "고대·고려·조선·근대·현대를 아우르는 여섯 갈래 한국사 데이터베이스다. 조선왕조실록과 행정 기록, 신문, 사진, GIS 자료를 담고 시소러스와 다국어 검색을 지원한다.",
+                "zh": "涵盖古代、高丽、朝鲜（李朝）、近代与现代的六部韩国史数据库，收录朝鲜王朝实录、行政记录、报刊、照片与 GIS 资料，并支持叙词表与多语种检索。",
+                "ja": "古代・高麗・朝鮮・近代・現代にわたる六部構成の韓国史データベースであり、朝鮮王朝実録・行政記録・新聞・写真・GIS 資料を収め、シソーラスと多言語検索を備える。"
+              }
             },
             {
               "name": "한국학자료센터 (Korean Studies Materials Center)",
               "url": "https://kostma.aks.ac.kr/",
               "affiliation": "한국학중앙연구원",
-              "desc": "Roughly one million historical documents — royal protocols, household registers, land deeds, academy records — gathered through regional centers across Korea and overseas."
+              "desc": {
+                "en": "Roughly one million historical documents — royal protocols, household registers, land deeds, academy records — gathered through regional centers across Korea and overseas.",
+                "ko": "의궤·호적·토지 문기·서원 기록 등 고문서 약 100만 건을 국내외 권역 거점을 통해 수집했다.",
+                "zh": "约一百万件历史文书——仪轨、户籍、土地文记、书院记录——经由韩国国内外各地区据点征集而成。",
+                "ja": "儀軌・戸籍・土地文記・書院記録など、およそ百万件の古文書を、韓国国内外の地域拠点を通じて収集したものである。"
+              }
             }
           ],
           "note": {
@@ -910,79 +1470,144 @@
               "name": "David Rumsey Map Collection",
               "url": "https://www.davidrumsey.com/",
               "affiliation": "Stanford University Libraries",
-              "desc": "Over 150,000 freely viewable historical maps and cartographic images from the sixteenth century onward, with georeferencing and MapRank search tools."
+              "desc": {
+                "en": "Over 150,000 freely viewable historical maps and cartographic images from the sixteenth century onward, with georeferencing and MapRank search tools.",
+                "ko": "16세기 이후의 고지도와 지도 이미지 15만 점 이상을 무료로 열람할 수 있다. 좌표 정합과 MapRank 검색 도구를 갖추었다.",
+                "zh": "十六世纪以来的历史地图与舆图图像逾十五万幅，可免费浏览，并配有地理配准与 MapRank 检索工具。",
+                "ja": "十六世紀以降の古地図・地図画像を 15 万点以上、無料で閲覧でき、ジオリファレンスと MapRank 検索ツールを備える。"
+              }
             },
             {
               "name": "COMPARATIVUS",
               "url": "https://dh.chinese-empires.eu/comparativus/",
               "affiliation": "Leiden University / MARKUS project",
-              "desc": "Text-reuse tool that compares two or more texts, reports similarity scores, and highlights matching passages with adjustable k-size and match thresholds."
+              "desc": {
+                "en": "Text-reuse tool that compares two or more texts, reports similarity scores, and highlights matching passages with adjustable k-size and match thresholds.",
+                "ko": "둘 이상의 텍스트를 대조해 유사도 점수를 내고 일치하는 구절을 표시하는 텍스트 재사용 분석 도구다. k 값과 일치 임계값을 조정할 수 있다.",
+                "zh": "文本重用分析工具，可比对两种以上文本，给出相似度得分并标出匹配段落，k 值与匹配阈值均可调整。",
+                "ja": "二つ以上のテキストを比較し、類似度スコアを算出して一致箇所を強調表示するテキスト再利用の分析ツールであり、k 値と一致閾値を調整できる。"
+              }
             },
             {
               "name": "MIT Visualizing Cultures",
               "url": "https://visualizingcultures.mit.edu/home/index.html",
               "affiliation": "Massachusetts Institute of Technology",
-              "desc": "Image-driven scholarly units on modern Japan and late imperial China, treating visual sources on war, modernization, consumerism and images of self and other."
+              "desc": {
+                "en": "Image-driven scholarly units on modern Japan and late imperial China, treating visual sources on war, modernization, consumerism and images of self and other.",
+                "ko": "근대 일본과 후기 제정 중국을 이미지로 읽는 학술 단원 모음이다. 전쟁과 근대화, 소비주의, 자기와 타자의 표상을 담은 시각 자료를 다룬다.",
+                "zh": "以图像为核心的近代日本与晚期帝制中国研究单元，处理战争、现代化、消费主义以及自我与他者形象等视觉史料。",
+                "ja": "近代日本と後期帝政中国を画像から読み解く学術ユニットであり、戦争・近代化・消費主義、そして自己と他者の表象をめぐる視覚資料を扱う。"
+              }
             },
             {
               "name": "World Historical Gazetteer",
               "url": "https://whgazetteer.org/",
               "affiliation": "University of Pittsburgh",
-              "desc": "Platform linking historical place records across time and language, indexing 47 million places and 67 million toponyms with phonetic search across scripts."
+              "desc": {
+                "en": "Platform linking historical place records across time and language, indexing 47 million places and 67 million toponyms with phonetic search across scripts.",
+                "ko": "시대와 언어를 가로질러 역사적 지명 기록을 연결하는 플랫폼이다. 4,700만 곳의 지점과 6,700만 건의 지명 표기를 색인하고 문자 체계를 넘나드는 음가 검색을 지원한다.",
+                "zh": "跨越时代与语言连接历史地名记录的平台，索引四千七百万个地点与六千七百万条地名，并支持跨文字系统的音近检索。",
+                "ja": "時代と言語を越えて歴史的な地名記録を結びつけるプラットフォームであり、四千七百万の地点と六千七百万の地名を索引化し、文字体系をまたぐ音による検索に対応する。"
+              }
             },
             {
               "name": "Gephi",
               "url": "https://gephi.org/",
               "affiliation": "Gephi Consortium (nonprofit)",
-              "desc": "Open-source visual network analysis software handling graphs from ten to ten million nodes, with community detection, centrality measures and layout algorithms."
+              "desc": {
+                "en": "Open-source visual network analysis software handling graphs from ten to ten million nodes, with community detection, centrality measures and layout algorithms.",
+                "ko": "노드 열 개에서 천만 개 규모의 그래프까지 다루는 오픈소스 네트워크 시각 분석 소프트웨어다. 커뮤니티 탐지와 중심성 지표, 레이아웃 알고리즘을 갖추었다.",
+                "zh": "开源的网络可视化分析软件，可处理十个至一千万个节点的图，提供社群发现、中心性测度与布局算法。",
+                "ja": "十から一千万ノード規模のグラフを扱えるオープンソースのネットワーク可視化分析ソフトウェアであり、コミュニティ検出・中心性指標・レイアウトアルゴリズムを備える。"
+              }
             },
             {
               "name": "MARKUS",
               "url": "https://dh.chinese-empires.eu/markus/",
               "affiliation": "Leiden University / Chinese Empires in Comparative Perspective",
-              "desc": "Free browser-based platform that auto-tags personal names, place names, dates, offices and Buddhist terms in classical Chinese texts and exports to GIS and visualization tools."
+              "desc": {
+                "en": "Free browser-based platform that auto-tags personal names, place names, dates, offices and Buddhist terms in classical Chinese texts and exports to GIS and visualization tools.",
+                "ko": "한문 텍스트의 인명·지명·연대·관직·불교 용어를 자동으로 태깅하고 그 결과를 GIS와 시각화 도구로 내보내는 무료 웹 플랫폼이다.",
+                "zh": "免费的浏览器平台，可对汉文文本中的人名、地名、纪年、官职与佛教术语自动标注，并导出至 GIS 与可视化工具。",
+                "ja": "漢文テキストの人名・地名・年代・官職・仏教用語を自動でタグ付けし、その結果を GIS や可視化ツールに書き出せる無料のブラウザ型プラットフォームである。"
+              }
             },
             {
               "name": "Connected Sociologies Curriculum Project",
               "url": "https://thesociologicalreview.org/projects/connected-sociologies/",
               "affiliation": "The Sociological Review Foundation",
-              "desc": "Open-access curriculum of nine modules on colonialism, migration, policing, inequality, and climate, with video lectures by academic experts and downloadable lesson plans under a Creative Commons licence."
+              "desc": {
+                "en": "Open-access curriculum of nine modules on colonialism, migration, policing, inequality, and climate, with video lectures by academic experts and downloadable lesson plans under a Creative Commons licence.",
+                "ko": "식민주의·이주·치안·불평등·기후를 다루는 아홉 개 모듈의 공개 교육과정이다. 전문 연구자의 영상 강의와 Creative Commons 라이선스로 내려받는 수업안을 함께 제공한다.",
+                "zh": "由九个模块组成的开放教程，涉及殖民主义、移民、治安、不平等与气候，配有学者的视频讲座及以 Creative Commons 许可提供下载的教案。",
+                "ja": "植民地主義・移民・治安維持・不平等・気候を扱う九つのモジュールからなるオープンアクセスのカリキュラムであり、研究者による映像講義と、Creative Commons ライセンスで配布される授業案を備える。"
+              }
             },
             {
               "name": "QGIS",
               "url": "https://qgis.org/",
               "affiliation": "QGIS.org / OSGeo",
-              "desc": "Free and open-source desktop GIS for Windows, Mac and Linux, covering map creation, layer editing, spatial analysis and web publishing under GPLv2+."
+              "desc": {
+                "en": "Free and open-source desktop GIS for Windows, Mac and Linux, covering map creation, layer editing, spatial analysis and web publishing under GPLv2+.",
+                "ko": "Windows·Mac·Linux에서 쓰는 무료 오픈소스 데스크톱 GIS다. GPLv2+ 아래 지도 제작과 레이어 편집, 공간 분석, 웹 배포를 아우른다.",
+                "zh": "面向 Windows、Mac 与 Linux 的免费开源桌面 GIS，在 GPLv2+ 之下涵盖地图制作、图层编辑、空间分析与网络发布。",
+                "ja": "Windows・Mac・Linux で動く無料のオープンソース・デスクトップ GIS であり、GPLv2+ のもとで地図作成・レイヤ編集・空間分析・ウェブ公開に対応する。"
+              }
             },
             {
               "name": "Recogito",
               "url": "https://recogito.pelagios.org/",
               "affiliation": "Pelagios Network (Mellon-funded)",
-              "desc": "Free open-source web platform for semantic annotation of texts and images — marking named entities, working collaboratively, and exporting annotations for other tools."
+              "desc": {
+                "en": "Free open-source web platform for semantic annotation of texts and images — marking named entities, working collaboratively, and exporting annotations for other tools.",
+                "ko": "텍스트와 이미지에 의미 주석을 다는 무료 오픈소스 웹 플랫폼이다. 고유명사를 표시하고 여럿이 함께 작업하며 주석을 다른 도구로 내보낼 수 있다.",
+                "zh": "用于文本与图像语义标注的免费开源网络平台，可标记命名实体、协同作业，并将标注导出至其他工具。",
+                "ja": "テキストと画像に意味的な注釈を付すための無料のオープンソース・ウェブプラットフォームであり、固有表現の標示、共同作業、他ツールへの注釈書き出しが可能である。"
+              }
             },
             {
               "name": "Global Social Theory",
               "url": "https://globalsocialtheory.org/",
               "affiliation": "Project associated with Gurminder K. Bhambra",
-              "desc": "Free reference resource organizing social theory in global perspective through entries on concepts, thinkers, and topics, plus a dedicated section on decolonising the university, all under Creative Commons licence."
+              "desc": {
+                "en": "Free reference resource organizing social theory in global perspective through entries on concepts, thinkers, and topics, plus a dedicated section on decolonising the university, all under Creative Commons licence.",
+                "ko": "개념과 사상가, 주제 항목으로 사회이론을 지구적 관점에서 정리한 무료 참고자료로, 대학의 탈식민화를 다루는 별도 섹션을 두고 전체를 크리에이티브 커먼즈 라이선스로 공개한다.",
+                "zh": "以概念、思想家与主题词条整理全球视野下社会理论的免费参考资源，另设大学去殖民化专栏，全部内容依知识共享许可发布。",
+                "ja": "概念・思想家・主題の項目を通じて社会理論をグローバルな視座から整理する無料のレファレンス資源であり、大学の脱植民地化を扱う専用セクションを備え、全体がクリエイティブ・コモンズ・ライセンスで公開されている。"
+              }
             },
             {
               "name": "Transkribus",
               "url": "https://www.transkribus.org/",
               "affiliation": "READ-COOP SCE",
-              "desc": "AI platform for recognizing handwritten and printed historical text in over 100 languages, with layout detection, tagging and publishing, offering 50 free credits monthly."
+              "desc": {
+                "en": "AI platform for recognizing handwritten and printed historical text in over 100 languages, with layout detection, tagging and publishing, offering 50 free credits monthly.",
+                "ko": "100개 넘는 언어의 필사본·인쇄본 사료 텍스트를 인식하는 AI 플랫폼으로, 레이아웃 검출과 태깅, 공개 기능을 갖추고 매달 50크레딧을 무료로 제공한다.",
+                "zh": "识别100多种语言手写与印刷历史文本的AI平台，兼具版面检测、标注与发布功能，每月提供50个免费额度。",
+                "ja": "100を超える言語の手書き・印刷の歴史テキストを認識するAIプラットフォームであり、レイアウト検出・タグ付け・公開の機能を備え、毎月50クレジットを無料で提供する。"
+              }
             },
             {
               "name": "Tropy",
               "url": "https://tropy.org/",
               "affiliation": "Roy Rosenzweig Center for History and New Media, C²DH, Digital Scholar",
-              "desc": "Free open-source desktop application for organizing, describing, transcribing and annotating photographs of archival documents, exporting to JSON-LD, CSV and Omeka S."
+              "desc": {
+                "en": "Free open-source desktop application for organizing, describing, transcribing and annotating photographs of archival documents, exporting to JSON-LD, CSV and Omeka S.",
+                "ko": "문서 사료 사진을 정리하고 기술·전사·주석하는 무료 오픈소스 데스크톱 프로그램으로, JSON-LD와 CSV, Omeka S로 내보낼 수 있다.",
+                "zh": "免费开源桌面程序，用于整理、著录、转写与标注档案文书照片，可导出为JSON-LD、CSV及Omeka S格式。",
+                "ja": "文書史料の写真を整理し、記述・翻刻・注釈するための無料のオープンソース・デスクトップアプリケーションであり、JSON-LD・CSV・Omeka Sへの書き出しに対応する。"
+              }
             },
             {
               "name": "Zotero",
               "url": "https://www.zotero.org/",
               "affiliation": "Digital Scholar (nonprofit)",
-              "desc": "Free, open-source tool for collecting, organizing, annotating, citing and sharing research sources, with browser capture and word-processor integration."
+              "desc": {
+                "en": "Free, open-source tool for collecting, organizing, annotating, citing and sharing research sources, with browser capture and word-processor integration.",
+                "ko": "연구 자료를 수집하고 정리하며 주석·인용·공유까지 처리하는 무료 오픈소스 도구로, 브라우저 저장 기능과 워드프로세서 연동을 갖추었다.",
+                "zh": "免费开源工具，用于收集、整理、标注、引用与分享研究资料，支持浏览器抓取与文字处理软件集成。",
+                "ja": "研究資料の収集・整理・注釈・引用・共有を行う無料のオープンソース・ツールであり、ブラウザからの取り込みとワープロソフトとの連携を備える。"
+              }
             },
             {
               "name": "Sinica Digital Atlas",
