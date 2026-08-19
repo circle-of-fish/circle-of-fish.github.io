@@ -1,0 +1,127 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.title }} — {{ site.title_sub }}{% endblock %}
+
+{% block hero %}
+<div class="hero">
+  <h1>{{ site.title }}</h1>
+  <p class="subtitle">{{ site.title_sub }}</p>
+  <p class="tagline">{{ site.tagline }}</p>
+  <p class="description">{{ site.hero_description }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section id="parable">
+  <div class="container narrow">
+    <h2 class="section-title">{{ site.home.parable_title }}</h2>
+    <p class="section-subtitle">{{ site.home.parable_kicker }}</p>
+    <blockquote class="epigraph">
+      {{ site.about.epigraph }}
+      <span class="cite">{{ site.about.epigraph_cite }}</span>
+    </blockquote>
+    <div class="prose">
+      {% for p in site.about.body %}
+      <p>{{ p }}</p>
+      {% endfor %}
+    </div>
+    <a class="more-link" href="about.html">{{ site.ui.read_more_about }}</a>
+  </div>
+</section>
+
+<section id="orientation" class="band">
+  <div class="container">
+    <h2 class="section-title">{{ site.home.orientation_title }}</h2>
+    <p class="section-subtitle">{{ site.home.orientation_kicker }}</p>
+    <div class="prose" style="max-width:780px;">
+      <p>{{ research.orientation_lede }}</p>
+    </div>
+    <div class="orient-grid">
+      {% for c in research.theoretical %}
+      <div class="orient-card">
+        <div class="kicker">{{ site.ui.theoretical }}</div>
+        <h3>{{ c.heading }}</h3>
+        <p>{{ c.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="orient-grid">
+      {% for c in research.methodological %}
+      <div class="orient-card">
+        <div class="kicker">{{ site.ui.methodological }}</div>
+        <h3>{{ c.heading }}</h3>
+        <p>{{ c.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+    <a class="more-link" href="research.html">{{ site.ui.read_more_research }}</a>
+  </div>
+</section>
+
+<section id="aims">
+  <div class="container narrow">
+    <h2 class="section-title">{{ site.home.aims_title }}</h2>
+    <p class="section-subtitle">{{ site.home.aims_kicker }}</p>
+    <ul class="aims">
+      {% for aim in site.about.aims %}
+      <li><span class="n">{{ "%02d"|format(loop.index) }}</span><span>{{ aim }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section id="latest" class="band">
+  <div class="container">
+    <h2 class="section-title">{{ site.home.latest_title }}</h2>
+    <p class="section-subtitle">{{ site.home.latest_kicker }}</p>
+    <div class="highlight-grid">
+      <div class="stat">
+        <div class="label">{{ site.ui.most_recent_seminar }}</div>
+        <div class="value">{{ seminars.entries[0].date_display }} · {{ seminars.entries[0].title|safe }}</div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ site.ui.members_count }}</div>
+        <div class="value">{{ members.people|length }}</div>
+      </div>
+      <div class="stat">
+        <div class="label">{{ site.ui.since }}</div>
+        <div class="value">{{ site.founded }}</div>
+      </div>
+    </div>
+
+    <div style="margin-top:2.4rem;">
+      <h3 style="font-family:var(--font-serif);font-size:1.1rem;color:var(--ink);margin-bottom:1rem;">{{ site.home.recent_pubs_title }}</h3>
+      <ul class="pub-list">
+        {% for pub in publications.featured %}
+        <li class="pub">
+          <div class="cite">
+            <span class="authors">{{ pub.authors }}</span>.
+            <span class="year">{{ pub.year }}</span>.
+            <span class="title">{{ pub.title|safe }}</span>.
+            <span class="venue">{{ pub.venue|safe }}</span>{% if pub.get('volume_issue_pages') %} {{ pub.get('volume_issue_pages') }}{% endif %}.
+          </div>
+          {% if pub.get('summary') %}<div class="summary">{{ pub.get('summary') }}</div>{% endif %}
+          <div class="pub-links">
+            {% if pub.get('url_fulltext') %}<a class="badge badge-oa" href="{{ pub.get('url_fulltext') }}" target="_blank" rel="noopener">{{ site.ui.full_text }}</a>{% endif %}
+            {% if pub.get('doi') %}<a class="badge badge-doi" href="{{ pub.get('doi')|doi_url }}" target="_blank" rel="noopener">DOI</a>
+            {% elif pub.get('url_publisher') %}<a class="badge badge-doi" href="{{ pub.get('url_publisher') }}" target="_blank" rel="noopener">{{ site.ui.publisher }}</a>{% endif %}
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+      <a class="more-link" href="publications.html">{{ site.ui.all_publications }}</a>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container narrow">
+    <h2 class="section-title">{{ site.contact.title }}</h2>
+    <p class="section-subtitle">{{ site.contact.kicker }}</p>
+    <p class="contact-line">{{ site.contact.body }}<br>
+      <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+    </p>
+  </div>
+</section>
+
+{% endblock %}

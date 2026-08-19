@@ -1,0 +1,150 @@
+{
+  "title": {
+    "en": "Publications",
+    "ko": "출판",
+    "zh": "论著",
+    "ja": "業績"
+  },
+  "kicker": {
+    "en": "Grouped by problem, not by date",
+    "ko": "연도가 아니라 문제별로",
+    "zh": "按问题而非年代编排",
+    "ja": "年代ではなく問題ごとに"
+  },
+  "lede": {
+    "en": "Members' published work, arranged by the problem each piece takes on. Where a free full text exists we link to it.",
+    "ko": "구성원들의 출판물을, 각 글이 붙든 문제에 따라 묶었습니다. 무료로 공개된 전문이 있으면 링크를 달았습니다.",
+    "zh": "成员的已发表论著，按各篇所处理的问题分组。凡有免费全文者均附链接。",
+    "ja": "メンバーの公刊業績を、各論考が取り組む問題ごとにまとめています。無料の全文が公開されている場合はリンクを付しました。"
+  },
+  "meta_description": {
+    "en": "Publications by members of the Circle of the Fish, grouped thematically, with open-access full-text links where available.",
+    "ko": "복어회 구성원의 출판 목록. 주제별로 묶고, 공개된 전문 링크를 함께 제공합니다.",
+    "zh": "河豚会成员的论著目录，按主题分组，并附公开全文链接。",
+    "ja": "河豚の会メンバーの業績目録。主題別にまとめ、公開されている全文へのリンクを併記しています。"
+  },
+  "themes_label": {
+    "en": "Jump to a theme",
+    "ko": "주제로 이동",
+    "zh": "跳转到主题",
+    "ja": "テーマへ移動"
+  },
+  "other_title": {
+    "en": "Chapters, Reports, and Work in Progress",
+    "ko": "단행본 장(章)·보고서·진행 중인 작업",
+    "zh": "论文集章节、报告与在研工作",
+    "ja": "論集所収論考・報告書・進行中の仕事"
+  },
+  "other_kicker": {
+    "en": "Beyond the peer-reviewed article",
+    "ko": "학술지 논문 바깥의 작업",
+    "zh": "同行评审论文之外",
+    "ja": "査読論文の外側で"
+  },
+  "oa_note": {
+    "en": "Full-text links point to versions the publisher or an institutional repository makes freely available. Where no link appears, the article is behind a paywall — write to the author, who may share a copy.",
+    "ko": "‘전문’ 링크는 출판사나 기관 리포지터리가 무료로 공개한 판본으로 연결됩니다. 링크가 없는 글은 유료 접근이니, 저자에게 직접 연락하시면 사본을 받으실 수 있습니다.",
+    "zh": "「全文」链接指向出版方或机构知识库免费公开的版本。没有链接者为付费墙内文献，可直接联系作者索取。",
+    "ja": "「全文」リンクは、出版社または機関リポジトリが無料公開している版につながります。リンクのないものは有料であり、著者に直接連絡すれば共有を受けられる場合があります。"
+  },
+  "featured": [],
+  "themes": [
+    {
+      "id": "interpolity-orders",
+      "title": {
+        "en": "Interpolity Orders and Ontological Difference",
+        "ko": "정치체 간 질서와 존재론적 차이",
+        "zh": "政体间秩序与存在论差异",
+        "ja": "政体間秩序と存在論的差異"
+      },
+      "blurb": {
+        "en": "What kind of order was historical East Asia, if not a states-system? These pieces reconstruct it from the concepts its participants actually used — sadae, shi, ritual rank — and ask what follows for the general theory of international order.",
+        "ko": "역사적 동아시아가 주권국가체계가 아니었다면 어떤 종류의 질서였는가. 이 글들은 그 질서를 참여자들이 실제로 쓴 개념 — 사대, 세(勢), 의례적 위계 — 으로부터 재구성하고, 그것이 국제질서 일반 이론에 무엇을 함의하는지 묻는다.",
+        "zh": "如果历史上的东亚不是主权国家体系，那它是何种秩序？这些论著以参与者实际使用的概念——事大、势、礼制位次——重构那一秩序，并追问这对一般的国际秩序理论意味着什么。",
+        "ja": "歴史的東アジアが主権国家体系でないとすれば、いかなる秩序だったのか。これらの論考は、その秩序を参加者が実際に用いた概念——事大、勢、儀礼的位階——から再構成し、それが国際秩序の一般理論に何を含意するのかを問う。"
+      },
+      "entries": []
+    },
+    {
+      "id": "global-ir",
+      "title": {
+        "en": "Globalizing and Pluralizing the Discipline",
+        "ko": "학문의 지구화와 다원화",
+        "zh": "学科的全球化与多元化",
+        "ja": "学問のグローバル化と複数化"
+      },
+      "blurb": {
+        "en": "Work on the discipline itself: how IR knowledge was made in particular places, what a non-Western theory would have to do to count as theory, and why pluralization is a question about concepts rather than about representation.",
+        "ko": "학문 자체를 다루는 작업. 국제정치 지식이 특정 장소에서 어떻게 만들어졌는가, 비서구 이론이 이론으로 인정받으려면 무엇을 해야 하는가, 그리고 다원화가 왜 대표성의 문제가 아니라 개념의 문제인가.",
+        "zh": "以学科本身为对象的研究：国际关系知识如何在特定地方被生产，非西方理论要成其为理论须做到什么，以及多元化为何是概念问题而非代表性问题。",
+        "ja": "学問そのものを扱う仕事。国際関係の知はいかに特定の場所で作られたのか、非西洋の理論が理論として通用するには何が必要か、そして複数化がなぜ代表性ではなく概念の問題なのか。"
+      },
+      "entries": []
+    },
+    {
+      "id": "hierarchy-race-gender",
+      "title": {
+        "en": "Hierarchy, Race, and Gender",
+        "ko": "위계, 인종, 젠더",
+        "zh": "等级、种族与性别",
+        "ja": "階層・人種・ジェンダー"
+      },
+      "blurb": {
+        "en": "How civilizational standards, racial ranking, and gender norms were built into the institutions and law of international society — and what they did to the states and subjects sorted by them.",
+        "ko": "문명의 표준, 인종적 서열, 젠더 규범이 어떻게 국제사회의 제도와 법에 기입되었는가. 그리고 그것들이 그렇게 분류된 국가와 주체들에게 무엇을 했는가.",
+        "zh": "文明标准、种族排序与性别规范如何被写入国际社会的制度与法律——以及它们对被如此归类的国家与主体做了什么。",
+        "ja": "文明の標準、人種的序列、ジェンダー規範がいかに国際社会の制度と法に書き込まれたか——そしてそれらが、そう分類された国家と主体に何をしたか。"
+      },
+      "entries": []
+    },
+    {
+      "id": "security-status",
+      "title": {
+        "en": "Security, Status, and Order Transition",
+        "ko": "안보, 지위, 질서 전환",
+        "zh": "安全、地位与秩序转型",
+        "ja": "安全保障・地位・秩序転換"
+      },
+      "blurb": {
+        "en": "Power transitions read as contests over standing as much as over capability: why a rising power sometimes restrains itself, and what secondary states do while the order shifts around them.",
+        "ko": "역량만큼이나 지위를 둘러싼 다툼으로 읽는 세력전이. 부상하는 강대국이 때로 스스로를 자제하는 이유, 그리고 질서가 움직이는 동안 이차적 국가들이 하는 일.",
+        "zh": "把权力转移读作既争实力也争地位的竞逐：崛起国为何有时自我克制，以及在秩序变动之际次要国家在做什么。",
+        "ja": "能力と同じく地位をめぐる争いとして読む勢力移行。台頭国がときに自制するのはなぜか、そして秩序が動くあいだ二次的国家は何をしているのか。"
+      },
+      "entries": []
+    },
+    {
+      "id": "emotion-memory",
+      "title": {
+        "en": "Emotion, Trauma, and Memory",
+        "ko": "감정, 트라우마, 기억",
+        "zh": "情感、创伤与记忆",
+        "ja": "感情・トラウマ・記憶"
+      },
+      "blurb": {
+        "en": "Affect treated as a political practice with its own history: anger in street protest, deference in negotiation, the time-structure of traumatic memory, and what emotion studies looks like once non-Western voices are actually in it.",
+        "ko": "고유한 역사를 지닌 정치적 실천으로서의 정동. 거리 시위의 분노, 협상에서의 공대(恭待), 트라우마적 기억의 시간 구조, 그리고 비서구의 목소리가 실제로 들어왔을 때 감정 연구가 어떤 모습이 되는가.",
+        "zh": "把情动当作有其自身历史的政治实践：街头抗议中的愤怒、谈判中的谦让、创伤记忆的时间结构，以及当非西方的声音真正进入之后，情感研究会是什么样子。",
+        "ja": "固有の歴史をもつ政治的実践としての情動。街頭抗議における怒り、交渉における謙譲、トラウマ的記憶の時間構造、そして非西洋の声が実際に入ったとき感情研究はどうなるのか。"
+      },
+      "entries": []
+    },
+    {
+      "id": "planetary",
+      "title": {
+        "en": "Ecology, Climate, and Planetary Order",
+        "ko": "생태, 기후, 행성질서",
+        "zh": "生态、气候与行星秩序",
+        "ja": "生態・気候・惑星秩序"
+      },
+      "blurb": {
+        "en": "The Circle's move past the human: what happens to power transition theory when climate is a party to it, and what an international politics answerable to the planet would have to become.",
+        "ko": "인간 너머로 향하는 복어회의 행보. 기후가 당사자가 될 때 세력전이 이론은 어떻게 되는가, 그리고 행성에 응답하는 국제정치는 무엇이 되어야 하는가.",
+        "zh": "河豚会越出人类的一步：当气候成为当事方，权力转移理论会怎样？一种向行星负责的国际政治又必须成为什么？",
+        "ja": "人間の先へ向かう会の一歩。気候が当事者となるとき勢力移行理論はどうなるのか、そして惑星に応答する国際政治は何にならねばならないのか。"
+      },
+      "entries": []
+    }
+  ],
+  "other_groups": []
+}

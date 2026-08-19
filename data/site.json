@@ -1,0 +1,467 @@
+{
+  "title": {
+    "en": "Circle of the Fish",
+    "ko": "복어회",
+    "zh": "河豚会",
+    "ja": "河豚の会"
+  },
+  "title_sub": {
+    "en": "Globalizing IR from East Asia",
+    "ko": "Circle of the Fish",
+    "zh": "Circle of the Fish",
+    "ja": "Circle of the Fish"
+  },
+  "tagline": {
+    "en": "Kautilya never asked the fish what it is like to live as one.",
+    "ko": "카우틸랴는 물고기에게 물고기로 산다는 것이 어떤 것인지 끝내 묻지 않았다.",
+    "zh": "考底利耶始终不曾问过鱼：做一条鱼究竟是什么滋味。",
+    "ja": "カウティリヤは、魚として生きるとはどういうことかを、ついに魚自身に問わなかった。"
+  },
+  "hero_description": {
+    "en": "We are junior South Korean scholars of International Relations. We work to globalize IR by recovering the ontologies through which East Asia — and the many worlds beyond it — have understood the international.",
+    "ko": "우리는 한국의 신진 국제정치학 연구자들이다. 동아시아가, 그리고 그 너머의 여러 세계가 국제적인 것을 이해해 온 존재론을 되찾는 작업을 통해 국제정치학의 지구적 전환을 꾀한다.",
+    "zh": "我们是韩国的青年国际关系学者。我们试图重新发掘东亚——以及东亚之外诸多世界——理解「国际」的存在论，以此推动国际关系学的全球化。",
+    "ja": "私たちは韓国の若手国際関係論研究者である。東アジアが、そしてその先にある数多の世界が「国際的なもの」を理解してきた存在論を掘り起こし、国際関係論のグローバル化を試みている。"
+  },
+  "founded": {
+    "en": "June 2020",
+    "ko": "2020년 6월",
+    "zh": "2020年6月",
+    "ja": "2020年6月"
+  },
+  "meta_description": {
+    "en": "Circle of the Fish is a collective of junior South Korean International Relations scholars working to globalize IR by recovering marginalized ontologies in East Asian international relations.",
+    "ko": "복어회는 동아시아 국제관계의 주변화된 존재론을 복원하여 국제정치학의 지구적 전환을 추구하는 한국 신진 국제정치학 연구자들의 모임입니다.",
+    "zh": "河豚会是一个由韩国青年国际关系学者组成的研究集体，致力于发掘东亚国际关系中被边缘化的存在论，推动国际关系学的全球化。",
+    "ja": "河豚の会は、東アジア国際関係における周縁化された存在論を回復し、国際関係論のグローバル化を目指す韓国の若手研究者の集まりです。"
+  },
+  "nav": {
+    "home": {
+      "en": "Home",
+      "ko": "홈",
+      "zh": "首页",
+      "ja": "ホーム"
+    },
+    "about": {
+      "en": "About",
+      "ko": "소개",
+      "zh": "关于",
+      "ja": "紹介"
+    },
+    "research": {
+      "en": "Research",
+      "ko": "연구",
+      "zh": "研究",
+      "ja": "研究"
+    },
+    "members": {
+      "en": "Members",
+      "ko": "구성원",
+      "zh": "成员",
+      "ja": "メンバー"
+    },
+    "publications": {
+      "en": "Publications",
+      "ko": "출판",
+      "zh": "论著",
+      "ja": "業績"
+    },
+    "seminars": {
+      "en": "Seminars",
+      "ko": "세미나",
+      "zh": "研讨会",
+      "ja": "セミナー"
+    },
+    "resources": {
+      "en": "Resources",
+      "ko": "자료·링크",
+      "zh": "资源",
+      "ja": "資料"
+    }
+  },
+  "ui": {
+    "skip_to_content": {
+      "en": "Skip to content",
+      "ko": "본문 바로가기",
+      "zh": "跳到正文",
+      "ja": "本文へスキップ"
+    },
+    "main_nav": {
+      "en": "Main navigation",
+      "ko": "주 메뉴",
+      "zh": "主导航",
+      "ja": "メインナビゲーション"
+    },
+    "theoretical": {
+      "en": "Theoretical",
+      "ko": "이론적 지향",
+      "zh": "理论取向",
+      "ja": "理論的志向"
+    },
+    "methodological": {
+      "en": "Methodological",
+      "ko": "방법론적 지향",
+      "zh": "方法论取向",
+      "ja": "方法論的志向"
+    },
+    "read_more_about": {
+      "en": "More about the Circle",
+      "ko": "모임 소개 더 보기",
+      "zh": "了解更多",
+      "ja": "会について詳しく"
+    },
+    "read_more_research": {
+      "en": "Our research programme",
+      "ko": "연구 프로그램 보기",
+      "zh": "研究计划",
+      "ja": "研究プログラム"
+    },
+    "all_publications": {
+      "en": "All publications",
+      "ko": "전체 출판 목록",
+      "zh": "全部论著",
+      "ja": "業績一覧"
+    },
+    "most_recent_seminar": {
+      "en": "Most recent seminar",
+      "ko": "최근 세미나",
+      "zh": "最近研讨",
+      "ja": "最近のセミナー"
+    },
+    "members_count": {
+      "en": "Members",
+      "ko": "구성원",
+      "zh": "成员人数",
+      "ja": "メンバー数"
+    },
+    "since": {
+      "en": "Meeting since",
+      "ko": "출범",
+      "zh": "创立",
+      "ja": "発足"
+    },
+    "full_text": {
+      "en": "Full text",
+      "ko": "전문",
+      "zh": "全文",
+      "ja": "全文"
+    },
+    "publisher": {
+      "en": "Publisher",
+      "ko": "출판사",
+      "zh": "出版方",
+      "ja": "出版社"
+    },
+    "items": {
+      "en": "items",
+      "ko": "편",
+      "zh": "篇",
+      "ja": "点"
+    },
+    "lang_names": {
+      "ko": {
+        "en": "in Korean",
+        "ko": "국문",
+        "zh": "韩文",
+        "ja": "韓国語"
+      },
+      "ja": {
+        "en": "in Japanese",
+        "ko": "일문",
+        "zh": "日文",
+        "ja": "日本語"
+      },
+      "zh": {
+        "en": "in Chinese",
+        "ko": "중문",
+        "zh": "中文",
+        "ja": "中国語"
+      },
+      "other": {
+        "en": "other language",
+        "ko": "기타 언어",
+        "zh": "其他语言",
+        "ja": "その他の言語"
+      }
+    }
+  },
+  "home": {
+    "parable_title": {
+      "en": "The Law of the Fish, Reconsidered",
+      "ko": "물고기의 법칙을 다시 묻는다",
+      "zh": "重审「鱼之法则」",
+      "ja": "「魚の法則」を問い直す"
+    },
+    "parable_kicker": {
+      "en": "Why we are called the Circle of the Fish",
+      "ko": "복어회라는 이름에 대하여",
+      "zh": "关于「河豚会」这个名字",
+      "ja": "「河豚の会」という名について"
+    },
+    "orientation_title": {
+      "en": "Where We Stand",
+      "ko": "우리의 지향",
+      "zh": "我们的取向",
+      "ja": "私たちの立場"
+    },
+    "orientation_kicker": {
+      "en": "Theoretical and methodological commitments",
+      "ko": "이론적·방법론적 지향",
+      "zh": "理论与方法论上的承诺",
+      "ja": "理論的・方法論的コミットメント"
+    },
+    "aims_title": {
+      "en": "What We Are Trying to Do",
+      "ko": "우리가 하려는 일",
+      "zh": "我们要做的事",
+      "ja": "私たちがめざすこと"
+    },
+    "aims_kicker": {
+      "en": "Four aims",
+      "ko": "네 가지 목표",
+      "zh": "四个目标",
+      "ja": "四つの目標"
+    },
+    "latest_title": {
+      "en": "Latest",
+      "ko": "최근 소식",
+      "zh": "近况",
+      "ja": "最新情報"
+    },
+    "latest_kicker": {
+      "en": "Recent work and activity",
+      "ko": "최근 연구와 활동",
+      "zh": "近期研究与活动",
+      "ja": "最近の研究と活動"
+    },
+    "recent_pubs_title": {
+      "en": "Recent publications",
+      "ko": "최근 출판",
+      "zh": "近期论著",
+      "ja": "最近の業績"
+    }
+  },
+  "about": {
+    "title": {
+      "en": "About the Circle",
+      "ko": "복어회 소개",
+      "zh": "关于河豚会",
+      "ja": "河豚の会について"
+    },
+    "kicker": {
+      "en": "A friendly rejoinder to Kautilya",
+      "ko": "카우틸랴에 대한 다정한 반론",
+      "zh": "对考底利耶的一个善意反驳",
+      "ja": "カウティリヤへのささやかな反論"
+    },
+    "meta_description": {
+      "en": "The Circle of the Fish takes its name from a friendly rejoinder to Kautilya's law of fish: nobody ever asked the fish.",
+      "ko": "복어회라는 이름은 카우틸랴의 '물고기의 법칙'에 대한 다정한 반론에서 왔습니다. 아무도 물고기에게 묻지 않았다는 것입니다.",
+      "zh": "「河豚会」之名源自对考底利耶「鱼之法则」的善意反驳：从来没有人问过鱼。",
+      "ja": "「河豚の会」という名は、カウティリヤの「魚の法則」への穏やかな反論に由来する——誰も魚に尋ねなかった、と。"
+    },
+    "epigraph": {
+      "en": "The circle of the fish is our friendly rejoinder to Kautilya's law of fish. In a South Asian rendering of the law of the jungle in anarchy, Kautilya, in the Arthashastra, says that life without a state is like the life of fish living in a pond filled with predatory drives. The law of the fish prevails when big ones swallow small ones.",
+      "ko": "복어회라는 이름은 카우틸랴의 '물고기의 법칙(matsya nyāya)'에 대한 다정한 반론입니다. 무정부 상태의 정글의 법칙을 남아시아식으로 옮긴 이 표현에서, 카우틸랴는 『아르타샤스트라』를 통해 국가 없는 삶이란 포식 충동으로 가득한 연못 속 물고기의 삶과 같다고 말합니다. 큰 물고기가 작은 물고기를 삼킬 때 물고기의 법칙이 관철된다는 것입니다.",
+      "zh": "「河豚会」这个名字，是我们对考底利耶「鱼之法则（matsya nyāya）」的一个善意反驳。作为南亚版本的无政府状态下的丛林法则，考底利耶在《政事论》中写道：没有国家的生活，就像生活在充满掠食冲动的池塘里的鱼。大鱼吞小鱼之时，鱼之法则便得以贯彻。",
+      "ja": "「河豚の会」という名は、カウティリヤの「魚の法則（matsya nyāya）」への穏やかな反論です。アナーキーにおけるジャングルの掟を南アジア風に言い換えたこの表現で、カウティリヤは『実利論』において、国家なき生とは捕食衝動に満ちた池に棲む魚の生のようだと述べます。大きな魚が小さな魚を呑み込むとき、魚の法則が貫かれるというわけです。"
+    },
+    "epigraph_cite": {
+      "en": "Kautilya, Arthashastra — the matsya nyāya, or law of the fish",
+      "ko": "카우틸랴, 『아르타샤스트라』 — matsya nyāya, 물고기의 법칙",
+      "zh": "考底利耶《政事论》——matsya nyāya，即「鱼之法则」",
+      "ja": "カウティリヤ『実利論』——matsya nyāya、すなわち「魚の法則」"
+    },
+    "body": {
+      "en": [
+        "In the Hobbesian anarchy, states, too, live under the law of fish. Unfortunately, however, Kautilya did not bother to ask the fishes themselves what it is really like to live as a fish, just as Hobbes did not ask wolves. A gang of puffers would not have recognized themselves in Kautilya's law of fish. They live rather constructive and artistic lives, building circles with elaborate patterns — the ones you see on this page.",
+        "We are junior South Korean IR scholars who are like these puffers. Many of us do not recognize ourselves in the theories and narratives of the current IR discipline. While we study disparate subjects, this ontological concern unites us.",
+        "At the same time, we are also not puffers. We do not know what it really is like to live as puffers. Thus, we want to learn their way and the way of many others beyond puffers: Chinese, Japanese, Europeans, Americans, indigenous peoples, non-humans, cyborgs, oceans, shells, aliens.... This learning is also our politics. Inter-world politics along with international politics.",
+        "But we do begin from East Asia, as it is the closest. In short, we aim to globalize IR by exploring ontologies in East Asia and beyond."
+      ],
+      "ko": [
+        "홉스적 무정부 상태에서 국가들 역시 물고기의 법칙 아래 살아갑니다. 그러나 홉스가 늑대에게 묻지 않았듯, 카우틸랴 또한 물고기로 산다는 것이 실제로 어떤 것인지 물고기 자신에게 물어보는 수고를 하지 않았습니다. 복어 무리라면 카우틸랴의 물고기의 법칙에서 자기 모습을 알아보지 못했을 것입니다. 그들은 오히려 정교한 무늬의 원을 짓는, 건설적이고 예술적인 삶을 삽니다. 이 페이지에 보이는 바로 그 원입니다.",
+        "우리는 그 복어들을 닮은 한국의 신진 국제정치학 연구자들입니다. 우리 중 다수는 현재 국제정치학의 이론과 서사 속에서 자신을 알아보지 못합니다. 서로 다른 주제를 연구하지만, 이 존재론적 문제의식이 우리를 묶습니다.",
+        "동시에 우리는 복어도 아닙니다. 복어로 산다는 것이 실제로 어떤 것인지 우리는 알지 못합니다. 그래서 우리는 복어의 방식을, 그리고 복어 너머 수많은 존재들의 방식을 배우고자 합니다. 중국인, 일본인, 유럽인, 미국인, 원주민, 비인간, 사이보그, 바다, 조개껍데기, 외계인……. 이 배움 자체가 우리의 정치입니다. 국제정치와 더불어 세계간(inter-world) 정치를.",
+        "다만 우리는 동아시아에서 시작합니다. 가장 가깝기 때문입니다. 요컨대 우리는 동아시아와 그 너머의 존재론을 탐구함으로써 국제정치학을 지구화하고자 합니다."
+      ],
+      "zh": [
+        "在霍布斯式的无政府状态中，国家同样活在鱼之法则之下。然而遗憾的是，正如霍布斯不曾问过狼，考底利耶也没有费心去问鱼本身：做一条鱼究竟是什么滋味。一群河豚大概不会在考底利耶的鱼之法则中认出自己。它们过着相当具有建设性、甚至称得上艺术的生活——在海底筑起纹样繁复的圆环，正如本页所见。",
+        "我们就是这样一群像河豚的韩国青年国际关系学者。我们当中许多人，在当下国际关系学科的理论与叙事里认不出自己。虽然各自研究的题目大相径庭，这一存在论上的关切却把我们联结在一起。",
+        "与此同时，我们也并不是河豚。做一只河豚究竟是什么滋味，我们并不知道。因此我们想要学习它们的方式，以及河豚之外众多存在者的方式：中国人、日本人、欧洲人、美国人、原住民、非人类、赛博格、海洋、贝壳、外星人……。这种学习本身就是我们的政治。在国际政治之外，还有世界间（inter-world）的政治。",
+        "不过，我们从东亚开始，因为它离我们最近。简言之，我们希望通过探究东亚及其之外的存在论，推动国际关系学的全球化。"
+      ],
+      "ja": [
+        "ホッブズ的アナーキーにおいて、国家もまた魚の法則のもとに生きています。しかし残念ながら、ホッブズが狼に尋ねなかったように、カウティリヤもまた、魚として生きるとは実際どういうことなのかを魚自身に問おうとはしませんでした。フグの群れであれば、カウティリヤの魚の法則の中に自らの姿を見出さなかったでしょう。彼らはむしろ、精緻な文様の円を海底に築く、建設的で芸術的な生を生きています。このページに見える、まさにその円です。",
+        "私たちは、そのフグに似た韓国の若手国際関係論研究者です。私たちの多くは、現在の国際関係論という学問の理論と語りのなかに自分自身を見出せずにいます。扱う主題はばらばらですが、この存在論的な問題意識が私たちを結びつけています。",
+        "同時に、私たちはフグでもありません。フグとして生きるとは実際どういうことなのか、私たちは知りません。だからこそ、フグのやり方を、そしてフグの先にある数多の存在のやり方を学びたいのです。中国人、日本人、ヨーロッパ人、アメリカ人、先住民、非人間、サイボーグ、海、貝殻、異星人……。この学びそのものが私たちの政治です。国際政治とともに、世界間（inter-world）の政治を。",
+        "とはいえ私たちは東アジアから始めます。それが最も近いからです。要するに私たちは、東アジアとその先にある存在論を探ることで、国際関係論をグローバル化しようとしています。"
+      ]
+    },
+    "aims_title": {
+      "en": "Aims",
+      "ko": "목표",
+      "zh": "目标",
+      "ja": "目標"
+    },
+    "aims_kicker": {
+      "en": "What the Circle works toward",
+      "ko": "복어회가 지향하는 것",
+      "zh": "河豚会致力于什么",
+      "ja": "会がめざすもの"
+    },
+    "aims": {
+      "en": [
+        "Recover marginalized ontologies in East Asian international relations",
+        "Connect indigenous East Asian discourses on the international with current IR theories",
+        "Bring long-term historical East Asian international relations into the history of the modern international order",
+        "Contribute to the pluralization of IR by way of studying East Asian international relations"
+      ],
+      "ko": [
+        "동아시아 국제관계에서 주변화된 존재론을 복원한다",
+        "국제적인 것에 관한 동아시아 고유의 담론을 현재의 국제정치이론과 접속시킨다",
+        "장기지속의 동아시아 국제관계사를 근대 국제질서의 역사 안으로 들여온다",
+        "동아시아 국제관계 연구를 통해 국제정치학의 다원화에 기여한다"
+      ],
+      "zh": [
+        "发掘东亚国际关系中被边缘化的存在论",
+        "把东亚本土关于「国际」的话语与当代国际关系理论接通",
+        "将长时段的东亚国际关系史纳入现代国际秩序的历史叙述",
+        "通过研究东亚国际关系，推动国际关系学的多元化"
+      ],
+      "ja": [
+        "東アジア国際関係における周縁化された存在論を回復する",
+        "「国際的なもの」をめぐる東アジア固有の言説を現代の国際関係理論と接続する",
+        "長期持続としての東アジア国際関係史を近代国際秩序の歴史のなかに位置づける",
+        "東アジア国際関係の研究を通じて国際関係論の複数化に寄与する"
+      ]
+    },
+    "history_title": {
+      "en": "How We Work",
+      "ko": "모임의 방식",
+      "zh": "我们如何运作",
+      "ja": "会の進め方"
+    },
+    "history_kicker": {
+      "en": "Reading, drafting, and arguing together since 2020",
+      "ko": "2020년부터 함께 읽고 쓰고 따져 왔다",
+      "zh": "自2020年起共同阅读、写作与争辩",
+      "ja": "2020年から共に読み、書き、議論してきた"
+    },
+    "history": {
+      "en": [
+        "The Circle met for the first time in June 2020 and has read together roughly once a month ever since. A session usually takes one book or a cluster of articles and works through it in a single long sitting; the reading list on the Resources page is simply the residue of five years of those sessions.",
+        "The other half of the calendar belongs to our own work. Members bring drafts — dissertation chapters, article manuscripts, project proposals — and the group reads them the way a hostile reviewer would, before the journal does. Several of the articles listed under Publications passed through this room first.",
+        "Periodically we convene something larger: a summer seminar, a methodology workshop on reading East Asian diplomatic documents, a pedagogy workshop on teaching IR and Asian Studies together. Members are spread across South Korea and North America, so we meet online as a matter of course and in person when we can."
+      ],
+      "ko": [
+        "복어회는 2020년 6월에 처음 모였고, 그 뒤로 대략 한 달에 한 번씩 함께 읽어 왔습니다. 한 회차는 보통 단행본 한 권이나 논문 몇 편을 붙들고 한 자리에서 끝까지 밀고 나가는 방식입니다. 자료 페이지의 독서 목록은 그렇게 쌓인 5년치 세미나의 잔여물입니다.",
+        "나머지 절반은 우리 자신의 원고에 씁니다. 구성원들이 학위논문 장(章), 논문 초고, 연구계획서를 들고 오면, 학술지 심사자가 그러하듯 — 다만 학술지보다 먼저 — 함께 읽고 따집니다. 출판 목록에 실린 논문 여러 편이 이 방을 먼저 거쳐 갔습니다.",
+        "이따금 좀 더 큰 자리를 엽니다. 여름 세미나, 동아시아 외교문서 독법을 다루는 방법론 워크숍, 국제정치학과 아시아 연구를 함께 가르치는 문제를 다루는 교수법 워크숍 같은 것들입니다. 구성원들이 한국과 북미에 흩어져 있어 온라인 모임이 기본이고, 가능할 때 대면으로 모입니다."
+      ],
+      "zh": [
+        "河豚会于2020年6月首次聚会，此后大致每月共读一次。一次研讨通常围绕一本专著或一组论文，在一次长时间的会面中读完；资源页上的书目，不过是五年研讨积累下来的沉淀。",
+        "另一半时间留给我们自己的稿件。成员带来学位论文章节、论文初稿、研究计划书，大家便以审稿人的方式——只是比期刊更早——逐字追问。论著页上的多篇文章，都先经过了这个房间。",
+        "我们也不时召集规模更大的活动：暑期研讨、关于东亚外交文书读法的方法论工作坊、关于如何同时讲授国际关系与亚洲研究的教学工作坊。成员分散在韩国与北美，因而线上聚会是常态，条件允许时则面对面。"
+      ],
+      "ja": [
+        "河豚の会は2020年6月に初めて集まり、以来おおむね月に一度、共に読んできました。一回の研究会はたいてい単行本一冊か論文数本を取り上げ、一度の長い会合で最後まで読み通します。資料ページの読書リストは、五年分のそうした会合の堆積にすぎません。",
+        "残る半分は自分たちの原稿に充てられます。学位論文の章、論文草稿、研究計画書を持ち寄ると、査読者がそうするように——ただし学術誌より先に——皆で読み、問い詰めます。業績ページに並ぶ論文の幾つかは、まずこの部屋を通りました。",
+        "折にふれてより大きな場も設けます。夏期セミナー、東アジア外交文書の読み方をめぐる方法論ワークショップ、国際関係論とアジア研究を併せて教えることを扱う教育法ワークショップなどです。メンバーは韓国と北米に散らばっているため、オンラインでの開催が基本で、可能なときに対面で集まります。"
+      ]
+    },
+    "facts": [
+      {
+        "label": {
+          "en": "First meeting",
+          "ko": "첫 모임",
+          "zh": "首次聚会",
+          "ja": "初回会合"
+        },
+        "value": {
+          "en": "27 June 2020",
+          "ko": "2020년 6월 27일",
+          "zh": "2020年6月27日",
+          "ja": "2020年6月27日"
+        }
+      },
+      {
+        "label": {
+          "en": "Rhythm",
+          "ko": "모임 주기",
+          "zh": "聚会周期",
+          "ja": "開催周期"
+        },
+        "value": {
+          "en": "Monthly reading seminar; draft workshops as needed",
+          "ko": "월례 독회 · 수시 원고 검토",
+          "zh": "每月共读，另按需举行稿件研讨",
+          "ja": "月例の読書会、随時の原稿検討"
+        }
+      },
+      {
+        "label": {
+          "en": "Working languages",
+          "ko": "작업 언어",
+          "zh": "工作语言",
+          "ja": "作業言語"
+        },
+        "value": {
+          "en": "English and Korean; sources in Literary Chinese, Japanese, and more",
+          "ko": "영어·한국어 / 사료는 한문·일본어 등",
+          "zh": "英语与韩语；史料涉汉文、日文等",
+          "ja": "英語・韓国語／史料は漢文・日本語ほか"
+        }
+      },
+      {
+        "label": {
+          "en": "Where",
+          "ko": "활동 범위",
+          "zh": "所在",
+          "ja": "拠点"
+        },
+        "value": {
+          "en": "South Korea and North America, meeting online",
+          "ko": "한국·북미, 온라인 중심",
+          "zh": "韩国与北美，以线上为主",
+          "ja": "韓国・北米、オンライン中心"
+        }
+      }
+    ]
+  },
+  "contact": {
+    "title": {
+      "en": "Contact",
+      "ko": "연락처",
+      "zh": "联系",
+      "ja": "連絡先"
+    },
+    "kicker": {
+      "en": "Get in touch",
+      "ko": "문의",
+      "zh": "联络我们",
+      "ja": "お問い合わせ"
+    },
+    "body": {
+      "en": "For questions about the Circle, our seminars, or possible collaboration, write to:",
+      "ko": "복어회, 세미나, 공동 작업에 관한 문의는 아래로 연락 주십시오.",
+      "zh": "有关河豚会、研讨会或合作事宜，请联系：",
+      "ja": "河豚の会、セミナー、共同研究に関するお問い合わせは下記まで。"
+    },
+    "email": "inho.choi86@gmail.com"
+  },
+  "footer": {
+    "line": {
+      "en": "Circle of the Fish · Globalizing International Relations from East Asia",
+      "ko": "복어회 · 동아시아에서 국제정치학의 지구적 전환을",
+      "zh": "河豚会 · 从东亚出发推动国际关系学的全球化",
+      "ja": "河豚の会 · 東アジアから国際関係論のグローバル化を"
+    },
+    "legal": {
+      "en": "© 2020– Circle of the Fish. The sand-circle motif is drawn after the nest of the white-spotted pufferfish (Torquigener albomaculatus).",
+      "ko": "© 2020– Circle of the Fish. 배경의 모래 원 무늬는 흰점박이복어(Torquigener albomaculatus)의 산란 구조물을 본떴습니다.",
+      "zh": "© 2020– Circle of the Fish. 背景的沙圈图案取自白斑窄额鲀（Torquigener albomaculatus）的产卵巢。",
+      "ja": "© 2020– Circle of the Fish. 背景の砂の円文様は、シロアミメフグ（Torquigener albomaculatus）の産卵巣に倣ったものです。"
+    }
+  }
+}

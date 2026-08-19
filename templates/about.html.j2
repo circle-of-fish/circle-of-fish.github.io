@@ -1,0 +1,70 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.nav.about }} — {{ site.title }}{% endblock %}
+{% block description %}{{ site.about.meta_description }}{% endblock %}
+
+{% block hero %}
+<div class="hero page">
+  <h1>{{ site.about.title }}</h1>
+  <p class="subtitle">{{ site.about.kicker }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section>
+  <div class="container narrow">
+    <blockquote class="epigraph">
+      {{ site.about.epigraph }}
+      <span class="cite">{{ site.about.epigraph_cite }}</span>
+    </blockquote>
+    <div class="prose">
+      {% for p in site.about.body %}
+      <p>{{ p }}</p>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band">
+  <div class="container narrow">
+    <h2 class="section-title">{{ site.about.aims_title }}</h2>
+    <p class="section-subtitle">{{ site.about.aims_kicker }}</p>
+    <ul class="aims">
+      {% for aim in site.about.aims %}
+      <li><span class="n">{{ "%02d"|format(loop.index) }}</span><span>{{ aim }}</span></li>
+      {% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section>
+  <div class="container narrow">
+    <h2 class="section-title">{{ site.about.history_title }}</h2>
+    <p class="section-subtitle">{{ site.about.history_kicker }}</p>
+    <div class="prose">
+      {% for p in site.about.history %}
+      <p>{{ p }}</p>
+      {% endfor %}
+    </div>
+    <div class="highlight-grid" style="margin-top:2rem;">
+      {% for f in site.about.facts %}
+      <div class="stat">
+        <div class="label">{{ f.label }}</div>
+        <div class="value">{{ f.value }}</div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="band" id="contact">
+  <div class="container narrow">
+    <h2 class="section-title">{{ site.contact.title }}</h2>
+    <p class="section-subtitle">{{ site.contact.kicker }}</p>
+    <p class="contact-line">{{ site.contact.body }}<br>
+      <a href="mailto:{{ site.contact.email }}">{{ site.contact.email }}</a>
+    </p>
+  </div>
+</section>
+
+{% endblock %}

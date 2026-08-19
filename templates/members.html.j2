@@ -1,0 +1,39 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.nav.members }} — {{ site.title }}{% endblock %}
+{% block description %}{{ members.meta_description }}{% endblock %}
+
+{% block hero %}
+<div class="hero page">
+  <h1>{{ members.title }}</h1>
+  <p class="subtitle">{{ members.kicker }}</p>
+  <p class="description">{{ members.lede }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section>
+  <div class="container">
+    <div class="members-grid">
+      {% for m in members.people %}
+      <div class="member-card" id="{{ m.key }}">
+        <div class="member-name">{{ m.name }}</div>
+        {% if m.get('name_alt') %}<div class="member-name-alt">{{ m.get('name_alt') }}</div>{% endif %}
+        <div class="member-affiliation">{{ m.affiliation }}</div>
+        {% if m.get('interests') %}<div class="member-interests">{{ m.get('interests') }}</div>{% endif %}
+        {% if m.get('links') %}
+        <div class="member-links">
+          {% for l in m.get('links') %}
+          <a href="{{ l.url }}" target="_blank" rel="noopener">{{ l.label }}</a>
+          {% endfor %}
+        </div>
+        {% endif %}
+        {% if m.get('role') %}<span class="member-role">{{ m.get('role') }}</span>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    {% if members.get('note') %}<p class="note">{{ members.get('note')|safe }}</p>{% endif %}
+  </div>
+</section>
+
+{% endblock %}

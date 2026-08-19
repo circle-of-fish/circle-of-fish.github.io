@@ -1,0 +1,219 @@
+{
+  "title": { "en": "Research", "ko": "연구", "zh": "研究", "ja": "研究" },
+  "kicker": { "en": "Orientation, method, and two research modules", "ko": "지향과 방법, 그리고 두 개의 연구 모듈", "zh": "取向、方法与两个研究模块", "ja": "志向と方法、そして二つの研究モジュール" },
+  "meta_description": {
+    "en": "The theoretical and methodological orientation of the Circle of the Fish, and its two research modules on historical East Asian international orders and on race and gender.",
+    "ko": "복어회의 이론적·방법론적 지향과, 동아시아 국제질서사 및 인종·젠더를 다루는 두 연구 모듈.",
+    "zh": "河豚会的理论与方法论取向，以及关于东亚国际秩序史与种族、性别的两个研究模块。",
+    "ja": "河豚の会の理論的・方法論的志向と、東アジア国際秩序史および人種・ジェンダーを扱う二つの研究モジュール。"
+  },
+  "orientation_lede": {
+    "en": "What holds the Circle together is not a shared object of study but a shared suspicion: that the entities the discipline takes for granted — sovereign states in anarchy, pursuing security under a single logic of survival — are one historically particular way of carving up the international, mistaken for the only one. Everything below follows from taking that suspicion seriously.",
+    "ko": "복어회를 묶는 것은 공통의 연구 대상이 아니라 공통의 의심이다. 학문이 당연시하는 존재들 — 무정부 상태 속에서 생존이라는 단일한 논리에 따라 안보를 추구하는 주권국가들 — 은 국제적인 것을 분절하는 역사적으로 특수한 한 방식일 뿐인데, 그것이 유일한 방식으로 오인되어 왔다는 의심이다. 아래의 모든 것은 이 의심을 진지하게 받아들인 데서 나온다.",
+    "zh": "把河豚会联结起来的，不是共同的研究对象，而是共同的怀疑：学科视为理所当然的那些存在者——在无政府状态下依循单一生存逻辑追求安全的主权国家——不过是切分「国际」的一种历史上特定的方式，却被误认为唯一的方式。以下的一切，都源于认真对待这一怀疑。",
+    "ja": "河豚の会を結びつけているのは、共通の研究対象ではなく、共通の疑いである。この学問が自明視する存在者——アナーキーのもとで生存という単一の論理に従って安全を追求する主権国家——は、「国際的なもの」を切り分ける歴史的に特殊な一つの仕方にすぎないのに、それが唯一の仕方と取り違えられてきたのではないか。以下のすべては、この疑いを真剣に受け取ることから出てくる。"
+  },
+  "theoretical_title": { "en": "Theoretical Orientation", "ko": "이론적 지향", "zh": "理论取向", "ja": "理論的志向" },
+  "theoretical_kicker": { "en": "Four commitments", "ko": "네 가지 지향", "zh": "四项承诺", "ja": "四つのコミットメント" },
+  "theoretical_lede": {
+    "en": "These are not doctrines the Circle enforces. They are the recurring moves our published work turns out to make, stated plainly enough that a reader can hold us to them.",
+    "ko": "이것은 복어회가 강제하는 교의가 아니다. 우리가 발표해 온 연구들이 되풀이해 온 수(手)를, 독자가 우리에게 따져 물을 수 있을 만큼 분명하게 적어 둔 것이다.",
+    "zh": "这并非河豚会强制推行的教条，而是我们已发表的研究反复采取的做法——写得足够明确，好让读者据此追问我们。",
+    "ja": "これは会が強いる教義ではない。私たちの発表してきた研究が繰り返し取ってきた手を、読者が私たちに問いただせる程度に明示したものである。"
+  },
+  "theoretical": [
+    {
+      "heading": { "en": "Ontology comes before theory", "ko": "이론에 앞서 존재론을 묻는다", "zh": "存在论先于理论", "ja": "理論に先立って存在論を問う" },
+      "body": {
+        "en": "Before asking how units behave, we ask what counted as a unit at all, and what kinds of relation were thinkable between them. An order in which a polity could be simultaneously a kingdom, a vassal, a ritual junior, and a trading counterpart is not a defective states-system; it is a differently constituted one. Reading such orders on their own ontological terms is the Circle's first move, not a preliminary to the real analysis.",
+        "ko": "행위자가 어떻게 행동하는가를 묻기 전에, 애초에 무엇이 행위자로 셈해졌는가, 그들 사이에 어떤 관계가 사유 가능했는가를 묻는다. 하나의 정치체가 왕국이면서 동시에 번속(藩屬)이고 의례적 아우이자 교역 상대일 수 있었던 질서는 결함 있는 주권국가체계가 아니라, 다르게 구성된 질서다. 그러한 질서를 그 자신의 존재론적 어휘로 읽어 내는 것이 복어회의 첫 수이며, 본격적 분석에 앞선 예비 작업이 아니다.",
+        "zh": "在追问单位如何行动之前，我们先问：究竟什么才算得上一个单位，单位之间又有哪些关系是可以被设想的。一个政治体可以同时是王国、是藩属、是礼制上的弟、又是贸易对手——这样的秩序并非有缺陷的主权国家体系，而是以另一种方式构成的秩序。用这些秩序自身的存在论词汇去读它们，是河豚会的第一步，而不是「真正的分析」之前的准备工作。",
+        "ja": "ユニットがいかに行動するかを問う前に、そもそも何がユニットとして数えられたのか、それらの間にどのような関係が思考可能だったのかを問う。一つの政体が王国であると同時に藩属であり、儀礼上の弟であり交易相手でもありえた秩序は、欠陥ある主権国家体系ではなく、別様に構成された秩序である。そうした秩序をそれ自身の存在論的語彙で読むことこそ会の第一手であり、「本来の分析」に先立つ予備作業ではない。"
+      }
+    },
+    {
+      "heading": { "en": "Indigenous concepts are theory, not local colour", "ko": "토착 개념은 이론이지 지방색이 아니다", "zh": "本土概念是理论，不是地方色彩", "ja": "在来の概念は理論であって地方色ではない" },
+      "body": {
+        "en": "Sadae (事大, serving the great), shi (勢, propensity of things), li (禮, ritual propriety), tianxia (天下, all-under-heaven): we treat these as working analytical vocabularies that generated their own accounts of hierarchy, obligation, and change — not as folk beliefs awaiting translation into realism or constructivism. The test of such a concept is the same as for any other: what can it explain that the alternatives cannot?",
+        "ko": "사대(事大), 세(勢), 예(禮), 천하(天下). 우리는 이것들을 위계와 의무와 변화에 대한 고유한 설명을 산출한 작동하는 분석 어휘로 다루며, 현실주의나 구성주의로 번역되기를 기다리는 민간 신념으로 취급하지 않는다. 그런 개념을 시험하는 기준은 다른 개념과 다르지 않다. 대안들이 설명하지 못하는 무엇을 이것이 설명하는가.",
+        "zh": "事大、势、礼、天下——我们把这些当作切实运作的分析词汇：它们各自生成了关于等级、义务与变迁的解释，而不是等待被翻译成现实主义或建构主义的民间观念。检验这类概念的标准与检验其他概念并无二致：它能解释什么，是别的方案解释不了的？",
+        "ja": "事大、勢、礼、天下——私たちはこれらを、階層・義務・変化についての独自の説明を生み出してきた作動する分析語彙として扱い、リアリズムや構成主義への翻訳を待つ民間信念とはみなさない。そうした概念を試す基準は他と変わらない。代替案が説明できない何を、それは説明するのか。"
+      }
+    },
+    {
+      "heading": { "en": "Global IR means complexifying theory, not adding cases", "ko": "지구적 국제정치학은 사례를 더하는 일이 아니라 이론을 복합화하는 일이다", "zh": "全球国际关系学意在使理论复杂化，而非增添案例", "ja": "グローバルIRとは事例を足すことではなく理論を複合化すること" },
+      "body": {
+        "en": "Appending an East Asian chapter to an otherwise unchanged theory leaves the theory unchanged. We are after the harder outcome: concepts built from East Asian material that travel back and unsettle the general categories — hegemony, sovereignty, hierarchy, order — rather than sitting quietly beside them as regional exceptions.",
+        "ko": "그대로인 이론에 동아시아 장(章)을 덧붙여 봐야 이론은 그대로다. 우리가 노리는 것은 더 어려운 결과다. 동아시아의 재료로 벼려진 개념이 되돌아가 패권·주권·위계·질서 같은 일반 범주 자체를 흔드는 것. 지역적 예외로서 그 옆에 얌전히 놓이는 것이 아니라.",
+        "zh": "在原封不动的理论上加一章东亚，理论仍旧原封不动。我们要的是更难的结果：由东亚材料锻造出的概念能够反向回流，动摇霸权、主权、等级、秩序这些一般范畴本身，而不是作为地区性例外静静地摆在它们旁边。",
+        "ja": "そのままの理論に東アジアの一章を付け足しても、理論はそのままである。私たちが狙うのはより困難な帰結だ。東アジアの素材から鍛えられた概念が逆流し、ヘゲモニー・主権・階層・秩序といった一般的カテゴリー自体を揺さぶること。地域的例外としてその傍らに大人しく置かれるのではなく。"
+      }
+    },
+    {
+      "heading": { "en": "Hierarchy is constitutive, not deviant", "ko": "위계는 일탈이 아니라 구성적이다", "zh": "等级是构成性的，而非偏离", "ja": "階層は逸脱ではなく構成的である" },
+      "body": {
+        "en": "Race, gender, status, and the standards of civilization are not frictions in an otherwise egalitarian order of states; they are among the materials the order was built from. Following that through means asking how racial humiliation shaped a rising power's restraint, how a colonial woman's haircut became a measure of civilizational standing, and how such measures were written into international institutions and law.",
+        "ko": "인종, 젠더, 지위, 문명의 표준은 본래 평등했을 국가 간 질서에 낀 마찰이 아니라, 그 질서를 지은 재료에 속한다. 이를 끝까지 밀고 가면 이런 물음이 된다. 인종적 모멸은 부상하는 강대국의 자제(自制)를 어떻게 빚어냈는가. 식민지 여성의 단발은 어떻게 문명의 척도가 되었는가. 그리고 그런 척도들은 어떻게 국제제도와 국제법 속에 기입되었는가.",
+        "zh": "种族、性别、地位与文明标准，并不是本应平等的国家间秩序中的摩擦，而是构筑这一秩序的材料之一。将这一点推到底，便成为这样的追问：种族屈辱如何塑造了一个崛起大国的克制？殖民地女性的短发如何成为文明程度的尺度？而这些尺度又如何被写进国际制度与国际法？",
+        "ja": "人種、ジェンダー、地位、文明の標準は、本来平等であったはずの国家間秩序に生じた摩擦ではなく、その秩序を築いた材料の一部である。これを徹底すれば、次の問いになる。人種的屈辱は台頭国の自制をいかに形づくったか。植民地の女性の断髪はいかにして文明の尺度となったか。そしてそうした尺度はいかに国際制度と国際法に書き込まれたか。"
+      }
+    }
+  ],
+  "methodological_title": { "en": "Methodological Orientation", "ko": "방법론적 지향", "zh": "方法论取向", "ja": "方法論的志向" },
+  "methodological_kicker": { "en": "How we actually work", "ko": "우리가 실제로 작업하는 방식", "zh": "我们实际的做法", "ja": "私たちの実際の進め方" },
+  "methodological_lede": {
+    "en": "An ontological argument is only as good as the reading that supports it. The Circle's methodological commitments are therefore mostly commitments about sources: which ones, in which language, read how.",
+    "ko": "존재론적 주장은 그것을 뒷받침하는 독해만큼만 좋다. 그래서 복어회의 방법론적 지향은 대체로 사료에 관한 지향이다. 어떤 사료를, 어떤 언어로, 어떻게 읽을 것인가.",
+    "zh": "存在论层面的主张，其分量取决于支撑它的那份读解。因此河豚会的方法论取向，大体上是关于史料的取向：读哪些，用哪种语言，怎么读。",
+    "ja": "存在論的な主張は、それを支える読解の質を超えない。ゆえに会の方法論的志向は、おおむね史料についての志向である。どの史料を、どの言語で、いかに読むか。"
+  },
+  "methodological": [
+    {
+      "heading": { "en": "Multilingual archives, read against each other", "ko": "다언어 사료를 서로 맞세워 읽는다", "zh": "多语种档案，互相对读", "ja": "多言語史料を突き合わせて読む" },
+      "body": {
+        "en": "The record of East Asian interpolity relations is documentary and irreducibly multilingual: Literary Chinese court histories and statutes, Korean veritable records and envoy diaries, Japanese and Manchu materials, Iberian and Anglophone consular correspondence. We work with these in the original and, wherever possible, read one archive against another, since the same event is rarely the same event twice.",
+        "ko": "동아시아 정치체 간 관계의 기록은 문서로 남아 있으며 환원 불가능하게 다언어적이다. 한문 정사와 회전(會典), 조선의 실록과 연행록, 일본어와 만주어 자료, 이베리아어와 영어 영사 문서. 우리는 이것들을 원문으로 다루고, 가능한 한 한 문서군을 다른 문서군과 맞세워 읽는다. 같은 사건이 두 번 같은 사건인 경우는 드물기 때문이다.",
+        "zh": "东亚政治体之间关系的记录以文书形式留存，且不可化约地多语并存：汉文正史与会典、朝鲜实录与燕行录、日文与满文材料、伊比利亚语与英语领事文书。我们使用原文，并尽可能让一批档案与另一批对读——同一事件很少两次都是同一事件。",
+        "ja": "東アジアの政体間関係の記録は文書として残り、還元不可能なほど多言語的である。漢文の正史と会典、朝鮮の実録と燕行録、日本語・満洲語の資料、イベリア語や英語の領事文書。私たちはこれらを原文で扱い、可能なかぎり一方の文書群をもう一方と突き合わせて読む。同じ出来事が二度同じ出来事であることは稀だからである。"
+      }
+    },
+    {
+      "heading": { "en": "以意逆志 — reading toward the writer's intent", "ko": "이의역지(以意逆志) — 글쓴이의 뜻을 거슬러 읽기", "zh": "以意逆志——逆求作者之志", "ja": "以意逆志——書き手の志に遡って読む" },
+      "body": {
+        "en": "The Circle devoted a 2023 methodology workshop to iuiyeokji, the Mencian precept that a reader should not let the wording defeat the sentence, nor the sentence defeat the intent, but should meet the writer's intent with one's own understanding. Taken as a method for diplomatic history, it disciplines a specific temptation: reading a memorial or an envoy's report as though its formulaic surface were either transparent evidence or empty ritual, when the work is to reconstruct what a writer was trying to do with those formulas.",
+        "ko": "복어회는 2023년 방법론 워크숍을 이의역지(以意逆志)에 바쳤다. 글자로 말을 해치지 말고 말로 뜻을 해치지 말며, 자기 뜻으로써 글쓴이의 뜻을 맞이하라는 『맹자』의 독법이다. 이를 외교사의 방법으로 받으면 특정한 유혹을 규율하게 된다. 상소나 사행 보고의 상투적 표면을 투명한 증거로 읽거나 반대로 공허한 의례로 치워 버리는 유혹 말이다. 정작 해야 할 일은 글쓴이가 그 상투구로 무엇을 하려 했는지를 재구성하는 것이다.",
+        "zh": "河豚会曾以2023年的方法论工作坊专门讨论「以意逆志」——《孟子》所言：不以文害辞，不以辞害志，以意逆志，是为得之。将其用作外交史的方法，便可约束一种特定的诱惑：把奏疏或使行报告的程式化表层，或读作透明的证据，或斥为空洞的礼仪。真正要做的，是重构书写者试图用这些程式做成什么事。",
+        "ja": "会は2023年の方法論ワークショップを「以意逆志」に充てた。文をもって辞を害せず、辞をもって志を害せず、己の意をもって書き手の志を迎えよ、という『孟子』の読法である。これを外交史の方法として受け取ると、ある特定の誘惑が律せられる。上疏や使行報告の常套的な表層を、透明な証拠として読むか、逆に空虚な儀礼として片づけるかという誘惑である。なすべきは、書き手がその常套句で何をしようとしたのかを再構成することだ。"
+      }
+    },
+    {
+      "heading": { "en": "Conceptual history and the politics of translation", "ko": "개념사와 번역의 정치", "zh": "概念史与翻译的政治", "ja": "概念史と翻訳の政治" },
+      "body": {
+        "en": "Sovereignty, independence, equality, civilization: each arrived in East Asia as a translation, and each translation was a settlement of a dispute. Following Koselleck's layered time and Lydia Liu's account of translingual encounter, we track how such terms were coined, contested, and repurposed — and treat the moment of translation as the point where an ontological conflict becomes visible in the record.",
+        "ko": "주권, 독립, 평등, 문명. 이 말들은 저마다 번역으로 동아시아에 도착했고, 번역마다 하나의 분쟁이 봉합되었다. 코젤렉의 중층적 시간과 리디아 리우의 언어횡단적 조우 논의를 따라, 우리는 이런 용어들이 어떻게 주조되고 다투어지고 전용되었는지를 추적한다. 그리고 번역의 순간을 존재론적 충돌이 기록 위로 떠오르는 지점으로 다룬다.",
+        "zh": "主权、独立、平等、文明——每一个词都是以翻译的方式抵达东亚的，而每一次翻译都是一场争端的了结。循着科泽勒克的多层时间与刘禾关于跨语际交往的论述，我们追踪这些词如何被铸造、被争夺、被挪用，并把翻译的时刻视为存在论冲突在文献中显形的节点。",
+        "ja": "主権、独立、平等、文明——いずれも翻訳として東アジアに到来し、翻訳のたびに一つの争いが決着させられた。コゼレックの重層的時間とリディア・リウの言語横断的遭遇の議論をたどりつつ、私たちはこれらの語がいかに鋳造され、争われ、転用されたかを追う。そして翻訳の瞬間を、存在論的な衝突が記録の上に浮かび上がる地点として扱う。"
+      }
+    },
+    {
+      "heading": { "en": "The seminar as method", "ko": "세미나라는 방법", "zh": "以研讨会为方法", "ja": "方法としてのセミナー" },
+      "body": {
+        "en": "Almost everything the Circle has published was first read aloud to the Circle in draft and taken apart. That is not collegiality but method: an argument built from an unfamiliar archive needs readers who will ask whether the source really says that, and readers who know the neighbouring archive well enough to check. The seminar list on this site is, in that sense, the apparatus behind the publication list.",
+        "ko": "복어회가 출판한 것의 거의 전부는 먼저 초고 상태로 이 모임에서 소리 내어 읽히고 해체되었다. 이는 동료애가 아니라 방법이다. 낯선 사료에서 세운 주장에는 그 사료가 정말 그렇게 말하는지 따져 물을 독자가 필요하고, 인접 사료를 확인할 만큼 아는 독자가 필요하다. 그런 뜻에서 이 사이트의 세미나 목록은 출판 목록의 뒤에 놓인 장치다.",
+        "zh": "河豚会已发表的东西，几乎无一例外先以初稿的形式在会上被朗读、被拆解。这不是同侪情谊，而是方法：建立在陌生史料之上的论证，需要有人追问史料是否真的这样说，也需要有人熟悉邻近的档案足以核对。就此而言，本站的研讨会列表，是论著列表背后的装置。",
+        "ja": "会が公にしたもののほとんどすべては、まず草稿の状態でこの場に読み上げられ、解体された。これは同僚愛ではなく方法である。見慣れぬ史料から立てた論証には、その史料が本当にそう述べているのかを問う読者が要り、隣接する史料を確かめられるだけの読者が要る。その意味で本サイトのセミナー一覧は、業績一覧の背後にある装置である。"
+      }
+    }
+  ],
+  "modules_title": { "en": "Research Modules", "ko": "연구 모듈", "zh": "研究模块", "ja": "研究モジュール" },
+  "modules_kicker": { "en": "Two collaborative programmes", "ko": "두 개의 공동 연구 프로그램", "zh": "两个共同研究计划", "ja": "二つの共同研究プログラム" },
+  "areas_label": { "en": "Research areas", "ko": "연구 영역", "zh": "研究领域", "ja": "研究領域" },
+  "modules": [
+    {
+      "label": { "en": "Module 1", "ko": "모듈 1", "zh": "模块一", "ja": "モジュール1" },
+      "title": {
+        "en": "Power, Institution, and Ideas in Historical East Asian International Orders",
+        "ko": "역사적 동아시아 국제질서의 권력·제도·관념",
+        "zh": "历史上东亚国际秩序中的权力、制度与观念",
+        "ja": "歴史的東アジア国際秩序における権力・制度・観念"
+      },
+      "body": {
+        "en": [
+          "This module pursues a systematic theorization of material, ideational, and institutional structures and their changes in historical East Asian international orders, from the early modern period to the early twentieth century. Compared with the established studies of early modern and modern Europe, work on material, ideational, and spatial structures in East Asia remains rudimentary and undertheorized.",
+          "The existing literature has focused largely on comparing distinctive East Asian organizing principles with the European sovereign states system and the balance of power. Drawing on the burgeoning historical scholarship on East Asian international orders, this module instead investigates the operating components of those structures and their continuity and transformation at critical historical junctures."
+        ],
+        "ko": [
+          "이 모듈은 근세부터 20세기 초까지 역사적 동아시아 국제질서의 물질적·관념적·제도적 구조와 그 변화를 체계적으로 이론화하는 작업이다. 근세·근대 유럽에 관한 축적된 연구에 견주면, 동아시아의 물질적·관념적·공간적 구조에 대한 연구는 여전히 초보적이고 이론화가 덜 되어 있다.",
+          "기존 연구는 대체로 동아시아의 독특한 조직 원리를 유럽의 주권국가체계 및 세력균형과 비교하는 데 집중해 왔다. 이 모듈은 동아시아 국제질서에 관해 빠르게 축적되는 역사 연구를 발판 삼아, 그 구조들의 작동 요소와 결정적 역사적 국면에서의 지속과 변형을 규명하고자 한다."
+        ],
+        "zh": [
+          "本模块致力于系统地理论化历史上东亚国际秩序中的物质、观念与制度结构及其变迁，时段自近世延伸至二十世纪初。与关于近世和近代欧洲的成熟研究相比，对东亚物质、观念与空间结构的研究仍显粗略，理论化程度不足。",
+          "既有文献大多集中于把东亚独特的组织原则与欧洲主权国家体系及均势加以比较。本模块则以近年迅速积累的东亚国际秩序史研究为基础，考察这些结构的运作要素，以及它们在关键历史节点上的延续与转变。"
+        ],
+        "ja": [
+          "本モジュールは、近世から二十世紀初頭にいたる歴史的東アジア国際秩序における物質的・観念的・制度的構造とその変化を体系的に理論化する試みである。近世・近代ヨーロッパについての蓄積された研究に比べると、東アジアの物質的・観念的・空間的構造をめぐる研究はなお初歩的で、理論化も十分ではない。",
+          "既存の研究はおおむね、東アジア固有の組織原理をヨーロッパの主権国家体系および勢力均衡と比較することに集中してきた。本モジュールはこれに対し、急速に蓄積しつつある東アジア国際秩序の歴史研究を足がかりに、それらの構造の作動要素と、決定的な歴史的転換点における持続と変容を明らかにする。"
+        ]
+      },
+      "areas": {
+        "en": [
+          "Intellectual and conceptual history of East Asian international law and thought",
+          "Interconnected maritime powers and maritime order in East Asia and beyond",
+          "Power, diffusion, and topos in East Asia",
+          "Status and institutional hierarchies in East Asian international orders"
+        ],
+        "ko": [
+          "동아시아 국제법·국제사상의 지성사와 개념사",
+          "동아시아와 그 너머의 연결된 해양 세력과 해양 질서",
+          "동아시아의 권력·확산·토포스(topos)",
+          "동아시아 국제질서의 지위와 제도적 위계"
+        ],
+        "zh": [
+          "东亚国际法与国际思想的思想史与概念史",
+          "东亚及其以外相互连结的海洋势力与海洋秩序",
+          "东亚的权力、扩散与场域（topos）",
+          "东亚国际秩序中的地位与制度性等级"
+        ],
+        "ja": [
+          "東アジア国際法・国際思想の知性史と概念史",
+          "東アジアとその外部における連結した海洋勢力と海洋秩序",
+          "東アジアにおける権力・拡散・トポス",
+          "東アジア国際秩序における地位と制度的階層"
+        ]
+      }
+    },
+    {
+      "label": { "en": "Module 2", "ko": "모듈 2", "zh": "模块二", "ja": "モジュール2" },
+      "title": {
+        "en": "Race and Gender in Historical East Asian International Politics",
+        "ko": "역사적 동아시아 국제정치의 인종과 젠더",
+        "zh": "历史上东亚国际政治中的种族与性别",
+        "ja": "歴史的東アジア国際政治における人種とジェンダー"
+      },
+      "body": {
+        "en": [
+          "This module explores racial and gendered inequalities in historical East Asian international politics — not as a supplement to the study of power and institutions but as an account of how that power was constituted and that hierarchy made legible."
+        ],
+        "ko": [
+          "이 모듈은 역사적 동아시아 국제정치의 인종적·젠더적 불평등을 탐구한다. 권력과 제도 연구에 덧붙이는 보론이 아니라, 그 권력이 어떻게 구성되었고 그 위계가 어떻게 읽힐 수 있게 되었는지에 관한 설명으로서다."
+        ],
+        "zh": [
+          "本模块探讨历史上东亚国际政治中的种族与性别不平等——不是作为权力与制度研究的补论，而是作为对那种权力如何被构成、那种等级如何变得可读的说明。"
+        ],
+        "ja": [
+          "本モジュールは、歴史的東アジア国際政治における人種的・ジェンダー的不平等を探究する。権力と制度の研究への補論としてではなく、その権力がいかに構成され、その階層がいかに読み取り可能になったのかについての説明として。"
+        ]
+      },
+      "areas": {
+        "en": [
+          "Decolonial and pluriversal approaches to race and gender",
+          "Reassessing racialized and gendered violence under Japanese imperialism and wartime occupation",
+          "The role of gender norms and of women in the making of international society",
+          "How Japanese colonial rule imposed racial hierarchies in East Asia in the context of Western racial ideologies",
+          "Eurocentric racial biases in international institutions and international law"
+        ],
+        "ko": [
+          "인종과 젠더에 대한 탈식민·복수세계(pluriversal) 접근",
+          "일본 제국주의와 전시 점령기의 인종화된·젠더화된 폭력에 대한 재평가",
+          "국제사회의 형성에서 젠더 규범과 여성이 수행한 역할",
+          "서구 인종 이데올로기의 맥락 속에서 일본 식민 통치가 동아시아에 부과한 인종 위계",
+          "국제제도와 국제법에 내재한 유럽중심적 인종 편향"
+        ],
+        "zh": [
+          "关于种族与性别的去殖民与复数世界（pluriversal）路径",
+          "重估日本帝国主义与战时占领时期的种族化、性别化暴力",
+          "性别规范与女性在国际社会形成中的作用",
+          "在西方种族意识形态的脉络中，日本殖民统治如何在东亚强加种族等级",
+          "国际制度与国际法中的欧洲中心主义种族偏见"
+        ],
+        "ja": [
+          "人種とジェンダーへの脱植民地的・複数世界的（pluriversal）アプローチ",
+          "日本帝国主義と戦時占領下における人種化・ジェンダー化された暴力の再評価",
+          "国際社会の形成におけるジェンダー規範と女性の役割",
+          "西洋の人種イデオロギーの文脈のなかで日本の植民地支配が東アジアに課した人種的階層",
+          "国際制度と国際法におけるヨーロッパ中心的な人種バイアス"
+        ]
+      }
+    }
+  ]
+}

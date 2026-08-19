@@ -1,0 +1,79 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.nav.research }} — {{ site.title }}{% endblock %}
+{% block description %}{{ research.meta_description }}{% endblock %}
+
+{% block hero %}
+<div class="hero page">
+  <h1>{{ research.title }}</h1>
+  <p class="subtitle">{{ research.kicker }}</p>
+  <p class="description">{{ research.orientation_lede }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section id="theoretical">
+  <div class="container">
+    <h2 class="section-title">{{ research.theoretical_title }}</h2>
+    <p class="section-subtitle">{{ research.theoretical_kicker }}</p>
+    <div class="prose" style="max-width:780px;">
+      <p>{{ research.theoretical_lede }}</p>
+    </div>
+    <div class="orient-grid">
+      {% for c in research.theoretical %}
+      <div class="orient-card">
+        <div class="kicker">{{ "%02d"|format(loop.index) }}</div>
+        <h3>{{ c.heading }}</h3>
+        <p>{{ c.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="methodological" class="band">
+  <div class="container">
+    <h2 class="section-title">{{ research.methodological_title }}</h2>
+    <p class="section-subtitle">{{ research.methodological_kicker }}</p>
+    <div class="prose" style="max-width:780px;">
+      <p>{{ research.methodological_lede }}</p>
+    </div>
+    <div class="orient-grid">
+      {% for c in research.methodological %}
+      <div class="orient-card">
+        <div class="kicker">{{ "%02d"|format(loop.index) }}</div>
+        <h3>{{ c.heading }}</h3>
+        <p>{{ c.body }}</p>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section id="modules">
+  <div class="container">
+    <h2 class="section-title">{{ research.modules_title }}</h2>
+    <p class="section-subtitle">{{ research.modules_kicker }}</p>
+    {% for m in research.modules %}
+    <div class="module" id="module-{{ loop.index }}">
+      <div class="module-no">{{ m.label }}</div>
+      <h3>{{ m.title }}</h3>
+      <div class="prose">
+        {% for p in m.body %}
+        <p>{{ p }}</p>
+        {% endfor %}
+      </div>
+      <div style="margin-top:1.2rem;">
+        <div class="section-subtitle" style="margin:0 0 0.4rem;">{{ research.areas_label }}</div>
+        <ul class="areas">
+          {% for a in m.areas %}
+          <li>{{ a }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% endblock %}

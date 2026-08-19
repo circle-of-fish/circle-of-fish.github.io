@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://circle-of-fish.github.io/sitemap.xml

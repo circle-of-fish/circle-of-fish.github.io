@@ -1,0 +1,328 @@
+{
+  "title": {
+    "en": "Resources & Links",
+    "ko": "자료·링크",
+    "zh": "资源与链接",
+    "ja": "資料・リンク"
+  },
+  "kicker": {
+    "en": "What we read, and who we read with",
+    "ko": "우리가 읽는 것, 그리고 함께 읽는 이들",
+    "zh": "我们读什么，与谁一同读",
+    "ja": "何を読み、誰と読むか"
+  },
+  "lede": {
+    "en": "A working bibliography drawn from five years of seminars, the groups and scholars whose work ours answers to, and the archives and tools we actually use.",
+    "ko": "5년간의 세미나에서 추려낸 작업용 서지, 우리 작업이 응답하고 있는 연구 모임과 학자들, 그리고 우리가 실제로 쓰는 사료와 도구들.",
+    "zh": "从五年研讨中整理出的工作书目、我们的研究所回应的研究群体与学者，以及我们实际使用的档案与工具。",
+    "ja": "五年分のセミナーから拾い上げた作業用書誌、私たちの仕事が応答している研究グループと研究者、そして実際に使っている史料とツール。"
+  },
+  "meta_description": {
+    "en": "Reading list, scholarly network, and research resources for the study of historical East Asian international relations and Global IR.",
+    "ko": "역사적 동아시아 국제관계와 지구적 국제정치학 연구를 위한 독서 목록·학술 네트워크·연구 자료.",
+    "zh": "研究历史上东亚国际关系与全球国际关系学的书目、学术网络与研究资源。",
+    "ja": "歴史的東アジア国際関係とグローバルIRの研究のための読書リスト・学術ネットワーク・研究資源。"
+  },
+  "reading_title": {
+    "en": "Reading List",
+    "ko": "독서 목록",
+    "zh": "书目",
+    "ja": "読書リスト"
+  },
+  "reading_kicker": {
+    "en": "Books the Circle keeps returning to",
+    "ko": "복어회가 거듭 돌아가는 책들",
+    "zh": "河豚会一再回到的书",
+    "ja": "会が繰り返し立ち返る本"
+  },
+  "note": {
+    "en": "Suggestions for this page are welcome — write to the address on the About page.",
+    "ko": "이 페이지에 추가할 만한 것이 있으면 소개 페이지의 주소로 알려 주십시오.",
+    "zh": "欢迎为本页推荐条目，请写信至「关于」页所列地址。",
+    "ja": "本ページへの推薦は歓迎です。紹介ページ記載のアドレスまでご連絡ください。"
+  },
+  "reading": [
+    {
+      "title": {
+        "en": "Asia in Global International Relations",
+        "ko": "지구적 국제정치학 속의 아시아",
+        "zh": "全球国际关系学中的亚洲",
+        "ja": "グローバルIRのなかのアジア"
+      },
+      "entries": [
+        {
+          "authors": "Amitav Acharya and Barry Buzan.",
+          "year": "2019.",
+          "title": "The Making of Global International Relations: Origins and Evolution of IR at its Centenary",
+          "publisher": "Cambridge University Press.",
+          "url": "https://www.cambridge.org/core/books/making-of-global-international-relations/FB7779C9914127CBDBE200481494BA7E"
+        },
+        {
+          "authors": "Rotem Kowner and Walter Demel, eds.",
+          "year": "2015.",
+          "title": "Race and Racism in Modern East Asia: Interactions, Nationalism, Gender and Lineage",
+          "publisher": "Brill.",
+          "url": "https://brill.com/view/title/19113"
+        },
+        {
+          "authors": "Urs Matthias Zachmann, ed.",
+          "year": "2017.",
+          "title": "Asia after Versailles: Asian Perspectives on the Paris Peace Conference and the Interwar Order, 1919–33",
+          "publisher": "Edinburgh University Press.",
+          "url": "https://edinburghuniversitypress.com/book-asia-after-versailles.html"
+        },
+        {
+          "authors": "Adom Getachew.",
+          "year": "2019.",
+          "title": "Worldmaking after Empire: The Rise and Fall of Self-Determination",
+          "publisher": "Princeton University Press.",
+          "url": "https://press.princeton.edu/books/hardcover/9780691179155/worldmaking-after-empire"
+        },
+        {
+          "authors": "Lydia H. Liu.",
+          "year": "2006.",
+          "title": "The Clash of Empires: The Invention of China in Modern World Making",
+          "publisher": "Harvard University Press.",
+          "url": "https://www.hup.harvard.edu/books/9780674019959"
+        }
+      ]
+    },
+    {
+      "title": {
+        "en": "History of International Law",
+        "ko": "국제법의 역사",
+        "zh": "国际法史",
+        "ja": "国際法史"
+      },
+      "entries": [
+        {
+          "authors": "Annabel S. Brett.",
+          "year": "2011.",
+          "title": "Changes of State: Nature and the Limits of the City in Early Modern Natural Law",
+          "publisher": "Princeton University Press.",
+          "url": "https://press.princeton.edu/books/hardcover/9780691141930/changes-of-state"
+        },
+        {
+          "authors": "C. H. Alexandrowicz, ed. David Armitage and Jennifer Pitts.",
+          "year": "2017.",
+          "title": "The Law of Nations in Global History",
+          "publisher": "Oxford University Press.",
+          "url": "https://global.oup.com/academic/product/the-law-of-nations-in-global-history-9780198766070"
+        },
+        {
+          "authors": "Lauren Benton, Adam Clulow, and Bain Attwood, eds.",
+          "year": "2017.",
+          "title": "Protection and Empire: A Global History",
+          "publisher": "Cambridge University Press.",
+          "url": "https://www.cambridge.org/core/books/protection-and-empire/10885CB03C05AD9A236EA58A24ABF1BB"
+        },
+        {
+          "authors": "Saliha Belmessous, ed.",
+          "year": "2014.",
+          "title": "Empire by Treaty: Negotiating European Expansion, 1600–1900",
+          "publisher": "Oxford University Press.",
+          "url": "https://global.oup.com/academic/product/empire-by-treaty-9780199391783"
+        }
+      ]
+    }
+  ],
+  "link_blocks": [
+    {
+      "id": "network",
+      "title": {
+        "en": "Networks and Interlocutors",
+        "ko": "네트워크와 대화 상대",
+        "zh": "网络与对话者",
+        "ja": "ネットワークと対話者"
+      },
+      "kicker": {
+        "en": "Groups and scholars we read with and argue with",
+        "ko": "함께 읽고 함께 다투는 모임과 학자들",
+        "zh": "与我们共读、与我们争辩的群体和学者",
+        "ja": "共に読み、共に論じ合う集まりと研究者"
+      },
+      "groups": []
+    },
+    {
+      "id": "archives",
+      "title": {
+        "en": "Archives, Databases, and Tools",
+        "ko": "사료·데이터베이스·도구",
+        "zh": "档案、数据库与工具",
+        "ja": "史料・データベース・ツール"
+      },
+      "kicker": {
+        "en": "What we work with",
+        "ko": "우리가 다루는 것들",
+        "zh": "我们借以工作的东西",
+        "ja": "私たちが使うもの"
+      },
+      "groups": [
+        {
+          "title": {
+            "en": "Databases",
+            "ko": "데이터베이스",
+            "zh": "数据库",
+            "ja": "データベース"
+          },
+          "entries": [
+            {
+              "name": "Northeast Asia HistoryNet",
+              "url": "http://contents.nahf.or.kr/",
+              "desc": {
+                "en": "Northeast Asian History Foundation's source collections on Korea and its neighbours.",
+                "ko": "동북아역사재단의 한국과 주변국 관계 사료 모음.",
+                "zh": "东北亚历史财团关于韩国及其周边的史料集。",
+                "ja": "東北アジア歴史財団による韓国と周辺国関係の史料集。"
+              }
+            },
+            {
+              "name": "Digital Resources for Sinology Studies in Taiwan",
+              "url": "https://sinology.ascdc.sinica.edu.tw/index_en.html",
+              "desc": {
+                "en": "Academia Sinica's gateway to Taiwanese digital sinology collections.",
+                "ko": "대만 중앙연구원이 운영하는 디지털 중국학 자료 관문.",
+                "zh": "中央研究院的台湾数位汉学资源入口。",
+                "ja": "中央研究院によるデジタル漢学資源のポータル。"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Scholarly blogs",
+            "ko": "학술 블로그",
+            "zh": "学术博客",
+            "ja": "学術ブログ"
+          },
+          "entries": [
+            {
+              "name": "Warp, Weft, and Way",
+              "url": "http://warpweftandway.com/about/",
+              "desc": {
+                "en": "Group blog on Chinese and comparative philosophy.",
+                "ko": "중국철학·비교철학 공동 블로그.",
+                "zh": "中国哲学与比较哲学的集体博客。",
+                "ja": "中国哲学・比較哲学の共同ブログ。"
+              }
+            },
+            {
+              "name": "Reading the China Dream",
+              "url": "https://www.readingthechinadream.com/about.html",
+              "desc": {
+                "en": "Translations of and commentary on contemporary Chinese intellectual life.",
+                "ko": "현대 중국 지성계의 글을 번역하고 해설하는 사이트.",
+                "zh": "翻译并评述当代中国思想界的网站。",
+                "ja": "現代中国の知的言説を翻訳・解説するサイト。"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Maps",
+            "ko": "지도",
+            "zh": "地图",
+            "ja": "地図"
+          },
+          "entries": [
+            {
+              "name": "Sinica Digital Atlas",
+              "url": "https://digitalatlas.asdc.sinica.edu.tw/index.jsp",
+              "desc": {
+                "en": "Historical GIS of China from Academia Sinica.",
+                "ko": "대만 중앙연구원의 중국 역사 GIS.",
+                "zh": "中央研究院的中国历史地理信息系统。",
+                "ja": "中央研究院による中国歴史GIS。"
+              }
+            },
+            {
+              "name": "Qing Maps",
+              "url": "https://qingmaps.org/",
+              "desc": {
+                "en": "Digitized Qing cartography with georeferencing.",
+                "ko": "지리참조가 붙은 청대 지도 디지털 아카이브.",
+                "zh": "带地理配准的清代舆图数字档案。",
+                "ja": "ジオリファレンス付きの清代地図デジタルアーカイブ。"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Tools",
+            "ko": "도구",
+            "zh": "工具",
+            "ja": "ツール"
+          },
+          "entries": [
+            {
+              "name": "Citation Style for Chinese, Japanese and Korean Sources",
+              "url": "https://guides.library.yale.edu/c.php?g=296262&p=1974227",
+              "affiliation": "Yale University Library",
+              "desc": {
+                "en": "Chicago Manual examples for CJK sources.",
+                "ko": "한·중·일 자료의 시카고 스타일 인용 예시.",
+                "zh": "中日韩文献的芝加哥格式引用示例。",
+                "ja": "日中韓資料のシカゴ式引用の実例。"
+              }
+            },
+            {
+              "name": "Korean Romanization Converter",
+              "url": "http://roman.cs.pusan.ac.kr/",
+              "affiliation": "Pusan National University",
+              "desc": {
+                "en": "Transliterates Hangul into the Revised Romanization.",
+                "ko": "한글을 로마자 표기법으로 변환.",
+                "zh": "把韩文转写为罗马字。",
+                "ja": "ハングルをローマ字表記に変換。"
+              }
+            },
+            {
+              "name": "Chinese Pinyin Converter",
+              "url": "https://www.purpleculture.net/chinese-pinyin-converter/",
+              "desc": {
+                "en": "Hanzi to pinyin with tone marks.",
+                "ko": "한자를 성조 표시가 붙은 병음으로 변환.",
+                "zh": "汉字转带声调的拼音。",
+                "ja": "漢字を声調付きピンインに変換。"
+              }
+            },
+            {
+              "name": "Lunar–Solar Calendar Converter",
+              "url": "https://astro.kasi.re.kr/life/pageView/8",
+              "affiliation": "Korea Astronomy and Space Science Institute",
+              "desc": {
+                "en": "Converts Korean lunar dates to the Gregorian calendar.",
+                "ko": "음력을 양력으로 변환.",
+                "zh": "把阴历换算为公历。",
+                "ja": "太陰暦を太陽暦に換算。"
+              }
+            },
+            {
+              "name": "Chinese–English Dictionary of Ming Government Official Titles",
+              "url": "https://escholarship.org/uc/item/2bz3v185",
+              "desc": {
+                "en": "Open-access reference for Ming office names.",
+                "ko": "명대 관직명 공개 사전.",
+                "zh": "明代官职名称的开放获取工具书。",
+                "ja": "明代官職名のオープンアクセス辞典。"
+              }
+            },
+            {
+              "name": "Chinese–Western Calendar Converter",
+              "url": "https://sinocal.sinica.edu.tw/",
+              "affiliation": "Academia Sinica",
+              "desc": {
+                "en": "Converts imperial Chinese reign dates to Julian and Gregorian.",
+                "ko": "중국 연호 기년을 율리우스·그레고리력으로 변환.",
+                "zh": "把中国年号纪年换算为儒略历与公历。",
+                "ja": "中国年号紀年をユリウス暦・グレゴリオ暦に換算。"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

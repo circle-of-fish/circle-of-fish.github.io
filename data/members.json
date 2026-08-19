@@ -1,0 +1,238 @@
+{
+  "title": {
+    "en": "Members",
+    "ko": "구성원",
+    "zh": "成员",
+    "ja": "メンバー"
+  },
+  "kicker": {
+    "en": "Nine scholars, one ontological worry",
+    "ko": "아홉 명의 연구자, 하나의 존재론적 문제의식",
+    "zh": "九位学者，一个存在论上的关切",
+    "ja": "九人の研究者、一つの存在論的関心"
+  },
+  "lede": {
+    "en": "We study disparate subjects — empire and international law, naval power and status, emotion and memory, human rights and gender, the Cold War making of Korean IR. What we share is the suspicion that the discipline's standard furniture does not describe the worlds we work on.",
+    "ko": "우리가 다루는 주제는 제각각이다. 제국과 국제법, 해군력과 지위, 감정과 기억, 인권과 젠더, 냉전기 한국 국제정치학의 형성. 우리가 공유하는 것은 학문의 표준 집기들이 우리가 다루는 세계를 설명해 주지 못한다는 의심이다.",
+    "zh": "我们研究的题目各不相同：帝国与国际法、海军力量与地位、情感与记忆、人权与性别、冷战时期韩国国际关系学的形成。我们共有的，是这样一种怀疑——学科既有的那套家具，描述不了我们所处理的那些世界。",
+    "ja": "扱う主題はばらばらである。帝国と国際法、海軍力と地位、感情と記憶、人権とジェンダー、冷戦期における韓国国際関係論の形成。共有しているのは、この学問の標準的な備品では自分たちが扱う世界を捉えきれないのではないか、という疑いである。"
+  },
+  "meta_description": {
+    "en": "The members of the Circle of the Fish and their fields of research.",
+    "ko": "복어회 구성원과 각자의 연구 분야.",
+    "zh": "河豚会成员及其研究领域。",
+    "ja": "河豚の会のメンバーと各自の研究領域。"
+  },
+  "note": {
+    "en": "Listed alphabetically by surname.",
+    "ko": "성(姓)의 알파벳 순서로 정렬했습니다.",
+    "zh": "按姓氏字母顺序排列。",
+    "ja": "姓のアルファベット順に並べています。"
+  },
+  "people": [
+    {
+      "key": "inho-choi",
+      "name": "Inho Choi",
+      "name_alt": {
+        "en": "최인호",
+        "ko": "崔仁鎬",
+        "zh": "崔仁镐",
+        "ja": "崔仁鎬"
+      },
+      "affiliation": {
+        "en": "Professor, Department of Political Science and International Relations, Kyonggi University, South Korea",
+        "ko": "경기대학교 정치외교학과 교수",
+        "zh": "韩国京畿大学政治外交学系教授",
+        "ja": "韓国・京畿大学政治外交学科教授"
+      },
+      "interests": {
+        "en": "Historical East Asian international orders; Global IR and transcultural theory; Korean and Chinese political thought; the Anthropocene and planetary order",
+        "ko": "역사적 동아시아 국제질서 · 지구적 국제정치학과 초문화적 이론 · 한국·중국 정치사상 · 인류세와 행성질서",
+        "zh": "历史上的东亚国际秩序 · 全球国际关系学与跨文化理论 · 韩国与中国政治思想 · 人类世与行星秩序",
+        "ja": "歴史的東アジア国際秩序 · グローバルIRと超文化的理論 · 韓国・中国政治思想 · 人新世と惑星秩序"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:inho.choi86@gmail.com"
+        }
+      ]
+    },
+    {
+      "key": "sujin-heo",
+      "name": "Sujin Heo",
+      "affiliation": {
+        "en": "PhD Candidate, School of International Service, American University",
+        "ko": "아메리칸대학교 국제관계대학원(SIS) 박사수료",
+        "zh": "美利坚大学国际服务学院博士候选人",
+        "ja": "アメリカン大学国際関係大学院（SIS）博士候補"
+      },
+      "interests": {
+        "en": "International relations theory; intellectual history; history of international law; empire; sovereignty",
+        "ko": "국제정치이론 · 지성사 · 국제법의 역사 · 제국 · 주권",
+        "zh": "国际关系理论 · 思想史 · 国际法史 · 帝国 · 主权",
+        "ja": "国際関係理論 · 知性史 · 国際法史 · 帝国 · 主権"
+      }
+    },
+    {
+      "key": "jaeyoung-kim",
+      "name": "Jaeyoung Kim",
+      "affiliation": {
+        "en": "Assistant Professor, Department of Political Science, San Diego State University",
+        "ko": "샌디에이고주립대학교 정치학과 조교수",
+        "zh": "圣地亚哥州立大学政治学系助理教授",
+        "ja": "サンディエゴ州立大学政治学部助教授"
+      },
+      "interests": {
+        "en": "International security; Global IR; historical IR; East Asia and Korea",
+        "ko": "국제안보 · 지구적 국제정치학 · 역사적 국제정치학 · 동아시아와 한국",
+        "zh": "国际安全 · 全球国际关系学 · 历史国际关系 · 东亚与韩国",
+        "ja": "国際安全保障 · グローバルIR · 歴史的IR · 東アジアと韓国"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:jkim33@sdsu.edu"
+        }
+      ]
+    },
+    {
+      "key": "minju-kwon",
+      "name": "Minju Kwon",
+      "affiliation": {
+        "en": "Assistant Professor, Department of Political Science, Chapman University",
+        "ko": "채프먼대학교 정치학과 조교수",
+        "zh": "查普曼大学政治学系助理教授",
+        "ja": "チャップマン大学政治学部助教授"
+      },
+      "interests": {
+        "en": "International organization; international law; human rights; gender; East Asia",
+        "ko": "국제기구 · 국제법 · 인권 · 젠더 · 동아시아",
+        "zh": "国际组织 · 国际法 · 人权 · 性别 · 东亚",
+        "ja": "国際機構 · 国際法 · 人権 · ジェンダー · 東アジア"
+      }
+    },
+    {
+      "key": "inhwan-oh",
+      "name": "Inhwan Oh",
+      "name_alt": {
+        "en": "오인환",
+        "ko": "吳寅煥",
+        "zh": "吴寅焕",
+        "ja": "呉寅煥"
+      },
+      "affiliation": {
+        "en": "Senior Research Fellow and Executive Director, East Asia Institute; Lecturer, Seoul National University",
+        "ko": "동아시아연구원(EAI) 수석연구원 겸 사무국장 · 서울대학교 강사",
+        "zh": "东亚研究院（EAI）首席研究员兼执行院长 · 首尔大学讲师",
+        "ja": "東アジア研究院（EAI）主席研究員兼事務局長 · ソウル大学講師"
+      },
+      "interests": {
+        "en": "International security; U.S. foreign policy; crisis management; U.S.–China relations; status and racial hierarchy",
+        "ko": "국제안보 · 미국 외교정책 · 위기관리 · 미중관계 · 지위와 인종 위계",
+        "zh": "国际安全 · 美国外交政策 · 危机管理 · 中美关系 · 地位与种族等级",
+        "ja": "国際安全保障 · アメリカ外交政策 · 危機管理 · 米中関係 · 地位と人種的階層"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:ihoh@eai.or.kr"
+        }
+      ]
+    },
+    {
+      "key": "chang-joon-ok",
+      "name": "Chang Joon Ok",
+      "name_alt": {
+        "en": "옥창준",
+        "ko": "玉昌俊",
+        "zh": "玉昌俊",
+        "ja": "玉昌俊"
+      },
+      "affiliation": {
+        "en": "Assistant Professor, Political Science, Academy of Korean Studies",
+        "ko": "한국학중앙연구원 정치학 전공 조교수",
+        "zh": "韩国学中央研究院政治学专业助理教授",
+        "ja": "韓国学中央研究院・政治学専攻助教授"
+      },
+      "interests": {
+        "en": "Cold War history; Global IR; the history of Korean international relations and of IR knowledge",
+        "ko": "냉전사 · 지구적 국제정치학 · 한국 국제관계사와 국제정치 지식의 역사",
+        "zh": "冷战史 · 全球国际关系学 · 韩国国际关系史与国际政治知识史",
+        "ja": "冷戦史 · グローバルIR · 韓国国際関係史と国際政治知識の歴史"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:okchangjoon@gmail.com"
+        }
+      ]
+    },
+    {
+      "key": "kayeon-roh",
+      "name": "Kayeon Roh",
+      "affiliation": {
+        "en": "PhD Candidate, Department of Political Science and International Relations, University of Southern California",
+        "ko": "서던캘리포니아대학교(USC) 정치학·국제관계학과 박사수료",
+        "zh": "南加州大学政治学与国际关系系博士候选人",
+        "ja": "南カリフォルニア大学（USC）政治学・国際関係学部博士候補"
+      },
+      "interests": {
+        "en": "International order in historical East Asia; nineteenth-century international relations; empire; Korea; concepts and translation; history of the social sciences",
+        "ko": "역사적 동아시아의 국제질서 · 19세기 국제관계 · 제국 · 한국 · 개념과 번역 · 사회과학의 역사",
+        "zh": "历史上东亚的国际秩序 · 十九世纪国际关系 · 帝国 · 韩国 · 概念与翻译 · 社会科学史",
+        "ja": "歴史的東アジアの国際秩序 · 十九世紀の国際関係 · 帝国 · 韓国 · 概念と翻訳 · 社会科学史"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:kayeon.roh@usc.edu"
+        }
+      ]
+    },
+    {
+      "key": "jeeye-song",
+      "name": "Jeeye Song",
+      "affiliation": {
+        "en": "Invited Professor of Global Korean Studies, College of International Studies, Korea University",
+        "ko": "고려대학교 국제대학 글로벌한국학 초빙교수",
+        "zh": "高丽大学国际学院全球韩国学特聘教授",
+        "ja": "高麗大学国際学部グローバル韓国学招聘教授"
+      },
+      "interests": {
+        "en": "Non-Western international relations theory; East Asian regional order; sovereignty; Korea; Vietnam",
+        "ko": "비서구 국제정치이론 · 동아시아 지역질서 · 주권 · 한국 · 베트남",
+        "zh": "非西方国际关系理论 · 东亚区域秩序 · 主权 · 韩国 · 越南",
+        "ja": "非西洋国際関係理論 · 東アジア地域秩序 · 主権 · 韓国 · ベトナム"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:jeeyesong@korea.ac.kr"
+        }
+      ]
+    },
+    {
+      "key": "chaeyoung-yong",
+      "name": "Chaeyoung Yong",
+      "affiliation": {
+        "en": "PhD, School of International Relations, University of St Andrews",
+        "ko": "세인트앤드루스대학교 국제관계학과 박사",
+        "zh": "圣安德鲁斯大学国际关系学院博士",
+        "ja": "セント・アンドルーズ大学国際関係学部博士"
+      },
+      "interests": {
+        "en": "International relations theory; emotion; trauma and memory; international relations of East Asia and Japan",
+        "ko": "국제정치이론 · 감정 · 트라우마와 기억 · 동아시아·일본의 국제관계",
+        "zh": "国际关系理论 · 情感 · 创伤与记忆 · 东亚与日本的国际关系",
+        "ja": "国際関係理論 · 感情 · トラウマと記憶 · 東アジア・日本の国際関係"
+      },
+      "links": [
+        {
+          "label": "Email",
+          "url": "mailto:cy30@st-andrews.ac.uk"
+        }
+      ]
+    }
+  ]
+}

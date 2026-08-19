@@ -1,0 +1,64 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.nav.resources }} — {{ site.title }}{% endblock %}
+{% block description %}{{ resources.meta_description }}{% endblock %}
+
+{% block hero %}
+<div class="hero page">
+  <h1>{{ resources.title }}</h1>
+  <p class="subtitle">{{ resources.kicker }}</p>
+  <p class="description">{{ resources.lede }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section id="reading">
+  <div class="container">
+    <h2 class="section-title">{{ resources.reading_title }}</h2>
+    <p class="section-subtitle">{{ resources.reading_kicker }}</p>
+    {% for g in resources.reading %}
+    <div class="res-group">
+      <h3>{{ g.title }}</h3>
+      {% if g.get('note') %}<p class="group-note">{{ g.note }}</p>{% endif %}
+      <ul class="reading-list">
+        {% for b in g.entries %}
+        <li>{{ b.authors }} {{ b.year }}. {% if b.get('url') %}<a href="{{ b.get('url') }}" target="_blank" rel="noopener"><span class="title">{{ b.title|safe }}</span></a>{% else %}<span class="title">{{ b.title|safe }}</span>{% endif %}. {{ b.publisher }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% for block in resources.link_blocks %}
+<section id="{{ block.id }}"{% if loop.index is odd %} class="band"{% endif %}>
+  <div class="container">
+    <h2 class="section-title">{{ block.title }}</h2>
+    <p class="section-subtitle">{{ block.kicker }}</p>
+    {% if block.get('lede') %}<div class="prose" style="max-width:780px;margin-bottom:1.6rem;"><p>{{ block.get('lede') }}</p></div>{% endif %}
+    {% for g in block.groups %}
+    <div class="res-group">
+      <h3>{{ g.title }}</h3>
+      {% if g.get('note') %}<p class="group-note">{{ g.note }}</p>{% endif %}
+      <div class="res-grid">
+        {% for r in g.entries %}
+        <div class="res-card">
+          <div class="name"><a href="{{ r.url }}" target="_blank" rel="noopener">{{ r.name }}</a></div>
+          {% if r.get('affiliation') %}<div class="aff">{{ r.get('affiliation') }}</div>{% endif %}
+          {% if r.get('desc') %}<div class="desc">{{ r.get('desc') }}</div>{% endif %}
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endfor %}
+
+<section>
+  <div class="container narrow">
+    <p class="note">{{ resources.note|safe }}</p>
+  </div>
+</section>
+
+{% endblock %}

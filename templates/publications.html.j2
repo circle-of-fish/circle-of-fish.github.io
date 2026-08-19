@@ -1,0 +1,87 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.nav.publications }} — {{ site.title }}{% endblock %}
+{% block description %}{{ publications.meta_description }}{% endblock %}
+
+{% macro pub_item(pub) %}
+<li class="pub">
+  <div class="cite">
+    <span class="authors">{{ pub.authors }}</span>.
+    <span class="year">{{ pub.year }}</span>.
+    <span class="title">{{ pub.title|safe }}</span>.
+    <span class="venue">{{ pub.venue|safe }}</span>{% if pub.get('volume_issue_pages') %} {{ pub.get('volume_issue_pages') }}{% endif %}.
+  </div>
+  {% if pub.get('summary') %}<div class="summary">{{ pub.get('summary') }}</div>{% endif %}
+  <div class="pub-links">
+    {% if pub.get('url_fulltext') %}<a class="badge badge-oa" href="{{ pub.get('url_fulltext') }}" target="_blank" rel="noopener">{{ site.ui.full_text }}</a>{% endif %}
+    {% if pub.get('doi') %}<a class="badge badge-doi" href="{{ pub.get('doi')|doi_url }}" target="_blank" rel="noopener">DOI</a>{% endif %}
+    {% if pub.get('url_publisher') and not pub.get('doi') %}<a class="badge badge-doi" href="{{ pub.get('url_publisher') }}" target="_blank" rel="noopener">{{ site.ui.publisher }}</a>{% endif %}
+    {% if pub.get('type_label') %}<span class="badge badge-type">{{ pub.get('type_label') }}</span>{% endif %}
+    {% if pub.get('language') and pub.get('language') != 'en' %}<span class="badge badge-lang">{{ site.ui.lang_names[pub.get('language')] }}</span>{% endif %}
+  </div>
+</li>
+{% endmacro %}
+
+{% block hero %}
+<div class="hero page">
+  <h1>{{ publications.title }}</h1>
+  <p class="subtitle">{{ publications.kicker }}</p>
+  <p class="description">{{ publications.lede }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section>
+  <div class="container">
+    <nav class="pub-nav" aria-label="{{ publications.themes_label }}">
+      {% for th in publications.themes %}
+      <a href="#{{ th.id }}">{{ th.title }}</a>
+      {% endfor %}
+    </nav>
+
+    {% for th in publications.themes %}
+    <div class="theme-block" id="{{ th.id }}">
+      <div class="theme-head">
+        <h3>{{ th.title }}</h3>
+        <p class="blurb">{{ th.blurb }}</p>
+        <span class="count">{{ th.entries|length }} {{ site.ui.items }}</span>
+      </div>
+      <ul class="pub-list">
+        {% for pub in th.entries %}
+        {{ pub_item(pub) }}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+
+{% if publications.get('other_groups') %}
+<section class="band">
+  <div class="container">
+    <h2 class="section-title">{{ publications.other_title }}</h2>
+    <p class="section-subtitle">{{ publications.other_kicker }}</p>
+    {% for g in publications.other_groups %}
+    <div class="theme-block" id="{{ g.id }}">
+      <div class="theme-head">
+        <h3>{{ g.title }}</h3>
+        {% if g.get('blurb') %}<p class="blurb">{{ g.blurb }}</p>{% endif %}
+      </div>
+      <ul class="pub-list">
+        {% for pub in g.entries %}
+        {{ pub_item(pub) }}
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section{% if not publications.get('other_groups') %} class="band"{% endif %}>
+  <div class="container narrow">
+    <p class="note">{{ publications.oa_note|safe }}</p>
+  </div>
+</section>
+
+{% endblock %}

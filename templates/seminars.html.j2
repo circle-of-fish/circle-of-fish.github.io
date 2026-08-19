@@ -1,0 +1,38 @@
+{% extends "base.html.j2" %}
+{% block title %}{{ site.nav.seminars }} — {{ site.title }}{% endblock %}
+{% block description %}{{ seminars.meta_description }}{% endblock %}
+
+{% block hero %}
+<div class="hero page">
+  <h1>{{ seminars.title }}</h1>
+  <p class="subtitle">{{ seminars.kicker }}</p>
+  <p class="description">{{ seminars.lede }}</p>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<section>
+  <div class="container">
+    <div class="timeline">
+      {% set ns = namespace(year='') %}
+      {% for e in seminars.entries %}
+      {% if e.year != ns.year %}
+      {% set ns.year = e.year %}
+      <div class="year-rule"><span class="y">{{ e.year }}</span><span class="r"></span></div>
+      {% endif %}
+      <div class="timeline-item{% if e.get('upcoming') %} upcoming{% endif %}">
+        <div class="timeline-date">{{ e.date_display }}</div>
+        <div class="timeline-title">
+          {% if e.kind %}<span class="timeline-badge badge-{{ e.kind }}">{{ seminars.kinds[e.kind] }}</span>{% endif %}
+          {{ e.title|safe }}
+        </div>
+        {% if e.get('meta') %}<div class="timeline-meta">{{ e.get('meta')|safe }}</div>{% endif %}
+      </div>
+      {% endfor %}
+    </div>
+    <p class="note">{{ seminars.note|safe }}</p>
+  </div>
+</section>
+
+{% endblock %}
