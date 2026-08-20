@@ -216,6 +216,14 @@ def build() -> None:
             "pages": PAGES,
         }
 
+        pub_members = {m for g in ctx_common["publications"]["themes"]
+                       + ctx_common["publications"]["other_groups"]
+                       for e in g["entries"] for m in e.get("members", [])}
+        ctx_common["publishing_members"] = [
+            m for m in ctx_common["members"]["people"]
+            if m["key"].replace("-", "_") in pub_members
+        ]
+
         for slug, filename, navkey in PAGES:
             tpl = env.get_template(f"{slug}.html.j2")
             html = tpl.render(**ctx_common, page=navkey, page_file=filename)

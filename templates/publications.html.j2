@@ -40,7 +40,7 @@
       <label class="visually-hidden" for="f-member">{{ site.ui.filter_member }}</label>
       <select id="f-member">
         <option value="">{{ site.ui.filter_member }}</option>
-        {% for m in members.people %}
+        {% for m in publishing_members %}
         <option value="{{ m.key }}">{{ m.name }}</option>
         {% endfor %}
       </select>

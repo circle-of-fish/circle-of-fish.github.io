@@ -31,10 +31,11 @@ REPORT = ROOT / "research" / "report.md"
 
 # publication types that belong in the thematic groups vs. the trailing section
 THEMED = {"journal_article", "book", "book_chapter", "edited_volume", "dissertation"}
-OTHER_ORDER = ["working_paper", "policy_report", "review", "translation", "other"]
+# working papers, conference papers, and MA theses are deliberately not listed
+OTHER_ORDER = ["policy_report", "review", "translation", "other"]
+SKIP_TYPES = {"working_paper"}
+MA_THESIS = re.compile(r"M\.?A\.? thesis|석사\s*학위\s*논문|석사논문", re.I)
 OTHER_LABELS = {
-    "working_paper": {"en": "Working and conference papers", "ko": "워킹페이퍼·학회 발표문",
-                      "zh": "工作论文与会议论文", "ja": "ワーキングペーパー・学会報告"},
     "policy_report": {"en": "Policy reports and commentary", "ko": "정책보고서·논평", "zh": "政策报告与评论", "ja": "政策報告・論評"},
     "review": {"en": "Book reviews", "ko": "서평", "zh": "书评", "ja": "書評"},
     "translation": {"en": "Translations", "ko": "번역", "zh": "译作", "ja": "翻訳"},
@@ -149,6 +150,10 @@ def main() -> None:
                     by_doi[doi] = k
             if pub.get("confidence") == "uncertain":
                 uncertain.append((prof["key"], pub))
+                continue
+            if pub.get("type") in SKIP_TYPES:
+                continue
+            if pub.get("type") == "dissertation" and MA_THESIS.search(pub.get("venue", "")):
                 continue
             rec = merged.setdefault(k, {"members": []})
             if prof["key"] not in rec["members"]:
