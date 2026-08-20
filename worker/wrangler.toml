@@ -1,0 +1,14 @@
+name = "cof-editor"
+main = "src/index.js"
+compatibility_date = "2026-08-01"
+
+# One record per editor: username -> {username, name, hash, must_change}.
+# Seeded with _build/seed_users.py; the Worker rewrites a record when someone
+# changes their own password.
+[[kv_namespaces]]
+binding = "USERS"
+id = "PLACEHOLDER_KV_ID"
+
+# Secrets are set outside this file and never live in the repository:
+#   GITHUB_TOKEN    fine-grained PAT, Contents:write on circle-of-fish.github.io
+#   SESSION_SECRET  random string used to sign session tokens
