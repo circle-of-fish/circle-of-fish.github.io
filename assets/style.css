@@ -508,6 +508,15 @@ footer a { color: var(--teal); text-decoration: none; }
 footer a:hover { text-decoration: underline; }
 footer .foot-nav { margin-bottom: 0.7rem; display: flex; justify-content: center; flex-wrap: wrap; gap: 0.2rem 1rem; }
 footer .foot-legal { font-size: 0.74rem; color: var(--faint); margin-top: 0.5rem; }
+/* the way in for members; deliberately quiet, and it asks for a password */
+footer .foot-edit {
+  display: inline-block; margin-top: 1rem;
+  font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase;
+  color: var(--faint); text-decoration: none;
+  border: 1px solid var(--line); border-radius: 12px; padding: 0.15rem 0.7rem;
+  transition: color 0.2s, border-color 0.2s;
+}
+footer .foot-edit:hover { color: var(--teal); border-color: var(--teal); text-decoration: none; }
 
 /* ===== UTILITIES ========================================================== */
 .note {

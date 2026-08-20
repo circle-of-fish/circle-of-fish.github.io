@@ -233,17 +233,21 @@ async function putPhoto(env, req, session, key) {
     `Replace the photo for ${key}\n\nUploaded through /admin/ by ${session.n || session.u}.`,
     session, sha);
 
+  // Recording the size commits members.json a second time, which invalidates
+  // whatever sha the editor's browser is holding. Hand the new one back, or the
+  // next save from that browser is refused as a conflict.
   const members = await readFile(env, 'data/members.json');
   const parsed = JSON.parse(members.text);
   const person = (parsed.people || []).find((p) => p.key === key);
+  let membersSha = members.sha;
   if (person) {
     person.photo = { w, h };
-    await writeFile(env, 'data/members.json',
+    membersSha = await writeFile(env, 'data/members.json',
       b64(enc.encode(JSON.stringify(parsed, null, 2) + '\n')),
       `Record the new photo size for ${key}\n\nUploaded through /admin/ by ${session.n || session.u}.`,
       session, members.sha);
   }
-  return json({ ok: true, w, h });
+  return json({ ok: true, w, h, members_sha: membersSha });
 }
 
 export default {

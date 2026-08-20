@@ -121,7 +121,8 @@
       { k: 'meta', label: '부기', type: 'i18n', rows: 2, note: '초고·장소·판본 같은 짧은 덧말. 없으면 비워 둡니다.' }
     ],
     members: [
-      { k: 'key', label: '식별자', type: 'text', half: true, note: '영소문자와 하이픈. 사진 파일 이름이 됩니다.' },
+      { k: 'key', label: '식별자', type: 'text', half: true, lockExisting: true,
+        note: '영소문자와 하이픈. 사진 파일 이름이 됩니다.' },
       { k: 'photo', label: '사진', type: 'photo' },
       { k: 'name', label: '이름', type: 'i18n', short: true, note: '한국어판은 한글, 나머지는 로마자' },
       { k: 'name_alt', label: '이름 (보조 표기)', type: 'i18n', short: true },
@@ -220,7 +221,8 @@
       return { iso: '', year: '', kind: 'reading', date_display: bundle(''), title: bundle('') };
     }
     if (file === 'members') {
-      return { key: '', name: bundle(''), affiliation: bundle(''), interests: bundle(''), email: '', links: [] };
+      return { _new: true, key: '', name: bundle(''), affiliation: bundle(''),
+               interests: bundle(''), email: '', links: [] };
     }
     var lg = groupsOf('resources').filter(function (x) { return x.kind === 'link'; })[0];
     return { _group: lg ? lg.id : '', _kind: 'link', name: '', url: '', desc: bundle('') };
@@ -247,10 +249,12 @@
     list.innerHTML = '';
     var q = $('search').value.trim().toLowerCase();
     var gf = $('group-filter').value;
+    var mf = $('member-filter').value;
     var grouped = file === 'publications' || file === 'resources';
 
     var rows = records(file).filter(function (r) {
       if (grouped && gf && r._group !== gf) return false;
+      if (mf && file === 'publications' && (r.members || []).indexOf(mf) === -1) return false;
       if (!q) return true;
       var t = rowText(file, r);
       return (t.title + ' ' + t.meta).toLowerCase().indexOf(q) !== -1;
@@ -473,6 +477,8 @@
     var input = spec.type === 'textarea' ? el('textarea') : el('input');
     if (spec.type === 'textarea') input.rows = 2;
     input.value = v == null ? '' : v;
+    // the identifier names the photo file, so it is fixed once a member exists
+    if (spec.lockExisting && !rec._new) input.readOnly = true;
     input.addEventListener('input', function () { rec[spec.k] = input.value; markDirty(); renderListSoon(); });
     return input;
   }
@@ -507,7 +513,9 @@
       shrink(f).then(function (out) {
         hint.textContent = '올리는 중…';
         return api('/api/photo/' + rec.key, { body: { jpeg: out.b64, w: out.w, h: out.h } })
-          .then(function () {
+          .then(function (res) {
+            // the upload commits members.json too, so the sha we hold is stale
+            if (res.members_sha) store.members.sha = res.members_sha;
             rec.photo = { w: out.w, h: out.h };
             img.src = out.dataUrl;
             frame.classList.remove('empty');
@@ -677,6 +685,20 @@
     } else {
       gf.hidden = true;
     }
+    var mf = $('member-filter');
+    mf.innerHTML = '';
+    if (file === 'publications') {
+      mf.hidden = false;
+      var everyone = el('option', null, '구성원 전체'); everyone.value = '';
+      mf.appendChild(everyone);
+      (store.members.data.people || []).forEach(function (m) {
+        var o = el('option', null, pick(m.name));
+        o.value = m.key.replace(/-/g, '_');
+        mf.appendChild(o);
+      });
+    } else {
+      mf.hidden = true;
+    }
     $('search').value = '';
     renderList();
     renderForm();
@@ -752,6 +774,7 @@
     });
     $('search').addEventListener('input', renderListSoon);
     $('group-filter').addEventListener('change', renderList);
+    $('member-filter').addEventListener('change', renderList);
     $('save').addEventListener('click', save);
     $('add').addEventListener('click', function () {
       var rec = blank(current);

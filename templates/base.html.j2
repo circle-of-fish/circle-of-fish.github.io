@@ -63,6 +63,8 @@
   </div>
   <div>{{ site.footer.line }}</div>
   <div class="foot-legal">{{ site.footer.legal|safe }}</div>
+  {# members' way in; the editor itself asks for a password #}
+  <a class="foot-edit" href="{{ prefix }}admin/">{{ site.ui.edit_site }}</a>
 </footer>
 {% block scripts %}{% endblock %}
 </body>
