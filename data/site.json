@@ -193,6 +193,54 @@
       "ko": "편",
       "zh": "篇",
       "ja": "点"
+    },
+    "filter_label": {
+      "en": "Filter",
+      "ko": "걸러 보기",
+      "zh": "筛选",
+      "ja": "絞り込み"
+    },
+    "filter_member": {
+      "en": "All members",
+      "ko": "구성원 전체",
+      "zh": "全部成员",
+      "ja": "メンバー全員"
+    },
+    "filter_lang": {
+      "en": "All languages",
+      "ko": "언어 전체",
+      "zh": "全部语言",
+      "ja": "全言語"
+    },
+    "filter_oa": {
+      "en": "Free full text only",
+      "ko": "전문 공개만",
+      "zh": "仅限全文公开",
+      "ja": "全文公開のみ"
+    },
+    "filter_showing": {
+      "en": "showing",
+      "ko": "표시 중",
+      "zh": "显示",
+      "ja": "表示中"
+    },
+    "filter_of": {
+      "en": "of",
+      "ko": "/",
+      "zh": "/",
+      "ja": "/"
+    },
+    "filter_none": {
+      "en": "Nothing matches that combination.",
+      "ko": "그 조건에 맞는 글이 없습니다.",
+      "zh": "没有符合该组合的条目。",
+      "ja": "その組み合わせに該当するものはありません。"
+    },
+    "lang_en": {
+      "en": "in English",
+      "ko": "영문",
+      "zh": "英文",
+      "ja": "英語"
     }
   },
   "home": {

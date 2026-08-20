@@ -3,7 +3,10 @@
 {% block description %}{{ publications.meta_description }}{% endblock %}
 
 {% macro pub_item(pub) %}
-<li class="pub">
+<li class="pub"
+    data-members="{{ pub.get('members', [])|map('memberkey')|join(' ') }}"
+    data-lang="{{ pub.get('language', 'en') }}"
+    data-oa="{{ 1 if pub.get('url_fulltext') else 0 }}">
   <div class="cite">
     <span class="authors">{{ pub.authors }}</span>.
     <span class="year">{{ pub.year }}</span>.
@@ -33,6 +36,26 @@
 
 <section>
   <div class="container">
+    <form class="pub-filter" id="pub-filter" aria-label="{{ site.ui.filter_label }}" hidden>
+      <label class="visually-hidden" for="f-member">{{ site.ui.filter_member }}</label>
+      <select id="f-member">
+        <option value="">{{ site.ui.filter_member }}</option>
+        {% for m in members.people %}
+        <option value="{{ m.key }}">{{ m.name }}</option>
+        {% endfor %}
+      </select>
+      <label class="visually-hidden" for="f-lang">{{ site.ui.filter_lang }}</label>
+      <select id="f-lang">
+        <option value="">{{ site.ui.filter_lang }}</option>
+        {% for code in ['en', 'ko', 'ja', 'zh'] %}
+        <option value="{{ code }}">{{ site.ui['lang_' + code] }}</option>
+        {% endfor %}
+      </select>
+      <label class="check"><input type="checkbox" id="f-oa"> {{ site.ui.filter_oa }}</label>
+      <output id="f-count" class="filter-count" data-showing="{{ site.ui.filter_showing }}"></output>
+    </form>
+    <p class="filter-empty" id="f-empty" hidden>{{ site.ui.filter_none }}</p>
+
     <nav class="pub-nav" aria-label="{{ publications.themes_label }}">
       {% for th in publications.themes %}
       <a href="#{{ th.id }}">{{ th.title }}</a>
@@ -44,7 +67,7 @@
       <div class="theme-head">
         <h3>{{ th.title }}</h3>
         <p class="blurb">{{ th.blurb }}</p>
-        <span class="count">{{ th.entries|length }} {{ site.ui.count_unit }}</span>
+        <span class="count" data-total="{{ th.entries|length }}" data-unit="{{ site.ui.count_unit }}">{{ th.entries|length }} {{ site.ui.count_unit }}</span>
       </div>
       <ul class="pub-list">
         {% for pub in th.entries %}
@@ -84,4 +107,8 @@
   </div>
 </section>
 
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ prefix }}filter.js" defer></script>
 {% endblock %}

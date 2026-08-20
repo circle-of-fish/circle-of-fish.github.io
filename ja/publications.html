@@ -64,6 +64,33 @@
 
 <section>
   <div class="container">
+    <form class="pub-filter" id="pub-filter" aria-label="絞り込み" hidden>
+      <label class="visually-hidden" for="f-member">メンバー全員</label>
+      <select id="f-member">
+        <option value="">メンバー全員</option>
+        <option value="inho-choi">Inho Choi</option>
+        <option value="sujin-heo">Sujin Heo</option>
+        <option value="jaeyoung-kim">Jaeyoung Kim</option>
+        <option value="minju-kwon">Minju Kwon</option>
+        <option value="inhwan-oh">Inhwan Oh</option>
+        <option value="chang-joon-ok">Chang Joon Ok</option>
+        <option value="kayeon-roh">Kayeon Roh</option>
+        <option value="jeeye-song">Jeeye Song</option>
+        <option value="chaeyoung-yong">Chaeyoung Yong</option>
+      </select>
+      <label class="visually-hidden" for="f-lang">全言語</label>
+      <select id="f-lang">
+        <option value="">全言語</option>
+        <option value="en">英語</option>
+        <option value="ko">韓国語</option>
+        <option value="ja">日本語</option>
+        <option value="zh">中国語</option>
+      </select>
+      <label class="check"><input type="checkbox" id="f-oa"> 全文公開のみ</label>
+      <output id="f-count" class="filter-count" data-showing="表示中"></output>
+    </form>
+    <p class="filter-empty" id="f-empty" hidden>その組み合わせに該当するものはありません。</p>
+
     <nav class="pub-nav" aria-label="テーマへ移動">
       <a href="#interpolity-orders-and-their-organizing-principles">政体間秩序とその組織原理</a>
       <a href="#ontological-complexity">存在論的複合性と他者との出会い</a>
@@ -80,10 +107,13 @@
       <div class="theme-head">
         <h3>政体間秩序とその組織原理</h3>
         <p class="blurb">主権国家体系ではなかった諸秩序——明–朝鮮の礼的秩序、戦国の天下、フランコのスペインが離脱していた帝国間ヨーロッパ——を再構成し、それぞれを実際に結び合わせていたものは何かを問う。徳、地位、儀礼的互酬、帝国的アイデンティティである。この群は、非ヨーロッパの歴史素材をウェストファリアに照らして測るのではなく、そこから一般理論（アレトクラシー、国家の徳、地位上昇、共生的国家性）を組み立てる場である。</p>
-        <span class="count">7 点</span>
+        <span class="count" data-total="7" data-unit="点">7 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">2025</span>.
@@ -94,7 +124,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1093/cjip/poaf015" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">2024</span>.
@@ -105,7 +138,10 @@
 <a class="badge badge-oa" href="https://mcgill.scholaris.ca/bitstreams/841eb65e-3169-4574-b813-27b572155cc0/download" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://mcgill.scholaris.ca/items/7a11db46-29ad-4232-be01-d1b02cb57330" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">博士論文</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi (최인호)</span>.
     <span class="year">2023</span>.
@@ -116,7 +152,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.14731/kjir.2023.03.63.1.43" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">2022</span>.
@@ -127,7 +166,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1093/irap/lcaa019" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">2022</span>.
@@ -138,7 +180,10 @@
 <a class="badge badge-oa" href="https://jscholarship.library.jhu.edu/bitstreams/4c407dd6-ae59-456e-8cbb-dd396ace21c5/download" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://jscholarship.library.jhu.edu/bitstream/handle/1774.2/67631/CHOI-DISSERTATION-2022.pdf?sequence=1" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">博士論文</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="sujin-heo"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Sujin Heo and Chaesung Chun (허수진·전재성)</span>.
     <span class="year">2019</span>.
@@ -149,7 +194,10 @@
 <a class="badge badge-oa" href="https://kjir.or.kr/journal/download_pdf.php?doi=10.14731/kjir.2019.09.59.3.89" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.14731/kjir.2019.09.59.3.89" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="sujin-heo"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Sujin Heo (허수진)</span>.
     <span class="year">2019</span>.
@@ -166,10 +214,13 @@
       <div class="theme-head">
         <h3>存在論的複合性と他者との出会い</h3>
         <p class="blurb">一つの現実が多様な語法で表象されるにすぎないという多文化主義の前提を越え、同一の秩序に属する参加者たちが実際に異なる生の世界を生きうると論じる——乾隆帝の万寿節における朝鮮使節と班禅ラマがそうであったように。同じ手つきは現在へと向けられる。研究者が無限に遠い他者の前で解体されねばならぬこと、存在論的他者どうしの出会いとしての米中競争、そして完成した二つの国家ではなく個体化以前の場として読まれる分断された半島である。</p>
-        <span class="count">3 点</span>
+        <span class="count" data-total="3" data-unit="点">3 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi minju-kwon"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inho Choi and Minju Kwon</span>.
     <span class="year">2025</span>.
@@ -180,7 +231,10 @@
 <a class="badge badge-oa" href="https://digitalcommons.chapman.edu/polisci_articles/63/" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.1177/13540661241228470" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi (최인호)</span>.
     <span class="year">2024</span>.
@@ -191,7 +245,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.14731/kjir.2024.12.64.4.7" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">하영선, 권민주, 정연 (Young-Sun Ha, Minju Kwon and Yan Zheng)</span>.
     <span class="year">2016</span>.
@@ -208,10 +265,13 @@
       <div class="theme-head">
         <h3>人種・ジェンダー・文明の標準</h3>
         <p class="blurb">階層が実際に生きられる層で取り組む、本会の第二の研究モジュールである。植民地朝鮮の雑誌における断髪、人種平等案が退けられた後に日本が海軍トン数を文明の標準における地位と引き換えたこと、母を絞首台からは救うが宣告からは救わないジュネーヴ議定書の一条——これらがここに置かれる。併せて読むとき、諸論文は、文明と人種の標準がそれによって序列づけられた人々——植民地の女性、非西洋のエリート、ファンや生存者——とともに作り上げられたこと、そしてこうした場面における行為主体性が抵抗とも共犯とも名づけがたい形をとることを論じている。</p>
-        <span class="count">6 点</span>
+        <span class="count" data-total="6" data-unit="点">6 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Minju Kwon</span>.
     <span class="year">2026</span>.
@@ -222,7 +282,10 @@
 <a class="badge badge-oa" href="https://link.springer.com/content/pdf/10.1007/s10691-026-09603-9.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.1007/s10691-026-09603-9" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon</span>.
     <span class="year">2025</span>.
@@ -233,7 +296,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1177/13540661251322652" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Iara Gonzalez-Ascencio and Minju Kwon</span>.
     <span class="year">2025</span>.
@@ -244,7 +310,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1080/14616742.2024.2396851" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2025</span>.
@@ -255,7 +324,10 @@
 <a class="badge badge-oa" href="https://inhwan-oh.github.io/files/JAER-article_Oh_2025.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.1163/18765610-32030007" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon and Kaye Valdez</span>.
     <span class="year">2024</span>.
@@ -266,7 +338,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1080/12259276.2024.2367809" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon and Ya Su</span>.
     <span class="year">2024</span>.
@@ -283,10 +358,13 @@
       <div class="theme-head">
         <h3>国際法・国際制度・争われる正統性</h3>
         <p class="blurb">武装集団・国家・人道の門番たちが、国内外の聴衆の前で絶えず作り出さねばならぬものとしての正統性を追う。少年兵に関する国連行動計画に署名する反徒、ボルノの自警民兵、自らの秘密保持を破るか否かを量る赤十字国際委員会、国連憲章を互いに向け合う北東アジアの五つの主張国がそこに並ぶ。この群は本会の制度的・法的な音域を担い、公式の国際機構が遵守だけでなく承認をめぐる争いの上で動いていることを示す。</p>
-        <span class="count">8 点</span>
+        <span class="count" data-total="8" data-unit="点">8 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon and Wukki Kim</span>.
     <span class="year">2026</span>.
@@ -297,7 +375,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1016/j.wdp.2026.100780" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jeeye-song"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Jeeye Song (송지예)</span>.
     <span class="year">2026</span>.
@@ -308,7 +389,10 @@
 <a class="badge badge-oa" href="https://ih.snu.ac.kr/wp-content/uploads/mangboard/2026/06/19/F2131_06_%EC%9D%BC%EB%B0%98_%EC%86%A1%EC%A7%80%EC%98%88_4%EA%B5%90.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.17326/jhsnu.83.2.202605.177" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon and Chaeyoung Yong</span>.
     <span class="year">2025</span>.
@@ -319,7 +403,10 @@
 <a class="badge badge-doi" href="https://us.sagepub.com/en-us/nam/the-sage-handbook-of-peace-and-conflict-studies/book286258" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jeeye-song"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jeeye Song</span>.
     <span class="year">2023</span>.
@@ -330,7 +417,10 @@
 <span class="badge badge-type">博士論文</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">권민주 (Minju Kwon)</span>.
     <span class="year">2022</span>.
@@ -341,7 +431,10 @@
 <a class="badge badge-oa" href="https://ipus.snu.ac.kr/wp-content/uploads/2022/07/1.-%EA%B6%8C%EB%AF%BC%EC%A3%BC.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.35369/jpus.14.1.202206.5" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon</span>.
     <span class="year">2019</span>.
@@ -352,7 +445,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.7274/sn009w06d85" target="_blank" rel="noopener">DOI</a><span class="badge badge-type">博士論文</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jeeye-song"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jeeye Song (송지예)</span>.
     <span class="year">2012</span>.
@@ -363,7 +459,10 @@
 <a class="badge badge-doi" href="https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART001648672" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jeeye-song"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jeeye Song (송지예)</span>.
     <span class="year">2011</span>.
@@ -380,10 +479,13 @@
       <div class="theme-head">
         <h3>感情・トラウマ・記憶</h3>
         <p class="blurb">情動を、それ自体の歴史をもつ政治的実践として扱う。1960年の東京の街頭で組織された怒り、交渉のテーブルで演じられる恭順、戦時性暴力の証言に現れるトラウマ的記憶の時間構造である。そのうえで、非西洋の声が引用される対象ではなく内側にあるとき、感情研究は何になるのかを問う。</p>
-        <span class="count">6 点</span>
+        <span class="count" data-total="6" data-unit="点">6 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chaeyoung Yong</span>.
     <span class="year">2026</span>.
@@ -394,7 +496,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1080/09557571.2025.2604746" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chaeyoung Yong</span>.
     <span class="year">2025</span>.
@@ -405,7 +510,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1177/03058298251366685" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chaeyoung Yong</span>.
     <span class="year">2023</span>.
@@ -416,7 +524,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.17630/sta/556" target="_blank" rel="noopener">DOI</a><span class="badge badge-type">博士論文</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chaeyoung Yong</span>.
     <span class="year">2020</span>.
@@ -427,7 +538,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.4324/9781315161334-8" target="_blank" rel="noopener">DOI</a><span class="badge badge-type">所収論考</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">은용수, 용채영 [Yong-Soo Eun and Chaeyoung Yong]</span>.
     <span class="year">2018</span>.
@@ -438,7 +552,10 @@
 <a class="badge badge-doi" href="https://kiss.kstudy.com/Detail/Ar?key=3853369" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">용채영, 은용수 [Chaeyoung Yong and Yong-Soo Eun]</span>.
     <span class="year">2017</span>.
@@ -455,10 +572,13 @@
       <div class="theme-head">
         <h3>知の様式——国際関係論の知はいかに作られ、いかに動くか</h3>
         <p class="blurb">本会の再帰的な核である。何が国際的なものについての知識として通用するのか、誰がそれを編み上げるのか、そしてそれはいかに移動するのか。関係主義的な社会科学哲学（内側からの知、学術的な書き物の目に逆らう労働としての関係主義）から、韓国の国際関係論そのものの創設期をたどる文書史——ブリコルールとしてのLee Yong-hee、これと対立するCho Hyowonの冷戦リアリズム、初期KAIS大会を通じて進められた韓国化——へ、さらに輸入された概念が土着化していった制度・翻訳・ネットワークへと連なる。</p>
-        <span class="count">26 点</span>
+        <span class="count" data-total="26" data-unit="点">26 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="sujin-heo"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Patrick Thaddeus Jackson and Sujin Heo</span>.
     <span class="year">2025</span>.
@@ -469,7 +589,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1093/oso/9780192871145.003.0052" target="_blank" rel="noopener">DOI</a><span class="badge badge-type">所収論考</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2025</span>.
@@ -480,7 +603,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.21490/jskh.2025.2.98.69" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2025</span>.
@@ -491,7 +617,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">오드 아르네 웨스타 (Odd Arne Westad); 유강은 (translator); 옥창준 (해제 / critical afterword)</span>.
     <span class="year">2025</span>.
@@ -502,7 +631,10 @@
 <a class="badge badge-doi" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=359784052" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="sujin-heo"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Patrick Thaddeus Jackson and Sujin Heo</span>.
     <span class="year">2024</span>.
@@ -513,7 +645,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1017/9781009315234.010" target="_blank" rel="noopener">DOI</a><span class="badge badge-type">所収論考</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -524,7 +659,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.36432/csmkh.54.202407.2" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -535,7 +673,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.31930/jas.2024.03.67.1.231" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -546,7 +687,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.29186/kjhh.2024.50.115" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -557,7 +701,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.38080/crh.2024.08.148.144" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -568,7 +715,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">존 J. 미어샤이머, 서배스천 로사토 (John J. Mearsheimer and Sebastian Rosato); 권지현 (translator); 옥창준 (해제 / critical afterword)</span>.
     <span class="year">2024</span>.
@@ -579,7 +729,10 @@
 <a class="badge badge-doi" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=342571178" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">2023</span>.
@@ -590,7 +743,10 @@
 <a class="badge badge-oa" href="https://www.cambridge.org/core/services/aop-cambridge-core/content/view/2A2D31D30F18103584F2FC541CCFA134/S0260210522000481a.pdf/on-being-chinese-and-being-complexified-chinese-ir-as-a-transcultural-project.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://doi.org/10.1017/S0260210522000481" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2023</span>.
@@ -601,7 +757,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.15797/concom.2023..32.007" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2023</span>.
@@ -612,7 +771,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.23037/dyn.2023..82.008" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">옥창준 (Chang Joon Ok), with 기유정, 김태진, 이경미, 장세진, 장인성, 장진성</span>.
     <span class="year">2023</span>.
@@ -623,7 +785,10 @@
 <a class="badge badge-doi" href="https://www.yes24.com/product/goods/118806800" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="sujin-heo"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Patrick Thaddeus Jackson and Sujin Heo</span>.
     <span class="year">2022</span>.
@@ -634,7 +799,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1177/2336825X221089202" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2022</span>.
@@ -645,7 +813,10 @@
 <a class="badge badge-doi" href="https://s-space.snu.ac.kr/handle/10371/188216" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">博士論文</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2021</span>.
@@ -656,7 +827,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.25024/ksq.44.1.202103.145" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2021</span>.
@@ -667,7 +841,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.23033/inhaks.2021..63.013" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">백승욱, 왕후이, 백지운, 옥창준, 이일영 (authors); 백원담 (ed.)</span>.
     <span class="year">2021</span>.
@@ -678,7 +855,10 @@
 <a class="badge badge-doi" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=275912837" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2019</span>.
@@ -689,7 +869,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.36432/CSMKH.41.201904.1" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="sujin-heo"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Sujin Heo (허수진)</span>.
     <span class="year">2018</span>.
@@ -700,7 +883,10 @@
 <a class="badge badge-doi" href="https://product.kyobobook.co.kr/detail/S000001910507" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2017</span>.
@@ -711,7 +897,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.30760/inakos.2017..22.003" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inho Choi (최인호)</span>.
     <span class="year">2013</span>.
@@ -722,7 +911,10 @@
 <a class="badge badge-oa" href="https://s-space.snu.ac.kr/bitstream/10371/94956/1/01%20%EC%B5%9C%EC%9D%B8%ED%98%B8.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://hdl.handle.net/10371/94956" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">권민주 (Minju Kwon)</span>.
     <span class="year">2012</span>.
@@ -733,7 +925,10 @@
 <span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">권민주 (Minju Kwon)</span>.
     <span class="year">2012</span>.
@@ -750,10 +945,13 @@
       <div class="theme-head">
         <h3>アジア冷戦——非同盟・分断・朝鮮戦争</h3>
         <p class="blurb">アジア冷戦を、決着済みの二極的な筋書きではなく、生きた選択肢の場として回復する。南北朝鮮のエリートが秤にかけたバンドンと中立、ネルー流の非同盟に対抗する1949年と1954年の太平洋同盟構想、北朝鮮が第三世界を通じて描いた想像の地理、そして民主化後に二つの反共国家を編み直した異なるナショナリズムがここに並ぶ。分断を固定した戦争を誰が語るのかをめぐる争いとして、朝鮮戦争史学史もまたこの主題に属する。</p>
-        <span class="count">20 点</span>
+        <span class="count" data-total="20" data-unit="点">20 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">옥창준 (Chang Joon Ok), in 정용욱 외 (eds.)</span>.
     <span class="year">2026</span>.
@@ -764,7 +962,10 @@
 <a class="badge badge-doi" href="https://www.yes24.com/product/goods/173933780" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">옥창준 (Chang Joon Ok), with 공임순, 김나현, 남현지, 박연희, 송은영, 이성주, 이철호, 장세진, 조송이, 조은애, 최진석</span>.
     <span class="year">2026</span>.
@@ -775,7 +976,10 @@
 <a class="badge badge-doi" href="https://www.yes24.com/product/goods/190806147" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2025</span>.
@@ -786,7 +990,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.38080/crh.2025.11.153.14" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2025</span>.
@@ -797,7 +1004,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2025</span>.
@@ -808,7 +1018,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -819,7 +1032,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jeeye-song"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jeeye Song (송지예)</span>.
     <span class="year">2024</span>.
@@ -830,7 +1046,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.31930/JAS.2024.12.67.4.377" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2021</span>.
@@ -841,7 +1060,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.31552/jh.2021.01.40.257" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">옥창준 (Chang Joon Ok), with 신욱희, 구갑우, 오정현, 이혜정, 량미화, 은용수</span>.
     <span class="year">2021</span>.
@@ -852,7 +1074,10 @@
 <a class="badge badge-doi" href="https://www.yes24.com/product/goods/103289229" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">所収論考</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon jeeye-song"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon (권민주) and Jeeye Song (송지예)</span>.
     <span class="year">2020</span>.
@@ -863,7 +1088,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.37743/sah.128.4" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2020</span>.
@@ -874,7 +1102,10 @@
 <a class="badge badge-oa" href="http://ipus.snu.ac.kr/wp-content/uploads/2020/07/%EC%98%A5%EC%B0%BD%EC%A4%80.pdf" target="_blank" rel="noopener">全文</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">옥창준, 최규진 (Chang Joon Ok and Choi Kyu-jin)</span>.
     <span class="year">2020</span>.
@@ -885,7 +1116,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.20457/sha.74.11" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2019</span>.
@@ -896,7 +1130,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">김재영 (Jaeyoung Kim)</span>.
     <span class="year">2017</span>.
@@ -907,7 +1144,10 @@
 <a class="badge badge-oa" href="https://s-space.snu.ac.kr/bitstream/10371/146958/1/7.%20%EA%B9%80%EC%9E%AC%EC%98%81.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://hdl.handle.net/10371/146958" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">옥창준, 김민환 (Chang Joon Ok and Kim Min Hwan)</span>.
     <span class="year">2017</span>.
@@ -918,7 +1158,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.38080/crh.2017.02.118.318" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2016</span>.
@@ -929,7 +1172,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.18078/amstin.2016.39.1.002" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2015</span>.
@@ -940,7 +1186,10 @@
 <span class="badge badge-type">博士論文</span><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2015</span>.
@@ -951,7 +1200,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.17792/kcs.2015.28..81" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2015</span>.
@@ -962,7 +1214,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jeeye-song"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jeeye Song (송지예)</span>.
     <span class="year">2015</span>.
@@ -979,10 +1234,13 @@
       <div class="theme-head">
         <h3>勢力移行・戦争・海洋秩序</h3>
         <p class="blurb">本会の安全保障部門である。移行の帰趨を決めるのは総量的な国力曲線ではなく、主導的海洋国家が第一防衛線をどう引き直すか、そして小国が脆弱性を梃子に転じうるかだ、という主張に立つ。ファショダ、七月危機、ローズヴェルトの太平洋から、米中の海軍力移行、造船をめぐる国家戦略、中堅国がいま渡っていかねばならない「不安定な混成秩序」まで及び、大国の意図ではなく二次的国家の行為主体性を中心に据える。</p>
-        <span class="count">7 点</span>
+        <span class="count" data-total="7" data-unit="点">7 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim and Zhen Arc Han</span>.
     <span class="year">forthcoming</span>.
@@ -993,7 +1251,10 @@
 <span class="badge badge-type">所収論考</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Andrej Krickovic and Jaeyoung Kim</span>.
     <span class="year">2025</span>.
@@ -1004,7 +1265,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.2307/jj.20785739.15" target="_blank" rel="noopener">DOI</a><span class="badge badge-type">所収論考</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">오인환 (Inhwan Oh)</span>.
     <span class="year">2025</span>.
@@ -1015,7 +1279,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.33127/kdps.2025.47.1.95" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">2024</span>.
@@ -1026,7 +1293,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1080/09512748.2022.2125049" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2024</span>.
@@ -1037,7 +1307,10 @@
 <a class="badge badge-oa" href="https://ur.bc.edu/system/files/2025-04/bc-ir109936.pdf" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://ur.bc.edu/islandora/interactive-theory-power-projection" target="_blank" rel="noopener">出版社</a><span class="badge badge-type">博士論文</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2024</span>.
@@ -1048,7 +1321,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">오인환 (In-hwan Oh)</span>.
     <span class="year">2014</span>.
@@ -1065,10 +1341,13 @@
       <div class="theme-head">
         <h3>惑星秩序・気候・平和の条件</h3>
         <p class="blurb">自然が政治の受動的な客体でなくなったとき、人新世はいかなる秩序を要求するのか。Teilhardのヌースフィアを新儒教（朱子学）の政治理論を通じて練り直し、脱主権的な「ヌースフィア共和国」を構想し、歴史上の勢力移行を生態的圧力の下での適応力の競合として読み、二つの超大国ではないすべての者にとっての戦略として惑星的共進化を提案する。「まともな平和（decent peace）」ではシステム転換の時代に足りないと見る、本会の最も明示的に規範的な戦線である。</p>
-        <span class="count">3 点</span>
+        <span class="count" data-total="3" data-unit="点">3 点</span>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi and Inhwan Oh</span>.
     <span class="year">forthcoming</span>.
@@ -1079,7 +1358,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1093/irap/lcag009" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inhwan Oh and Inho Choi</span>.
     <span class="year">forthcoming</span>.
@@ -1090,7 +1372,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi (최인호)</span>.
     <span class="year">2024</span>.
@@ -1115,7 +1400,10 @@
         <h3>ワーキングペーパー・学会報告</h3>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">forthcoming</span>.
@@ -1126,7 +1414,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">forthcoming</span>.
@@ -1137,7 +1428,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">김재영 (Jaeyoung Kim)</span>.
     <span class="year">forthcoming</span>.
@@ -1148,7 +1442,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">forthcoming</span>.
@@ -1159,7 +1456,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">forthcoming</span>.
@@ -1170,7 +1470,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">forthcoming</span>.
@@ -1181,7 +1484,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">forthcoming</span>.
@@ -1192,7 +1498,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Brooke Greene, Minju Kwon and Tanisha M. Fazal</span>.
     <span class="year">forthcoming</span>.
@@ -1203,7 +1512,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon and Dinah Lawan</span>.
     <span class="year">forthcoming</span>.
@@ -1214,7 +1526,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1225,7 +1540,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1236,7 +1554,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1247,7 +1568,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1258,7 +1582,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inhwan Oh and Inho Choi</span>.
     <span class="year">2026</span>.
@@ -1269,7 +1596,10 @@
   </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="kayeon-roh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Kayeon Roh</span>.
     <span class="year">2026</span>.
@@ -1280,7 +1610,10 @@
 <a class="badge badge-doi" href="http://web.isanet.org/Web/Conferences/ISA2026/Columbus2026_Program.pdf" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="kayeon-roh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Kayeon Roh</span>.
     <span class="year">2026</span>.
@@ -1291,7 +1624,10 @@
 <a class="badge badge-doi" href="http://web.isanet.org/Web/Conferences/ISA2026/Columbus2026_Program.pdf" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="kayeon-roh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Kayeon Roh</span>.
     <span class="year">2025</span>.
@@ -1302,7 +1638,10 @@
 <a class="badge badge-doi" href="http://web.isanet.org/Web/Conferences/ISA2025/Chicago%202025%20-%20Program%20(with%20Indexes).pdf" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="kayeon-roh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Kayeon Roh</span>.
     <span class="year">2025</span>.
@@ -1313,7 +1652,10 @@
 <a class="badge badge-doi" href="http://web.isanet.org/Web/Conferences/ISA2025/Chicago%202025%20-%20Program%20(with%20Indexes).pdf" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="kayeon-roh"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Kayeon Roh</span>.
     <span class="year">2024</span>.
@@ -1324,7 +1666,10 @@
 <a class="badge badge-doi" href="http://web.isanet.org/Web/Conferences/ISA2024/San%20Fran%202024%20-%20Program%20(with%20Indexes).pdf" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">in progress</span>.
@@ -1335,7 +1680,10 @@
 <a class="badge badge-doi" href="https://distanthead.com/works-in-progress/" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">in progress</span>.
@@ -1346,7 +1694,10 @@
 <a class="badge badge-doi" href="https://distanthead.com/works-in-progress/" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">in progress</span>.
@@ -1357,7 +1708,10 @@
 <a class="badge badge-doi" href="https://distanthead.com/works-in-progress/" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">in progress</span>.
@@ -1368,7 +1722,10 @@
 <a class="badge badge-doi" href="https://distanthead.com/works-in-progress/" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inho-choi"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Inho Choi</span>.
     <span class="year">in progress</span>.
@@ -1386,7 +1743,10 @@
         <h3>政策報告・論評</h3>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1397,7 +1757,10 @@
 <a class="badge badge-oa" href="https://www.globalnk.org/publication/view.php?cd=REP000098&amp;ctype=2" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.globalnk.org/publication/view.php?cd=REP000098&amp;ctype=2" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1408,7 +1771,10 @@
 <a class="badge badge-oa" href="https://www.globalnk.org/topic/view.php?cd=COM000232" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.globalnk.org/topic/view.php?cd=COM000232" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Chaesung Chun and Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1419,7 +1785,10 @@
 <a class="badge badge-oa" href="https://www.cfr.org/articles/the-world-reorders-the-complications-of-a-return-to-spheres-of-influence" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.cfr.org/articles/the-world-reorders-the-complications-of-a-return-to-spheres-of-influence" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Boris Ruge, Sophie Larder, Alex Bristow, Inhwan Oh, Akira Igata, and David Capie</span>.
     <span class="year">2026</span>.
@@ -1430,7 +1799,10 @@
 <a class="badge badge-oa" href="https://www.aspistrategist.org.au/new-research-hub-assesses-shared-security-challenges-in-the-indo-pacific-and-euro-atlantic/" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.aspistrategist.org.au/new-research-hub-assesses-shared-security-challenges-in-the-indo-pacific-and-euro-atlantic/" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2026</span>.
@@ -1441,7 +1813,10 @@
 <a class="badge badge-oa" href="https://www.globalnk.org/topic/view.php?cd=COM000213" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.globalnk.org/topic/view.php?cd=COM000213" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2025</span>.
@@ -1452,7 +1827,10 @@
 <a class="badge badge-oa" href="https://www.globalnk.org/topic/view.php?cd=COM000200" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.globalnk.org/topic/view.php?cd=COM000200" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="ko"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Yang Gyu Kim and Inhwan Oh (김양규·오인환)</span>.
     <span class="year">2025</span>.
@@ -1463,7 +1841,10 @@
 <a class="badge badge-oa" href="https://www.eai.or.kr/project/project_01_view.php?no=9830&amp;project=178" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.eai.or.kr/project/project_01_view.php?no=9830&amp;project=178" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="inhwan-oh"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Inhwan Oh</span>.
     <span class="year">2025</span>.
@@ -1474,7 +1855,10 @@
 <a class="badge badge-oa" href="https://www.globalnk.org/topic/view.php?cd=COM000185" target="_blank" rel="noopener">全文</a><a class="badge badge-doi" href="https://www.globalnk.org/topic/view.php?cd=COM000185" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="en"
+    data-oa="1">
   <div class="cite">
     <span class="authors">Minju Kwon</span>.
     <span class="year">2022</span>.
@@ -1492,7 +1876,10 @@
         <h3>書評</h3>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="jaeyoung-kim"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Jaeyoung Kim</span>.
     <span class="year">2026</span>.
@@ -1503,7 +1890,10 @@
 <a class="badge badge-doi" href="https://bookshop.iseas.edu.sg/publication/8006" target="_blank" rel="noopener">出版社</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2026</span>.
@@ -1514,7 +1904,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">김도민, 옥창준, 장문석, 허은, 문미라 (Kim Do-min, Chang Joon Ok, Jang Moon-seok, Heo Eun, Moon Mi-ra)</span>.
     <span class="year">2026</span>.
@@ -1525,7 +1918,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2026</span>.
@@ -1536,7 +1932,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.16894/jowh.74.9" target="_blank" rel="noopener">DOI</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2025</span>.
@@ -1547,7 +1946,10 @@
 <a class="badge badge-doi" href="https://www.yes24.com/product/goods/147647560" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2023</span>.
@@ -1558,7 +1960,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2023</span>.
@@ -1569,7 +1974,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chang Joon Ok (옥창준)</span>.
     <span class="year">2021</span>.
@@ -1580,7 +1988,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minchul Kim and Chaeyoung Yong</span>.
     <span class="year">2019</span>.
@@ -1591,7 +2002,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1080/01916599.2019.1582226" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chaeyoung-yong"
+    data-lang="en"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Chaeyoung Yong</span>.
     <span class="year">2018</span>.
@@ -1602,7 +2016,10 @@
 <a class="badge badge-doi" href="https://doi.org/10.1093/isr/viy040" target="_blank" rel="noopener">DOI</a>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">곽귀병, 김일환, 김채연, 옥창준 (Kwak Kwi-byung, Kim Il-hwan, Kim Chae-yeon and Chang Joon Ok)</span>.
     <span class="year">2015</span>.
@@ -1620,7 +2037,10 @@
         <h3>翻訳</h3>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">벤자민 영 (Benjamin R. Young); 고자연, 김도민, 김태경, 류기현, 백원담, 옥창준 (translators)</span>.
     <span class="year">2026</span>.
@@ -1631,7 +2051,10 @@
 <a class="badge badge-doi" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392453876" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="minju-kwon"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">Minju Kwon (translator); John Baylis, Steve Smith and Patricia Owens et al. (authors)</span>.
     <span class="year">2022</span>.
@@ -1642,7 +2065,10 @@
 <span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">오드 아르네 웨스타 (Odd Arne Westad); 옥창준 (translator)</span>.
     <span class="year">2022</span>.
@@ -1653,7 +2079,10 @@
 <a class="badge badge-doi" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=288778099" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">오드 아르네 웨스타 (Odd Arne Westad); 옥창준, 오석주, 김동욱, 강유지 (translators)</span>.
     <span class="year">2020</span>.
@@ -1664,7 +2093,10 @@
 <a class="badge badge-doi" href="https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=241034636" target="_blank" rel="noopener">出版社</a><span class="badge badge-lang">韓国語</span>  </div>
 </li>
 
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">백원담, 오드 아르네 웨스타 (dialogue participants); 옥창준 (translator)</span>.
     <span class="year">2017</span>.
@@ -1682,7 +2114,10 @@
         <h3>その他</h3>
       </div>
       <ul class="pub-list">
-        <li class="pub">
+        <li class="pub"
+    data-members="chang-joon-ok"
+    data-lang="ko"
+    data-oa="0">
   <div class="cite">
     <span class="authors">올리비에 코르텐, 피에르 클랭 (Olivier Corten and Pierre Klein); 제라르 브도레 (illustrator); 이수진 (translator); 옥창준 (감수 / academic supervisor)</span>.
     <span class="year">2026</span>.
@@ -1719,5 +2154,6 @@
   <div>河豚の会 · 東アジアから国際関係論のグローバル化を</div>
   <div class="foot-legal">© 2020– Circle of the Fish. 背景の砂の円文様は、シロアミメフグ（Torquigener albomaculatus）の産卵巣に倣ったものです。</div>
 </footer>
+<script src="../filter.js" defer></script>
 </body>
 </html>

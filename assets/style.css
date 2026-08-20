@@ -295,6 +295,36 @@ section.band { background: var(--band); }
 }
 
 /* ===== PUBLICATIONS ======================================================= */
+/* filter bar — only shown once the script has wired it up */
+.pub-filter {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.6rem;
+  padding: 0.85rem 1.1rem; margin-bottom: 1.2rem;
+  background: var(--band); border: 1px solid var(--line); border-radius: 7px;
+}
+.pub-filter select {
+  font: inherit; font-size: 0.83rem; color: var(--ink);
+  background: var(--white); border: 1px solid var(--line);
+  border-radius: 5px; padding: 0.34rem 0.6rem; cursor: pointer;
+  max-width: 15rem;
+}
+.pub-filter select:hover, .pub-filter select:focus { border-color: var(--teal); outline: none; }
+.pub-filter .check {
+  font-size: 0.83rem; color: var(--body); display: inline-flex;
+  align-items: center; gap: 0.35rem; cursor: pointer; user-select: none;
+}
+.pub-filter .check input { accent-color: var(--teal); cursor: pointer; }
+.filter-count {
+  margin-left: auto; font-size: 0.78rem; color: var(--teal);
+  font-weight: 600; letter-spacing: 0.03em;
+}
+.filter-empty {
+  font-size: 0.9rem; color: var(--muted); padding: 2rem 0; text-align: center;
+}
+.visually-hidden {
+  position: absolute; width: 1px; height: 1px; overflow: hidden;
+  clip: rect(0 0 0 0); clip-path: inset(50%); white-space: nowrap;
+}
+
 .pub-nav { display: flex; flex-wrap: wrap; gap: 0.45rem; margin-bottom: 2.4rem; }
 .pub-nav a {
   font-size: 0.78rem; text-decoration: none; color: var(--body);
