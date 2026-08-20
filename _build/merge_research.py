@@ -132,12 +132,21 @@ def main() -> None:
 
     # ---- 2. gather + dedupe publications ---------------------------------- #
     merged: dict[tuple, dict] = {}
+    by_doi: dict[str, tuple] = {}
     uncertain: list = []
     for prof in profiles:
         for pub in prof.get("publications", []) or []:
             k = (norm(pub.get("title", "")), pub.get("type", ""))
             if not k[0]:
                 continue
+            # co-authors sometimes file the same article under different subtitles,
+            # so a DOI outranks the title when deciding what is the same work
+            doi = (pub.get("doi") or "").strip().lower()
+            if doi:
+                if doi in by_doi:
+                    k = by_doi[doi]
+                else:
+                    by_doi[doi] = k
             if pub.get("confidence") == "uncertain":
                 uncertain.append((prof["key"], pub))
                 continue

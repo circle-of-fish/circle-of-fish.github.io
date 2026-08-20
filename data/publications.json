@@ -2890,7 +2890,8 @@
       "entries": [
         {
           "members": [
-            "inho_choi"
+            "inho_choi",
+            "inhwan_oh"
           ],
           "type": "journal_article",
           "year": "forthcoming",
@@ -2914,33 +2915,6 @@
           ],
           "confidence": "verified",
           "evidence_url": "https://orcid.org/0000-0003-2826-5775",
-          "url_fulltext": ""
-        },
-        {
-          "members": [
-            "inhwan_oh"
-          ],
-          "type": "journal_article",
-          "year": "forthcoming",
-          "authors": "Inhwan Oh and Inho Choi",
-          "title": "Historical Intersections of Climatic Change and Power Transitions: Ecological Pressure, Balance of Adaptability, and the U.S.-China Power Transition in the Anthropocene",
-          "venue": "International Relations of the Asia-Pacific (Oxford University Press)",
-          "language": "en",
-          "confidence": "probable",
-          "evidence_url": "https://inhwan-oh.github.io/files/Inhwan_Oh_CV_260714.pdf",
-          "summary": {
-            "en": "Brings climatic change into power-transition theory by arguing that ecological pressure is a recurring driver of transition outcomes and that what determines who prevails is not raw material capability but a 'balance of adaptability' — the relative capacity of rival orders to reorganize under environmental stress.",
-            "ko": "생태적 압력이 전이의 결과를 반복적으로 좌우해 왔으며 승패를 가르는 것은 물질적 국력의 총량이 아니라 '적응력의 균형', 곧 환경 압박 아래에서 경쟁하는 질서들이 스스로를 다시 조직해 내는 상대적 역량이라고 주장하며 기후 변동을 세력전이 이론 안으로 끌어들인다.",
-            "zh": "把气候变动引入权力转移理论：生态压力反复左右转移的结局，而决定胜负的并非物质国力的总量，而是「适应力的均衡」——相互竞争的秩序在环境压力下重新组织自身的相对能力。",
-            "ja": "気候変動を勢力移行理論に組み込む。生態的圧力は移行の帰趨を繰り返し左右してきたのであり、勝敗を分けるのは物質的国力の総量ではなく「適応力の均衡」、すなわち環境の圧迫の下で競合する諸秩序が自らを再編成しうる相対的能力である。"
-          },
-          "themes": [
-            "Anthropocene",
-            "climate and international order",
-            "power transition",
-            "US-China relations",
-            "Global IR"
-          ],
           "url_fulltext": ""
         },
         {
