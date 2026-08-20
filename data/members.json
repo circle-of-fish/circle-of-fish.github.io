@@ -45,10 +45,10 @@
         "ja": "최인호"
       },
       "affiliation": {
-        "en": "Professor, Department of Political Science and International Relations, Kyonggi University, South Korea",
-        "ko": "경기대학교 정치외교학과 교수",
-        "zh": "韩国京畿大学政治外交学系教授",
-        "ja": "韓国・京畿大学政治外交学科教授"
+        "en": "Assistant Professor, Department of Political Science and Diplomacy, College of Social Sciences, Kyonggi University, South Korea",
+        "ko": "경기대학교 사회과학대학 정치외교학전공 조교수",
+        "zh": "韩国京畿大学社会科学学院政治外交学专业助理教授",
+        "ja": "韓国・京畿大学社会科学大学政治外交学専攻助教授"
       },
       "interests": {
         "en": "Historical East Asian international orders; Global IR and transcultural theory; Korean and Chinese political thought; the Anthropocene and planetary order",
@@ -75,7 +75,10 @@
           "url": "https://x.com/puffers_inho"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 375
+      }
     },
     {
       "key": "sujin-heo",
@@ -117,7 +120,10 @@
           "url": "https://american.academia.edu/SujinHeo"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 392
+      }
     },
     {
       "key": "jaeyoung-kim",
@@ -168,7 +174,10 @@
           "url": "https://twitter.com/jaeykim89"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 335
+      }
     },
     {
       "key": "minju-kwon",
@@ -206,7 +215,10 @@
           "url": "https://www.chapman.edu/our-faculty/minju-kwon.aspx"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 306,
+        "h": 335
+      }
     },
     {
       "key": "inhwan-oh",
@@ -253,7 +265,10 @@
           "url": "https://x.com/oh_inhwan"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 352
+      }
     },
     {
       "key": "chang-joon-ok",
@@ -296,7 +311,10 @@
           "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003106603"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 327,
+        "h": 320
+      }
     },
     {
       "key": "kayeon-roh",
@@ -335,7 +353,10 @@
         "zh": "노가연",
         "ja": "노가연"
       },
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 427
+      }
     },
     {
       "key": "jeeye-song",
@@ -374,7 +395,10 @@
           "url": "https://www.researchgate.net/profile/Jeeye-Song"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 427
+      }
     },
     {
       "key": "chaeyoung-yong",
@@ -417,7 +441,10 @@
           "url": "https://st-andrews.academia.edu/ChaeYoungYong"
         }
       ],
-      "photo": true
+      "photo": {
+        "w": 320,
+        "h": 348
+      }
     }
   ]
 }

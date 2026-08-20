@@ -184,7 +184,9 @@ def build() -> None:
         if asset.is_file():
             shutil.copy2(asset, OUT / asset.name)
         else:
-            shutil.copytree(asset, OUT / asset.name)
+            # cleaning above is best-effort — Windows can hold a directory handle
+            # open — so the copy has to be able to write over what survived
+            shutil.copytree(asset, OUT / asset.name, dirs_exist_ok=True)
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     (OUT / "CNAME").unlink(missing_ok=True)
 

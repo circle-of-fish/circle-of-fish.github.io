@@ -19,10 +19,14 @@
       <div class="member-card" id="{{ m.key }}">
         <div class="member-head">
           {% if m.get('photo') %}
-          {# alt is empty on purpose: the name sits right beside it, and several of
-             these are not portraits at all — a drawing, a cake, a view from behind #}
-          <img class="member-photo" src="{{ prefix }}photos/{{ m.key }}.jpg" alt=""
-               width="88" height="88" loading="lazy" decoding="async">
+          {# The images keep their own proportions — several are not portraits at
+             all — so the width/height attributes come from the file itself.
+             alt is empty on purpose: the name sits right beside it. #}
+          <span class="member-frame">
+            <img class="member-photo" src="{{ prefix }}photos/{{ m.key }}.jpg" alt=""
+                 width="{{ m.photo.w }}" height="{{ m.photo.h }}"
+                 loading="lazy" decoding="async">
+          </span>
           {% endif %}
           <div class="member-ident">
             <div class="member-name">{{ m.name }}</div>
