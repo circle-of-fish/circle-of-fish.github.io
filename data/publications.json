@@ -75,68 +75,6 @@
       "confidence": "verified",
       "evidence_url": "https://orcid.org/0000-0003-2826-5775",
       "url_fulltext": ""
-    },
-    {
-      "members": [
-        "minju_kwon"
-      ],
-      "type": "journal_article",
-      "year": "2026",
-      "authors": "Minju Kwon",
-      "title": "All but the Death Penalty: Incomplete Protection for Civilian Internee Mothers",
-      "venue": "Feminist Legal Studies",
-      "volume_issue_pages": "Online First (published 26 May 2026)",
-      "doi": "10.1007/s10691-026-09603-9",
-      "url_publisher": "https://link.springer.com/article/10.1007/s10691-026-09603-9",
-      "fulltext_kind": "publisher_oa",
-      "language": "en",
-      "summary": {
-        "en": "Argues that gender bias is built into the codification of international humanitarian law: Article 76(3) of Additional Protocol I bars executing interned pregnant women and mothers, yet still permits their death sentence. Such benevolent protection casts women as weak protectees and lapses when state interests intervene.",
-        "ko": "국제인도법의 법전화 자체에 젠더 편향이 새겨져 있다고 논한다. 제1추가의정서 76조 3항은 억류된 임신부와 부양자녀를 둔 어머니의 사형 집행은 금지하면서도 사형 선고 자체는 허용하는데, 이런 온정적 보호는 여성을 본래 약한 피보호자로 규정하며 국가이익과 부딪히는 순간 철회된다.",
-        "zh": "主张性别偏见早已内嵌于国际人道法的法典化过程本身。第一附加议定书第七十六条第三款禁止对被拘禁的孕妇及育有受扶养子女的母亲执行死刑，却仍允许对其宣告死刑；此种善意的保护把女性预设为柔弱的受保护者，且一旦触及国家利益便随即失效。",
-        "ja": "国際人道法の法典化そのものにジェンダー・バイアスが埋め込まれていると論じる。第一追加議定書七六条三項は、抑留された妊婦および被扶養児を持つ母への死刑執行を禁じながら、死刑の言渡し自体は認めている。こうした温情的保護は女性を弱き被保護者として本質化し、国家利益と衝突した途端に失効する。"
-      },
-      "themes": [
-        "international law",
-        "international humanitarian law",
-        "gender",
-        "Geneva Conventions",
-        "benevolent sexism",
-        "human rights"
-      ],
-      "confidence": "verified",
-      "evidence_url": "https://api.crossref.org/works/10.1007/s10691-026-09603-9",
-      "url_fulltext": "https://link.springer.com/content/pdf/10.1007/s10691-026-09603-9.pdf"
-    },
-    {
-      "members": [
-        "minju_kwon"
-      ],
-      "type": "journal_article",
-      "year": "2026",
-      "authors": "Minju Kwon and Wukki Kim",
-      "title": "Mandates through the Rule of Law: United Nations Missions and Foreign Direct Investment",
-      "venue": "World Development Perspectives",
-      "volume_issue_pages": "42: 100780",
-      "doi": "10.1016/j.wdp.2026.100780",
-      "url_publisher": "https://www.sciencedirect.com/science/article/pii/S2452292926000238",
-      "language": "en",
-      "summary": {
-        "en": "Argues that peace operations shape foreign direct investment into host states through the legal-institutional content of their mandates — above all rule-of-law components — rather than through the mere presence of peacekeepers.",
-        "ko": "평화활동이 주재국으로 향하는 외국인직접투자에 영향을 주는 통로는 평화유지군의 주둔 자체가 아니라 임무 명령이 담은 법·제도적 내용, 특히 법치 관련 조항이라고 논한다.",
-        "zh": "主张维和行动之所以影响流入驻在国的外国直接投资，靠的并非维和人员在场本身，而是任务授权所载的法律与制度内容，尤以法治条款为要。",
-        "ja": "平和活動が受入国への外国直接投資を左右するのは、平和維持要員の駐留そのものではなく、任務授権が備える法的・制度的内容、とりわけ法の支配に関わる条項を通じてであると論じる。"
-      },
-      "themes": [
-        "international organization",
-        "peacekeeping",
-        "rule of law",
-        "political economy of development",
-        "quantitative IR"
-      ],
-      "confidence": "probable",
-      "evidence_url": "https://api.crossref.org/works/10.1016/j.wdp.2026.100780",
-      "url_fulltext": ""
     }
   ],
   "themes": [
@@ -428,38 +366,6 @@
           "confidence": "verified",
           "evidence_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003147997",
           "url_fulltext": ""
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "book_chapter",
-          "year": "2016",
-          "authors": "하영선, 권민주, 정연 (Young-Sun Ha, Minju Kwon and Yan Zheng)",
-          "title": "열하의 국제정치: 청, 티베트, 조선 [International Politics of Rehe: Qing, Tibet, and Chosŏn]",
-          "venue": "하영선·이헌미 편 [Young-Sun Ha and Hunmi Lee (eds.)], 사행의 국제정치: 16-19세기 조천·연행록 분석 [International Politics of Tributary Envoys: An Analysis of Chocheonnok and Yeonhaengnok, 16th-19th Centuries], Seoul: Asiatic Research Institute, Korea University",
-          "language": "ko",
-          "summary": {
-            "en": "An early Korean-language study of the Rehe (Jehol) encounter among Qing, Tibetan and Chosŏn actors, read through Chosŏn envoys' travel records — the empirical terrain later developed into the 2025 argument about ontological complexity in the Qing order.",
-            "ko": "청과 티베트, 조선의 행위자들이 열하(熱河)에서 마주친 장면을 조선 사신의 연행 기록을 통해 읽은 이른 시기의 한국어 연구로, 뒷날 2025년 논문에서 청 질서의 존재론적 복합성 논의로 발전하는 경험적 지반이다.",
-            "zh": "以朝鲜（李朝）使臣的燕行记录，读解清、藏与朝鲜三方行为者在热河的相遇，属较早的一篇韩语研究；其经验地基后来发展为二〇二五年关于清朝秩序存在论复杂性的论述。",
-            "ja": "清・チベット・朝鮮の行為者が熱河で交わった場面を、朝鮮使節の燕行録を通じて読んだ初期の韓国語研究であり、後に二〇二五年の清の秩序における存在論的複合性をめぐる議論へと展開する経験的基盤をなす。"
-          },
-          "themes": [
-            "historical East Asian order",
-            "Chosŏn-Qing-Tibet",
-            "envoy records",
-            "Korea"
-          ],
-          "confidence": "probable",
-          "evidence_url": "https://drive.google.com/file/d/1ByKs4itEFqOxlyl37OZ8n-jh6T0MiPas/view",
-          "url_fulltext": "",
-          "type_label": {
-            "en": "Chapter",
-            "ko": "단행본 장",
-            "zh": "论文集章节",
-            "ja": "所収論考"
-          }
         }
       ]
     },
@@ -478,38 +384,6 @@
         "ja": "階層が実際に生きられる層で取り組む、本会の第二の研究モジュールである。植民地朝鮮の雑誌における断髪、人種平等案が退けられた後に日本が海軍トン数を文明の標準における地位と引き換えたこと、母を絞首台からは救うが宣告からは救わないジュネーヴ議定書の一条——これらがここに置かれる。併せて読むとき、諸論文は、文明と人種の標準がそれによって序列づけられた人々——植民地の女性、非西洋のエリート、ファンや生存者——とともに作り上げられたこと、そしてこうした場面における行為主体性が抵抗とも共犯とも名づけがたい形をとることを論じている。"
       },
       "entries": [
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "journal_article",
-          "year": "2026",
-          "authors": "Minju Kwon",
-          "title": "All but the Death Penalty: Incomplete Protection for Civilian Internee Mothers",
-          "venue": "Feminist Legal Studies",
-          "volume_issue_pages": "Online First (published 26 May 2026)",
-          "doi": "10.1007/s10691-026-09603-9",
-          "url_publisher": "https://link.springer.com/article/10.1007/s10691-026-09603-9",
-          "fulltext_kind": "publisher_oa",
-          "language": "en",
-          "summary": {
-            "en": "Argues that gender bias is built into the codification of international humanitarian law: Article 76(3) of Additional Protocol I bars executing interned pregnant women and mothers, yet still permits their death sentence. Such benevolent protection casts women as weak protectees and lapses when state interests intervene.",
-            "ko": "국제인도법의 법전화 자체에 젠더 편향이 새겨져 있다고 논한다. 제1추가의정서 76조 3항은 억류된 임신부와 부양자녀를 둔 어머니의 사형 집행은 금지하면서도 사형 선고 자체는 허용하는데, 이런 온정적 보호는 여성을 본래 약한 피보호자로 규정하며 국가이익과 부딪히는 순간 철회된다.",
-            "zh": "主张性别偏见早已内嵌于国际人道法的法典化过程本身。第一附加议定书第七十六条第三款禁止对被拘禁的孕妇及育有受扶养子女的母亲执行死刑，却仍允许对其宣告死刑；此种善意的保护把女性预设为柔弱的受保护者，且一旦触及国家利益便随即失效。",
-            "ja": "国際人道法の法典化そのものにジェンダー・バイアスが埋め込まれていると論じる。第一追加議定書七六条三項は、抑留された妊婦および被扶養児を持つ母への死刑執行を禁じながら、死刑の言渡し自体は認めている。こうした温情的保護は女性を弱き被保護者として本質化し、国家利益と衝突した途端に失効する。"
-          },
-          "themes": [
-            "international law",
-            "international humanitarian law",
-            "gender",
-            "Geneva Conventions",
-            "benevolent sexism",
-            "human rights"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://api.crossref.org/works/10.1007/s10691-026-09603-9",
-          "url_fulltext": "https://link.springer.com/content/pdf/10.1007/s10691-026-09603-9.pdf"
-        },
         {
           "members": [
             "minju_kwon"
@@ -543,37 +417,6 @@
         },
         {
           "members": [
-            "minju_kwon"
-          ],
-          "type": "journal_article",
-          "year": "2025",
-          "authors": "Iara Gonzalez-Ascencio and Minju Kwon",
-          "title": "Cohabitation with Criminals: Civilian Women's Everyday Cooperation with Mexican Drug Cartels",
-          "venue": "International Feminist Journal of Politics",
-          "volume_issue_pages": "27(2): 304-326",
-          "doi": "10.1080/14616742.2024.2396851",
-          "url_publisher": "https://www.tandfonline.com/doi/full/10.1080/14616742.2024.2396851",
-          "language": "en",
-          "summary": {
-            "en": "Argues that most civilian women living with cartels act between resistance and participation. From 37 interviews in Jalisco the authors develop 'everyday cooperation' — keeping silent, pursuing benefits, idealizing narco-culture — and read it as strategized civilian agency learned socially, not as passivity.",
-            "ko": "카르텔과 더불어 살아가는 민간 여성 대부분은 저항과 가담 사이 어딘가에서 행위한다고 논한다. 할리스코에서 수행한 37건의 면접을 바탕으로 침묵하기, 이익 추구하기, 마약문화를 이상화하기라는 '일상적 협력' 개념을 세우고, 이를 수동성이 아니라 사회적 학습을 통해 전략화된 민간인의 행위성으로 읽는다.",
-            "zh": "主张与贩毒集团比邻而居的平民女性，多数行动于抵抗与参与之间。作者依托在哈利斯科州所作的三十七次访谈，提出「日常合作」这一概念——保持沉默、谋取利益、美化毒枭文化——并将其读作经由社会学习而策略化的平民能动性，而非被动。",
-            "ja": "カルテルと隣り合って生きる民間の女性の多くは、抵抗と加担のあいだで行為していると論じる。ハリスコ州での三七件の面接をもとに、沈黙すること、利益を求めること、麻薬文化を理想化することからなる「日常的協力」の概念を立て、これを受動性ではなく、社会的学習を通じて戦略化された民間人の行為主体性として読む。"
-          },
-          "themes": [
-            "gender",
-            "civilian agency",
-            "criminal violence",
-            "feminist IR",
-            "Latin America",
-            "everyday politics"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/14616742.2024.2396851",
-          "url_fulltext": ""
-        },
-        {
-          "members": [
             "inhwan_oh"
           ],
           "type": "journal_article",
@@ -603,67 +446,6 @@
             "Global IR"
           ],
           "url_fulltext": "https://inhwan-oh.github.io/files/JAER-article_Oh_2025.pdf"
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "journal_article",
-          "year": "2024",
-          "authors": "Minju Kwon and Kaye Valdez",
-          "title": "Sarcasm or Sexism? Media Framing of Duterte's Misogynistic Speeches",
-          "venue": "Asian Journal of Women's Studies",
-          "volume_issue_pages": "30(2): 85-109",
-          "doi": "10.1080/12259276.2024.2367809",
-          "url_publisher": "https://www.tandfonline.com/doi/full/10.1080/12259276.2024.2367809",
-          "language": "en",
-          "summary": {
-            "en": "Shows that Philippine news media systematically defused Rodrigo Duterte's misogynistic speech rather than reporting it as abuse. Content analysis of 265 reports finds underreporting and three recurring frames — feminist rather than human rights issue, sarcasm rather than misogyny, individual deviance rather than structural sexism.",
-            "ko": "필리핀 언론이 로드리고 두테르테의 여성혐오 발언을 학대로 보도하기보다 체계적으로 눅여 왔음을 보인다. 국내 매체 일곱 곳의 보도 265건을 분석해 축소 보도와 세 가지 반복 프레임을 찾아낸다. 인권 문제가 아니라 페미니즘 사안으로, 진심 어린 여성혐오가 아니라 빈정대는 농담으로, 구조적 성차별이 아니라 개인의 일탈로 다루는 틀이다.",
-            "zh": "指出菲律宾新闻媒体系统性地消解了罗德里戈·杜特尔特的厌女言论，而非将其作为侵害加以报道。作者分析七家国内媒体的二百六十五则报道，发现普遍的低报，以及三种反复出现的框架：视之为女权议题而非人权议题、视之为讥讽玩笑而非真正的厌女、视之为个人越轨而非结构性性别歧视。",
-            "ja": "フィリピンの報道機関がロドリゴ・ドゥテルテの女性蔑視発言を、侵害として報じるよりも体系的に和らげてきたことを示す。国内七媒体の二六五本の報道を分析し、過少報道と三つの反復するフレーム——人権問題ではなくフェミニズムの問題として、真意ある女性蔑視ではなく皮肉めいた冗談として、構造的性差別ではなく個人の逸脱として扱う枠——を見出す。"
-          },
-          "themes": [
-            "gender",
-            "media framing",
-            "authoritarian populism",
-            "Philippines",
-            "Southeast Asia",
-            "human rights"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.1080/12259276.2024.2367809",
-          "url_fulltext": ""
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "journal_article",
-          "year": "2024",
-          "authors": "Minju Kwon and Ya Su",
-          "title": "Relatively Unworthy Victims? Middle-Aged Women as Rape Survivors",
-          "venue": "Violence Against Women",
-          "volume_issue_pages": "30(8): 1804-1824",
-          "doi": "10.1177/10778012241243050",
-          "url_publisher": "https://journals.sagepub.com/doi/10.1177/10778012241243050",
-          "language": "en",
-          "summary": {
-            "en": "Demonstrates through an online survey experiment in China that a rape survivor's age changes public judgment: respondents rated the crime less serious and requested shorter sentences for middle-aged survivors. The authors attribute this to moral codes of chastity and respect for elders that leave middle-aged women 'unworthy' victims.",
-            "ko": "중국에서 실시한 온라인 서베이 실험을 통해 성폭력 생존자의 나이가 대중의 판단을 바꾼다는 것을 보인다. 응답자들은 생존자가 중년 여성일 때 범죄를 덜 심각하게 평가하고 더 짧은 형량을 요구했는데, 저자들은 정절과 경로(敬老)를 둘러싼 도덕 규범이 중년 여성을 상대적으로 '자격 없는' 피해자로 남긴다고 본다.",
-            "zh": "通过在中国实施的在线调查实验表明，性侵幸存者的年龄会改变公众的判断：当幸存者为中年女性时，受访者认为犯罪较不严重，要求的刑期也更短。作者认为，围绕贞洁与敬老的道德规范，把中年女性留在了相对「不值得同情」的受害者位置上。",
-            "ja": "中国で実施したオンライン調査実験により、性暴力被害者の年齢が公衆の判断を左右することを示す。回答者は被害者が中年女性である場合、犯罪をより軽く評価し、より短い量刑を求めた。著者は、貞節と敬老をめぐる道徳規範が中年女性を相対的に「値しない」被害者の位置に置くと論じる。"
-          },
-          "themes": [
-            "gender",
-            "sexual violence",
-            "public opinion",
-            "experimental methods",
-            "China"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://api.crossref.org/works/10.1177/10778012241243050",
-          "url_fulltext": ""
         }
       ]
     },
@@ -682,36 +464,6 @@
         "ja": "武装集団・国家・人道の門番たちが、国内外の聴衆の前で絶えず作り出さねばならぬものとしての正統性を追う。少年兵に関する国連行動計画に署名する反徒、ボルノの自警民兵、自らの秘密保持を破るか否かを量る赤十字国際委員会、国連憲章を互いに向け合う北東アジアの五つの主張国がそこに並ぶ。この群は本会の制度的・法的な音域を担い、公式の国際機構が遵守だけでなく承認をめぐる争いの上で動いていることを示す。"
       },
       "entries": [
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "journal_article",
-          "year": "2026",
-          "authors": "Minju Kwon and Wukki Kim",
-          "title": "Mandates through the Rule of Law: United Nations Missions and Foreign Direct Investment",
-          "venue": "World Development Perspectives",
-          "volume_issue_pages": "42: 100780",
-          "doi": "10.1016/j.wdp.2026.100780",
-          "url_publisher": "https://www.sciencedirect.com/science/article/pii/S2452292926000238",
-          "language": "en",
-          "summary": {
-            "en": "Argues that peace operations shape foreign direct investment into host states through the legal-institutional content of their mandates — above all rule-of-law components — rather than through the mere presence of peacekeepers.",
-            "ko": "평화활동이 주재국으로 향하는 외국인직접투자에 영향을 주는 통로는 평화유지군의 주둔 자체가 아니라 임무 명령이 담은 법·제도적 내용, 특히 법치 관련 조항이라고 논한다.",
-            "zh": "主张维和行动之所以影响流入驻在国的外国直接投资，靠的并非维和人员在场本身，而是任务授权所载的法律与制度内容，尤以法治条款为要。",
-            "ja": "平和活動が受入国への外国直接投資を左右するのは、平和維持要員の駐留そのものではなく、任務授権が備える法的・制度的内容、とりわけ法の支配に関わる条項を通じてであると論じる。"
-          },
-          "themes": [
-            "international organization",
-            "peacekeeping",
-            "rule of law",
-            "political economy of development",
-            "quantitative IR"
-          ],
-          "confidence": "probable",
-          "evidence_url": "https://api.crossref.org/works/10.1016/j.wdp.2026.100780",
-          "url_fulltext": ""
-        },
         {
           "members": [
             "jeeye_song"
@@ -803,75 +555,6 @@
           ],
           "evidence_url": "http://web.archive.org/web/20240727125221/https://www.jeeyesong.net/",
           "confidence": "probable",
-          "url_fulltext": "",
-          "type_label": {
-            "en": "PhD dissertation",
-            "ko": "박사학위논문",
-            "zh": "博士论文",
-            "ja": "博士論文"
-          }
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "journal_article",
-          "year": "2022",
-          "authors": "권민주 (Minju Kwon)",
-          "title": "인도태평양 시대 유엔과 동북아시아의 정당성 경쟁 [The United Nations in the Indo-Pacific Era and Competition for Legitimacy in East Asia]",
-          "venue": "통일과 평화 [Journal of Peace and Unification Studies], Institute for Peace and Unification Studies, Seoul National University",
-          "volume_issue_pages": "14(1): 5-63",
-          "doi": "10.35369/jpus.14.1.202206.5",
-          "url_publisher": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002857462",
-          "fulltext_kind": "publisher_oa",
-          "language": "ko",
-          "summary": {
-            "en": "Argues that Northeast Asian states are all 'incomplete' sovereigns by the modern Western measure — internally rival states and an 'abnormal state' — and therefore wage a sustained legitimacy contest inside the UN. Security Council records and General Assembly addresses show all five parties deploying the Charter to legitimize themselves and delegitimize rivals over membership and permanent seats.",
-            "ko": "근대 서구의 잣대로 보면 동북아 국가들은 모두 '불완전한' 주권체 — 서로를 경쟁자로 둔 분단국가들과 '비정상 국가' — 이며, 그래서 유엔 안에서 정당성 경쟁을 지속해 왔다고 주장한다. 안전보장이사회 기록과 총회 연설을 보면 다섯 당사자 모두가 회원국 지위와 상임이사국 자리를 놓고 유엔 헌장을 자기 정당화와 상대의 탈정당화에 동원한다.",
-            "zh": "主张以近代西方的尺度衡量，东北亚国家都是「不完整」的主权体——彼此对峙的分裂国家与一个「非正常国家」——因而在联合国内部持续展开正当性之争。安理会记录与联合国大会演说显示，五方均围绕会员国资格与常任理事国席位，动用《联合国宪章》为自身赋予正当性、剥夺对手的正当性。",
-            "ja": "近代西洋の尺度で測れば、北東アジアの諸国はいずれも「不完全」な主権体——互いを競合相手とする分断国家と一つの「異常な国家」——であり、それゆえ国連の内部で正統性をめぐる争いを続けてきたと論じる。安全保障理事会の記録と国連総会演説を見れば、五者はいずれも加盟資格と常任理事国の議席をめぐって、国連憲章を自己の正当化と相手の脱正当化のために動員している。"
-          },
-          "themes": [
-            "international organization",
-            "United Nations",
-            "legitimacy and recognition",
-            "sovereignty",
-            "East Asia",
-            "Korean peninsula",
-            "constructivism"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002857462",
-          "url_fulltext": "https://ipus.snu.ac.kr/wp-content/uploads/2022/07/1.-%EA%B6%8C%EB%AF%BC%EC%A3%BC.pdf"
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "dissertation",
-          "year": "2019",
-          "authors": "Minju Kwon",
-          "title": "Blacklisted Rebels: Commitment to Child Rights in Armed Conflict",
-          "venue": "Ph.D. dissertation, Department of Political Science, University of Notre Dame (committee: Gary Goertz, Tanisha M. Fazal, Emilia Justyna Powell)",
-          "doi": "10.7274/sn009w06d85",
-          "url_publisher": "https://curate.nd.edu/articles/thesis/Blacklisted_Rebels_Commitment_to_Child_Rights_in_Armed_Conflict/24834471",
-          "language": "en",
-          "summary": {
-            "en": "Argues against the assumption that a rebel group's non-use of child soldiers signals commitment to international humanitarian law. Examining every group the UN blacklisted for child rights violations from 2002 to 2018, it finds rebels weighing their legitimacy before domestic and international audiences at each stage, and host-state motives driving which groups get listed.",
-            "ko": "반군이 소년병을 쓰지 않는 것이 국제인도법 준수 의지의 표시라는 통념을 반박한다. 2002년부터 2018년까지 유엔이 아동권리 침해로 지목한 모든 집단을 검토해, 반군이 각 국면마다 국내외 청중 앞에서의 정당성을 계산하며, 어느 집단이 명단에 오르는지는 해당 국가 정부의 지목 동기가 좌우한다는 점을 밝힌다.",
-            "zh": "反驳一种通行假定，即反叛团体不使用儿童兵意味着恪守国际人道法。通过考察2002至2018年间联合国因侵犯儿童权利而列名的全部团体，指出反叛者在每一阶段都权衡自身在国内与国际受众面前的正当性，而哪些团体被列名则取决于所在国政府自身的动机。",
-            "ja": "反乱集団が少年兵を用いないことは国際人道法の遵守を示す、という通念に反論する。2002年から2018年までに国連が児童の権利侵害で名指しした全集団を検討し、反乱側が各段階で国内外の聴衆に対する正統性を計算していること、そしてどの集団が名指しされるかは当該国政府自身の動機に左右されることを示す。"
-          },
-          "themes": [
-            "international law",
-            "children and armed conflict",
-            "rebel groups and civil war",
-            "naming and shaming",
-            "legitimacy",
-            "mixed methods"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://api.datacite.org/dois/10.7274/sn009w06d85",
           "url_fulltext": "",
           "type_label": {
             "en": "PhD dissertation",
@@ -1865,70 +1548,6 @@
           "confidence": "verified",
           "evidence_url": "https://s-space.snu.ac.kr/bitstream/10371/94956/1/01%20%EC%B5%9C%EC%9D%B8%ED%98%B8.pdf",
           "url_fulltext": "https://s-space.snu.ac.kr/bitstream/10371/94956/1/01%20%EC%B5%9C%EC%9D%B8%ED%98%B8.pdf",
-          "type_label": {
-            "en": "Chapter",
-            "ko": "단행본 장",
-            "zh": "论文集章节",
-            "ja": "所収論考"
-          }
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "book_chapter",
-          "year": "2012",
-          "authors": "권민주 (Minju Kwon)",
-          "title": "식민지 조선의 국제주의 [Internationalism in Colonial Korea]",
-          "venue": "하영선·손열 편 [Young-Sun Ha and Yul Sohn (eds.)], 근대한국의 사회과학 개념 형성사 2 [Conceptual History of Social Science in Modern Korea, vol. 2], Paju: Changbi",
-          "language": "ko",
-          "summary": {
-            "en": "A conceptual-history chapter tracing how 'internationalism' was received, translated, and put to work in colonial Korea, situating the term within a larger project on how core social-scientific concepts travelled into and were reworked by modern Korean thought.",
-            "ko": "식민지 조선에서 '국제주의'가 어떻게 수용되고 번역되어 쓰였는지를 좇는 개념사 연구로, 사회과학의 핵심 개념들이 한국 근대 사상 안으로 들어와 다시 벼려진 과정을 다루는 더 큰 기획 속에 이 말을 놓는다.",
-            "zh": "一篇概念史论文，追溯「国际主义」如何被殖民地朝鲜接受、翻译并投入使用，并把这一语词置于更大的研究计划之中——社会科学的核心概念如何进入韩国近代思想并在其中被重新锻造。",
-            "ja": "「国際主義」が植民地朝鮮においていかに受容され、翻訳され、用いられたのかを追う概念史の論考であり、社会科学の中核概念が韓国近代思想へと移動し、そこで鍛え直された過程を扱うより大きな企図のなかにこの語を位置づける。"
-          },
-          "themes": [
-            "conceptual history",
-            "colonial Korea",
-            "internationalism",
-            "Global IR"
-          ],
-          "confidence": "probable",
-          "evidence_url": "https://drive.google.com/file/d/1ByKs4itEFqOxlyl37OZ8n-jh6T0MiPas/view",
-          "url_fulltext": "",
-          "type_label": {
-            "en": "Chapter",
-            "ko": "단행본 장",
-            "zh": "论文集章节",
-            "ja": "所収論考"
-          }
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "book_chapter",
-          "year": "2012",
-          "authors": "권민주 (Minju Kwon)",
-          "title": "웹 2.0과 인권 네트워크의 세계정치: 국제앰네스티의 사례 [Web 2.0 and World Politics of Human Rights Networks: The Case of Amnesty International]",
-          "venue": "김상배 편 [Sangbae Kim (ed.)], 거미줄 치기와 벌집 짓기: 네트워크 이론으로 보는 세계정치의 변환 [Spinning Webs and Building Hives: Transformation of World Politics in the Framework of Network Theory], Paju: Hanul",
-          "language": "ko",
-          "summary": {
-            "en": "Argues, within Sangbae Kim's network-theory framework, that Web 2.0 has reshaped transnational civil networks such as Amnesty International not only in organizational form but in the content of human rights discourse itself — the 'hive-building' side of the volume's web-spinning/hive-building distinction.",
-            "ko": "Sangbae Kim의 네트워크 이론 틀 안에서, 웹 2.0이 국제앰네스티 같은 초국적 시민 네트워크를 조직 형태만이 아니라 인권 담론의 내용까지 바꾸어 놓았다고 본다. 이 책이 나눈 '거미줄 치기'와 '벌집 짓기' 가운데 벌집 짓기 쪽에 해당하는 논의다.",
-            "zh": "在Sangbae Kim的网络理论框架内，认为Web 2.0不仅改变了国际特赦组织一类跨国公民网络的组织形态，也改变了人权话语本身的内容——属于该书「织网」与「筑巢」之分中的「筑巢」一侧。",
-            "ja": "Sangbae Kimのネットワーク理論の枠組みのなかで、Web 2.0がアムネスティ・インターナショナルのような越境的市民ネットワークを、組織形態においてのみならず人権言説の内容そのものにおいて作り変えたと論じる。本書が区別する「網を張ること」と「巣を築くこと」のうち、後者にあたる議論である。"
-          },
-          "themes": [
-            "network theory",
-            "human rights",
-            "digital politics",
-            "transnational advocacy"
-          ],
-          "confidence": "probable",
-          "evidence_url": "https://drive.google.com/file/d/1ByKs4itEFqOxlyl37OZ8n-jh6T0MiPas/view",
-          "url_fulltext": "",
           "type_label": {
             "en": "Chapter",
             "ko": "단행본 장",
@@ -3074,36 +2693,6 @@
             "North Korea nuclear policy"
           ],
           "url_fulltext": "https://www.globalnk.org/topic/view.php?cd=COM000185"
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "policy_report",
-          "year": "2022",
-          "authors": "Minju Kwon",
-          "title": "The United Nations in the Indo-Pacific Era and Competition for Legitimacy in East Asia",
-          "venue": "Global NK Zoom & Connect (Research Reviews series), East Asia Institute, 29 August 2022",
-          "url_publisher": "https://www.globalnk.org/note/view?cd=NOT000025",
-          "fulltext_kind": "other_free",
-          "language": "en",
-          "summary": {
-            "en": "Argues that because Northeast Asian states are 'incomplete' sovereigns on the modern Western template, they compete for legitimacy inside the UN by using the Charter as a symbolic resource. That is why China's Charter-based insistence on non-interference, and its five principles for a peaceful Korean peninsula, deserve close scrutiny.",
-            "ko": "동북아 국가들이 근대 서구의 주형에 비추어 '불완전한' 주권체이기 때문에 유엔 안에서 헌장을 상징 자원으로 삼아 정당성을 다툰다고 논한다. 그렇기에 헌장에 근거한 중국의 내정불간섭 주장과 한반도 평화를 위한 다섯 가지 원칙은 면밀히 따져 볼 필요가 있다.",
-            "zh": "论证东北亚国家依近代西方模板而言是「不完整」的主权体，故在联合国内部以《宪章》为象征资源争夺正当性。正因如此，中国基于《宪章》的不干涉内政主张，及其关于朝鲜半岛和平的五项原则，值得仔细审视。",
-            "ja": "北東アジアの諸国家は近代西洋の鋳型に照らせば「不完全な」主権体であるがゆえに、国連の内部で憲章を象徴的資源として正統性を争うと論じる。それゆえ憲章に依拠した中国の内政不干渉の主張と、朝鮮半島の平和をめぐる五つの原則は、綿密に吟味されるべきである。"
-          },
-          "themes": [
-            "United Nations",
-            "legitimacy and recognition",
-            "North Korea",
-            "Indo-Pacific",
-            "East Asia",
-            "policy analysis"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://web.archive.org/web/20221001202648/https://globalnk.org/note/view?cd=NOT000025",
-          "url_fulltext": "https://web.archive.org/web/20221001202648/https://globalnk.org/note/view?cd=NOT000025"
         }
       ]
     },
@@ -3450,32 +3039,6 @@
           "url_publisher": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392453876",
           "evidence_url": "https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=392453876",
           "confidence": "verified",
-          "url_fulltext": ""
-        },
-        {
-          "members": [
-            "minju_kwon"
-          ],
-          "type": "translation",
-          "year": "2022",
-          "authors": "Minju Kwon (translator); John Baylis, Steve Smith and Patricia Owens et al. (authors)",
-          "title": "Chapter 31: Human Rights [Korean translation], in The Globalization of World Politics, 8th edition",
-          "venue": "Oxford University Press (Korean edition)",
-          "volume_issue_pages": "Chapter 31",
-          "language": "ko",
-          "summary": {
-            "en": "English-to-Korean translation of the human rights chapter of the standard introductory IR textbook, for the Korean edition of the 8th edition.",
-            "ko": "국제정치학 표준 입문 교과서의 인권 장(章)을 제8판 한국어판을 위해 영한 번역한 것.",
-            "zh": "为该国际关系学标准入门教科书第8版的韩文版，将其中的人权章节由英文译为韩文。",
-            "ja": "国際関係論の標準的入門教科書の人権章を、第8版の韓国語版のために英語から韓国語へ訳したもの。"
-          },
-          "themes": [
-            "human rights",
-            "IR pedagogy",
-            "translation"
-          ],
-          "confidence": "probable",
-          "evidence_url": "https://drive.google.com/file/d/1ByKs4itEFqOxlyl37OZ8n-jh6T0MiPas/view",
           "url_fulltext": ""
         },
         {
