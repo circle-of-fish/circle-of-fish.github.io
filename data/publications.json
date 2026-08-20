@@ -94,37 +94,6 @@
       },
       "entries": [
         {
-          "id": "dsf3psz4",
-          "members": [
-            "inho_choi"
-          ],
-          "type": "journal_article",
-          "year": "2025",
-          "authors": "Inho Choi",
-          "title": "Non-Western Interpolity Orders and Sociocultural Forces: the shi in the Early Modern East Asian Order",
-          "venue": "The Chinese Journal of International Politics",
-          "volume_issue_pages": "18(4): 496-519",
-          "doi": "10.1093/cjip/poaf015",
-          "url_publisher": "https://academic.oup.com/cjip/article-abstract/18/4/496/8301250",
-          "language": "en",
-          "summary": {
-            "en": "Argues that international order was made not by states and empires alone but by transnational sociocultural forces: from the Song onward the literati (shi) of China, Korea and Vietnam formed a class autonomous from the state, producing a 'symbiotic form of state' and underwriting tributary norms.",
-            "ko": "국제질서를 만든 것은 국가와 제국만이 아니라 초국적 사회문화 세력이기도 했다고 논한다. 송대 이후 중국·한국·베트남의 사(士) 계층은 국가로부터 자율적인 초국적 계급이 되어 '공생적 국가 형태'를 낳았고 조공관계의 규범을 떠받쳤다.",
-            "zh": "主张缔造国际秩序者不止于国家与帝国，跨国的社会文化力量同样如此。自宋代起，中国、朝鲜与越南的士人渐成一个相对于国家而自主的跨国阶层，催生出「共生型国家形态」，并支撑起朝贡关系的规范。",
-            "ja": "国際秩序をつくったのは国家と帝国だけではなく、トランスナショナルな社会文化的力もまたそうであったと論じる。宋代以降、中国・朝鮮・ベトナムの士人は国家から自律したトランスナショナルな階層となり、「共生的な国家形態」を生み出し、朝貢関係の規範を支えた。"
-          },
-          "themes": [
-            "historical East Asian order",
-            "Global IR",
-            "historical sociology",
-            "shi literati",
-            "tributary relations"
-          ],
-          "confidence": "verified",
-          "evidence_url": "https://distanthead.com/publication/",
-          "url_fulltext": ""
-        },
-        {
           "id": "m52hrqpg",
           "members": [
             "jaeyoung_kim"
@@ -293,6 +262,37 @@
           ],
           "evidence_url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART002506751",
           "url_fulltext": "https://kjir.or.kr/journal/download_pdf.php?doi=10.14731/kjir.2019.09.59.3.89"
+        },
+        {
+          "id": "dsf3psz4",
+          "members": [
+            "inho_choi"
+          ],
+          "type": "journal_article",
+          "year": "2025",
+          "authors": "Inho Choi",
+          "title": "Non-Western Interpolity Orders and Sociocultural Forces: the shi in the Early Modern East Asian Order",
+          "venue": "The Chinese Journal of International Politics",
+          "volume_issue_pages": "AAA-갑이고침",
+          "doi": "10.1093/cjip/poaf015",
+          "url_publisher": "https://academic.oup.com/cjip/article-abstract/18/4/496/8301250",
+          "language": "en",
+          "summary": {
+            "en": "Argues that international order was made not by states and empires alone but by transnational sociocultural forces: from the Song onward the literati (shi) of China, Korea and Vietnam formed a class autonomous from the state, producing a 'symbiotic form of state' and underwriting tributary norms.",
+            "ko": "국제질서를 만든 것은 국가와 제국만이 아니라 초국적 사회문화 세력이기도 했다고 논한다. 송대 이후 중국·한국·베트남의 사(士) 계층은 국가로부터 자율적인 초국적 계급이 되어 '공생적 국가 형태'를 낳았고 조공관계의 규범을 떠받쳤다.",
+            "zh": "主张缔造国际秩序者不止于国家与帝国，跨国的社会文化力量同样如此。自宋代起，中国、朝鲜与越南的士人渐成一个相对于国家而自主的跨国阶层，催生出「共生型国家形态」，并支撑起朝贡关系的规范。",
+            "ja": "国際秩序をつくったのは国家と帝国だけではなく、トランスナショナルな社会文化的力もまたそうであったと論じる。宋代以降、中国・朝鮮・ベトナムの士人は国家から自律したトランスナショナルな階層となり、「共生的な国家形態」を生み出し、朝貢関係の規範を支えた。"
+          },
+          "themes": [
+            "historical East Asian order",
+            "Global IR",
+            "historical sociology",
+            "shi literati",
+            "tributary relations"
+          ],
+          "confidence": "verified",
+          "evidence_url": "https://distanthead.com/publication/",
+          "url_fulltext": ""
         }
       ]
     },
