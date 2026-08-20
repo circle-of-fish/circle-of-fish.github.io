@@ -154,7 +154,10 @@ def stamp_admin_assets() -> None:
     for name in ("admin.css", "admin.js"):
         asset = OUT / "admin" / name
         if asset.exists():
-            digest.update(asset.read_bytes())
+            # Windows checks these out with CRLF and the Actions runner with LF,
+            # so hashing the raw bytes gives two digests for one file and the
+            # stamp flips back and forth on every build. Normalise first.
+            digest.update(asset.read_bytes().replace(b"\r\n", b"\n"))
     page.write_text(page.read_text(encoding="utf-8").replace("v=DEV", "v=" + digest.hexdigest()[:10]),
                     encoding="utf-8")
 
