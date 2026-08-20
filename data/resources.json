@@ -728,18 +728,6 @@
               }
             },
             {
-              "id": "33e57ett",
-              "name": "Zotero",
-              "url": "https://www.zotero.org/",
-              "affiliation": "Digital Scholar (nonprofit)",
-              "desc": {
-                "en": "Free, open-source tool for collecting, organizing, annotating, citing and sharing research sources, with browser capture and word-processor integration.",
-                "ko": "연구 자료를 수집하고 정리하며 주석·인용·공유까지 처리하는 무료 오픈소스 도구로, 브라우저 저장 기능과 워드프로세서 연동을 갖추었다.",
-                "zh": "免费开源工具，用于收集、整理、标注、引用与分享研究资料，支持浏览器抓取与文字处理软件集成。",
-                "ja": "研究資料の収集・整理・注釈・引用・共有を行う無料のオープンソース・ツールであり、ブラウザからの取り込みとワープロソフトとの連携を備える。"
-              }
-            },
-            {
               "id": "kclm416l",
               "name": "Sinica Digital Atlas",
               "url": "https://digitalatlas.asdc.sinica.edu.tw/index.jsp",
