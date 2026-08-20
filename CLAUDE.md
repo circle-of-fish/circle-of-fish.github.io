@@ -14,6 +14,9 @@ _build/        ← 일회성 임포트·생성 스크립트(모래원 SVG, 세�
 research/      ← 연구 원자료·보고서·번역 배치. **저장소에 올리지 않는다**
                (구성원에 대한 솔직한 작업 메모가 들어 있음). 로컬에만 둔다
 build.py       ← 정적 사이트 생성기
+assets/admin/  ← 편집 도구(/admin/). data/*.json 을 GitHub API로 직접 커밋한다
+.github/workflows/build.yml
+               ← data·templates·assets 가 바뀌면 재빌드해서 HTML 을 커밋한다
 *.html · ko/ · zh/ · ja/ · style.css …
                ← **빌드 산출물. 직접 고치지 말 것.** 저장소 루트에서 그대로 발행된다
 ```

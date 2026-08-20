@@ -155,3 +155,37 @@ URL에는 서명이 붙어 몇 시간이면 만료되므로, 이 스크립트는
 강의 14·언론 4·편집위원 3 등)이 로컬 `research/dossier.json`에 있습니다. 소식 페이지를
 만들거나 구성원 카드에 최근 활동 한 줄을 넣는 데 쓸 수 있습니다.
 
+## K. 편집 도구 (`/admin/`)
+
+<https://circle-of-fish.github.io/admin/> 에서 **출판 목록·세미나·구성원**을 브라우저로
+고칠 수 있습니다. 서버가 없으므로 흐름은 이렇습니다.
+
+    /admin/ 에서 편집  →  GitHub API로 data/*.json 커밋  →  Actions가 다시 빌드  →  사이트 반영 (1–2분)
+
+편집 화면은 사이트의 규칙을 그대로 강제합니다 — 저자·제목·게재지는 **원어 고정**으로
+한 칸만 주고, 요약만 4개 언어를 나란히 받습니다. 저장 전에 제목·저자 누락, http로
+시작하지 않는 주소, 날짜 없는 세미나를 잡아내고 문제가 된 항목을 열어 줍니다.
+
+### 편집자 추가하기 (구성원마다 한 번)
+
+1. **저장소 권한을 줍니다.** `circle-of-fish/circle-of-fish.github.io` →
+   Settings → Collaborators and teams → Write.
+2. **조직이 세분화 토큰을 허용해야 합니다.** 조직 Settings → Third-party Access →
+   Personal access tokens → *Allow access via fine-grained personal access tokens*.
+   승인 필요로 두면 요청이 올 때마다 관리자가 승인해야 합니다.
+3. 편집자는 <https://github.com/settings/personal-access-tokens/new> 에서
+   Resource owner를 `circle-of-fish`로, 저장소는 이 하나만, **Contents: Read and write**
+   하나만 켜서 토큰을 만듭니다. `/admin/`에 한 번 붙여넣으면 됩니다.
+
+토큰은 그 사람의 브라우저에만 남고 github.com 외에는 어디로도 가지 않습니다. 공용
+컴퓨터라면 "이 브라우저에 기억"을 풀면 창을 닫을 때 지워집니다. 누가 무엇을 고쳤는지는
+커밋 기록에 남습니다.
+
+### 주의
+
+- 편집 도구는 `robots.txt`와 메타 태그에서 색인 대상에서 빼 두었습니다. 사이트를 공개로
+  돌린 뒤에도 마찬가지입니다.
+- 두 사람이 동시에 같은 파일을 고치면 나중에 저장한 쪽이 "저장소가 그 사이에 바뀌었습니다"
+  경고를 받습니다. 새로고침 후 다시 편집하면 됩니다. 덮어쓰기는 일어나지 않습니다.
+- 자료·링크(137건)는 아직 편집 대상이 아닙니다. `data/resources.json`을 직접 고치면
+  마찬가지로 자동 재빌드됩니다.

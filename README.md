@@ -28,6 +28,12 @@ build wrote (`generated_paths()` in `build.py` is the authoritative list).
 
 ## Editing content
 
+Routine updates — adding a publication, logging a seminar, correcting an
+affiliation — go through the editor at **`/admin/`**, which commits to
+`data/*.json` and lets the `Rebuild site` workflow regenerate the pages. It
+needs a fine-grained GitHub token with `Contents: Read and write` on this
+repository; `NOTES.md` has the setup steps.
+
 Everything a normal update touches is in `data/`:
 
 | file | what it holds |
