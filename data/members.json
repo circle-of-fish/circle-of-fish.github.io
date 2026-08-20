@@ -74,7 +74,8 @@
           "label": "X",
           "url": "https://x.com/puffers_inho"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "sujin-heo",
@@ -115,7 +116,8 @@
           "label": "ResearchGate",
           "url": "https://american.academia.edu/SujinHeo"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "jaeyoung-kim",
@@ -165,7 +167,8 @@
           "label": "X",
           "url": "https://twitter.com/jaeykim89"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "minju-kwon",
@@ -202,7 +205,8 @@
           "label": "Faculty page",
           "url": "https://www.chapman.edu/our-faculty/minju-kwon.aspx"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "inhwan-oh",
@@ -248,7 +252,8 @@
           "label": "X",
           "url": "https://x.com/oh_inhwan"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "chang-joon-ok",
@@ -290,7 +295,8 @@
           "label": "KCI",
           "url": "https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003106603"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "kayeon-roh",
@@ -328,7 +334,8 @@
         "ko": "Kayeon Roh",
         "zh": "노가연",
         "ja": "노가연"
-      }
+      },
+      "photo": true
     },
     {
       "key": "jeeye-song",
@@ -366,7 +373,8 @@
           "label": "ResearchGate",
           "url": "https://www.researchgate.net/profile/Jeeye-Song"
         }
-      ]
+      ],
+      "photo": true
     },
     {
       "key": "chaeyoung-yong",
@@ -408,7 +416,8 @@
           "label": "ResearchGate",
           "url": "https://st-andrews.academia.edu/ChaeYoungYong"
         }
-      ]
+      ],
+      "photo": true
     }
   ]
 }

@@ -17,8 +17,18 @@
     <div class="members-grid">
       {% for m in members.people %}
       <div class="member-card" id="{{ m.key }}">
-        <div class="member-name">{{ m.name }}</div>
-        {% if m.get('name_alt') %}<div class="member-name-alt">{{ m.get('name_alt') }}</div>{% endif %}
+        <div class="member-head">
+          {% if m.get('photo') %}
+          {# alt is empty on purpose: the name sits right beside it, and several of
+             these are not portraits at all — a drawing, a cake, a view from behind #}
+          <img class="member-photo" src="{{ prefix }}photos/{{ m.key }}.jpg" alt=""
+               width="88" height="88" loading="lazy" decoding="async">
+          {% endif %}
+          <div class="member-ident">
+            <div class="member-name">{{ m.name }}</div>
+            {% if m.get('name_alt') %}<div class="member-name-alt">{{ m.get('name_alt') }}</div>{% endif %}
+          </div>
+        </div>
         <div class="member-affiliation">{{ m.affiliation }}</div>
         {% if m.get('interests') %}<div class="member-interests">{{ m.get('interests') }}</div>{% endif %}
         {% if m.get('email') %}

@@ -135,7 +135,7 @@ def doi_url(doi: str) -> str:
 def generated_paths() -> list[Path]:
     """Every path a build writes — and the only paths a build may delete."""
     out = [OUT / "sitemap.xml", OUT / "robots.txt", OUT / ".nojekyll"]
-    out += [OUT / a.name for a in ASSETS.iterdir() if a.is_file()]
+    out += [OUT / a.name for a in ASSETS.iterdir()]      # files and asset folders alike
     for _, filename, _ in PAGES:
         out.append(OUT / filename)
         for lang in LANGS[1:]:
@@ -175,7 +175,7 @@ def build() -> None:
             if path.is_file():
                 path.unlink()
             elif path.is_dir():
-                path.rmdir()
+                shutil.rmtree(path) if path.name not in LANGS else path.rmdir()
         except OSError:
             pass
 
