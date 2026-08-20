@@ -25,11 +25,20 @@
   --font-sans: 'Inter', var(--cjk-sans, 'Noto Sans KR'), -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-serif: 'Spectral', var(--cjk-serif, 'Noto Serif KR'), Georgia, 'Times New Roman', serif;
 
-  --wrap: 1060px;
+  --wrap: 1240px;
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: smooth; scroll-padding-top: 4.5rem; }
+
+/* Every size on this page is in rem, so the whole design scales from here.
+   150% of the browser's own default rather than a fixed pixel size, so a
+   reader who has already enlarged their default still gets what they asked
+   for on top of it. */
+html {
+  font-size: 150%;
+  scroll-behavior: smooth;
+  scroll-padding-top: 4.5rem;
+}
 
 body {
   font-family: var(--font-sans);
@@ -51,7 +60,7 @@ header {
   border-bottom: 1px solid var(--line);
 }
 .header-inner {
-  max-width: 1180px; margin: 0 auto;   /* wider than the text column: the nav
+  max-width: 1320px; margin: 0 auto;   /* wider than the text column: the nav
                                           plus four language buttons need it */
   display: flex; justify-content: space-between; align-items: center;
   padding: 0 2rem; gap: 1rem;
@@ -82,7 +91,7 @@ nav.main a.active { color: var(--teal); box-shadow: inset 0 -2px 0 var(--teal); 
 .lang a {
   font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em;
   color: var(--teal); text-decoration: none; white-space: nowrap;
-  padding: 0.26rem 0.45rem; border: 1px solid var(--teal); border-right-width: 0;
+  padding: 0.26rem 0.45rem; line-height: 1.5; border: 1px solid var(--teal); border-right-width: 0;
   transition: background 0.18s, color 0.18s;
 }
 .lang a:first-child { border-radius: 4px 0 0 4px; }
@@ -136,7 +145,7 @@ nav.main a.active { color: var(--teal); box-shadow: inset 0 -2px 0 var(--teal); 
 section { padding: 4rem 2rem; }
 section.band { background: var(--band); }
 .container { max-width: var(--wrap); margin: 0 auto; }
-.container.narrow { max-width: 780px; }
+.container.narrow { max-width: 40rem; }
 
 .section-title {
   font-family: var(--font-serif);
@@ -185,7 +194,7 @@ section.band { background: var(--band); }
 }
 
 /* ===== ORIENTATION CARDS ================================================== */
-.orient-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(360px, 1fr)); gap: 1.1rem; margin-top: 1.6rem; }
+.orient-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(22rem, 1fr)); gap: 1.1rem; margin-top: 1.6rem; }
 .orient-card {
   background: var(--white); border: 1px solid var(--line);
   border-radius: 7px; padding: 1.5rem 1.6rem; transition: box-shadow 0.2s, transform 0.2s;
@@ -203,7 +212,7 @@ section.band { background: var(--band); }
 
 /* home page: the stance as a scannable index into the research page */
 .stance-cols {
-  display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
   gap: 1.6rem 2.4rem; margin-top: 1.8rem;
 }
 .stance-kicker {
@@ -251,7 +260,7 @@ section.band { background: var(--band); }
 }
 
 /* ===== MEMBERS ============================================================ */
-.members-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(312px, 1fr)); gap: 1.1rem; }
+.members-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(19rem, 1fr)); gap: 1.1rem; }
 .member-card {
   background: var(--white); border: 1px solid var(--line);
   border-radius: 7px; padding: 1.5rem 1.6rem;
@@ -274,7 +283,7 @@ section.band { background: var(--band); }
 }
 .member-photo {
   display: block;
-  width: 116px; height: auto;      /* natural aspect ratio, never squeezed */
+  width: 7.2rem; height: auto;     /* natural aspect ratio, never squeezed */
   background: var(--line-soft);
 }
 .member-ident { min-width: 0; padding-top: 0.2rem; }
@@ -445,7 +454,7 @@ section.band .year-rule .y { background: var(--band); }
   padding-bottom: 0.5rem; border-bottom: 1px solid var(--line); margin-bottom: 0.4rem;
 }
 .res-group .group-note { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.1rem; line-height: 1.75; }
-.res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 0.8rem; }
+.res-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(18.5rem, 1fr)); gap: 0.8rem; }
 .res-card {
   background: var(--white); border: 1px solid var(--line); border-radius: 6px;
   padding: 0.95rem 1.15rem; transition: box-shadow 0.2s, border-color 0.2s;
@@ -471,7 +480,7 @@ section.band .year-rule .y { background: var(--band); }
 .reading-list a:hover { text-decoration: underline; }
 
 /* ===== HOME HIGHLIGHTS ==================================================== */
-.highlight-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 1rem; }
+.highlight-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr)); gap: 1rem; }
 .stat {
   background: var(--white); border: 1px solid var(--line);
   border-left: 3px solid var(--teal); border-radius: 5px; padding: 1.2rem 1.4rem;
@@ -530,7 +539,7 @@ footer .foot-edit:hover { color: var(--teal); border-color: var(--teal); text-de
 .skip:focus { left: 0; }
 
 /* ===== RESPONSIVE ========================================================= */
-@media (max-width: 1080px) {
+@media (max-width: 1500px) {
   .header-inner { flex-direction: column; align-items: stretch; padding: 0.7rem 1rem; gap: 0.4rem; }
   .site-title { padding: 0.3rem 0; text-align: center; }
   nav.main { justify-content: center; }

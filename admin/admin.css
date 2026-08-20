@@ -12,7 +12,7 @@
 * { margin: 0; padding: 0; box-sizing: border-box; }
 /* several of these elements are display:flex, which otherwise wins over [hidden] */
 [hidden] { display: none !important; }
-body { font-family: var(--sans); color: var(--body); background: var(--band); line-height: 1.6; font-size: 14px; }
+body { font-family: var(--sans); color: var(--body); background: var(--band); line-height: 1.6; font-size: 16px; }
 a { color: var(--teal); }
 button, input, select, textarea { font: inherit; }
 
