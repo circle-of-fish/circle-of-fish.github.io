@@ -23,11 +23,14 @@
       <button data-file="publications" class="on">출판</button>
       <button data-file="seminars">세미나</button>
       <button data-file="members">구성원</button>
+      <button data-file="resources">자료·링크</button>
     </nav>
     <div class="bar-right">
+      <span class="who" id="who" hidden></span>
       <span class="dirty" id="dirty" hidden>저장하지 않은 변경</span>
       <button id="save" class="btn primary" disabled>저장</button>
-      <button id="signout" class="btn quiet" hidden>토큰 지우기</button>
+      <button id="pw" class="btn quiet" hidden>비밀번호</button>
+      <button id="signout" class="btn quiet" hidden>나가기</button>
     </div>
   </div>
 </header>
@@ -35,42 +38,51 @@
 <!-- ── 로그인 ─────────────────────────────────────────────── -->
 <section class="gate" id="gate">
   <div class="gate-box">
-    <h1>편집하려면 GitHub 토큰이 필요합니다</h1>
-    <p class="lead">
-      이 사이트에는 서버가 없습니다. 편집 내용은 브라우저에서 곧바로 저장소에 커밋되고,
-      GitHub Actions가 사이트를 다시 만듭니다. 그래서 저장소에 쓸 수 있는 토큰이 하나 있어야 합니다.
-    </p>
-
-    <details class="how">
-      <summary>토큰 만드는 법 (처음 한 번만, 2분)</summary>
-      <ol>
-        <li>
-          <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">
-            GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token</a>
-          을 엽니다.
-        </li>
-        <li><b>Resource owner</b>를 <code>circle-of-fish</code> 조직으로 바꿉니다.</li>
-        <li><b>Repository access</b>에서 <i>Only select repositories</i> → <code>circle-of-fish.github.io</code>.</li>
-        <li><b>Permissions → Repository permissions → Contents</b>를 <b>Read and write</b>로 둡니다.
-            다른 권한은 건드리지 않습니다.</li>
-        <li>만료일을 정하고 <b>Generate token</b>. 화면에 한 번만 보이는 <code>github_pat_…</code> 문자열을 복사해 아래에 붙여넣습니다.</li>
-      </ol>
-      <p class="fine">
-        토큰은 이 브라우저에만 저장되며 어디로도 전송되지 않습니다 — github.com 말고는.
-        공용 컴퓨터라면 아래 “이 브라우저에 기억” 체크를 풀어 두십시오. 창을 닫으면 지워집니다.
-      </p>
-    </details>
-
+    <h1>편집</h1>
+    <p class="lead">복어회 구성원 계정으로 들어오십시오.</p>
     <form id="gate-form">
       <label class="field">
-        <span class="label">토큰</span>
-        <input type="password" id="token" placeholder="github_pat_…" autocomplete="off" spellcheck="false" required>
+        <span class="label">아이디</span>
+        <input type="text" id="username" autocomplete="username" spellcheck="false" autocapitalize="off" required>
       </label>
-      <label class="check">
-        <input type="checkbox" id="remember" checked> 이 브라우저에 기억
+      <label class="field">
+        <span class="label">비밀번호</span>
+        <input type="password" id="password" autocomplete="current-password" required>
       </label>
-      <button class="btn primary" type="submit">들어가기</button>
+      <label class="check"><input type="checkbox" id="remember"> 이 브라우저에 기억</label>
+      <button class="btn primary" type="submit" id="gate-go">들어가기</button>
       <p class="err" id="gate-err" hidden></p>
+    </form>
+    <p class="fine">
+      아이디와 임시 비밀번호는 간사에게 받으십시오. 처음 들어오면 비밀번호를 바꾸게 됩니다.
+      공용 컴퓨터라면 “이 브라우저에 기억”을 켜지 마십시오.
+    </p>
+  </div>
+</section>
+
+<!-- ── 비밀번호 변경 ──────────────────────────────────────── -->
+<section class="gate" id="pwgate" hidden>
+  <div class="gate-box">
+    <h1 id="pw-title">비밀번호 바꾸기</h1>
+    <p class="lead" id="pw-lead">처음 들어오셨습니다. 쓰시던 임시 비밀번호를 바꿔 주십시오.</p>
+    <form id="pw-form">
+      <label class="field">
+        <span class="label">현재 비밀번호</span>
+        <input type="password" id="pw-current" autocomplete="current-password" required>
+      </label>
+      <label class="field">
+        <span class="label">새 비밀번호</span>
+        <input type="password" id="pw-next" autocomplete="new-password" minlength="12" required>
+      </label>
+      <label class="field">
+        <span class="label">새 비밀번호 다시</span>
+        <input type="password" id="pw-again" autocomplete="new-password" minlength="12" required>
+      </label>
+      <div class="note">열두 자 이상. 다른 곳에 쓰지 않는 것으로 정해 주십시오.</div>
+      <p></p>
+      <button class="btn primary" type="submit">바꾸기</button>
+      <button class="btn" type="button" id="pw-cancel" hidden>그만두기</button>
+      <p class="err" id="pw-err" hidden></p>
     </form>
   </div>
 </section>
@@ -79,7 +91,7 @@
 <main id="app" hidden>
   <div class="toolbar">
     <select id="group-filter"></select>
-    <input type="search" id="search" placeholder="제목·저자로 찾기">
+    <input type="search" id="search" placeholder="찾기">
     <span class="count" id="count"></span>
     <button class="btn" id="add">+ 새 항목</button>
   </div>

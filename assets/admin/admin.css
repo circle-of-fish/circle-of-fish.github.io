@@ -117,3 +117,19 @@ button, input, select, textarea { font: inherit; }
   .grid2 { grid-template-columns: 1fr; }
   .bar-inner { flex-wrap: wrap; padding: 0.5rem 1rem; }
 }
+
+/* ── who / photo ─────────────────────────────────────────── */
+.who { font-size: 0.82rem; color: var(--muted); font-weight: 500; }
+
+.photo-row { display: flex; gap: 1rem; align-items: flex-start; }
+.photo-frame {
+  flex-shrink: 0; display: block; padding: 4px;
+  background: var(--white); border: 1px solid #dfe5e6; border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(28,37,41,0.10);
+}
+.photo-frame img { display: block; width: 104px; height: auto; }
+.photo-frame.empty { width: 112px; height: 130px; background: var(--line-soft); }
+.photo-frame.empty img { display: none; }
+.photo-side { min-width: 0; flex: 1; }
+.photo-side input[type=file] { font-size: 0.82rem; max-width: 100%; }
+.photo-side .note { margin-top: 0.5rem; }
