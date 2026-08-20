@@ -60,44 +60,46 @@ header {
   border-bottom: 1px solid var(--line);
 }
 .header-inner {
-  max-width: 1320px; margin: 0 auto;   /* wider than the text column: the nav
+  max-width: 1400px; margin: 0 auto;   /* wider than the text column: the nav
                                           plus four language buttons need it */
   display: flex; justify-content: space-between; align-items: center;
-  padding: 0 2rem; gap: 1rem;
+  padding: 0 0.9rem; gap: 0.6rem;
 }
-.site-title { padding: 0.9rem 0; line-height: 1.25; flex-shrink: 0; }
+.site-title { padding: 0.7rem 0; line-height: 1.25; flex-shrink: 0; }
 .site-title a { color: var(--ink); text-decoration: none; display: block; }
 .site-title .mark {
   font-family: var(--font-serif);
-  font-size: 1.15rem; font-weight: 600; letter-spacing: 0.005em;
+  font-size: 0.88rem; font-weight: 600; letter-spacing: 0.005em;
   display: block;
 }
 .site-title .mark-sub {
-  font-size: 0.68rem; color: var(--faint); letter-spacing: 0.12em;
+  font-size: 0.45rem; color: var(--faint); letter-spacing: 0.075em;
   text-transform: uppercase; font-weight: 500; display: block; margin-top: 0.05rem;
 }
 nav.main { display: flex; align-items: center; gap: 0; flex-wrap: wrap; }
 nav.main a {
   color: var(--body); text-decoration: none;
-  padding: 1rem 0.62rem; font-size: 0.78rem; font-weight: 500;
+  padding: 0.8rem 0.33rem; font-size: 0.52rem; font-weight: 500;
   text-transform: uppercase; letter-spacing: 0.05em;
   transition: color 0.2s; white-space: nowrap;
 }
 nav.main a:hover { color: var(--teal); }
 nav.main a.active { color: var(--teal); box-shadow: inset 0 -2px 0 var(--teal); }
 
-/* language switcher */
-.lang { display: flex; align-items: center; margin-left: 0.5rem; gap: 1px; flex-shrink: 0; }
-.lang a {
-  font-size: 0.72rem; font-weight: 600; letter-spacing: 0.02em;
+/* Language switcher. It lives inside nav.main, so every rule here has to be
+   written as `nav.main .lang a` — plain `.lang a` loses to `nav.main a` on
+   specificity, which silently handed the buttons the nav's padding and colour. */
+.lang { display: flex; align-items: center; margin-left: 0.55rem; gap: 1px; flex-shrink: 0; }
+nav.main .lang a {
+  font-size: 0.5rem; font-weight: 600; letter-spacing: 0.02em; text-transform: none;
   color: var(--teal); text-decoration: none; white-space: nowrap;
-  padding: 0.26rem 0.45rem; line-height: 1.5; border: 1px solid var(--teal); border-right-width: 0;
+  padding: 0.2rem 0.34rem; line-height: 1.5; border: 1px solid var(--teal); border-right-width: 0;
   transition: background 0.18s, color 0.18s;
 }
-.lang a:first-child { border-radius: 4px 0 0 4px; }
-.lang a:last-child { border-radius: 0 4px 4px 0; border-right-width: 1px; }
-.lang a:hover { background: var(--teal-light); }
-.lang a.current { background: var(--teal); color: var(--white); }
+nav.main .lang a:first-child { border-radius: 4px 0 0 4px; }
+nav.main .lang a:last-child { border-radius: 0 4px 4px 0; border-right-width: 1px; }
+nav.main .lang a:hover { background: var(--teal-light); color: var(--teal); }
+nav.main .lang a.current { background: var(--teal); color: var(--white); }
 
 /* ===== HERO =============================================================== */
 .hero {
@@ -539,11 +541,11 @@ footer .foot-edit:hover { color: var(--teal); border-color: var(--teal); text-de
 .skip:focus { left: 0; }
 
 /* ===== RESPONSIVE ========================================================= */
-@media (max-width: 1500px) {
+@media (max-width: 1100px) {
   .header-inner { flex-direction: column; align-items: stretch; padding: 0.7rem 1rem; gap: 0.4rem; }
   .site-title { padding: 0.3rem 0; text-align: center; }
   nav.main { justify-content: center; }
-  nav.main a { padding: 0.45rem 0.6rem; font-size: 0.75rem; }
+  nav.main a { padding: 0.4rem 0.5rem; font-size: 0.58rem; }
   nav.main a.active { box-shadow: inset 0 -2px 0 var(--teal); }
   .lang { justify-content: center; margin: 0.2rem 0 0.3rem; }
 }
