@@ -17,7 +17,7 @@
     <h2 class="section-title">{{ site.home.parable_title }}</h2>
     <p class="section-subtitle">{{ site.home.parable_kicker }}</p>
     <blockquote class="epigraph">
-      {{ site.about.epigraph }}
+      {{ site.about.epigraph|safe }}
       <span class="cite">{{ site.about.epigraph_cite }}</span>
     </blockquote>
     <div class="prose">

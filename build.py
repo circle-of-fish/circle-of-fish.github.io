@@ -67,6 +67,10 @@ PAGES = [
 
 BASE_URL = "https://circle-of-fish.github.io"
 
+# The site is still being worked on, so it is kept out of search engines.
+# Flip to False (and rebuild) when it should be indexed.
+NOINDEX = True
+
 
 # --------------------------------------------------------------------------- #
 # data loading                                                                 #
@@ -198,6 +202,7 @@ def build() -> None:
             "lang_names": LANG_NAMES,
             "prefix": prefix,
             "base_url": BASE_URL,
+            "noindex": NOINDEX,
             "font_href": f"https://fonts.googleapis.com/css2?{FONT_FAMILIES}{cjk_link}&display=swap",
             "cjk_sans": ", ".join(x for x in [cjk_sans, CJK_FALLBACK] if x),
             "cjk_serif": cjk_serif or "'Noto Serif KR', Georgia",
@@ -228,7 +233,9 @@ def build() -> None:
         encoding="utf-8",
     )
     (OUT / "robots.txt").write_text(
-        f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n", encoding="utf-8"
+        "User-agent: *\nDisallow: /\n" if NOINDEX
+        else f"User-agent: *\nAllow: /\nSitemap: {BASE_URL}/sitemap.xml\n",
+        encoding="utf-8",
     )
 
     print(f"built {len(written)} pages into {OUT}")

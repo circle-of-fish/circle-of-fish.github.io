@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{% block title %}{{ site.title }}{% endblock %}</title>
+{% if noindex %}<meta name="robots" content="noindex, nofollow">{% endif %}
 <meta name="description" content="{% block description %}{{ site.meta_description }}{% endblock %}">
 <meta property="og:title" content="{{ self.title() }}">
 <meta property="og:description" content="{{ self.description() }}">

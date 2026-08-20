@@ -319,37 +319,41 @@
       "ja": "「河豚の会」という名は、カウティリヤの「魚の法則」への穏やかな反論に由来する——誰も魚に尋ねなかった、と。"
     },
     "epigraph": {
-      "en": "The circle of the fish is our friendly rejoinder to Kautilya's law of fish. In a South Asian rendering of the law of the jungle in anarchy, Kautilya, in the Arthashastra, says that life without a state is like the life of fish living in a pond filled with predatory drives. The law of the fish prevails when big ones swallow small ones.",
-      "ko": "복어회라는 이름은 카우틸랴의 '물고기의 법칙(matsya nyāya)'에 대한 다정한 반론이다. 무정부 상태의 정글의 법칙을 남아시아식으로 옮긴 이 표현에서, 카우틸랴는 『아르타샤스트라』를 통해 국가 없는 삶이란 포식 충동으로 가득한 연못 속 물고기의 삶과 같다고 말한다. 큰 물고기가 작은 물고기를 삼킬 때 물고기의 법칙이 관철된다는 것이다.",
-      "zh": "「河豚会」这个名字，是我们对考底利耶「鱼之法则（matsya nyāya）」的一个善意反驳。作为南亚版本的无政府状态下的丛林法则，考底利耶在《政事论》中写道：没有国家的生活，就像生活在充满掠食冲动的池塘里的鱼。大鱼吞小鱼之时，鱼之法则便得以贯彻。",
-      "ja": "「河豚の会」という名は、カウティリヤの「魚の法則（matsya nyāya）」への穏やかな反論です。アナーキーにおけるジャングルの掟を南アジア風に言い換えたこの表現で、カウティリヤは『実利論』において、国家なき生とは捕食衝動に満ちた池に棲む魚の生のようだと述べます。大きな魚が小さな魚を呑み込むとき、魚の法則が貫かれるというわけです。"
+      "en": "But when the law of punishment is kept in abeyance, it gives rise to such disorder as is implied in the proverb of fishes (<em>matsyanyayamudbhavayati</em>); for in the absence of a magistrate (<em>dandadharabhave</em>), the strong will swallow the weak; but under his protection, the weak resist the strong.",
+      "ko": "그러나 형벌의 법이 방치되면, 물고기의 속담(<em>matsyanyayamudbhavayati</em>)이 이르는 바와 같은 무질서가 일어난다. 형벌을 쥔 자가 없으면(<em>dandadharabhave</em>) 강한 자가 약한 자를 삼키고, 그의 보호 아래에서라야 약한 자가 강한 자에게 맞선다.",
+      "zh": "然而刑罚之法一旦废弛，便生出如「鱼之谚」（<em>matsyanyayamudbhavayati</em>）所言的乱象：无执刑罚者（<em>dandadharabhave</em>）之时，强者吞噬弱者；唯有在其护佑之下，弱者方能抗衡强者。",
+      "ja": "しかし刑罰の法が放置されるとき、「魚の諺」（<em>matsyanyayamudbhavayati</em>）が言うような無秩序が生じる。刑罰を執る者がなければ（<em>dandadharabhave</em>）強き者が弱き者を呑み込み、その保護のもとでこそ弱き者は強き者に抗しうる。"
     },
     "epigraph_cite": {
-      "en": "Kautilya, Arthashastra — the matsya nyāya, or law of the fish",
-      "ko": "카우틸랴, 『아르타샤스트라』 — matsya nyāya, 물고기의 법칙",
-      "zh": "考底利耶《政事论》——matsya nyāya，即「鱼之法则」",
-      "ja": "カウティリヤ『実利論』——matsya nyāya、すなわち「魚の法則」"
+      "en": "Kauṭilya, Arthaśāstra, Book I, ch. 4, tr. R. Shamasastry (1915)",
+      "ko": "카우틸랴, 『아르타샤스트라』 제1권 4장 — R. Shamasastry 영역(1915)에서 옮김",
+      "zh": "考底利耶《政事论》第一卷第四章——据 R. Shamasastry 英译（1915）转译",
+      "ja": "カウティリヤ『実利論』第一巻第四章——R. Shamasastry 英訳（1915）より重訳"
     },
     "body": {
       "en": [
+        "The circle of the fish is our friendly rejoinder to Kautilya's law of fish. In a South Asian rendering of the law of the jungle in anarchy, Kautilya, in the Arthashastra, says that life without a state is like the life of fish living in a pond filled with predatory drives. The law of the fish prevails when big ones swallow small ones.",
         "In the Hobbesian anarchy, states, too, live under the law of fish. Unfortunately, however, Kautilya did not bother to ask the fishes themselves what it is really like to live as a fish, just as Hobbes did not ask wolves. A gang of puffers would not have recognized themselves in Kautilya's law of fish. They live rather constructive and artistic lives, building circles with elaborate patterns — the ones you see on this page.",
         "We are junior South Korean IR scholars who are like these puffers. Many of us do not recognize ourselves in the theories and narratives of the current IR discipline. While we study disparate subjects, this ontological concern unites us.",
         "At the same time, we are also not puffers. We do not know what it really is like to live as puffers. Thus, we want to learn their way and the way of many others beyond puffers: Chinese, Japanese, Europeans, Americans, indigenous peoples, non-humans, cyborgs, oceans, shells, aliens.... This learning is also our politics. Inter-world politics along with international politics.",
         "But we do begin from East Asia, as it is the closest. In short, we aim to globalize IR by exploring ontologies in East Asia and beyond."
       ],
       "ko": [
+        "복어회라는 이름은 카우틸랴의 '물고기의 법칙(matsya nyāya)'에 대한 다정한 반론이다. 무정부 상태의 정글의 법칙을 남아시아식으로 옮긴 이 표현에서, 카우틸랴는 『아르타샤스트라』를 통해 국가 없는 삶이란 포식 충동으로 가득한 연못 속 물고기의 삶과 같다고 말한다. 큰 물고기가 작은 물고기를 삼킬 때 물고기의 법칙이 관철된다는 것이다.",
         "홉스적 무정부 상태에서 국가들 역시 물고기의 법칙 아래 살아간다. 그러나 홉스가 늑대에게 묻지 않았듯, 카우틸랴 또한 물고기로 산다는 것이 실제로 어떤 것인지 물고기 자신에게 물어보는 수고를 하지 않았다. 복어 무리라면 카우틸랴의 물고기의 법칙에서 자기 모습을 알아보지 못했을 것이다. 그들은 오히려 정교한 무늬의 원을 짓는, 건설적이고 예술적인 삶을 산다. 이 페이지에 보이는 바로 그 원이다.",
         "우리는 그 복어들을 닮은 한국의 신진 국제정치학 연구자들이다. 우리 중 다수는 현재 국제정치학의 이론과 서사 속에서 자신을 알아보지 못한다. 서로 다른 주제를 연구하지만, 이 존재론적 문제의식이 우리를 묶는다.",
         "동시에 우리는 복어도 아니다. 복어로 산다는 것이 실제로 어떤 것인지 우리는 알지 못한다. 그래서 우리는 복어의 방식을, 그리고 복어 너머 수많은 존재들의 방식을 배우고자 한다. 중국인, 일본인, 유럽인, 미국인, 원주민, 비인간, 사이보그, 바다, 조개껍데기, 외계인……. 이 배움 자체가 우리의 정치다. 국제정치와 더불어 세계간(inter-world) 정치를.",
         "다만 우리는 동아시아에서 시작한다. 가장 가깝기 때문이다. 요컨대 우리는 동아시아와 그 너머의 존재론을 탐구함으로써 국제정치학을 지구화하고자 한다."
       ],
       "zh": [
+        "「河豚会」这个名字，是我们对考底利耶「鱼之法则（matsya nyāya）」的一个善意反驳。作为南亚版本的无政府状态下的丛林法则，考底利耶在《政事论》中写道：没有国家的生活，就像生活在充满掠食冲动的池塘里的鱼。大鱼吞小鱼之时，鱼之法则便得以贯彻。",
         "在霍布斯式的无政府状态中，国家同样活在鱼之法则之下。然而遗憾的是，正如霍布斯不曾问过狼，考底利耶也没有费心去问鱼本身：做一条鱼究竟是什么滋味。一群河豚大概不会在考底利耶的鱼之法则中认出自己。它们过着相当具有建设性、甚至称得上艺术的生活——在海底筑起纹样繁复的圆环，正如本页所见。",
         "我们就是这样一群像河豚的韩国青年国际关系学者。我们当中许多人，在当下国际关系学科的理论与叙事里认不出自己。虽然各自研究的题目大相径庭，这一存在论上的关切却把我们联结在一起。",
         "与此同时，我们也并不是河豚。做一只河豚究竟是什么滋味，我们并不知道。因此我们想要学习它们的方式，以及河豚之外众多存在者的方式：中国人、日本人、欧洲人、美国人、原住民、非人类、赛博格、海洋、贝壳、外星人……。这种学习本身就是我们的政治。在国际政治之外，还有世界间（inter-world）的政治。",
         "不过，我们从东亚开始，因为它离我们最近。简言之，我们希望通过探究东亚及其之外的存在论，推动国际关系学的全球化。"
       ],
       "ja": [
+        "「河豚の会」という名は、カウティリヤの「魚の法則（matsya nyāya）」への穏やかな反論である。アナーキーにおけるジャングルの掟を南アジア風に言い換えたこの表現で、カウティリヤは『実利論』において、国家なき生とは捕食衝動に満ちた池に棲む魚の生のようだと述べる。大きな魚が小さな魚を呑み込むとき、魚の法則が貫かれるというわけである。",
         "ホッブズ的アナーキーにおいて、国家もまた魚の法則のもとに生きています。しかし残念ながら、ホッブズが狼に尋ねなかったように、カウティリヤもまた、魚として生きるとは実際どういうことなのかを魚自身に問おうとはしませんでした。フグの群れであれば、カウティリヤの魚の法則の中に自らの姿を見出さなかったでしょう。彼らはむしろ、精緻な文様の円を海底に築く、建設的で芸術的な生を生きています。このページに見える、まさにその円です。",
         "私たちは、そのフグに似た韓国の若手国際関係論研究者です。私たちの多くは、現在の国際関係論という学問の理論と語りのなかに自分自身を見出せずにいます。扱う主題はばらばらですが、この存在論的な問題意識が私たちを結びつけています。",
         "同時に、私たちはフグでもありません。フグとして生きるとは実際どういうことなのか、私たちは知りません。だからこそ、フグのやり方を、そしてフグの先にある数多の存在のやり方を学びたいのです。中国人、日本人、ヨーロッパ人、アメリカ人、先住民、非人間、サイボーグ、海、貝殻、異星人……。この学びそのものが私たちの政治です。国際政治とともに、世界間（inter-world）の政治を。",
