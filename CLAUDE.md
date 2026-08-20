@@ -11,7 +11,8 @@ data/          ← 콘텐츠 원본(JSON). 여기만 고치면 4개 언어가 �
 templates/     ← Jinja2 템플릿 (base + 페이지 7종)
 assets/        ← style.css, fish-circle.svg, favicon.svg → 빌드 시 루트로 복사
 _build/        ← 일회성 임포트·생성 스크립트(모래원 SVG, 세미나 목록, 연구 병합 등)
-research/      ← 연구 원자료(dossier.json)·정리 보고서·번역 배치
+research/      ← 연구 원자료·보고서·번역 배치. **저장소에 올리지 않는다**
+               (구성원에 대한 솔직한 작업 메모가 들어 있음). 로컬에만 둔다
 build.py       ← 정적 사이트 생성기
 *.html · ko/ · zh/ · ja/ · style.css …
                ← **빌드 산출물. 직접 고치지 말 것.** 저장소 루트에서 그대로 발행된다
@@ -41,6 +42,9 @@ python build.py --serve --no-build   # 다시 빌드하지 않고 미리보기�
 - 언어 전환 링크는 같은 페이지의 다른 언어판으로 간다(상대 경로).
 
 ## 함정
+
+- **`research/`는 .gitignore 대상이다.** `_build/merge_research.py`·`build_resources.py`는
+  그 폴더를 읽는 일회성 임포터라, 새로 클론한 곳에서는 돌지 않는다. 정본은 `data/`다.
 
 - **JSON 키로 `items`를 쓰지 말 것.** Jinja2에서 `x.items`가 dict 메서드로 잡힌다.
   목록 키는 `entries`를 쓴다.
