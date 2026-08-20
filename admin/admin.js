@@ -147,8 +147,8 @@
   };
 
   // ── records: flatten the nested files into one editable list ─────────────
-  function groupsOf(file) {
-    var d = store[file] && store[file].data;
+  function groupsOf(file, data) {
+    var d = data || (store[file] && store[file].data);
     if (!d) return [];
     if (file === 'publications') {
       return d.themes.map(function (t) { return { id: t.id, label: pick(t.title), kind: 'pub' }; })
@@ -165,8 +165,8 @@
     }
     return [];
   }
-  function containerFor(file, groupId) {
-    var d = store[file].data;
+  function containerFor(file, groupId, data) {
+    var d = data || store[file].data;
     if (file === 'publications') {
       return d.themes.concat(d.other_groups).filter(function (g) { return g.id === groupId; })[0];
     }
@@ -175,17 +175,26 @@
     if (p[0] === 'link') return d.link_blocks[+p[1]].groups[+p[2]];
     return null;
   }
-  function records(file) {
-    var d = store[file].data;
+  function records(file, data) {
+    var d = data || store[file].data;
     if (file === 'seminars') return d.entries;
     if (file === 'members') return d.people;
     var out = [];
-    groupsOf(file).forEach(function (g) {
-      var c = containerFor(file, g.id);
+    groupsOf(file, d).forEach(function (g) {
+      var c = containerFor(file, g.id, d);
       if (!c) return;
       c.entries.forEach(function (e) { e._group = g.id; e._kind = g.kind; out.push(e); });
     });
     return out;
+  }
+  /** Every record array in a file, tagged with the group it belongs to. */
+  function arraysOf(file, data) {
+    var d = data || store[file].data;
+    if (file === 'seminars') return [{ group: null, arr: d.entries }];
+    if (file === 'members') return [{ group: null, arr: d.people }];
+    return groupsOf(file, d).map(function (g) {
+      return { group: g.id, arr: containerFor(file, g.id, d).entries };
+    });
   }
   function rebuild(file) {
     var d = store[file].data;
@@ -213,21 +222,90 @@
     if (file === 'publications') {
       var g = groupsOf('publications')[0];
       return {
-        _group: g ? g.id : '', type: 'journal_article', year: String(new Date().getFullYear()),
+        id: newId(), _group: g ? g.id : '', type: 'journal_article', year: String(new Date().getFullYear()),
         authors: '', title: '', venue: '', volume_issue_pages: '', language: 'en',
         doi: '', url_publisher: '', url_fulltext: '', summary: bundle(''), members: []
       };
     }
     if (file === 'seminars') {
-      return { iso: '', year: '', kind: 'reading', date_display: bundle(''), title: bundle('') };
+      return { id: newId(), iso: '', year: '', kind: 'reading', date_display: bundle(''), title: bundle('') };
     }
     if (file === 'members') {
-      return { _new: true, key: '', name: bundle(''), affiliation: bundle(''),
+      return { id: newId(), _new: true, key: '', name: bundle(''), affiliation: bundle(''),
                interests: bundle(''), email: '', links: [] };
     }
     var lg = groupsOf('resources').filter(function (x) { return x.kind === 'link'; })[0];
-    return { _group: lg ? lg.id : '', _kind: 'link', name: '', url: '', desc: bundle('') };
+    return { id: newId(), _group: lg ? lg.id : '', _kind: 'link', name: '', url: '', desc: bundle('') };
   }
+
+  // ── merging other people's saves ─────────────────────────────────────────
+  //
+  // A save writes a whole file, so two editors working on different records
+  // still collide. Rather than telling the loser to refresh — which throws away
+  // whatever they had typed — the page keeps the copy it loaded, works out what
+  // it changed against that, and replays those changes onto the version that is
+  // now on the server. Only a record both people touched is a real conflict.
+
+  function snapshot(x) { return JSON.parse(JSON.stringify(x)); }
+  function bare(rec) {
+    return JSON.stringify(rec, function (k, v) { return k.charAt(0) === '_' ? undefined : v; });
+  }
+  function newId() {
+    var a = 'abcdefghijklmnopqrstuvwxyz0123456789', out = '';
+    for (var i = 0; i < 8; i++) out += a.charAt(Math.floor(Math.random() * a.length));
+    return out;
+  }
+  function byId(file, data) {
+    var map = {};
+    records(file, data).forEach(function (r) {
+      if (r.id) map[r.id] = { rec: r, group: r._group || null };
+    });
+    return map;
+  }
+  function dropFrom(file, data, id) {
+    arraysOf(file, data).forEach(function (g) {
+      for (var i = g.arr.length - 1; i >= 0; i--) if (g.arr[i].id === id) g.arr.splice(i, 1);
+    });
+  }
+  function putInto(file, data, rec, group) {
+    var target = arraysOf(file, data).filter(function (g) { return g.group === group; })[0]
+              || arraysOf(file, data)[0];
+    if (target) target.arr.push(rec);
+  }
+
+  function rebase(file, freshData) {
+    var base = byId(file, store[file].base);
+    var mine = byId(file, store[file].data);
+    var fresh = byId(file, freshData);
+    var conflicts = [];
+
+    Object.keys(mine).forEach(function (id) {
+      var m = mine[id], b = base[id], f = fresh[id];
+      if (!b) { putInto(file, freshData, snapshot(m.rec), m.group); return; }   // I added it
+      if (bare(m.rec) === bare(b.rec) && m.group === b.group) return;           // untouched by me
+      if (!f) { conflicts.push(name(file, m.rec) + ' — 다른 분이 지운 항목입니다'); return; }
+      if (bare(f.rec) !== bare(b.rec) || f.group !== b.group) {
+        conflicts.push(name(file, m.rec) + ' — 두 사람이 같은 항목을 고쳤습니다');
+        return;
+      }
+      dropFrom(file, freshData, id);
+      putInto(file, freshData, snapshot(m.rec), m.group);
+    });
+
+    Object.keys(base).forEach(function (id) {
+      if (mine[id]) return;                                                     // not deleted by me
+      var b = base[id], f = fresh[id];
+      if (!f) return;                                                           // already gone
+      if (bare(f.rec) !== bare(b.rec) || f.group !== b.group) {
+        conflicts.push(name(file, f.rec) + ' — 내가 지웠지만 다른 분이 고쳤습니다');
+        return;
+      }
+      dropFrom(file, freshData, id);
+    });
+
+    return { data: freshData, conflicts: conflicts };
+  }
+  function name(file, rec) { return rowText(file, rec).title.slice(0, 34); }
 
   // ── list ─────────────────────────────────────────────────────────────────
   function rowText(file, r) {
@@ -664,6 +742,62 @@
     return out;
   }
 
+  function putFile(file, retried) {
+    return api('/api/data/' + file, { method: 'PUT', body: { data: store[file].data, sha: store[file].sha } })
+      .then(function (res) {
+        store[file].sha = res.sha;
+        store[file].base = snapshot(store[file].data);
+        store[file].dirty = false;
+      })
+      .catch(function (e) {
+        if (e.status !== 409 || retried) throw e;
+        // Someone saved while this page was open: replay our edits on top of
+        // theirs and try once more.
+        toast('다른 분이 먼저 저장했습니다. 제 변경을 그 위에 얹는 중…');
+        return api('/api/data').then(function (fresh) {
+          var merged = rebase(file, fresh[file].data);
+          if (merged.conflicts.length) {
+            var err = new Error('같은 항목을 동시에 고쳤습니다 — ' + merged.conflicts[0] +
+              (merged.conflicts.length > 1 ? ' 외 ' + (merged.conflicts.length - 1) + '건' : '') +
+              '. 새로고침한 뒤 다시 넣어 주십시오.');
+            err.status = 409;
+            throw err;
+          }
+          store[file].data = merged.data;
+          store[file].sha = fresh[file].sha;
+          store[file].base = snapshot(fresh[file].data);
+          selected = null;
+          renderList(); renderForm();
+          return putFile(file, true);
+        });
+      });
+  }
+
+  // Notice other people's saves before the editor tries to write over them.
+  function watchForChanges() {
+    setInterval(function () {
+      if (!session || $('app').hidden) return;
+      api('/api/shas').then(function (shas) {
+        var moved = FILES.filter(function (f) { return store[f] && shas[f] && shas[f] !== store[f].sha; });
+        if (!moved.length) return;
+        var quiet = moved.filter(function (f) { return !store[f].dirty; });
+        if (quiet.length) {
+          api('/api/data').then(function (fresh) {
+            quiet.forEach(function (f) {
+              store[f].data = fresh[f].data;
+              store[f].sha = fresh[f].sha;
+              store[f].base = snapshot(fresh[f].data);
+            });
+            if (quiet.indexOf(current) !== -1) { selected = null; renderList(); renderForm(); }
+          });
+        }
+        if (moved.length > quiet.length) {
+          toast('다른 분이 저장했습니다. 저장을 누르면 제 변경을 그 위에 얹습니다.');
+        }
+      }).catch(function () { /* 잠깐 끊긴 것은 넘어간다 */ });
+    }, 120000);
+  }
+
   function save() {
     tidyAll();
     var bad = problems();
@@ -701,10 +835,7 @@
       });
 
     pending.forEach(function (f) {
-      chain = chain.then(function () {
-        return api('/api/data/' + f, { method: 'PUT', body: { data: store[f].data, sha: store[f].sha } })
-          .then(function (res) { store[f].sha = res.sha; store[f].dirty = false; });
-      });
+      chain = chain.then(function () { return putFile(f); });
     });
     chain.then(function () {
       $('dirty').hidden = true;
@@ -768,13 +899,16 @@
 
   function loadAll() {
     return api('/api/data').then(function (res) {
-      FILES.forEach(function (f) { store[f] = { data: res[f].data, sha: res[f].sha, dirty: false }; });
+      FILES.forEach(function (f) {
+        store[f] = { data: res[f].data, sha: res[f].sha, dirty: false, base: snapshot(res[f].data) };
+      });
     });
   }
   function enterApp() {
     $('who').textContent = session.name;
     show('app');
     switchTo('publications');
+    if (!watchForChanges.started) { watchForChanges.started = true; watchForChanges(); }
   }
 
   function signIn(username, password, remember) {

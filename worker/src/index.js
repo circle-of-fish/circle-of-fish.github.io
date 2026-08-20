@@ -9,6 +9,7 @@
  *
  *   POST /api/login              { username, password }  -> session token
  *   POST /api/password           { current, next }       -> ok            (auth)
+ *   GET  /api/shas                                       -> one sha per file (auth)
  *   GET  /api/data                                       -> all four files (auth)
  *   PUT  /api/data/:file         { data, sha }           -> new sha       (auth)
  *   POST /api/photo/:key         { jpeg, w, h, sha? }    -> new sha       (auth)
@@ -192,6 +193,18 @@ async function changePassword(env, req, session) {
   return json({ ok: true });
 }
 
+async function getShas(env) {
+  // One listing call rather than four file reads: the editor polls this to
+  // notice that someone else has saved.
+  const listing = await gh(env, `contents/data?ref=${BRANCH}`);
+  const out = {};
+  listing.forEach((f) => {
+    const m = /^(\w+)\.json$/.exec(f.name);
+    if (m && FILES.includes(m[1])) out[m[1]] = f.sha;
+  });
+  return json(out);
+}
+
 async function getData(env) {
   const out = {};
   await Promise.all(FILES.map(async (name) => {
@@ -265,6 +278,7 @@ export default {
       if (!session) return json({ error: '로그인이 만료되었습니다. 다시 들어와 주십시오.' }, 401);
 
       if (parts[1] === 'password' && request.method === 'POST') return await changePassword(env, request, session);
+      if (parts[1] === 'shas' && request.method === 'GET') return await getShas(env);
       if (parts[1] === 'data' && request.method === 'GET') return await getData(env);
       if (parts[1] === 'data' && request.method === 'PUT') return await putData(env, request, session, parts[2]);
       if (parts[1] === 'photo' && request.method === 'POST') return await putPhoto(env, request, session, parts[2]);
