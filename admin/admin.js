@@ -489,7 +489,9 @@
     var frame = el('span', 'photo-frame');
     var img = el('img');
     img.alt = '';
-    if (rec.photo && rec.key) {
+    if (rec._pendingPhoto) {
+      img.src = rec._pendingPhoto.dataUrl;
+    } else if (rec.photo && rec.key) {
       img.src = '../photos/' + rec.key + '.jpg?t=' + Date.now();
     } else {
       frame.classList.add('empty');
@@ -501,9 +503,14 @@
     var file = el('input');
     file.type = 'file';
     file.accept = 'image/*';
-    var hint = el('div', 'note',
-      rec.key ? '고르면 바로 올라가고 사이트에 반영됩니다. 자르지 않고 원본 비율 그대로 씁니다.'
-              : '식별자를 먼저 정하고 저장한 뒤에 사진을 올릴 수 있습니다.');
+    var hint = el('div', 'note');
+    function idle() {
+      hint.textContent = rec._pendingPhoto
+        ? '고른 사진이 미리보기에 있습니다. 저장을 누르면 올라갑니다.'
+        : (rec.key ? '고르면 미리보기가 바뀌고, 저장을 누를 때 함께 올라갑니다. 자르지 않고 원본 비율 그대로 씁니다.'
+                   : '식별자를 정하고 한 번 저장한 뒤에 사진을 올릴 수 있습니다.');
+    }
+    idle();
     if (!rec.key) file.disabled = true;
 
     file.addEventListener('change', function () {
@@ -511,20 +518,15 @@
       if (!f) return;
       hint.textContent = '줄이는 중…';
       shrink(f).then(function (out) {
-        hint.textContent = '올리는 중…';
-        return api('/api/photo/' + rec.key, { body: { jpeg: out.b64, w: out.w, h: out.h } })
-          .then(function (res) {
-            // the upload commits members.json too, so the sha we hold is stale
-            if (res.members_sha) store.members.sha = res.members_sha;
-            rec.photo = { w: out.w, h: out.h };
-            img.src = out.dataUrl;
-            frame.classList.remove('empty');
-            hint.textContent = out.w + '×' + out.h + ' 로 올렸습니다. 사이트 반영까지 1–2분.';
-            toast('사진을 올렸습니다.', 'good');
-          });
+        // held until Save, so that everything on this page commits the same way
+        rec._pendingPhoto = out;
+        img.src = out.dataUrl;
+        frame.classList.remove('empty');
+        markDirty();
+        idle();
       }).catch(function (e) {
-        hint.textContent = '';
-        toast('사진을 올리지 못했습니다: ' + e.message, 'bad');
+        idle();
+        toast('사진을 읽지 못했습니다: ' + e.message, 'bad');
       });
     });
 
@@ -639,6 +641,23 @@
     toast('저장하는 중…');
     var LABEL = { publications: '출판', seminars: '세미나', members: '구성원', resources: '자료·링크' };
     var chain = Promise.resolve();
+
+    // Images are separate files, so they go up first; that write also touches
+    // members.json, and the sha it returns is the one the save below needs.
+    (store.members.data.people || []).filter(function (m) { return m._pendingPhoto; })
+      .forEach(function (m) {
+        chain = chain.then(function () {
+          toast('사진을 올리는 중…');
+          return api('/api/photo/' + m.key, {
+            body: { jpeg: m._pendingPhoto.b64, w: m._pendingPhoto.w, h: m._pendingPhoto.h }
+          }).then(function (res) {
+            if (res.members_sha) store.members.sha = res.members_sha;
+            m.photo = { w: m._pendingPhoto.w, h: m._pendingPhoto.h };
+            delete m._pendingPhoto;
+          });
+        });
+      });
+
     pending.forEach(function (f) {
       chain = chain.then(function () {
         return api('/api/data/' + f, { method: 'PUT', body: { data: store[f].data, sha: store[f].sha } })
