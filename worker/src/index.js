@@ -24,7 +24,7 @@ const BRANCH = 'main';
 const ORIGIN = 'https://circle-of-fish.github.io';
 const FILES = ['publications', 'seminars', 'members', 'resources'];
 const SESSION_HOURS = 12;
-const PBKDF2_ROUNDS = 210000;
+const PBKDF2_ROUNDS = 100000;   // Workers caps PBKDF2 at 100k; see the note in worker/README.md
 
 // ── small helpers ──────────────────────────────────────────────────────────
 const enc = new TextEncoder();
@@ -167,7 +167,7 @@ async function login(env, req) {
   // Hash even when the account is unknown, so a bad username and a bad
   // password take the same time to answer.
   const ok = await checkPassword(String(password || ''),
-    user ? user.hash : 'pbkdf2$210000$AAAAAAAAAAAAAAAAAAAAAA==$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=');
+    user ? user.hash : 'pbkdf2$100000$AAAAAAAAAAAAAAAAAAAAAA==$AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=');
   if (!user || !ok) return json({ error: '아이디나 비밀번호가 맞지 않습니다.' }, 401);
   return json({
     token: await issueSession(env, { username: user.username, name: user.name }),
@@ -183,8 +183,8 @@ async function changePassword(env, req, session) {
   if (!user || !(await checkPassword(String(current || ''), user.hash))) {
     return json({ error: '현재 비밀번호가 맞지 않습니다.' }, 401);
   }
-  if (String(next || '').length < 10) {
-    return json({ error: '새 비밀번호는 열 자 이상이어야 합니다.' }, 400);
+  if (String(next || '').length < 12) {
+    return json({ error: '새 비밀번호는 열두 자 이상이어야 합니다.' }, 400);
   }
   user.hash = await hashPassword(next);
   user.must_change = false;

@@ -7,7 +7,7 @@ compatibility_date = "2026-08-01"
 # changes their own password.
 [[kv_namespaces]]
 binding = "USERS"
-id = "PLACEHOLDER_KV_ID"
+id = "42b28c59c1e848ee8dcb6c2dcc6cbba9"
 
 # Secrets are set outside this file and never live in the repository:
 #   GITHUB_TOKEN    fine-grained PAT, Contents:write on circle-of-fish.github.io

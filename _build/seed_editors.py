@@ -23,7 +23,7 @@ from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8")
 
-ROUNDS = 210000
+ROUNDS = 100000
 OUT = Path(__file__).resolve().parent.parent / "worker" / "seed"
 
 # 서로 헷갈리는 글자(l/1/I, O/0)를 뺐다 — 받아 적다 틀리는 일이 없도록

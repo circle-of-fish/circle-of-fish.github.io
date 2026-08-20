@@ -73,7 +73,12 @@ npx wrangler kv key delete --binding USERS --remote "<아이디>"
 
 ## 비밀번호 규격
 
-PBKDF2-SHA256, 210,000회, 사용자마다 16바이트 salt.
+PBKDF2-SHA256, **100,000회**, 사용자마다 16바이트 salt.
+
+10만은 Workers가 허용하는 상한입니다(그 이상은 `Pbkdf2 failed: iteration counts above
+100000 are not supported`로 거부됩니다). 일반 권고치보다 낮으므로 비밀번호 자체를 강하게
+잡았습니다 — 발급되는 임시 비밀번호는 56자 알파벳에서 뽑은 16자(약 93비트)이고,
+직접 바꿀 때는 열두 자 이상을 요구합니다.
 저장 형태는 `pbkdf2$<반복>$<base64 salt>$<base64 hash>` 이며,
 `_build/seed_editors.py`(파이썬)와 `src/index.js`(Worker)가 같은 값을 만들어 냅니다.
 
