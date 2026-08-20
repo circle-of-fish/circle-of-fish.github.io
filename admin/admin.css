@@ -73,6 +73,17 @@ button, input, select, textarea { font: inherit; }
 
 /* ── split ─────────────────────────────────────────────── */
 .split { max-width: 1400px; margin: 0 auto; padding: 0 1.2rem 3rem; display: grid; grid-template-columns: minmax(300px, 420px) 1fr; gap: 1rem; align-items: start; }
+.list-col { display: flex; flex-direction: column; gap: 0.5rem; min-width: 0; }
+.bulk {
+  display: flex; align-items: center; gap: 0.5rem;
+  background: var(--teal-light); border: 1px solid #bcdde5;
+  border-radius: 6px; padding: 0.45rem 0.7rem;
+}
+.bulk #bulk-count { font-size: 0.82rem; font-weight: 600; color: var(--teal-dark); margin-right: auto; }
+.list li.row { display: flex; gap: 0.55rem; align-items: flex-start; }
+.list .row-check { margin-top: 0.2rem; accent-color: var(--teal); flex-shrink: 0; cursor: pointer; }
+.list .row-body { min-width: 0; flex: 1; }
+
 .list { list-style: none; background: var(--white); border: 1px solid var(--line); border-radius: 7px; overflow: hidden; max-height: calc(100vh - 150px); overflow-y: auto; }
 .list li { border-bottom: 1px solid var(--line-soft); padding: 0.6rem 0.85rem; cursor: pointer; }
 .list li:last-child { border-bottom: none; }

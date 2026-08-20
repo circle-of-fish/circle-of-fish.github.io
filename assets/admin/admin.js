@@ -23,6 +23,7 @@
   var store = {};            // file -> {data, sha, dirty}
   var current = 'publications';
   var selected = null;
+  var checked = [];          // records ticked for a bulk action, by reference
 
   // ── tiny helpers ─────────────────────────────────────────────────────────
   function $(id) { return document.getElementById(id); }
@@ -277,13 +278,54 @@
         list.appendChild(el('li', 'group-head', g ? g.label : lastGroup));
       }
       var t = rowText(file, r);
-      var li = el('li', selected === r ? 'on' : '');
-      li.appendChild(el('div', 'row-title', t.title.slice(0, 110)));
-      li.appendChild(el('div', 'row-meta', t.meta));
+      var li = el('li', 'row' + (selected === r ? ' on' : ''));
+
+      var box = el('input', 'row-check');
+      box.type = 'checkbox';
+      box.checked = checked.indexOf(r) !== -1;
+      box.addEventListener('click', function (ev) { ev.stopPropagation(); });
+      box.addEventListener('change', function () {
+        var i = checked.indexOf(r);
+        if (box.checked && i === -1) checked.push(r);
+        if (!box.checked && i >= 0) checked.splice(i, 1);
+        renderBulk();
+      });
+      li.appendChild(box);
+
+      var body = el('div', 'row-body');
+      body.appendChild(el('div', 'row-title', t.title.slice(0, 110)));
+      body.appendChild(el('div', 'row-meta', t.meta));
+      li.appendChild(body);
+
       li.addEventListener('click', function () { selected = r; renderList(); renderForm(); });
       list.appendChild(li);
     });
     $('count').textContent = rows.length + ' / ' + records(file).length + '건';
+    visibleRows = rows;
+    renderBulk();
+  }
+
+  var visibleRows = [];
+  function renderBulk() {
+    var n = checked.length;
+    $('bulk').hidden = n === 0;
+    $('bulk-count').textContent = n + '개 선택';
+    var all = $('check-all');
+    all.checked = visibleRows.length > 0 && visibleRows.every(function (r) { return checked.indexOf(r) !== -1; });
+  }
+  function clearChecked() { checked = []; renderList(); }
+  function deleteChecked() {
+    var n = checked.length;
+    if (!n) return;
+    if (!confirm('선택한 ' + n + '개를 목록에서 지웁니다. 계속할까요?')) return;
+    checked.forEach(function (r) {
+      removeRecord(current, r);
+      if (selected === r) selected = null;
+    });
+    checked = [];
+    markDirty();
+    renderList(); renderForm();
+    toast(n + '개를 지웠습니다. 저장을 눌러야 반영됩니다.');
   }
 
   // ── form ─────────────────────────────────────────────────────────────────
@@ -688,6 +730,7 @@
   function switchTo(file) {
     current = file;
     selected = null;
+    checked = [];
     Array.prototype.forEach.call($('tabs').children, function (b) {
       b.className = b.dataset.file === file ? 'on' : '';
     });
@@ -794,6 +837,16 @@
     $('search').addEventListener('input', renderListSoon);
     $('group-filter').addEventListener('change', renderList);
     $('member-filter').addEventListener('change', renderList);
+    $('bulk-delete').addEventListener('click', deleteChecked);
+    $('bulk-clear').addEventListener('click', clearChecked);
+    $('check-all').addEventListener('change', function () {
+      if ($('check-all').checked) {
+        visibleRows.forEach(function (r) { if (checked.indexOf(r) === -1) checked.push(r); });
+      } else {
+        checked = checked.filter(function (r) { return visibleRows.indexOf(r) === -1; });
+      }
+      renderList();
+    });
     $('save').addEventListener('click', save);
     $('add').addEventListener('click', function () {
       var rec = blank(current);

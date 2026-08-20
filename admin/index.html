@@ -93,12 +93,20 @@
     <select id="group-filter"></select>
     <select id="member-filter" hidden></select>
     <input type="search" id="search" placeholder="찾기">
+    <label class="check"><input type="checkbox" id="check-all"> 보이는 항목 전체</label>
     <span class="count" id="count"></span>
     <button class="btn" id="add">+ 새 항목</button>
   </div>
 
   <div class="split">
-    <ul class="list" id="list"></ul>
+    <div class="list-col">
+      <div class="bulk" id="bulk" hidden>
+        <span id="bulk-count"></span>
+        <button class="btn danger" id="bulk-delete" type="button">선택 삭제</button>
+        <button class="btn" id="bulk-clear" type="button">해제</button>
+      </div>
+      <ul class="list" id="list"></ul>
+    </div>
     <div class="pane" id="pane">
       <p class="empty">왼쪽에서 항목을 고르거나 <b>새 항목</b>을 누르십시오.</p>
     </div>
