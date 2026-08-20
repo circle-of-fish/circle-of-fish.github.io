@@ -14,6 +14,7 @@ it with no further configuration.
 from __future__ import annotations
 
 import argparse
+import hashlib
 import http.server
 import json
 import re
@@ -132,6 +133,26 @@ def doi_url(doi: str) -> str:
     return "https://doi.org/" + doi.removeprefix("doi:").strip()
 
 
+def stamp_admin_assets() -> None:
+    """Version the editor's own script and stylesheet by content.
+
+    The editor changes far more often than the site, and a browser holding a
+    ten-minute-old copy of it looks like a broken feature rather than a stale
+    cache. Its markup ships with `?v=DEV`, which is replaced here by a digest of
+    what it actually loads, so a changed file is always a changed URL.
+    """
+    page = OUT / "admin" / "index.html"
+    if not page.exists():
+        return
+    digest = hashlib.sha1()
+    for name in ("admin.css", "admin.js"):
+        asset = OUT / "admin" / name
+        if asset.exists():
+            digest.update(asset.read_bytes())
+    page.write_text(page.read_text(encoding="utf-8").replace("v=DEV", "v=" + digest.hexdigest()[:10]),
+                    encoding="utf-8")
+
+
 def generated_paths() -> list[Path]:
     """Every path a build writes — and the only paths a build may delete."""
     out = [OUT / "sitemap.xml", OUT / "robots.txt", OUT / ".nojekyll"]
@@ -187,6 +208,7 @@ def build() -> None:
             # cleaning above is best-effort — Windows can hold a directory handle
             # open — so the copy has to be able to write over what survived
             shutil.copytree(asset, OUT / asset.name, dirs_exist_ok=True)
+    stamp_admin_assets()
     (OUT / ".nojekyll").write_text("", encoding="utf-8")
     (OUT / "CNAME").unlink(missing_ok=True)
 
