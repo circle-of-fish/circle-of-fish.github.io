@@ -1,2 +1,12 @@
 User-agent: *
-Disallow: /
+Allow: /
+Disallow: /admin/
+Disallow: /assets/
+Disallow: /data/
+Disallow: /templates/
+Disallow: /_build/
+Disallow: /worker/
+Disallow: /research/
+Disallow: /.github/
+
+Sitemap: https://circle-of-fish.github.io/sitemap.xml

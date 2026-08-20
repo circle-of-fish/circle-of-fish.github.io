@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<title>Page not found — {{ site.title }}</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{{ font_href }}">
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+
+<header>
+  <div class="header-inner">
+    <div class="site-title">
+      <a href="/index.html">
+        <span class="mark">{{ site.title }}</span>
+        <span class="mark-sub">{{ site.title_sub }}</span>
+      </a>
+    </div>
+    <nav class="main" aria-label="{{ site.ui.main_nav }}">
+      {% for slug, filename, navkey in pages %}
+      <a href="/{{ filename }}">{{ site.nav[navkey] }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section>
+    <div class="container narrow" style="text-align:center;padding:3rem 0;">
+      <h1 class="section-title" style="display:inline-block;">Page not found</h1>
+      <p class="prose" style="margin-top:1.6rem;">
+        That address does not lead anywhere on this site — it may have moved, or the link may be
+        mistyped. The pages below are all of them.
+      </p>
+      <p style="margin-top:1.8rem;">
+        {% for slug, filename, navkey in pages %}
+        <a class="more-link" style="margin:0 0.6rem;" href="/{{ filename }}">{{ site.nav[navkey] }}</a>
+        {% endfor %}
+      </p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div>{{ site.footer.line }}</div>
+</footer>
+</body>
+</html>

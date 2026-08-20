@@ -11,10 +11,18 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:url" content="{{ base_url }}/{{ '' if lang == 'en' else lang + '/' }}{{ page_file }}">
-<meta property="og:image" content="{{ base_url }}/fish-circle.svg">
+<meta property="og:image" content="{{ base_url }}/share-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="{{ site.title }} — {{ site.title_sub }}">
+<meta property="og:locale" content="{{ og_locale }}">
+{% for l in langs %}{% if l != lang %}
+<meta property="og:locale:alternate" content="{{ og_locales[l] }}">
+{% endif %}{% endfor %}
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{{ base_url }}/share-card.png">
 {% for l in langs %}
-<link rel="alternate" hreflang="{{ l }}" href="{{ base_url }}/{{ '' if l == 'en' else l + '/' }}{{ page_file }}">
+<link rel="alternate" hreflang="{{ lang_codes[l] }}" href="{{ base_url }}/{{ '' if l == 'en' else l + '/' }}{{ page_file }}">
 {% endfor %}
 <link rel="alternate" hreflang="x-default" href="{{ base_url }}/{{ page_file }}">
 <link rel="canonical" href="{{ base_url }}/{{ '' if lang == 'en' else lang + '/' }}{{ page_file }}">
@@ -23,6 +31,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="{{ font_href }}">
 <link rel="stylesheet" href="{{ prefix }}style.css">
+<script type="application/ld+json">{{ json_ld|safe }}</script>
 <style>:root { --cjk-sans: {{ cjk_sans }}; --cjk-serif: {{ cjk_serif }}; }</style>
 </head>
 <body>
@@ -64,7 +73,7 @@
   <div>{{ site.footer.line }}</div>
   <div class="foot-legal">{{ site.footer.legal|safe }}</div>
   {# members' way in; the editor itself asks for a password #}
-  <a class="foot-edit" href="{{ prefix }}admin/">{{ site.ui.edit_site }}</a>
+  <a class="foot-edit" href="{{ prefix }}admin/" rel="nofollow">{{ site.ui.edit_site }}</a>
 </footer>
 {% block scripts %}{% endblock %}
 </body>

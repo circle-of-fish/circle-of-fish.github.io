@@ -1,31 +1,256 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://circle-of-fish.github.io/index.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/about.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/research.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/members.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/publications.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/seminars.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/resources.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/index.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/about.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/research.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/members.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/publications.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/seminars.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ko/resources.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/index.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/about.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/research.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/members.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/publications.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/seminars.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/zh/resources.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/index.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/about.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/research.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/members.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/publications.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/seminars.html</loc></url>
-  <url><loc>https://circle-of-fish.github.io/ja/resources.html</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://circle-of-fish.github.io/index.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/index.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/index.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/index.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/index.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/index.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/index.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/index.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/index.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/index.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/index.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/about.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/about.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/about.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/about.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/about.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/about.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/about.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/about.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/about.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/about.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/about.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/research.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/research.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/research.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/research.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/research.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/research.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/research.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/research.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/research.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/research.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/research.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/research.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/research.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/research.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/members.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/members.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/members.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/members.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/members.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/members.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/members.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/members.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/members.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/members.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/members.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/members.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/members.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/members.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/members.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/members.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/members.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/publications.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/publications.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/publications.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/publications.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/publications.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/publications.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/publications.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/publications.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/publications.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/seminars.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/seminars.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/seminars.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/seminars.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/seminars.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/seminars.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/seminars.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/seminars.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/seminars.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/resources.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/resources.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ko/resources.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/resources.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/zh/resources.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/resources.html"/>
+  </url>
+  <url>
+    <loc>https://circle-of-fish.github.io/ja/resources.html</loc>
+    <lastmod>2026-08-20</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://circle-of-fish.github.io/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://circle-of-fish.github.io/ko/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://circle-of-fish.github.io/zh/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://circle-of-fish.github.io/ja/resources.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://circle-of-fish.github.io/resources.html"/>
+  </url>
 </urlset>
