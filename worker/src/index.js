@@ -23,7 +23,7 @@
 const REPO = 'circle-of-fish/circle-of-fish.github.io';
 const BRANCH = 'main';
 const ORIGIN = 'https://circle-of-fish.github.io';
-const FILES = ['publications', 'seminars', 'members', 'resources'];
+const FILES = ['publications', 'seminars', 'members', 'resources', 'site', 'research'];
 const SESSION_HOURS = 12;
 const PBKDF2_ROUNDS = 100000;   // Workers caps PBKDF2 at 100k; see the note in worker/README.md
 
@@ -217,6 +217,7 @@ async function getData(env) {
 const LABELS = {
   publications: 'publications', seminars: 'seminars',
   members: 'members', resources: 'resources',
+  site: 'site copy', research: 'research copy',
 };
 async function putData(env, req, session, name) {
   if (!FILES.includes(name)) return json({ error: 'unknown file' }, 404);

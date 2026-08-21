@@ -16,7 +16,7 @@
   var API = 'https://cof-editor.circle-of-fish.workers.dev';
   var LANGS = ['en', 'ko', 'zh', 'ja'];
   var TOKEN_KEY = 'cof-session';
-  var FILES = ['publications', 'seminars', 'members', 'resources'];
+  var FILES = ['publications', 'seminars', 'members', 'resources', 'site', 'research'];
   var PHOTO_SHORT_SIDE = 320;
 
   var session = null;        // {token, name}
@@ -150,6 +150,12 @@
   function groupsOf(file, data) {
     var d = data || (store[file] && store[file].data);
     if (!d) return [];
+    if (isText(file)) {
+      var seen = {};
+      textRecords(file).forEach(function (r) { seen[r._group] = 1; });
+      return (TEXT_GROUPS[file] || []).filter(function (g) { return seen[g[0]]; })
+        .map(function (g) { return { id: g[0], label: g[1], kind: 'text' }; });
+    }
     if (file === 'publications') {
       return d.themes.map(function (t) { return { id: t.id, label: pick(t.title), kind: 'pub' }; })
         .concat(d.other_groups.map(function (g) { return { id: g.id, label: pick(g.title) + ' (기타)', kind: 'pub' }; }));
@@ -176,6 +182,7 @@
     return null;
   }
   function records(file, data) {
+    if (isText(file)) return textRecords(file);
     var d = data || store[file].data;
     if (file === 'seminars') return d.entries;
     if (file === 'members') return d.people;
@@ -197,6 +204,7 @@
     });
   }
   function rebuild(file) {
+    if (isText(file)) return;
     var d = store[file].data;
     if (file === 'publications') {
       var all = records(file);
@@ -238,6 +246,382 @@
     return { id: newId(), _group: lg ? lg.id : '', _kind: 'link', name: '', url: '', desc: bundle('') };
   }
 
+  // ── site copy ────────────────────────────────────────────────────────────
+  //
+  // The four files above are lists of records. site.json and research.json are
+  // not: they hold the prose the pages are built from, as a nested tree of
+  // four-language bundles. Rather than bolt a second editor onto the page, each
+  // editable string in that tree is presented as a record whose id is its path
+  // — so the list, the search box, the group filter, the dirty flag and the
+  // save machinery all work unchanged. A path is stable, which also makes it
+  // exactly the right key for merging two people's edits.
+  //
+  // Nothing here writes an editing-only key into the tree: a record is a
+  // descriptor that points at a path, and the form reads and writes the file
+  // through that path.
+
+  var TEXT_FILES = ['site', 'research'];
+  function isText(file) { return TEXT_FILES.indexOf(file) !== -1; }
+
+  var TEXT_GROUPS = {
+    site: [
+      ['_root', '사이트 기본'],
+      ['home', '홈 화면'],
+      ['about', '소개 페이지'],
+      ['about.facts', '소개 페이지 — 요약 상자'],
+      ['contact', '연락'],
+      ['footer', '바닥글'],
+      ['nav', '메뉴 이름'],
+      ['ui', '화면 문구 (버튼·라벨)']
+    ],
+    research: [
+      ['_root', '연구 페이지 머리말'],
+      ['theoretical', '이론적 지향'],
+      ['methodological', '방법론적 지향'],
+      ['modules', '연구 모듈']
+    ]
+  };
+
+  // path (array indices flattened to []) -> label, or [label, note]
+  var TEXT_LABELS = {
+    'site:title': ['사이트 이름', '머리글에 그대로 나옵니다. 길게 쓰면 메뉴가 한 줄에 들어가지 않습니다.'],
+    'site:title_sub': ['부제', '머리글 이름 아래의 작은 글씨'],
+    'site:tagline': ['표제 문구', '첫 화면 한가운데의 인용구'],
+    'site:hero_description': ['첫 화면 소개글', '표제 문구 아래 한 문단'],
+    'site:founded': '창립 시점',
+    'site:meta_description': ['검색엔진 설명 — 사이트', '검색 결과에 나오는 두 줄. 160자 안팎.'],
+
+    'site:nav.home': '메뉴 — 홈',
+    'site:nav.about': '메뉴 — 소개',
+    'site:nav.research': '메뉴 — 연구',
+    'site:nav.members': '메뉴 — 구성원',
+    'site:nav.publications': '메뉴 — 출판',
+    'site:nav.seminars': '메뉴 — 세미나',
+    'site:nav.resources': '메뉴 — 자료·링크',
+
+    'site:ui.skip_to_content': ['본문 바로가기', '화면 낭독기를 쓰는 사람에게만 보입니다'],
+    'site:ui.main_nav': ['주 메뉴 (읽어 주는 이름)', '화면에는 보이지 않습니다'],
+    'site:ui.theoretical': '딱지 — 이론',
+    'site:ui.methodological': '딱지 — 방법론',
+    'site:ui.read_more_about': '단추 — 소개 더 보기',
+    'site:ui.read_more_research': '단추 — 연구 더 보기',
+    'site:ui.all_publications': '단추 — 출판 전체',
+    'site:ui.most_recent_seminar': '이름표 — 최근 세미나',
+    'site:ui.members_count': '이름표 — 구성원 수',
+    'site:ui.since': '이름표 — 모임 시작',
+    'site:ui.full_text': '링크 — 무료 전문',
+    'site:ui.publisher': '링크 — 출판사',
+    'site:ui.email_label': '이름표 — 이메일',
+    'site:ui.homepage': '링크 — 개인 홈페이지',
+    'site:ui.lang_en': '표기 — 영문',
+    'site:ui.lang_ko': '표기 — 국문',
+    'site:ui.lang_ja': '표기 — 일문',
+    'site:ui.lang_zh': '표기 — 중문',
+    'site:ui.lang_other': '표기 — 그 밖의 언어',
+    'site:ui.count_unit': '단위 — 건',
+    'site:ui.filter_label': '거르개 — 이름표',
+    'site:ui.filter_member': '거르개 — 구성원 전체',
+    'site:ui.filter_lang': '거르개 — 언어 전체',
+    'site:ui.filter_oa': '거르개 — 무료 전문만',
+    'site:ui.filter_showing': '거르개 — 「보이는」',
+    'site:ui.filter_of': '거르개 — 「가운데」',
+    'site:ui.filter_none': '거르개 — 결과 없음',
+    'site:ui.edit_site': '단추 — 편집',
+
+    'site:home.parable_title': '「물고기의 법칙」 절 제목',
+    'site:home.parable_kicker': '「물고기의 법칙」 작은 머리말',
+    'site:home.orientation_title': '「우리의 자리」 절 제목',
+    'site:home.orientation_kicker': '「우리의 자리」 작은 머리말',
+    'site:home.aims_title': '「하려는 일」 절 제목',
+    'site:home.aims_kicker': '「하려는 일」 작은 머리말',
+    'site:home.latest_title': '「최근」 절 제목',
+    'site:home.latest_kicker': '「최근」 작은 머리말',
+    'site:home.recent_pubs_title': '최근 출판 소제목',
+
+    'site:about.title': '페이지 제목',
+    'site:about.kicker': '작은 머리말',
+    'site:about.meta_description': '검색엔진 설명 — 소개',
+    'site:about.epigraph': ['제사 — 카우틸랴 인용문', '모래색 상자 안의 인용문'],
+    'site:about.epigraph_cite': '제사 출처',
+    'site:about.body': ['본문', '빈 줄로 문단을 나눕니다'],
+    'site:about.aims_title': '「목표」 절 제목',
+    'site:about.aims_kicker': '「목표」 작은 머리말',
+    'site:about.aims': ['목표 목록', '한 줄에 하나씩'],
+    'site:about.history_title': '「어떻게 모이는가」 절 제목',
+    'site:about.history_kicker': '「어떻게 모이는가」 작은 머리말',
+    'site:about.history': ['「어떻게 모이는가」 본문', '빈 줄로 문단을 나눕니다'],
+    'site:about.facts[].label': '항목 이름',
+    'site:about.facts[].value': '내용',
+
+    'site:contact.title': '절 제목',
+    'site:contact.kicker': '작은 머리말',
+    'site:contact.body': '안내 문구',
+    'site:contact.email': ['이메일 주소', '네 언어판 모두 같은 주소를 씁니다'],
+
+    'site:footer.line': '바닥글 한 줄',
+    'site:footer.legal': '저작권 표시',
+
+    'research:title': '페이지 제목',
+    'research:kicker': '작은 머리말',
+    'research:meta_description': '검색엔진 설명 — 연구',
+    'research:orientation_lede': '들머리 글',
+    'research:theoretical_title': '「이론적 지향」 절 제목',
+    'research:theoretical_kicker': '「이론적 지향」 작은 머리말',
+    'research:theoretical_lede': '「이론적 지향」 들머리 글',
+    'research:methodological_title': '「방법론적 지향」 절 제목',
+    'research:methodological_kicker': '「방법론적 지향」 작은 머리말',
+    'research:methodological_lede': '「방법론적 지향」 들머리 글',
+    'research:modules_title': '「연구 모듈」 절 제목',
+    'research:modules_kicker': '「연구 모듈」 작은 머리말',
+    'research:areas_label': '이름표 — 연구 영역',
+    'research:tagline': ['페이지 맨 아래 문구', '네 언어판 모두 같은 문구를 씁니다'],
+
+    'research:theoretical[].heading': '제목',
+    'research:theoretical[].body': '본문',
+    'research:methodological[].heading': '제목',
+    'research:methodological[].body': '본문',
+    'research:modules[].label': '번호 이름표',
+    'research:modules[].title': '제목',
+    'research:modules[].body': ['본문', '빈 줄로 문단을 나눕니다'],
+    'research:modules[].areas': ['연구 영역', '한 줄에 하나씩']
+  };
+
+  // 한 줄에 하나로 다루는 목록. 나머지 목록은 빈 줄로 문단을 나눈다.
+  var LINE_LISTS = { aims: 1, areas: 1 };
+
+  function normPath(p) { return p.replace(/\[\d+\]/g, '[]'); }
+  function pathParts(path) {
+    var out = [];
+    path.split('.').forEach(function (seg) {
+      var head = seg.replace(/\[\d+\]/g, '');
+      if (head) out.push(head);
+      (seg.match(/\[(\d+)\]/g) || []).forEach(function (b) { out.push(+b.slice(1, -1)); });
+    });
+    return out;
+  }
+  function getPath(root, path) {
+    var o = root, p = pathParts(path);
+    for (var i = 0; i < p.length; i++) {
+      if (o == null || typeof o !== 'object') return undefined;
+      o = o[p[i]];
+    }
+    return o;
+  }
+  function setPath(root, path, val) {
+    var p = pathParts(path), o = root;
+    for (var i = 0; i < p.length - 1; i++) o = o[p[i]];
+    o[p[p.length - 1]] = val;
+  }
+  function isArr(v) { return Object.prototype.toString.call(v) === '[object Array]'; }
+  function leafKind(v) {
+    if (typeof v === 'string') return 'plain';
+    if (v && typeof v === 'object' && !isArr(v) && typeof v.en !== 'undefined') {
+      return isArr(v.en) ? 'list' : 'bundle';
+    }
+    return null;
+  }
+
+  function textField(file, path, key, kind, value) {
+    var spec = TEXT_LABELS[file + ':' + normPath(path)];
+    var label = isArr(spec) ? spec[0] : (spec || key);
+    var note = isArr(spec) ? spec[1] : null;
+    var en = kind === 'bundle' ? String(value.en || '') : '';
+    return {
+      path: path, key: key, kind: kind, label: label, note: note,
+      listMode: LINE_LISTS[key] ? 'lines' : 'paras',
+      short: kind === 'bundle' && en.length <= 60
+    };
+  }
+
+  function projectText(file, data) {
+    var out = [], order = {};
+    (TEXT_GROUPS[file] || []).forEach(function (g, i) { order[g[0]] = i; });
+
+    function groupOf(container) {
+      var k = normPath(container).replace(/\[\]$/, '') || '_root';
+      return typeof order[k] === 'number' ? k : '_root';
+    }
+    function visit(node, path, inArray) {
+      if (isArr(node)) {
+        node.forEach(function (v, i) { visit(v, path + '[' + i + ']', true); });
+        return;
+      }
+      if (!node || typeof node !== 'object') return;
+      var leaves = [], subs = [];
+      Object.keys(node).forEach(function (k) {
+        var v = node[k], p = path ? path + '.' + k : k, kd = leafKind(v);
+        if (inArray && k === 'id') return;              // 문단으로 건너뛰는 닻이라 손대지 않는다
+        if (kd) leaves.push(textField(file, p, k, kd, v));
+        else if (v && typeof v === 'object') subs.push([v, p]);
+      });
+      if (inArray) {
+        if (leaves.length) {
+          var g = groupOf(path);
+          var n = +(path.match(/\[(\d+)\]$/) || [0, 0])[1] + 1;
+          out.push({ id: path, _group: g, _label: labelOfGroup(file, g) + ' ' + n,
+                     _fields: leaves, _array: true });
+        }
+      } else {
+        var gp = groupOf(path);
+        leaves.forEach(function (f) {
+          out.push({ id: f.path, _group: gp, _label: f.label, _fields: [f], _array: false });
+        });
+      }
+      subs.forEach(function (s) { visit(s[0], s[1], false); });
+    }
+    visit(data, '', false);
+
+    out.sort(function (a, b) { return (order[a._group] || 0) - (order[b._group] || 0); });
+    return out;
+  }
+  function labelOfGroup(file, key) {
+    var g = (TEXT_GROUPS[file] || []).filter(function (x) { return x[0] === key; })[0];
+    return g ? g[1] : key;
+  }
+
+  /** Cached so a row keeps its identity between renders; dropped when the file
+      is replaced by a load or a merge. */
+  function textRecords(file) {
+    var s = store[file];
+    if (!s) return [];
+    if (s._recsFor !== s.data) { s._recs = projectText(file, s.data); s._recsFor = s.data; }
+    return s._recs;
+  }
+  function textValue(file, f) {
+    var v = getPath(store[file].data, f.path);
+    if (f.kind === 'plain') return String(v || '');
+    if (!v || typeof v !== 'object') return '';
+    var got = v.ko || v.en || '';
+    return isArr(got) ? got.join(' ') : String(got);
+  }
+  function textHaystack(file, rec) {
+    var parts = [rec._label];
+    rec._fields.forEach(function (f) {
+      var v = getPath(store[file].data, f.path);
+      if (typeof v === 'string') { parts.push(v); return; }
+      if (v && typeof v === 'object') {
+        LANGS.forEach(function (l) {
+          var got = v[l];
+          if (isArr(got)) parts.push(got.join(' '));
+          else if (got) parts.push(got);
+        });
+      }
+    });
+    return parts.join(' ').toLowerCase();
+  }
+
+  function textControl(file, f) {
+    var data = store[file].data;
+    if (f.kind === 'plain') {
+      var one = el('input');
+      one.value = String(getPath(data, f.path) || '');
+      one.addEventListener('input', function () {
+        setPath(data, f.path, one.value);
+        markDirty(); renderListSoon();
+      });
+      return one;
+    }
+    var box = el('div', 'i18n');
+    var isList = f.kind === 'list';
+    var sep = f.listMode === 'lines' ? '\n' : '\n\n';
+    LANGS.forEach(function (l) {
+      box.appendChild(el('div', 'tag', l.toUpperCase()));
+      var cur = getPath(data, f.path) || {};
+      var got = cur[l];
+      var input = (!isList && f.short) ? el('input') : el('textarea');
+      if (input.tagName === 'TEXTAREA') input.rows = isList ? 7 : 3;
+      input.value = isList ? (got || []).join(sep) : String(got || '');
+      input.addEventListener('input', function () {
+        var obj = getPath(data, f.path);
+        if (!obj || typeof obj !== 'object' || isArr(obj)) { obj = {}; setPath(data, f.path, obj); }
+        if (isList) {
+          obj[l] = input.value.split(f.listMode === 'lines' ? /\n+/ : /\n\s*\n+/)
+            .map(function (s) { return s.trim(); }).filter(Boolean);
+        } else {
+          obj[l] = input.value;
+        }
+        markDirty();
+        if (l === 'ko' || l === 'en') renderListSoon();
+      });
+      box.appendChild(input);
+    });
+    return box;
+  }
+
+  function renderTextForm(pane, file, rec) {
+    // 배열 항목은 이름표('이론적 지향 2')보다 실제 제목으로 알아보는 편이 빠르다
+    var t = rowText(file, rec);
+    pane.appendChild(el('h2', null, t.title.slice(0, 90)));
+    pane.appendChild(el('p', 'where',
+      rec._array ? rec._label : labelOfGroup(file, rec._group)));
+    rec._fields.forEach(function (f) {
+      var wrap = el('div', 'field');
+      if (rec._fields.length > 1) wrap.appendChild(el('div', 'label', f.label));
+      wrap.appendChild(textControl(file, f));
+      var note = f.note || (f.kind === 'list'
+        ? (f.listMode === 'lines' ? '한 줄에 하나씩' : '빈 줄로 문단을 나눕니다') : null);
+      if (note) wrap.appendChild(el('div', 'note', note));
+      pane.appendChild(wrap);
+    });
+    pane.appendChild(el('p', 'note',
+      'EN 칸은 비워 둘 수 없습니다 — 번역이 없는 언어는 영문을 대신 보여 주기 때문입니다.'));
+  }
+
+  /** Three-way merge, one path at a time. */
+  function rebaseText(file, freshData) {
+    var conflicts = [], base = store[file].base, mine = store[file].data;
+    textRecords(file).forEach(function (rec) {
+      rec._fields.forEach(function (f) {
+        var m = JSON.stringify(getPath(mine, f.path));
+        var b = JSON.stringify(getPath(base, f.path));
+        if (m === b) return;                                   // 내가 건드리지 않았다
+        var fr = getPath(freshData, f.path);
+        if (typeof fr === 'undefined') {
+          conflicts.push(rec._label + ' — 다른 분이 없앤 문구입니다');
+          return;
+        }
+        if (JSON.stringify(fr) !== b) {
+          conflicts.push(rec._label + ' — 두 사람이 같은 문구를 고쳤습니다');
+          return;
+        }
+        setPath(freshData, f.path, JSON.parse(m));
+      });
+    });
+    return { data: freshData, conflicts: conflicts };
+  }
+
+  function tidyText(file) {
+    textRecords(file).forEach(function (rec) {
+      rec._fields.forEach(function (f) {
+        var v = getPath(store[file].data, f.path);
+        if (f.kind === 'plain') { setPath(store[file].data, f.path, String(v || '').trim()); return; }
+        if (!v || typeof v !== 'object') return;
+        // 빈 번역은 키째 지운다 — 그래야 빌드가 영문으로 대신한다.
+        // 다만 en 은 남긴다: 그 키가 없으면 빌드가 이 값을 묶음으로 보지 않는다.
+        LANGS.forEach(function (l) {
+          if (l === 'en') return;
+          var got = v[l];
+          if (isArr(got)) { if (!got.length) delete v[l]; }
+          else if (!got || !String(got).trim()) delete v[l];
+          else v[l] = String(got).trim();
+        });
+        if (typeof v.en === 'string') v.en = v.en.trim();
+      });
+    });
+  }
+
+  function textProblems(file, out) {
+    textRecords(file).forEach(function (rec) {
+      rec._fields.forEach(function (f) {
+        var v = getPath(store[file].data, f.path);
+        var empty = f.kind === 'plain' ? !String(v || '').trim()
+          : f.kind === 'list' ? !(v && isArr(v.en) && v.en.length)
+          : !(v && String(v.en || '').trim());
+        if (empty) out.push({ file: file, rec: rec, msg: '영문(EN)이 비어 있습니다 — ' + rec._label });
+      });
+    });
+  }
+
   // ── merging other people's saves ─────────────────────────────────────────
   //
   // A save writes a whole file, so two editors working on different records
@@ -274,6 +658,7 @@
   }
 
   function rebase(file, freshData) {
+    if (isText(file)) return rebaseText(file, freshData);
     var base = byId(file, store[file].base);
     var mine = byId(file, store[file].data);
     var fresh = byId(file, freshData);
@@ -309,6 +694,11 @@
 
   // ── list ─────────────────────────────────────────────────────────────────
   function rowText(file, r) {
+    if (isText(file)) {
+      return r._array
+        ? { title: strip(textValue(file, r._fields[0])) || r._label, meta: r._label }
+        : { title: r._label, meta: strip(textValue(file, r._fields[0])).slice(0, 90) };
+    }
     if (file === 'publications') {
       return { title: strip(r.title) || '(제목 없음)', meta: [r.year, r.authors].filter(Boolean).join(' · ') };
     }
@@ -329,12 +719,13 @@
     var q = $('search').value.trim().toLowerCase();
     var gf = $('group-filter').value;
     var mf = $('member-filter').value;
-    var grouped = file === 'publications' || file === 'resources';
+    var grouped = file === 'publications' || file === 'resources' || isText(file);
 
     var rows = records(file).filter(function (r) {
       if (grouped && gf && r._group !== gf) return false;
       if (mf && file === 'publications' && (r.members || []).indexOf(mf) === -1) return false;
       if (!q) return true;
+      if (isText(file)) return textHaystack(file, r).indexOf(q) !== -1;
       var t = rowText(file, r);
       return (t.title + ' ' + t.meta).toLowerCase().indexOf(q) !== -1;
     });
@@ -360,6 +751,7 @@
 
       var box = el('input', 'row-check');
       box.type = 'checkbox';
+      box.hidden = isText(file);
       box.checked = checked.indexOf(r) !== -1;
       box.addEventListener('click', function (ev) { ev.stopPropagation(); });
       box.addEventListener('change', function () {
@@ -415,6 +807,7 @@
       return;
     }
     var file = current, rec = selected;
+    if (isText(file)) { renderTextForm(pane, file, rec); return; }
     pane.appendChild(el('h2', null, rowText(file, rec).title.slice(0, 90) || '새 항목'));
 
     if (file === 'seminars') {
@@ -694,6 +1087,7 @@
 
   function tidyAll() {
     FILES.forEach(rebuild);
+    TEXT_FILES.forEach(tidyText);
     records('publications').forEach(function (e) {
       var t = tidyBundle(bundle(e.summary));
       if (t) e.summary = t; else delete e.summary;
@@ -739,6 +1133,7 @@
       if (e.url && !/^https?:\/\//.test(e.url)) bad('resources', e, '주소가 http로 시작하지 않습니다 — ' + (e.name || e.title || ''));
       if (e._kind === 'link' && !String(e.name || '').trim()) bad('resources', e, '이름이 비어 있습니다.');
     });
+    TEXT_FILES.forEach(function (f) { textProblems(f, out); });
     return out;
   }
 
@@ -815,7 +1210,8 @@
 
     $('save').disabled = true;
     toast('저장하는 중…');
-    var LABEL = { publications: '출판', seminars: '세미나', members: '구성원', resources: '자료·링크' };
+    var LABEL = { publications: '출판', seminars: '세미나', members: '구성원',
+                  resources: '자료·링크', site: '사이트 문구', research: '연구 문구' };
     var chain = Promise.resolve();
 
     // Images are separate files, so they go up first; that write also touches
@@ -893,6 +1289,8 @@
       mf.hidden = true;
     }
     $('search').value = '';
+    $('add').hidden = isText(file);
+    $('check-all').parentNode.hidden = isText(file);
     renderList();
     renderForm();
   }

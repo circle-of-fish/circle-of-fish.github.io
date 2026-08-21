@@ -22,7 +22,7 @@ button, input, select, textarea { font: inherit; }
 .brand { display: flex; flex-direction: column; line-height: 1.2; flex-shrink: 0; }
 .brand-mark { font-family: 'Spectral', serif; font-weight: 600; color: var(--ink); font-size: 0.98rem; }
 .brand-sub { font-size: 0.66rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--faint); font-weight: 600; }
-.tabs { display: flex; gap: 0.15rem; }
+.tabs { display: flex; gap: 0.15rem; flex-wrap: wrap; }
 .tabs button {
   background: none; border: 0; border-bottom: 2px solid transparent; cursor: pointer;
   padding: 0.5rem 0.85rem; color: var(--muted); font-weight: 600; font-size: 0.86rem;
@@ -97,6 +97,9 @@ button, input, select, textarea { font: inherit; }
 .pane { background: var(--white); border: 1px solid var(--line); border-radius: 7px; padding: 1.4rem 1.6rem; }
 .pane .empty { color: var(--faint); padding: 2rem 0; text-align: center; }
 .pane h2 { font-family: 'Spectral', serif; font-size: 1.05rem; color: var(--ink); font-weight: 600; margin-bottom: 1.1rem; padding-bottom: 0.7rem; border-bottom: 1px solid var(--line); }
+/* 어느 페이지의 어느 자리인지 — 문구 편집에서는 이름만으로 알기 어렵다 */
+.pane .where { font-size: 0.74rem; color: var(--faint); letter-spacing: 0.04em;
+               margin: -0.85rem 0 1.1rem; }
 .pane-actions { display: flex; gap: 0.5rem; margin-top: 1.4rem; padding-top: 1.1rem; border-top: 1px solid var(--line); }
 .pane-actions .spacer { margin-left: auto; }
 

@@ -15,6 +15,11 @@ research/      ← 연구 원자료·보고서·번역 배치. **저장소에 �
                (구성원에 대한 솔직한 작업 메모가 들어 있음). 로컬에만 둔다
 build.py       ← 정적 사이트 생성기
 assets/admin/  ← 편집 도구(/admin/). data/*.json 을 GitHub API로 직접 커밋한다
+               탭 여섯 중 앞의 넷(출판·세미나·구성원·자료링크)은 레코드 목록이고,
+               뒤의 둘(site.json·research.json)은 페이지 문구다. 문구 파일은
+               레코드가 아니라 트리라, **JSON 경로 하나를 레코드 하나로 투영**해
+               같은 목록·검색·저장 기계를 그대로 쓴다(`projectText`). 경로는
+               변하지 않으므로 병합 키로도 그대로 쓴다(`rebaseText`).
 .github/workflows/build.yml
                ← data·templates·assets 가 바뀌면 재빌드해서 HTML 을 커밋한다
 *.html · ko/ · zh/ · ja/ · style.css …
